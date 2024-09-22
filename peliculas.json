@@ -6,6 +6,7 @@
         "actores_principales": ["Leonardo DiCaprio", "Joseph Gordon-Levitt", "Elliot Page"],
         "genero": ["Ciencia ficción", "Acción"],
         "sinopsis": "Un ladrón que roba secretos corporativos a través de los sueños es ofrecido la oportunidad de borrar su pasado a cambio de implantar una idea en la mente de un CEO.",
+        "calificacion_general": 4.8,
         "crew": {
             "productor": "Emma Thomas",
             "guionista": "Christopher Nolan",
@@ -28,6 +29,7 @@
         "actores_principales": ["Marlon Brando", "Al Pacino", "James Caan"],
         "genero": ["Crimen", "Drama"],
         "sinopsis": "La historia de la familia mafiosa Corleone y su lucha por mantener el control en el mundo del crimen organizado en América.",
+        "calificacion_general": 5.0,
         "crew": {
             "productor": "Albert S. Ruddy",
             "guionista": "Mario Puzo, Francis Ford Coppola",
@@ -50,6 +52,7 @@
         "actores_principales": ["Christian Bale", "Heath Ledger", "Aaron Eckhart"],
         "genero": ["Acción", "Crimen", "Drama"],
         "sinopsis": "Batman debe enfrentarse al Joker, un criminal anárquico que quiere sumergir a Gotham City en el caos.",
+        "calificacion_general": 4.9,
         "crew": {
             "productor": "Charles Roven, Emma Thomas",
             "guionista": "Jonathan Nolan, Christopher Nolan",
@@ -72,6 +75,7 @@
         "actores_principales": ["John Travolta", "Uma Thurman", "Samuel L. Jackson"],
         "genero": ["Crimen", "Drama"],
         "sinopsis": "Las historias entrelazadas de varios criminales en Los Ángeles, que exploran la cultura pop y la moralidad.",
+        "calificacion_general": 4.8,
         "crew": {
             "productor": "Lawrence Bender",
             "guionista": "Quentin Tarantino",
@@ -94,6 +98,7 @@
         "actores_principales": ["Tim Robbins", "Morgan Freeman", "Bob Gunton"],
         "genero": ["Drama", "Crimen"],
         "sinopsis": "La historia de un banquero que es encarcelado por un crimen que no cometió y su amistad con otro prisionero.",
+        "calificacion_general": 4.9,
         "crew": {
             "productor": "Niki Marvin",
             "guionista": "Frank Darabont",
@@ -116,6 +121,7 @@
         "actores_principales": ["Keanu Reeves", "Laurence Fishburne", "Carrie-Anne Moss"],
         "genero": ["Ciencia ficción", "Acción"],
         "sinopsis": "Un hacker descubre la verdad sobre su realidad y su papel en la guerra contra sus controladores.",
+        "calificacion_general": 4.6,
         "crew": {
             "productor": "Joel Silver",
             "guionista": "Lana Wachowski, Lilly Wachowski",
@@ -138,6 +144,7 @@
         "actores_principales": ["Tom Hanks", "Robin Wright", "Gary Sinise"],
         "genero": ["Drama", "Romance"],
         "sinopsis": "La vida extraordinaria de un hombre con un coeficiente intelectual bajo, que se convierte en testigo de eventos históricos.",
+        "calificacion_general": 4.2,
         "crew": {
             "productor": "Wendy Finerman, Steve Tisch, Frank Marshall",
             "guionista": "Eric Roth",
@@ -182,6 +189,7 @@
         "actores_principales": ["Sam Worthington", "Zoe Saldana", "Sigourney Weaver"],
         "genero": ["Ciencia ficción", "Aventura"],
         "sinopsis": "En un mundo alienígena, un exmarine se convierte en un avatar para interactuar con la población nativa y proteger su hogar.",
+        "calificacion_general": 4.5,
         "crew": {
             "productor": "James Cameron, Jon Landau",
             "guionista": "James Cameron",
@@ -204,6 +212,7 @@
         "actores_principales": ["Rumi Hiiragi", "Miyu Irino", "Mari Natsukawa"],
         "genero": ["Animación", "Aventura", "Fantasía"],
         "sinopsis": "Una niña se encuentra en un mundo mágico y debe trabajar en una casa de baños para salvar a sus padres que han sido transformados en cerdos.",
+        "calificacion_general": 4.8,
         "crew": {
             "productor": "Toshio Suzuki",
             "guionista": "Hayao Miyazaki",
@@ -226,6 +235,7 @@
         "actores_principales": ["Sam Neill", "Laura Dern", "Jeff Goldblum"],
         "genero": ["Ciencia ficción", "Aventura", "Suspenso"],
         "sinopsis": "Un grupo de personas visita un parque temático donde los dinosaurios han sido traídos a la vida mediante ingeniería genética, pero las cosas salen mal.",
+        "calificacion_general": 4.0,
         "crew": {
             "productor": "Steven Spielberg, Kathleen Kennedy",
             "guionista": "Michael Crichton, David Koepp",
