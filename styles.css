@@ -1,0 +1,156 @@
+@import url('https://fonts.googleapis.com/css2?family=Nunito:ital,wght@0,200..1000;1,200..1000&display=swap');
+
+/*CAMBIAR COLORES*/
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 10;
+    font-size: 20px;
+    font-family: "Nunito", sans-serif;
+}
+
+nav{
+    background: #222222;
+    padding: 5px 10px 5px 10px;
+    align-items: center;
+}
+
+nav ul{
+    display: flex;
+    list-style: none;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+}
+
+nav ul li.logo{
+    flex:1;
+}
+
+nav ul li.logo img{
+    cursor: pointer;
+    margin-right: auto;
+    height: 50px;
+    margin-top: 5px;
+    width: auto;
+}
+
+nav ul div.items{
+    display: inline-flex;
+    margin-left: 300px;
+    align-items: center;
+}
+
+nav ul div.items a{
+    text-decoration: none;
+    font-size:  20px;
+    padding: 0 12px;
+    color: antiquewhite;
+}
+
+nav ul div.items a:hover{
+    color: burlywood;
+}
+
+nav ul .search-icon{
+    height: 40px;
+    width: 500px;
+    display: flex;
+    background: aliceblue;
+    border-radius: 5px;
+}
+
+nav ul .search-icon input{
+    height: 100%;
+    width: 480px;
+    border: none;
+    padding: 0 10px;
+    color: #000;
+    font-size: 16px;
+    border-radius: 5px 0 0 5px ;
+}
+
+nav ul .search-icon .icon{
+    cursor: pointer;
+    height: 100%;
+    padding: 5px;
+    width: 40px;
+    line-height: 40px;
+    text-align: center;
+    border: 1px solid #cccccc;
+    background:antiquewhite;
+    border-radius: 0 5px 5px 0;
+}
+
+nav ul .search-icon .icon:hover{
+    background:burlywood;
+}
+
+nav ul .search-icon .icon i{
+    color: #222222;
+    font-size: 25px;
+
+}
+
+nav ul .btn button{
+    width:40px;
+    height: 40px;
+    margin-left: 20px;
+    align-items: center;
+    font-weight: 700;
+    color:black;
+    padding: 8px 5px;
+    border: none;
+    border-radius: 70px;
+    cursor: pointer;
+    transition: all 0.3s ease 0s;
+}
+
+nav .btn button:hover{
+    background-color: antiquewhite;
+    color: crimson;
+    transform: scale(1.1);
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.content-inline {
+    width: 35%;
+    position:relative;
+    display:flex;
+    
+}
+.search-inline {
+    width: 100%;
+    position: relative;
+    display: flex;
+}
+.search-inline--input {
+    width: 100%;
+    padding: 10px 10px 10px 45px;
+    border: 1px solid #222222;
+    border-radius:10px;
+    outline: none;
+    color: #222222;
+    font-size:15px;
+    background-repeat: no-repeat;
+    background-size: 1.675em;
+}
