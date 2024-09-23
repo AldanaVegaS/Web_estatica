@@ -1,50 +1,46 @@
 <!DOCTYPE html>
-<html lang="en">
+<html>
 
 <head>
-    <title>inserteTitulo</title>
-    <link rel="stylesheet" href="styles.css">
-    <link rel="icon" href="./assets/provisional.ico">
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Peliculas</title>
+    <link rel="stylesheet" href="styles.css" type="text/css" />
+    <link href="https://fonts.googleapis.com/css2?family=Material+Icons+Outlined" rel="stylesheet">
+    <link rel="icon" href="./imagenes/logo2.ico">
+
 </head>
 
 <body>
-    <header>
-        <div class="ordenDisplay">
-            <img src="assets/provisional.png" alt="logo" style="width:100px;height:100px;">
-            <nav>
-                <ul class="navegador">
-                    <li class="iniciar"><a href="#">Iniciar Sesion</a></li>
-                    <li class="registrar"><a href="#">Registrarte</a></li>
-                </ul>
-            </nav>
-        </div>
-        <p>Track films you’ve watched.<br>Save those you want to see.<br>Tell your
-            friends what’s good.</p>
+    <header class="header">
+        <ul>
+            <li class="logo"><img src="imagenes/logo1.png" alt="logo"></li>
+            <li class="search-icon">
+                <input type="search" placeholder="Buscar">
+                <button class="icon">
+                    <i class="material-icons-outlined">search</i>
+                </button>
+            </li>
+            <div class="items">
+                <li><a href="#">Listas</a></li>
+                <li><a href="#">Perfil</a></li>
+                <li><a href="#" class="btn"> <button><i class="material-icons-outlined">menu</i></button> </a></li>
+            </div>
+        </ul>
     </header>
-    <article>
-        <h1>POPULAR</h1>
-        <div class="wrapper">
-            <div class="carousel">
-                <img src="assets/Series/Serie1.png" alt="serie">
-                <img src="assets/Series/Serie2.png" alt="serie">
-                <img src="assets/Series/Serie3.png" alt="serie">
-                <img src="assets/Series/Serie4.png" alt="serie">
-                <img src="assets/Series/Serie5.png" alt="serie">
-                <img src="assets/Series/Serie6.png" alt="serie">
-            </div>
-        </div>
-        <h1>PROXIMAMENTE</h1>
-        <div class="wrapper">
-            <div class="carousel">
-                <img src="assets/Series/Serie1.png" alt="serie">
-                <img src="assets/Series/Serie2.png" alt="serie">
-                <img src="assets/Series/Serie3.png" alt="serie">
-                <img src="assets/Series/Serie4.png" alt="serie">
-                <img src="assets/Series/Serie5.png" alt="serie">
-                <img src="assets/Series/Serie6.png" alt="serie">
-            </div>
-    </article>
+
+    <div class="info-pelicula">
+        <img>
+        <h1 class="titulo-pelicula">Titulo pelicula</h1>
+        <h1>Titulo pelicula</h1>
+        <h2>Titulo pelicula</h2>
+        <h1>Titulo pelicula</h1>
+    </div>
+
 
 </body>
+
+
 
 </html>
