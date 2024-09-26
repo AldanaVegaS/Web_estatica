@@ -1,4 +1,4 @@
-[
+const datos = [
     {
         "titulo": "Inception",
         "fecha_estreno": "2010-07-16",
@@ -23,7 +23,7 @@
             "duracion": "148 minutos",
             "clasificacion": "PG-13"
         },
-        "poster": "https://link-al-poster-inception.jpg",
+        "poster": "https://m.media-amazon.com/images/M/MV5BMjAxMzY3NjcxNF5BMl5BanBnXkFtZTcwNTI5OTM0Mw@@._V1_.jpg",
         "reviews": [
             {
                 "usuario": "dreamer123",
@@ -61,7 +61,7 @@
             "duracion": "175 minutos",
             "clasificacion": "R"
         },
-        "poster": "https://link-al-poster-godfather.jpg",
+        "poster": "https://m.media-amazon.com/images/M/MV5BYTJkNGQyZDgtZDQ0NC00MDM0LWEzZWQtYzUzZDEwMDljZWNjXkEyXkFqcGc@._V1_.jpg",
         "reviews": [
             {
                 "usuario": "mafiaboy",
@@ -100,7 +100,7 @@
             "duracion": "152 minutos",
             "clasificacion": "PG-13"
         },
-        "poster": "https://link-al-poster-dark-knight.jpg",
+        "poster": "https://m.media-amazon.com/images/S/pv-target-images/e9a43e647b2ca70e75a3c0af046c4dfdcd712380889779cbdc2c57d94ab63902.jpg",
         "reviews": [
             {
                 "usuario": "jokerfan99",
@@ -138,7 +138,7 @@
             "duracion": "154 minutos",
             "clasificacion": "R"
         },
-        "poster": "https://link-al-poster-pulp-fiction.jpg",
+        "poster": "https://pics.filmaffinity.com/pulp_fiction-210382116-mmed.jpg",
         "reviews": [
             {
                 "usuario": "tarantinofan",
@@ -176,7 +176,7 @@
             "duracion": "142 minutos",
             "clasificacion": "R"
         },
-        "poster": "https://link-al-poster-shawshank.jpg",
+        "poster": "https://m.media-amazon.com/images/M/MV5BMDAyY2FhYjctNDc5OS00MDNlLThiMGUtY2UxYWVkNGY2ZjljXkEyXkFqcGc@._V1_.jpg",
         "reviews": [
             {
                 "usuario": "hopefulsoul",
@@ -252,7 +252,7 @@
             "duracion": "142 minutos",
             "clasificacion": "PG-13"
         },
-        "poster": "https://link-al-poster-forrest-gump.jpg",
+        "poster": "https://pics.filmaffinity.com/Forrest_Gump-212765827-large.jpg",
         "reviews": [
             {
                 "usuario": "gumpfan",
@@ -289,7 +289,7 @@
             "duracion": "155 minutos",
             "clasificacion": "R"
         },
-        "poster": "https://link-al-poster-gladiator.jpg",
+        "poster": "https://pics.filmaffinity.com/Gladiator-368149580-large.jpg",
         "reviews": [
             {
                 "usuario": "gladiatorfan",
@@ -327,7 +327,7 @@
             "duracion": "162 minutos",
             "clasificacion": "PG-13"
         },
-        "poster": "https://link-al-poster-avatar.jpg",
+        "poster": "https://m.media-amazon.com/images/S/pv-target-images/ae4816cade1a5b7f29787d0b89610132c72c7747041481c6619b9cc3302c0101.jpg",
         "reviews": [
             {
                 "usuario": "pandorafreak",
@@ -340,83 +340,30 @@
                 "calificacion": 4
             }
         ]
-    },
-    {
-        "titulo": "Spirited Away",
-        "fecha_estreno": "2001-07-20",
-        "director": "Hayao Miyazaki",
-        "actores_principales": [
-            "Rumi Hiiragi",
-            "Miyu Irino",
-            "Mari Natsukawa"
-        ],
-        "genero": [
-            "Animación",
-            "Aventura",
-            "Fantasía"
-        ],
-        "sinopsis": "Una niña se encuentra en un mundo mágico y debe trabajar en una casa de baños para salvar a sus padres que han sido transformados en cerdos.",
-        "calificacion_general": 4.8,
-        "crew": {
-            "productor": "Toshio Suzuki",
-            "guionista": "Hayao Miyazaki",
-            "director_fotografia": "Atsushi Okui"
-        },
-        "detalles": {
-            "duracion": "125 minutos",
-            "clasificacion": "PG"
-        },
-        "poster": "https://link-al-poster-spirited-away.jpg",
-        "reviews": [
-            {
-                "usuario": "animefan123",
-                "contenido": "Una obra maestra de la animación, llena de imaginación y emoción.",
-                "calificacion": 5
-            },
-            {
-                "usuario": "mystic_viewer",
-                "contenido": "Cada escena es un deleite visual y emocional.",
-                "calificacion": 5
-            }
-        ]
-    },
-    {
-        "titulo": "Jurassic Park",
-        "fecha_estreno": "1993-06-11",
-        "director": "Steven Spielberg",
-        "actores_principales": [
-            "Sam Neill",
-            "Laura Dern",
-            "Jeff Goldblum"
-        ],
-        "genero": [
-            "Ciencia ficción",
-            "Aventura",
-            "Suspenso"
-        ],
-        "sinopsis": "Un grupo de personas visita un parque temático donde los dinosaurios han sido traídos a la vida mediante ingeniería genética, pero las cosas salen mal.",
-        "calificacion_general": 4.0,
-        "crew": {
-            "productor": "Steven Spielberg, Kathleen Kennedy",
-            "guionista": "Michael Crichton, David Koepp",
-            "director_fotografia": "Dean Cundey"
-        },
-        "detalles": {
-            "duracion": "127 minutos",
-            "clasificacion": "PG-13"
-        },
-        "poster": "https://link-al-poster-jurassic-park.jpg",
-        "reviews": [
-            {
-                "usuario": "dino_adventurer",
-                "contenido": "Una experiencia de aventuras que me hizo amar a los dinosaurios.",
-                "calificacion": 5
-            },
-            {
-                "usuario": "film_geek",
-                "contenido": "Los efectos especiales siguen siendo impresionantes incluso décadas después.",
-                "calificacion": 4
-            }
-        ]
-    }
-]
+    }]
+
+let popular = document.getElementById('popular')
+
+const fragment = document.createDocumentFragment();
+
+
+
+datos.forEach((item) => {
+    let img = document.createElement('img');
+    img.src = item.poster;
+    img.alt = "Poster pelicula";
+    fragment.appendChild(img);
+})
+popular.appendChild(fragment);
+
+let proximo = document.getElementById('proximamente')
+
+datos.forEach((item) => {
+    let img = document.createElement('img');
+    img.src = item.poster;
+    img.alt = "Poster pelicula";
+    fragment.appendChild(img);
+})
+proximo.appendChild(fragment);
+
+
