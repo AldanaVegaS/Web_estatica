@@ -5,7 +5,7 @@
 
 
 /*CAMBIAR COLORES*/
-*{
+* {
     box-sizing: border-box;
     margin: 0;
     padding: 10;
@@ -15,14 +15,14 @@ body{
     background:aliceblue;
 }
 
-.header{
+.header {
     background: #222222;
     padding: 5px 4% 5px 2.5%;
     align-items: center;
     font-family: "Nunito", sans-serif;
 }
 
-.header ul{
+.header ul {
     display: flex;
     list-style: none;
     flex-wrap: wrap;
@@ -32,11 +32,11 @@ body{
 }
 
 /*Estilo del logo*/
-.header ul li.logo{
-    flex:1;
+.header ul li.logo {
+    flex: 1;
 }
 
-.header ul li.logo img{
+.header ul li.logo img {
     cursor: pointer;
     margin-right: auto;
     height: 50px;
@@ -45,25 +45,25 @@ body{
 }
 
 /*Estilo de opciones (Listas, Perfil, boton) */
-.header ul div.items{
+.header ul div.items {
     display: inline-flex;
     margin-left: 300px;
     align-items: center;
 }
 
-.header ul div.items a{
+.header ul div.items a {
     text-decoration: none;
     font-size: 25px;
     padding: 0 12px;
     color: antiquewhite;
 }
 
-.header ul div.items a:hover{
+.header ul div.items a:hover {
     color: burlywood;
 }
 
 /*Estilo de la barra de busqueda*/
-.header ul .search-icon{
+.header ul .search-icon {
     height: 40px;
     width: 500px;
     min-width: 150px;
@@ -72,17 +72,17 @@ body{
     border-radius: 5px;
 }
 
-.header ul .search-icon input{
+.header ul .search-icon input {
     height: 100%;
     width: 480px;
     border: none;
     padding: 0 10px;
     color: #000;
     font-size: 16px;
-    border-radius: 5px 0 0 5px ;
+    border-radius: 5px 0 0 5px;
 }
 
-.header ul .search-icon .icon{
+.header ul .search-icon .icon {
     cursor: pointer;
     height: 100%;
     padding: 7px;
@@ -90,27 +90,27 @@ body{
     line-height: 40px;
     text-align: center;
     border: 1px solid #cccccc;
-    background:antiquewhite;
+    background: antiquewhite;
     border-radius: 0 5px 5px 0;
 }
 
-.header ul .search-icon .icon:hover{
-    background:burlywood;
+.header ul .search-icon .icon:hover {
+    background: burlywood;
 }
 
-.header ul .search-icon .icon i{
+.header ul .search-icon .icon i {
     color: #222222;
     font-size: 25px;
 
 }
 
-.header ul .btn button{
-    width:40px;
+.header ul .btn button {
+    width: 40px;
     height: 40px;
     margin-left: 20px;
     align-items: center;
     font-weight: 700;
-    color:black;
+    color: black;
     padding: 8px 5px;
     border: none;
     border-radius: 70px;
