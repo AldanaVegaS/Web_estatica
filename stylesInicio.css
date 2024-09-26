@@ -102,4 +102,7 @@ h1 {
     object-fit: cover;
     width: 180px;
     border-radius: 5px;
+    cursor: pointer;
+    transition: all 0.3s ease 0s;
 }
+
