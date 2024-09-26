@@ -1,0 +1,105 @@
+* {
+    box-sizing: border-box;
+    font-family: "Nunito", sans-serif;
+    margin: 0;
+    padding: 10;
+    text-decoration: none;
+    font-size: 20px;
+    list-style: none;
+}
+
+body {
+    background-color: black;
+    color: aliceblue;
+}
+
+/*-----ELEMENTOS DEL HEADER-----*/
+
+header {
+    background-color: #552121;
+    min-height: 500px;
+}
+
+.header ul {
+    display: flex;
+    list-style: none;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+}
+
+/*Estilo del logo*/
+.header ul li.logo {
+    margin-top: 5px;
+    flex: 1;
+}
+
+.header ul li.logo img {
+    cursor: pointer;
+    margin-right: auto;
+    margin-left: 10px;
+    height: 50px;
+    margin-top: 5px;
+    width: auto;
+}
+
+
+
+p {
+    text-align: center;
+    margin-top: 250px;
+    font-size: x-large;
+
+}
+
+/*-----ELEMENTOS DEL NAVEGADOR DENTRO DEL HEADER-----*/
+
+.navegador {
+    margin-right: 100px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    min-width: 300px;
+}
+
+a {
+    color: black;
+}
+
+.iniciar {
+    background-color: rgb(205, 206, 207);
+    padding: 10px 20px;
+    border-radius: 10px;
+}
+
+.registrar {
+    background-color: rgb(87, 86, 86);
+    padding: 10px 20px;
+    border-radius: 10px;
+}
+
+
+/*-----ELEMENTOS DEL ARTICLE-----*/
+
+article {
+    min-height: 500px;
+    margin: 100px;
+}
+
+h1 {
+    margin-top: 100px;
+}
+
+.wrapper .carousel {
+    overflow: hidden;
+    white-space: nowrap;
+
+}
+
+.carousel img {
+    height: 240px;
+    object-fit: cover;
+    width: 180px;
+    border-radius: 5px;
+}
