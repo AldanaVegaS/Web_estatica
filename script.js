@@ -1,4 +1,4 @@
-[
+const datos = [
     {
         "titulo": "Inception",
         "fecha_estreno": "2010-07-16",
@@ -340,83 +340,30 @@
                 "calificacion": 4
             }
         ]
-    },
-    {
-        "titulo": "Spirited Away",
-        "fecha_estreno": "2001-07-20",
-        "director": "Hayao Miyazaki",
-        "actores_principales": [
-            "Rumi Hiiragi",
-            "Miyu Irino",
-            "Mari Natsukawa"
-        ],
-        "genero": [
-            "Animación",
-            "Aventura",
-            "Fantasía"
-        ],
-        "sinopsis": "Una niña se encuentra en un mundo mágico y debe trabajar en una casa de baños para salvar a sus padres que han sido transformados en cerdos.",
-        "calificacion_general": 4.8,
-        "crew": {
-            "productor": "Toshio Suzuki",
-            "guionista": "Hayao Miyazaki",
-            "director_fotografia": "Atsushi Okui"
-        },
-        "detalles": {
-            "duracion": "125 minutos",
-            "clasificacion": "PG"
-        },
-        "poster": "https://link-al-poster-spirited-away.jpg",
-        "reviews": [
-            {
-                "usuario": "animefan123",
-                "contenido": "Una obra maestra de la animación, llena de imaginación y emoción.",
-                "calificacion": 5
-            },
-            {
-                "usuario": "mystic_viewer",
-                "contenido": "Cada escena es un deleite visual y emocional.",
-                "calificacion": 5
-            }
-        ]
-    },
-    {
-        "titulo": "Jurassic Park",
-        "fecha_estreno": "1993-06-11",
-        "director": "Steven Spielberg",
-        "actores_principales": [
-            "Sam Neill",
-            "Laura Dern",
-            "Jeff Goldblum"
-        ],
-        "genero": [
-            "Ciencia ficción",
-            "Aventura",
-            "Suspenso"
-        ],
-        "sinopsis": "Un grupo de personas visita un parque temático donde los dinosaurios han sido traídos a la vida mediante ingeniería genética, pero las cosas salen mal.",
-        "calificacion_general": 4.0,
-        "crew": {
-            "productor": "Steven Spielberg, Kathleen Kennedy",
-            "guionista": "Michael Crichton, David Koepp",
-            "director_fotografia": "Dean Cundey"
-        },
-        "detalles": {
-            "duracion": "127 minutos",
-            "clasificacion": "PG-13"
-        },
-        "poster": "https://link-al-poster-jurassic-park.jpg",
-        "reviews": [
-            {
-                "usuario": "dino_adventurer",
-                "contenido": "Una experiencia de aventuras que me hizo amar a los dinosaurios.",
-                "calificacion": 5
-            },
-            {
-                "usuario": "film_geek",
-                "contenido": "Los efectos especiales siguen siendo impresionantes incluso décadas después.",
-                "calificacion": 4
-            }
-        ]
-    }
-]
+    }]
+
+let popular = document.getElementById('popular')
+
+const fragment = document.createDocumentFragment();
+
+
+
+datos.forEach((item) => {
+    let img = document.createElement('img');
+    img.src = item.poster;
+    img.alt = "Poster pelicula";
+    fragment.appendChild(img);
+})
+popular.appendChild(fragment);
+
+let proximo = document.getElementById('proximamente')
+
+datos.forEach((item) => {
+    let img = document.createElement('img');
+    img.src = item.poster;
+    img.alt = "Poster pelicula";
+    fragment.appendChild(img);
+})
+proximo.appendChild(fragment);
+
+

@@ -92,8 +92,9 @@ h1 {
 }
 
 .wrapper .carousel {
-    overflow: hidden;
+    /*overflow: hidden;*/
     white-space: nowrap;
+
 
 }
 
@@ -104,5 +105,53 @@ h1 {
     border-radius: 5px;
     cursor: pointer;
     transition: all 0.3s ease 0s;
+    transition: all ease-in-out 0.5s;
+    margin: 0 0 5px 5px;
 }
+
+.carousel img:hover {
+    width: 200px;
+}
+
+/*
+    java script
+
+    definir variables:
+
+    let x=5;        ->variable que varia
+    const y =10;  -> valor que no va a variar
+
+    Funciones:
+
+    1ra forma:
+    function algo(){
+
+        return x;
+    }    
+
+    2da forma:
+    let a = [1,2,3,4]
+    a.map(function (x)
+            return x*2)
+
+    3ra forma:
+    const duplicar=(x)=>{
+        return x*2;
+    }
+
+    a.map(duplicar) ->para llamar a la funcion
+
+    ejemplo:
+    const sumar=(x,y,imprimir)=> {
+        imprimir(x)
+        imprimir(y)
+        return x+y
+    }
+
+    eventloop: como javascript maneja el asincronismo
+
+    llamar_dbc((resultado) => {imprimir(resultado)})
+
+    DOM: HTML se representa como un arbol
+*/
 

@@ -11,8 +11,8 @@
     padding: 10;
 }
 
-body{
-    background:aliceblue;
+body {
+    background: aliceblue;
 }
 
 .header {
@@ -134,62 +134,62 @@ body{
     font-family: "Gowun Batang", serif;
 }
 
-.info-pelicula img{
+.info-pelicula img {
     height: 400px;
 }
 
-.titulo-pelicula{
-    font-size: 50px;  
+.titulo-pelicula {
+    font-size: 50px;
 }
 
-.info-pelicula ul{
+.info-pelicula ul {
     list-style: none;
     padding: 0;
 }
 
 
-.columna-1{
+.columna-1 {
     width: 20%;
 }
 
-.columna-1 h3{
+.columna-1 h3 {
     padding-top: 10px;
 }
 
-.calificacion{
+.calificacion {
     margin-top: 10px;
     align-items: center;
-    display:inline-block;
+    display: inline-block;
 }
 
-.columna-1 i{
+.columna-1 i {
     color: gold;
     display: inline-block;
-    vertical-align: top; 
+    vertical-align: top;
     font-size: 25px;
 }
 
 
 
-.columna-2{
+.columna-2 {
     width: 50%;
 }
 
-.columna-2 h3{
+.columna-2 h3 {
     padding-top: 10px;
 }
 
 
 
-.columna-3{
+.columna-3 {
     width: 30%;
-    display:flexbox;
+    display: flexbox;
     justify-content: center;
     align-items: center;
     flex-direction: column;
 }
 
-.contenedor-botones{
+.contenedor-botones {
     display: flex;
     background-color: beige;
     flex-direction: column;
@@ -200,7 +200,7 @@ body{
     margin-left: 40px;
 }
 
-.button-row{
+.button-row {
     display: flex;
     justify-content: space-around;
     padding-top: 10px;
@@ -208,7 +208,7 @@ body{
     width: 85%;
 }
 
-.boton1{
+.boton1 {
     cursor: pointer;
     width: 40%;
     background: none;
@@ -216,25 +216,26 @@ body{
     transition: all 0.3s ease 0s;
 }
 
-.boton1:hover{
+.boton1:hover {
     color: crimson;
     transform: scale(1.1);
 }
 
-.boton2{
+.boton2 {
     cursor: pointer;
     width: 100%;
     height: 40px;
-    background:none;
+    background: none;
     transition: all 0.3s ease 0s;
     border: 1px;
     margin-top: 25px;
 }
-.boton2:hover{
+
+.boton2:hover {
     background-color: crimson;
 }
 
-#reviews{
+#reviews {
     display: flex;
     justify-content: center;
     align-items: center;
@@ -242,7 +243,7 @@ body{
     width: 100%;
 }
 
-.encabezado{
+.encabezado {
     letter-spacing: 1px;
     margin: 20px 0px;
     padding: 10px 20px;
@@ -252,7 +253,7 @@ body{
     align-items: center;
 }
 
-.encabezado span{
+.encabezado span {
     font-size: 1.5rem;
     font-weight: 500;
     background-color: #202020;
