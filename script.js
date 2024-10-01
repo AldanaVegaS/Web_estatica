@@ -227,143 +227,80 @@ const datos = [
                 "calificacion": 4
             }
         ]
-    },
-    {
-        "titulo": "Forrest Gump",
-        "fecha_estreno": "1994-07-06",
-        "director": "Robert Zemeckis",
-        "actores_principales": [
-            "Tom Hanks",
-            "Robin Wright",
-            "Gary Sinise"
-        ],
-        "genero": [
-            "Drama",
-            "Romance"
-        ],
-        "sinopsis": "La vida extraordinaria de un hombre con un coeficiente intelectual bajo, que se convierte en testigo de eventos históricos.",
-        "calificacion_general": 4.2,
-        "crew": {
-            "productor": "Wendy Finerman, Steve Tisch, Frank Marshall",
-            "guionista": "Eric Roth",
-            "director_fotografia": "Don Burgess"
-        },
-        "detalles": {
-            "duracion": "142 minutos",
-            "clasificacion": "PG-13"
-        },
-        "poster": "https://pics.filmaffinity.com/Forrest_Gump-212765827-large.jpg",
-        "reviews": [
-            {
-                "usuario": "gumpfan",
-                "contenido": "Una historia hermosa sobre la vida y la amistad.",
-                "calificacion": 5
-            },
-            {
-                "usuario": "nostalgicviewer",
-                "contenido": "Me hizo reír y llorar al mismo tiempo.",
-                "calificacion": 5
-            }
-        ]
-    },
-    {
-        "titulo": "Gladiator",
-        "fecha_estreno": "2000-05-05",
-        "director": "Ridley Scott",
-        "actores_principales": [
-            "Russell Crowe",
-            "Joaquin Phoenix",
-            "Connie Nielsen"
-        ],
-        "genero": [
-            "Acción",
-            "Drama"
-        ],
-        "sinopsis": "Un general romano es traicionado y convertido en esclavo, luego busca venganza como gladiador.",
-        "crew": {
-            "productor": "Douglas Wick, David Franzoni, Walter Parkes",
-            "guionista": "David Franzoni, John Logan, William Nicholson",
-            "director_fotografia": "Joaquin A. de la Torre"
-        },
-        "detalles": {
-            "duracion": "155 minutos",
-            "clasificacion": "R"
-        },
-        "poster": "https://pics.filmaffinity.com/Gladiator-368149580-large.jpg",
-        "reviews": [
-            {
-                "usuario": "gladiatorfan",
-                "contenido": "Una historia épica llena de emoción y acción.",
-                "calificacion": 5
-            },
-            {
-                "usuario": "romeo_reviewer",
-                "contenido": "La batalla final es simplemente increíble.",
-                "calificacion": 5
-            }
-        ]
-    },
-    {
-        "titulo": "Avatar",
-        "fecha_estreno": "2009-12-18",
-        "director": "James Cameron",
-        "actores_principales": [
-            "Sam Worthington",
-            "Zoe Saldana",
-            "Sigourney Weaver"
-        ],
-        "genero": [
-            "Ciencia ficción",
-            "Aventura"
-        ],
-        "sinopsis": "En un mundo alienígena, un exmarine se convierte en un avatar para interactuar con la población nativa y proteger su hogar.",
-        "calificacion_general": 4.5,
-        "crew": {
-            "productor": "James Cameron, Jon Landau",
-            "guionista": "James Cameron",
-            "director_fotografia": "Mauro Fiore"
-        },
-        "detalles": {
-            "duracion": "162 minutos",
-            "clasificacion": "PG-13"
-        },
-        "poster": "https://m.media-amazon.com/images/S/pv-target-images/ae4816cade1a5b7f29787d0b89610132c72c7747041481c6619b9cc3302c0101.jpg",
-        "reviews": [
-            {
-                "usuario": "pandorafreak",
-                "contenido": "Visualmente deslumbrante, una experiencia cinematográfica única.",
-                "calificacion": 5
-            },
-            {
-                "usuario": "alienadventurer",
-                "contenido": "La historia puede ser simple, pero el mundo que crea es impresionante.",
-                "calificacion": 4
-            }
-        ]
-    }]
+    }
+]
 
+const proximamente = [
+    {
+        "titulo": "El asesino del juego de citas",
+        "fecha_estreno": "2024-10-10",
+        "sinopsis": "Un thriller en el que un asesino en serie utiliza aplicaciones de citas para seleccionar a sus víctimas.",
+        "poster": "https://upload.wikimedia.org/wikipedia/en/thumb/7/71/Woman_of_the_Hour_poster.jpg/220px-Woman_of_the_Hour_poster.jpg"
+    },
+    {
+        "titulo": "El Hoyo 2",
+        "fecha_estreno": "2024-11-22",
+        "sinopsis": "La secuela de la película de culto 'El Hoyo', donde nuevos personajes enfrentan el aterrador sistema vertical de celdas.",
+        "poster": "https://pics.filmaffinity.com/El_hoyo_2-101401547-large.jpg"
+    },
+    {
+        "titulo": "Gladiator 2",
+        "fecha_estreno": "2024-11-22",
+        "sinopsis": "La secuela del aclamado filme Gladiator, explorando una nueva generación en el mundo del Imperio Romano.",
+        "poster": "https://media.glamour.es/photos/668d3887960bb235399856c3/master/w_1600%2Cc_limit/poster%2520gladiador%25202%2520OK.jpg"
+    },
+    {
+        "titulo": "Spider-Man: Beyond the Spider-Verse",
+        "fecha_estreno": "2025-03-14",
+        "sinopsis": "Miles Morales sigue su viaje a través del multiverso para enfrentarse a una nueva amenaza que podría destruir todas las realidades.",
+        "poster": "https://m.media-amazon.com/images/M/MV5BZGZhMmE5OTYtMjM3Ny00NTVmLTgwZmEtZDY4YmE3MzQwN2ViXkEyXkFqcGc@._V1_.jpg"
+    },
+    {
+        "titulo": "La Sustancia",
+        "fecha_estreno": "2024-06-14",
+        "sinopsis": "Un thriller de ciencia ficción que explora las consecuencias de una sustancia biotecnológica que amenaza con transformar la humanidad.",
+        "poster": "https://pics.filmaffinity.com/La_sustancia-265285928-large.jpg"
+    },
+    {
+        "titulo": "Venom: El último baile",
+        "fecha_estreno": "2024-12-13",
+        "sinopsis": "En esta tercera entrega, Venom enfrenta una amenaza que podría marcar el final de su conexión con Eddie Brock.",
+        "poster": "https://pics.filmaffinity.com/Venom_El_aultimo_baile-379990903-large.jpg"
+    }
+]
+
+function mostrar(items, nodo, aMostrar) {
+    const fragment = document.createDocumentFragment();
+
+    switch (aMostrar) {
+        case 'poster':
+            items.forEach((item) => {
+                let img = document.createElement('img');
+                img.src = item.poster;
+                img.alt = "Poster pelicula";
+                fragment.appendChild(img);
+            });
+            break;
+        case 'descripcion':
+            items.forEach((item) => {
+                let p = document.createElement('p');
+                p.innerHTML = item.sinopsis;
+                fragment.appendChild(p);
+            });
+            break;
+    }
+
+    console.log(fragment);
+    nodo.appendChild(fragment);
+}
+
+/*Busco nodo de populares y ubico las imagenes*/
 let popular = document.getElementById('popular')
+mostrar(datos, popular, 'poster');
 
-const fragment = document.createDocumentFragment();
-
-
-
-datos.forEach((item) => {
-    let img = document.createElement('img');
-    img.src = item.poster;
-    img.alt = "Poster pelicula";
-    fragment.appendChild(img);
-})
-popular.appendChild(fragment);
-
+/*Busco nodo de proximamentes y ubico las imagenes*/
 let proximo = document.getElementById('proximamente')
+mostrar(proximamente, proximo, 'poster');
 
-datos.forEach((item) => {
-    let img = document.createElement('img');
-    img.src = item.poster;
-    img.alt = "Poster pelicula";
-    fragment.appendChild(img);
-})
-proximo.appendChild(fragment);
 
 
