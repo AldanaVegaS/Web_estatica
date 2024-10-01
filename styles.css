@@ -1,8 +1,4 @@
 @import url('https://fonts.googleapis.com/css2?family=Nunito:ital,wght@0,200..1000;1,200..1000&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Gowun+Batang:wght@400;700&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
-
-
 
 /*CAMBIAR COLORES*/
 * {
@@ -17,9 +13,8 @@ body {
 
 .header {
     background: #222222;
-    padding: 5px 4% 5px 2.5%;
+    padding: 5px 10px 5px 10px;
     align-items: center;
-    font-family: "Nunito", sans-serif;
 }
 
 .header ul {
@@ -85,7 +80,7 @@ body {
 .header ul .search-icon .icon {
     cursor: pointer;
     height: 100%;
-    padding: 7px;
+    padding: 5px;
     width: 40px;
     line-height: 40px;
     text-align: center;
