@@ -2006,23 +2006,19 @@ mostrar(romance, romanceNodo, 'poster');
 
 
 //Para controlar el movimiento de las flechas
-const carrusel = document.getElementById('popular');
-const flechaDerecha = document.getElementById('derecha')
-const flechaIzquierda = document.getElementById('izquierda')
+
+function moverse(nodo, direccion) {
+    const carrusel = document.getElementById(nodo);
+
+    switch (direccion) {
+        case 'der':
+            carrusel.style.justifyContent = 'flex-end';
+            break;
+        case 'iz':
+            carrusel.style.justifyContent = 'flex-start';
+            break;
+    }
+}
 
 
 
-flechaDerecha.addEventListener("click", () => {
-    console.log(flechaDerecha.id);
-    carrusel.style.transform = 'translateX(+30px)';
-    carrusel.style.justifyContent = 'flex-end';
-})
-
-flechaIzquierda.addEventListener("click", () => {
-    console.log(flechaIzquierda.id);
-    carrusel.scrollLeft;
-    carrusel.style.justifyContent = 'flex-start';
-
-
-
-})
