@@ -14,87 +14,109 @@
 <body>
     <div class="navBar" id="navBar"></div>
 
-    <section>
-        <article>
-
-        </article>
-        <article>
+    <main>
+        <section>
             <h1>Peliculas populares</h1>
             <div class="wrapper">
-                <i class="material-icons-outlined" id="izquierda">chevron_left</i>
-                <ul class="contenedor">
-                    <li id="popular">
+                <button onclick="moverse('popular','iz')" class="material-icons-outlined"
+                    id="izquierda">chevron_left</button>
+                <div class="borde">
+                    <figure class="contenedor" id="popular">
                         <!--Las imagenes se ubican en script.js-->
-                    </li>
-                </ul>
-                <i class="material-icons-outlined" id="derecha">chevron_right</i>
+                    </figure>
+                    <button onclick="moverse('popular','der')" class="material-icons-outlined"
+                        id="derecha">chevron_right</i>
+                </div>
             </div>
-        </article>
+        </section>
 
-        <article>
-            <h1>Peliculas que recomendamos</h1>
-            <div class="wrapper">
-                <i class="material-icons-outlined" id="izquierda">chevron_left</i>
-                <ul class="contenedor">
-                    <li id="recomendado">
-                        <!--Las imagenes se ubican en script.js-->
-                    </li>
-                </ul>
-                <i class="material-icons-outlined" id="derecha">chevron_right</i>
+        <section>
+            <div>
+                <h1>Peliculas que recomendamos</h1>
+                <div class="wrapper">
+                    <button onclick="moverse('recomendado','iz')" class="material-icons-outlined"
+                        id="izquierda">chevron_left</button>
+                    <div class="borde">
+                        <figure class="contenedor" id="recomendado">
+                            <!--Las imagenes se ubican en script.js-->
+                        </figure>
+                    </div>
+                    <button onclick="moverse('recomendado','der')" class="material-icons-outlined"
+                        id="derecha">chevron_right</i>
+                </div>
             </div>
 
-        </article>
+        </section>
 
-        <article>
-            <h1>Cine de accion</h1>
-            <div class="wrapper">
-                <i class="material-icons-outlined" id="izquierda">chevron_left</i>
-                <ul class="contenedor">
-                    <li id="accion">
-                        <!--Las imagenes se ubican en script.js-->
-                    </li>
-                </ul>
-                <i class="material-icons-outlined" id="derecha">chevron_right</i>
+        <section>
+            <div>
+                <h1>Cine de accion</h1>
+                <div class="wrapper">
+                    <button onclick="moverse('accion','iz')" class="material-icons-outlined"
+                        id="izquierda">chevron_left</button>
+                    <div class="borde">
+                        <figure class="contenedor" id="accion">
+                            <!--Las imagenes se ubican en script.js-->
+                        </figure>
+                    </div>
+                    <button onclick="moverse('accion','der')" class="material-icons-outlined"
+                        id="derecha">chevron_right</i>
+                </div>
             </div>
-        </article>
-        <article>
-            <h1>Cine de terror</h1>
-            <div class="wrapper">
-                <i class="material-icons-outlined" id="izquierda">chevron_left</i>
-                <ul class="contenedor">
-                    <li id="terror">
-                        <!--Las imagenes se ubican en script.js-->
-                    </li>
-                </ul>
-                <i class="material-icons-outlined" id="derecha">chevron_right</i>
-            </div>
-        </article>
-        <article>
-            <h1>Cine de romance</h1>
-            <div class="wrapper">
-                <i class="material-icons-outlined" id="izquierda">chevron_left</i>
-                <ul class="contenedor">
-                    <li id="romance">
-                        <!--Las imagenes se ubican en script.js-->
-                    </li>
-                </ul>
-                <i class="material-icons-outlined" id="derecha">chevron_right</i>
-            </div>
-        </article>
-        <article>
-            <h1>Cine de Animacion</h1>
-            <div class="wrapper">
-                <i class="material-icons-outlined" id="izquierda">chevron_left</i>
-                <ul class="contenedor">
-                    <li id="animacion">
-                        <!--Las imagenes se ubican en script.js-->
-                    </li>
-                </ul>
-                <i class="material-icons-outlined" id="derecha">chevron_right</i>
-            </div>
-        </article>
+        </section>
+        <section>
 
-    </section>
+            <div>
+                <h1>Cine de terror</h1>
+                <div class="wrapper">
+                    <button onclick="moverse('terror','iz')" class="material-icons-outlined"
+                        id="izquierda">chevron_left</button>
+                    <div class="borde">
+                        <figure class="contenedor" id="terror">
+                            <!--Las imagenes se ubican en script.js-->
+                        </figure>
+                    </div>
+                    <button onclick="moverse('terror','der')" class="material-icons-outlined"
+                        id="derecha">chevron_right</i>
+                </div>
+            </div>
+
+        </section>
+        <section>
+            <div>
+                <h1>Cine de romance</h1>
+                <div class="wrapper">
+                    <button onclick="moverse('romance','iz')" class="material-icons-outlined"
+                        id="izquierda">chevron_left</button>
+                    <div class="borde">
+                        <figure class="contenedor" id="romance">
+                            <!--Las imagenes se ubican en script.js-->
+                        </figure>
+                    </div>
+                    <button onclick="moverse('romance','der')" class="material-icons-outlined"
+                        id="derecha">chevron_right</i>
+                </div>
+            </div>
+
+        </section>
+        <section>
+            <div>
+                <h1>Cine de Animacion</h1>
+                <div class="wrapper">
+                    <button onclick="moverse('animacion','iz')" class="material-icons-outlined"
+                        id="izquierda">chevron_left</button>
+                    <div class="borde">
+                        <figure class="contenedor" id="animacion">
+                            <!--Las imagenes se ubican en script.js-->
+                        </figure>
+                    </div>
+                    <button onclick="moverse('animacion','der')" class="material-icons-outlined"
+                        id="derecha">chevron_right</i>
+                </div>
+            </div>
+        </section>
+
+    </main>
 
     <script src="./scriptHome.js" type="module"></script>
     <script src="./scriptNavBar.js" type="module"></script>
