@@ -1952,6 +1952,427 @@ const romance = [
         ]
     }
 ]
+const recomendado = [
+    {
+        "titulo": "Harry Potter y la piedra filosofal",
+        "fecha_estreno": "2001-11-16",
+        "director": "Chris Columbus",
+        "actores_principales": [
+            "Daniel Radcliffe",
+            "Emma Watson",
+            "Rupert Grint"
+        ],
+        "genero": [
+            "Aventura",
+            "Fantasía"
+        ],
+        "sinopsis": "Un joven descubre que es un mago y asiste a un colegio de magia.",
+        "calificacion_general": 4.5,
+        "crew": {
+            "productor": "David Heyman",
+            "guionista": "Steve Kloves",
+            "director_fotografia": "John Seale"
+        },
+        "detalles": {
+            "duracion": "152 minutos",
+            "clasificacion": "PG"
+        },
+        "poster": "https://m.media-amazon.com/images/M/MV5BYTkyYjVkNDItODc1Ny00NzA1LTkwY2YtZDUwNTlhMDk3MTZiXkEyXkFqcGc@._V1_.jpg",
+        "reviews": [
+            {
+                "usuario": "magicalfan",
+                "contenido": "Una adaptación mágica de un libro icónico.",
+                "calificacion": 5
+            },
+            {
+                "usuario": "wizardsoul",
+                "contenido": "Perfecto para todas las edades, pero le falta algo.",
+                "calificacion": 4
+            }
+        ]
+    },
+    {
+        "titulo": "Intensamente 2",
+        "fecha_estreno": "2024-06-14",
+        "director": "Kaitlyn Dias",
+        "actores_principales": [
+            "Amy Poehler",
+            "Phyllis Smith",
+            "Bill Hader"
+        ],
+        "genero": [
+            "Animación",
+            "Aventura"
+        ],
+        "sinopsis": "Riley y sus emociones enfrentan nuevos desafíos a medida que crece.",
+        "calificacion_general": 4.7,
+        "crew": {
+            "productor": "Jonas Rivera",
+            "guionista": "Meg LeFauve, Josh Cooley",
+            "director_fotografia": "Shirley Kurata"
+        },
+        "detalles": {
+            "duracion": "95 minutos",
+            "clasificacion": "PG"
+        },
+        "poster": "https://m.media-amazon.com/images/M/MV5BYWY3MDE2Y2UtOTE3Zi00MGUzLTg2MTItZjE1ZWVkMGVlODRmXkEyXkFqcGc@._V1_QL75_UX190_CR0,0,190,281_.jpg",
+        "reviews": [
+            {
+                "usuario": "joyfulmind",
+                "contenido": "Una secuela conmovedora que no decepciona.",
+                "calificacion": 5
+            },
+            {
+                "usuario": "sadnessfan",
+                "contenido": "Los personajes están tan bien desarrollados como en la primera película.",
+                "calificacion": 4
+            }
+        ]
+    },
+    {
+        "titulo": "Paprika",
+        "fecha_estreno": "2006-11-25",
+        "director": "Satoshi Kon",
+        "actores_principales": [
+            "Megumi Hayashibara",
+            "Tôru Furuya",
+            "Katsunosuke Hori"
+        ],
+        "genero": [
+            "Animación",
+            "Ciencia ficción"
+        ],
+        "sinopsis": "Una psiquiatra utiliza un dispositivo que permite entrar en los sueños de los pacientes.",
+        "calificacion_general": 4.8,
+        "crew": {
+            "productor": "Toshio Suzuki",
+            "guionista": "Satoshi Kon",
+            "director_fotografia": "Mitsuo Iso"
+        },
+        "detalles": {
+            "duracion": "90 minutos",
+            "clasificacion": "R"
+        },
+        "poster": "https://m.media-amazon.com/images/M/MV5BZGJkYjkyMDUtM2U3ZC00NDM3LWI0MzItZjU5MmYwYjg2YmIwXkEyXkFqcGc@._V1_FMjpg_UX1000_.jpg",
+        "reviews": [
+            {
+                "usuario": "dreamweaver",
+                "contenido": "Una experiencia visual y emocional extraordinaria.",
+                "calificacion": 5
+            },
+            {
+                "usuario": "animationfan",
+                "contenido": "Una obra maestra del cine de animación.",
+                "calificacion": 5
+            }
+        ]
+    },
+    {
+        "titulo": "Cuando acecha la maldad",
+        "fecha_estreno": "2024-02-15",
+        "director": "Pablo Trapero",
+        "actores_principales": [
+            "Ricardo Darín",
+            "Martina Stoessel",
+            "Joaquín Furriel"
+        ],
+        "genero": [
+            "Drama",
+            "Thriller"
+        ],
+        "sinopsis": "Un detective investiga un crimen que lo lleva a un oscuro submundo.",
+        "calificacion_general": 4.2,
+        "crew": {
+            "productor": "Lita Stantic",
+            "guionista": "Pablo Trapero",
+            "director_fotografia": "Javier Juliá"
+        },
+        "detalles": {
+            "duracion": "120 minutos",
+            "clasificacion": "NR"
+        },
+        "poster": "https://m.media-amazon.com/images/M/MV5BMWEwZWE1Y2UtMTllOS00YmRiLWFmNTQtZTg5MzYwMGMwMmJmXkEyXkFqcGc@._V1_.jpg",
+        "reviews": [
+            {
+                "usuario": "thrillerlover",
+                "contenido": "Intenso y atrapante, no pude despegarme de la pantalla.",
+                "calificacion": 5
+            },
+            {
+                "usuario": "suspensefan",
+                "contenido": "Un gran giro en la trama que me sorprendió.",
+                "calificacion": 4
+            }
+        ]
+    },
+    {
+        "titulo": "Everything Everywhere All at Once",
+        "fecha_estreno": "2022-03-11",
+        "director": "Daniel Kwan, Daniel Scheinert",
+        "actores_principales": [
+            "Michelle Yeoh",
+            "Stephanie Hsu",
+            "Ke Huy Quan"
+        ],
+        "genero": [
+            "Acción",
+            "Aventura"
+        ],
+        "sinopsis": "Una mujer común debe conectarse con versiones alternativas de sí misma para salvar el multiverso.",
+        "calificacion_general": 4.6,
+        "crew": {
+            "productor": "Daniel Kwan, Daniel Scheinert",
+            "guionista": "Daniel Kwan, Daniel Scheinert",
+            "director_fotografia": "Larkin Seiple"
+        },
+        "detalles": {
+            "duracion": "139 minutos",
+            "clasificacion": "R"
+        },
+        "poster": "https://m.media-amazon.com/images/M/MV5BYTdiOTIyZTQtNmQ1OS00NjZlLWIyMTgtYzk5Y2M3ZDVmMDk1XkEyXkFqcGdeQXVyMTAzMDg4NzU0._V1_FMjpg_UX1000_.jpg",
+        "reviews": [
+            {
+                "usuario": "multiversefan",
+                "contenido": "Una película que desafía la realidad de una forma nunca vista antes.",
+                "calificacion": 5
+            },
+            {
+                "usuario": "adventurereview",
+                "contenido": "Divertida y llena de acción, pero un poco confusa.",
+                "calificacion": 4
+            }
+        ]
+    },
+    {
+        "titulo": "Harry Potter y el cáliz de fuego",
+        "fecha_estreno": "2005-11-18",
+        "director": "Mike Newell",
+        "actores_principales": [
+            "Daniel Radcliffe",
+            "Emma Watson",
+            "Rupert Grint"
+        ],
+        "genero": [
+            "Aventura",
+            "Fantasía"
+        ],
+        "sinopsis": "Harry Potter compite en un peligroso torneo mágico mientras enfrenta nuevas amenazas.",
+        "calificacion_general": 4.6,
+        "crew": {
+            "productor": "David Heyman",
+            "guionista": "Steve Kloves",
+            "director_fotografia": "Roger Pratt"
+        },
+        "detalles": {
+            "duracion": "157 minutos",
+            "clasificacion": "PG-13"
+        },
+        "poster": "https://m.media-amazon.com/images/M/MV5BMTI1NDMyMjExOF5BMl5BanBnXkFtZTcwOTc4MjQzMQ@@._V1_FMjpg_UX1000_.jpg",
+        "reviews": [
+            {
+                "usuario": "wizardingfan",
+                "contenido": "Un emocionante desarrollo de la historia con grandes giros.",
+                "calificacion": 5
+            },
+            {
+                "usuario": "chamberlover",
+                "contenido": "Visualmente impresionante, aunque un poco largo.",
+                "calificacion": 4
+            }
+        ]
+    },
+    {
+        "titulo": "Eternal Sunshine of the Spotless Mind",
+        "fecha_estreno": "2004-03-19",
+        "director": "Michel Gondry",
+        "actores_principales": [
+            "Jim Carrey",
+            "Kate Winslet",
+            "Tom Wilkinson"
+        ],
+        "genero": [
+            "Romance",
+            "Ciencia ficción"
+        ],
+        "sinopsis": "Después de una ruptura dolorosa, una pareja se somete a un procedimiento para borrar sus recuerdos mutuos.",
+        "calificacion_general": 4.7,
+        "crew": {
+            "productor": "Steve Golin",
+            "guionista": "Charlie Kaufman",
+            "director_fotografia": "Ellen Kuras"
+        },
+        "detalles": {
+            "duracion": "108 minutos",
+            "clasificacion": "R"
+        },
+        "poster": "https://m.media-amazon.com/images/M/MV5BMTY4NzcwODg3Nl5BMl5BanBnXkFtZTcwNTEwOTMyMw@@._V1_FMjpg_UX1000_.jpg",
+        "reviews": [
+            {
+                "usuario": "lovestoryfan",
+                "contenido": "Una exploración profunda del amor y la memoria.",
+                "calificacion": 5
+            },
+            {
+                "usuario": "mindbender",
+                "contenido": "Original y conmovedora, una de las mejores películas de la década.",
+                "calificacion": 5
+            }
+        ]
+    },
+    {
+        "titulo": "Oldboy",
+        "fecha_estreno": "2003-11-21",
+        "director": "Park Chan-wook",
+        "actores_principales": [
+            "Choi Min-sik",
+            "Yoo Ji-tae",
+            "Kang Hye-jeong"
+        ],
+        "genero": [
+            "Thriller",
+            "Acción"
+        ],
+        "sinopsis": "Un hombre es secuestrado y encarcelado durante 15 años sin saber por qué, y busca venganza tras su liberación.",
+        "calificacion_general": 4.8,
+        "crew": {
+            "productor": "Lee Eun-joo",
+            "guionista": "Park Chan-wook, Jo Hyeon-kyeong",
+            "director_fotografia": "Jung Jung-hoon"
+        },
+        "detalles": {
+            "duracion": "120 minutos",
+            "clasificacion": "NR"
+        },
+        "poster": "https://m.media-amazon.com/images/M/MV5BMTI3NTQyMzU5M15BMl5BanBnXkFtZTcwMTM2MjgyMQ@@._V1_.jpg",
+        "reviews": [
+            {
+                "usuario": "thrillerjunkie",
+                "contenido": "Un viaje impactante lleno de giros inesperados.",
+                "calificacion": 5
+            },
+            {
+                "usuario": "cinemalover",
+                "contenido": "Oscuro y fascinante, una obra maestra del cine coreano.",
+                "calificacion": 5
+            }
+        ]
+    },
+    {
+        "titulo": "Carrie",
+        "fecha_estreno": "1976-11-03",
+        "director": "Brian De Palma",
+        "actores_principales": [
+            "Sissy Spacek",
+            "John Travolta",
+            "Piper Laurie"
+        ],
+        "genero": [
+            "Horror",
+            "Drama"
+        ],
+        "sinopsis": "Una adolescente con habilidades telequinéticas busca venganza después de ser acosada en la escuela.",
+        "calificacion_general": 4.5,
+        "crew": {
+            "productor": "Paul Monash",
+            "guionista": "Lawrence D. Cohen",
+            "director_fotografia": "Mario Tosi"
+        },
+        "detalles": {
+            "duracion": "98 minutos",
+            "clasificacion": "R"
+        },
+        "poster": "https://m.media-amazon.com/images/M/MV5BNjMwMDVlZjYtMWRlZS00OTU1LTlmYTQtOGViNTdmYTE0ZjRlXkEyXkFqcGc@._V1_FMjpg_UX1000_.jpg",
+        "reviews": [
+            {
+                "usuario": "horrorenthusiast",
+                "contenido": "Un clásico del horror que nunca pasa de moda.",
+                "calificacion": 5
+            },
+            {
+                "usuario": "psychologicalthriller",
+                "contenido": "Una historia poderosa sobre el bullying y la venganza.",
+                "calificacion": 4
+            }
+        ]
+    },
+    {
+        "titulo": "The Holdovers",
+        "fecha_estreno": "2023-12-01",
+        "director": "Alexander Payne",
+        "actores_principales": [
+            "Paul Giamatti",
+            "Dominique Saldana",
+            "Julio Torres"
+        ],
+        "genero": [
+            "Comedia",
+            "Drama"
+        ],
+        "sinopsis": "Un maestro de escuela interna se queda durante las vacaciones con un estudiante problemático.",
+        "calificacion_general": 4.5,
+        "crew": {
+            "productor": "Mark Johnson",
+            "guionista": "David Hemingson",
+            "director_fotografia": "Phedon Papamichael"
+        },
+        "detalles": {
+            "duracion": "126 minutos",
+            "clasificacion": "R"
+        },
+        "poster": "https://m.media-amazon.com/images/M/MV5BOWY3MjUzZTctOTI5ZC00MDA5LTk4ZTMtZWJjNjRmMzE4ZmI2XkEyXkFqcGc@._V1_QL75_UX190_CR0,0,190,281_.jpg",
+        "reviews": [
+            {
+                "usuario": "comedyfan123",
+                "contenido": "Una historia conmovedora y divertida sobre relaciones humanas.",
+                "calificacion": 5
+            },
+            {
+                "usuario": "dramalover",
+                "contenido": "Excelentes actuaciones, especialmente de Giamatti.",
+                "calificacion": 4
+            }
+        ]
+    }, {
+        "titulo": "Uzumaki",
+        "fecha_estreno": "2022-10-07",
+        "director": "Akira Yamamoto",
+        "actores_principales": [
+            "Tina Yu",
+            "Nicholas H. Boulanger",
+            "Mako Tsuji"
+        ],
+        "genero": [
+            "Horror",
+            "Anime"
+        ],
+        "sinopsis": "En un pequeño pueblo japonés, los residentes se ven atrapados en un ciclo de horror y locura debido a una extraña obsesión con espirales.",
+        "calificacion_general": 4.4,
+        "crew": {
+            "productor": "Production I.G",
+            "guionista": "Hiroshi Nagahama",
+            "director_fotografia": "Mitsuo Iso"
+        },
+        "detalles": {
+            "duracion": "25 minutos por episodio",
+            "clasificacion": "TV-MA"
+        },
+        "poster": "https://m.media-amazon.com/images/M/MV5BMmQwYTllODMtNGYwZC00ZDhkLWIzZWEtNWMyMTQ2YThjNTUxXkEyXkFqcGc@._V1_FMjpg_UX1000_.jpg",
+        "reviews": [
+            {
+                "usuario": "horroraficionado",
+                "contenido": "Una adaptación inquietante y visualmente impresionante del manga clásico.",
+                "calificacion": 5
+            },
+            {
+                "usuario": "animespooky",
+                "contenido": "La atmósfera es escalofriante, pero a veces se siente un poco lenta.",
+                "calificacion": 4
+            }
+        ]
+    }
+
+]
+
 
 
 
@@ -1962,15 +2383,16 @@ function mostrar(items, nodo, aMostrar) {
     switch (aMostrar) {
         case 'poster':
             items.forEach((item) => {
-                let link = document.createElement('a');
-                link.href = `info.html?titulo=${encondeURIComponent(item.titulo)}&tipo=${pelicula}`;
+                //let link = document.createElement('a');
+                //link.href = `info.html?titulo=${encondeURIComponent(item.titulo)}&tipo=${pelicula}`;
 
                 let img = document.createElement('img');
                 img.src = item.poster;
                 img.alt = "Poster pelicula";
 
-                link.appendChild(img);
-                fragment.appendChild(link);
+                fragment.appendChild(img);
+                //link.appendChild(img);
+                //fragment.appendChild(link);
             });
             break;
         case 'descripcion':
@@ -1996,17 +2418,21 @@ mostrar(datos, popularNodo, 'poster');
 let accionNodo = document.getElementById('accion')
 mostrar(accion, accionNodo, 'poster');
 
-/*Busco nodo de accion y ubico las imagenes*/
+/*Busco nodo de terror y ubico las imagenes*/
 let terrorNodo = document.getElementById('terror')
 mostrar(terror, terrorNodo, 'poster');
 
-/*Busco nodo de terror y ubico las imagenes*/
+/*Busco nodo de animacion y ubico las imagenes*/
 let animacionNodo = document.getElementById('animacion')
 mostrar(animacion, animacionNodo, 'poster');
 
-/*Busco nodo de terror y ubico las imagenes*/
+/*Busco nodo de romance y ubico las imagenes*/
 let romanceNodo = document.getElementById('romance')
 mostrar(romance, romanceNodo, 'poster');
+
+/*Busco nodo de recomendados y ubico las imagenes*/
+let recomendadoNodo = document.getElementById('recomendado')
+mostrar(recomendado, recomendadoNodo, 'poster');
 
 
 
