@@ -4,126 +4,13 @@
 
 * {
     box-sizing: border-box;
-    margin: 0;
+    margin: 0px;
     font-family: "Nunito", sans-serif;
     text-decoration: none;
     font-size: 20px;
     list-style: none;
 }
 
-body {
-    background-color: #222222;
-    color: aliceblue;
-}
-
-.header {
-    background: #222222;
-    padding: 5px 4% 5px 2.5%;
-    align-items: center;
-    font-family: "Nunito", sans-serif;
-}
-
-.header ul {
-    display: flex;
-    list-style: none;
-    flex-wrap: wrap;
-    align-items: center;
-    justify-content: center;
-    display: flex;
-}
-
-/*Estilo del logo*/
-.header ul li.logo {
-    flex: 1;
-}
-
-.header ul li.logo img {
-    cursor: pointer;
-    margin-right: auto;
-    height: 50px;
-    margin-top: 5px;
-    width: auto;
-}
-
-/*Estilo de opciones (Listas, Perfil, boton) */
-.header ul div.items {
-    display: inline-flex;
-    margin-left: 300px;
-    align-items: center;
-}
-
-.header ul div.items a {
-    text-decoration: none;
-    font-size: 25px;
-    padding: 0 12px;
-    color: antiquewhite;
-}
-
-.header ul div.items a:hover {
-    color: burlywood;
-}
-
-/*Estilo de la barra de busqueda*/
-.header ul .search-icon {
-    height: 40px;
-    width: 500px;
-    min-width: 150px;
-    display: flex;
-    background: aliceblue;
-    border-radius: 5px;
-}
-
-.header ul .search-icon input {
-    height: 100%;
-    width: 480px;
-    border: none;
-    padding: 0 10px;
-    color: #000;
-    font-size: 16px;
-    border-radius: 5px 0 0 5px;
-}
-
-.header ul .search-icon .icon {
-    cursor: pointer;
-    height: 100%;
-    padding: 7px;
-    width: 40px;
-    line-height: 40px;
-    text-align: center;
-    border: 1px solid #cccccc;
-    background: antiquewhite;
-    border-radius: 0 5px 5px 0;
-}
-
-.header ul .search-icon .icon:hover {
-    background: burlywood;
-}
-
-.header ul .search-icon .icon i {
-    color: #222222;
-    font-size: 25px;
-
-}
-
-.header ul .btn button {
-    width: 40px;
-    height: 40px;
-    margin-left: 20px;
-    align-items: center;
-    font-weight: 700;
-    color: black;
-    padding: 8px 5px;
-    border: none;
-    border-radius: 70px;
-    cursor: pointer;
-    transition: all 0.3s ease 0s;
-}
-
-.btn button:hover {
-    background-color: antiquewhite;
-    color: crimson;
-    transform: scale(1.1);
-}
 
 
 /*-----ELEMENTOS DE SECTION-----*/
@@ -158,6 +45,8 @@ h1 {
     border-radius: 10px;
     transition: all ease-in-out 0.5s;
     justify-content: center;
+    padding: 2px;
+    cursor: pointer;
 }
 
 .contenedor img:hover {
