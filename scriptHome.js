@@ -1962,10 +1962,15 @@ function mostrar(items, nodo, aMostrar) {
     switch (aMostrar) {
         case 'poster':
             items.forEach((item) => {
+                let link = document.createElement('a');
+                link.href = `info.html?titulo=${encondeURIComponent(item.titulo)}&tipo=${pelicula}`;
+
                 let img = document.createElement('img');
                 img.src = item.poster;
                 img.alt = "Poster pelicula";
-                fragment.appendChild(img);
+
+                link.appendChild(img);
+                fragment.appendChild(link);
             });
             break;
         case 'descripcion':

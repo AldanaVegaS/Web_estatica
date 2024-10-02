@@ -13,7 +13,7 @@
 
 body {
     background-color: #222222;
-    color: aliceblue;
+    color: rgb(0, 0, 0);
 }
 
 .header {
@@ -145,8 +145,6 @@ h1 {
 }
 
 .wrapper {
-
-
     position: relative;
     max-width: 1085px;
 }
@@ -154,8 +152,8 @@ h1 {
 .wrapper button {
     height: 40px;
     width: 40px;
-    color: #000;
-    background: #ffffff;
+    color: rgb(255, 255, 255);
+    background: #000000;
     text-align: center;
     border-radius: 50px;
     border: none;

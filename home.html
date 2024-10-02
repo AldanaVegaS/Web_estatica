@@ -4,28 +4,15 @@
 <head>
     <title>Home</title>
     <link rel="stylesheet" href="styleshome.css">
+    <link rel="stylesheet" href="styles.css" type="text/css" />
     <link rel="icon" href="./imagenes/logo2.ico">
     <link href="https://fonts.googleapis.com/css2?family=Material+Icons+Outlined" rel="stylesheet">
-
+    <link href="https://fonts.googleapis.com/css2?family=Material+Icons+Outlined" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css" integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
 </head>
 
 <body>
-    <header class="header">
-        <ul>
-            <li class="logo"><img src="imagenes/logo1.png" alt="logo"></li>
-            <li class="search-icon">
-                <input type="search" placeholder="Buscar">
-                <button class="icon">
-                    <i class="material-icons-outlined">search</i>
-                </button>
-            </li>
-            <div class="items">
-                <li><a href="#">Listas</a></li>
-                <li><a href="#">Perfil</a></li>
-                <li><a href="#" class="btn"> <button><i class="material-icons-outlined">menu</i></button> </a></li>
-            </div>
-        </ul>
-    </header>
+    <div class="navBar" id="navBar"></div>
 
     <main>
         <section>
@@ -132,6 +119,7 @@
     </main>
 
     <script src="./scriptHome.js"></script>
+    <script src="./scriptNavBar.js"></script>
 </body>
 
 </html>
