@@ -1,14 +1,13 @@
-import {datos,romance,terror,accion,animacion} from "./peliculas.js";
-
+import {peliculasPopulares,romance,terror,accion,animacion,recomendados} from "./peliculas.js";
+import {seriesPopulares} from "./series.js"
 
 function mostrar(items, nodo, aMostrar) {
     const fragment = document.createDocumentFragment();
     switch (aMostrar) {
         case 'poster':
-            items.forEach((item) => {         
-                console.log(item.titulo);   
+            items.forEach((item) => {      
                 let link = document.createElement('a');
-                link.href = `info.html?titulo=${item.titulo}&tipo=${"pelicula"}`; // URL de la página de detalles
+                link.href = `info.html?titulo=${item.titulo}&tipo=${item.tipo}`; // URL de la página de detalles
             
                 let img = document.createElement('img');
                 img.src = item.poster;
@@ -33,11 +32,17 @@ function mostrar(items, nodo, aMostrar) {
 
 
 /*Busco nodo de populares y ubico las imagenes*/
-let popularNodo = document.getElementById('popular')
+let popularNodo = document.getElementById('peliculas_popular')
 console.log(popularNodo);
-mostrar(datos, popularNodo, 'poster');
+mostrar(peliculasPopulares, popularNodo, 'poster');
 
+let popularNodo2 = document.getElementById('series_popular')
+console.log(popularNodo);
+mostrar(seriesPopulares, popularNodo2, 'poster');
 
+/*Busco nodo de recomendadas y ubico las imagenes*/
+let recomendadoNodo = document.getElementById('recomendado')
+mostrar(recomendados, recomendadoNodo, 'poster');
 
 /*Busco nodo de accion y ubico las imagenes*/
 let accionNodo = document.getElementById('accion')
@@ -58,7 +63,6 @@ mostrar(romance, romanceNodo, 'poster');
 
 
 //Para controlar el movimiento de las flechas
-
 function moverse(nodo, direccion) {
     const carrusel = document.getElementById(nodo);
 
@@ -71,6 +75,5 @@ function moverse(nodo, direccion) {
             break;
     }
 }
-
 
 

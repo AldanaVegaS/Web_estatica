@@ -1,5 +1,6 @@
-export const datos = [
+export const peliculasPopulares = [
     {
+        "tipo":"pelicula",
         "titulo": "Inception",
         "fecha_estreno": "2010-07-16",
         "director": "Christopher Nolan",
@@ -38,6 +39,7 @@ export const datos = [
         ]
     },
     {
+        "tipo":"pelicula",
         "titulo": "The Godfather",
         "fecha_estreno": "1972-03-24",
         "director": "Francis Ford Coppola",
@@ -76,6 +78,7 @@ export const datos = [
         ]
     },
     {
+        "tipo":"pelicula",
         "titulo": "The Dark Knight",
         "fecha_estreno": "2008-07-18",
         "director": "Christopher Nolan",
@@ -115,6 +118,7 @@ export const datos = [
         ]
     },
     {
+        "tipo":"pelicula",
         "titulo": "Pulp Fiction",
         "fecha_estreno": "1994-10-14",
         "director": "Quentin Tarantino",
@@ -153,6 +157,7 @@ export const datos = [
         ]
     },
     {
+        "tipo":"pelicula",
         "titulo": "The Shawshank Redemption",
         "fecha_estreno": "1994-09-23",
         "director": "Frank Darabont",
@@ -191,6 +196,7 @@ export const datos = [
         ]
     },
     {
+        "tipo":"pelicula",
         "titulo": "The Matrix",
         "fecha_estreno": "1999-03-31",
         "director": "Lana Wachowski, Lilly Wachowski",
@@ -229,6 +235,7 @@ export const datos = [
         ]
     },
     {
+        "tipo":"pelicula",
         "titulo": "Forrest Gump",
         "fecha_estreno": "1994-07-06",
         "director": "Robert Zemeckis",
@@ -267,6 +274,7 @@ export const datos = [
         ]
     },
     {
+        "tipo":"pelicula",
         "titulo": "Gladiator",
         "fecha_estreno": "2000-05-05",
         "director": "Ridley Scott",
@@ -304,6 +312,7 @@ export const datos = [
         ]
     },
     {
+        "tipo":"pelicula",
         "titulo": "Avatar",
         "fecha_estreno": "2009-12-18",
         "director": "James Cameron",
@@ -342,6 +351,7 @@ export const datos = [
         ]
     },
     {
+        "tipo":"pelicula",
         "titulo": "Spirited Away",
         "fecha_estreno": "2001-07-20",
         "director": "Hayao Miyazaki",
@@ -381,6 +391,7 @@ export const datos = [
         ]
     },
     {
+        "tipo":"pelicula",
         "titulo": "Jurassic Park",
         "fecha_estreno": "1993-06-11",
         "director": "Steven Spielberg",
@@ -423,6 +434,7 @@ export const datos = [
 
 export const terror = [
     {
+        "tipo":"pelicula",
         "titulo": "Talk to Me",
         "fecha_estreno": "2023-07-28",
         "director": "Danny Philippou, Michael Philippou",
@@ -461,6 +473,7 @@ export const terror = [
         ]
     },
     {
+        "tipo":"pelicula",
         "titulo": "The Boogeyman",
         "fecha_estreno": "2023-06-02",
         "director": "Rob Savage",
@@ -499,6 +512,7 @@ export const terror = [
         ]
     },
     {
+        "tipo":"pelicula",
         "titulo": "Evil Dead Rise",
         "fecha_estreno": "2023-04-21",
         "director": "Lee Cronin",
@@ -537,6 +551,7 @@ export const terror = [
         ]
     },
     {
+        "tipo":"pelicula",
         "titulo": "The Nun II",
         "fecha_estreno": "2023-09-08",
         "director": "Michael Chaves",
@@ -575,6 +590,7 @@ export const terror = [
         ]
     },
     {
+        "tipo":"pelicula",
         "titulo": "Pearl",
         "fecha_estreno": "2022-09-16",
         "director": "Ti West",
@@ -613,6 +629,7 @@ export const terror = [
         ]
     },
     {
+        "tipo":"pelicula",
         "titulo": "Hereditary",
         "fecha_estreno": "2018-06-08",
         "director": "Ari Aster",
@@ -649,7 +666,9 @@ export const terror = [
                 "calificacion": 4.7
             }
         ]
-    }, {
+    }, 
+    {
+        "tipo":"pelicula",
         "titulo": "El Exorcista",
         "fecha_estreno": "1973-12-26",
         "director": "William Friedkin",
@@ -688,6 +707,7 @@ export const terror = [
         ]
     },
     {
+        "tipo":"pelicula",
         "titulo": "It",
         "fecha_estreno": "2017-09-08",
         "director": "Andy Muschietti",
@@ -726,6 +746,7 @@ export const terror = [
         ]
     },
     {
+        "tipo":"pelicula",
         "titulo": "Midsommar",
         "fecha_estreno": "2019-07-03",
         "director": "Ari Aster",
@@ -764,6 +785,7 @@ export const terror = [
         ]
     },
     {
+        "tipo":"pelicula",
         "titulo": "El Resplandor",
         "fecha_estreno": "1980-05-23",
         "director": "Stanley Kubrick",
@@ -805,6 +827,7 @@ export const terror = [
 ]
 
 export const accion = [{
+    "tipo":"pelicula",
     "titulo": "John Wick: Chapter 4",
     "fecha_estreno": "2023-03-24",
     "director": "Chad Stahelski",
@@ -843,6 +866,7 @@ export const accion = [{
     ]
 },
 {
+    "tipo":"pelicula",
     "titulo": "Fast & Furious X",
     "fecha_estreno": "2023-05-19",
     "director": "Louis Leterrier",
@@ -881,6 +905,7 @@ export const accion = [{
     ]
 },
 {
+    "tipo":"pelicula",
     "titulo": "Guardians of the Galaxy Vol. 3",
     "fecha_estreno": "2023-05-05",
     "director": "James Gunn",
@@ -920,6 +945,7 @@ export const accion = [{
     ]
 },
 {
+    "tipo":"pelicula",
     "titulo": "Mission: Impossible - Dead Reckoning Part One",
     "fecha_estreno": "2023-07-12",
     "director": "Christopher McQuarrie",
@@ -959,6 +985,7 @@ export const accion = [{
     ]
 },
 {
+    "tipo":"pelicula",
     "titulo": "The Matrix",
     "fecha_estreno": "1999-03-31",
     "director": "Lana Wachowski, Lilly Wachowski",
@@ -995,7 +1022,9 @@ export const accion = [{
             "calificacion": 4
         }
     ]
-}, {
+}, 
+{
+    "tipo":"pelicula",
     "titulo": "Rocky",
     "fecha_estreno": "1976-12-03",
     "director": "John G. Avildsen",
@@ -1034,6 +1063,7 @@ export const accion = [{
     ]
 },
 {
+    "tipo":"pelicula",
     "titulo": "Mad Max 2",
     "fecha_estreno": "1981-12-24",
     "director": "George Miller",
@@ -1072,6 +1102,7 @@ export const accion = [{
     ]
 },
 {
+    "tipo":"pelicula",
     "titulo": "The Terminator",
     "fecha_estreno": "1984-10-26",
     "director": "James Cameron",
@@ -1110,6 +1141,7 @@ export const accion = [{
     ]
 },
 {
+    "tipo":"pelicula",
     "titulo": "Aliens",
     "fecha_estreno": "1986-07-18",
     "director": "James Cameron",
@@ -1148,6 +1180,7 @@ export const accion = [{
     ]
 },
 {
+    "tipo":"pelicula",
     "titulo": "Deadpool",
     "fecha_estreno": "2016-02-12",
     "director": "Tim Miller",
@@ -1191,6 +1224,7 @@ export const accion = [{
 export const animacion =
     [
         {
+            "tipo":"pelicula",
             "titulo": "Robot Dreams",
             "fecha_estreno": "2023-09-08",
             "director": "Pablo Berger",
@@ -1228,6 +1262,7 @@ export const animacion =
             ]
         },
         {
+            "tipo":"pelicula",
             "titulo": "Bee Movie",
             "fecha_estreno": "2007-11-02",
             "director": "Simon J. Smith, Steve Hickner",
@@ -1266,6 +1301,7 @@ export const animacion =
             ]
         },
         {
+            "tipo":"pelicula",
             "titulo": "Spider-Man: Into the Spider-Verse",
             "fecha_estreno": "2018-12-14",
             "director": "Bob Persichetti, Peter Ramsey, Rodney Rothman",
@@ -1304,6 +1340,7 @@ export const animacion =
             ]
         },
         {
+            "tipo":"pelicula",
             "titulo": "Fantastic Mr. Fox",
             "fecha_estreno": "2009-11-25",
             "director": "Wes Anderson",
@@ -1342,6 +1379,7 @@ export const animacion =
             ]
         },
         {
+            "tipo":"pelicula",
             "titulo": "Grandes Héroes",
             "fecha_estreno": "2014-11-07",
             "director": "Don Hall, Chris Williams",
@@ -1380,6 +1418,7 @@ export const animacion =
             ]
         },
         {
+            "tipo":"pelicula",
             "titulo": "Leo",
             "fecha_estreno": "2023-11-21",
             "director": "Robert Marianetti, David Wachtenheim",
@@ -1418,6 +1457,7 @@ export const animacion =
             ]
         },
         {
+            "tipo":"pelicula",
             "titulo": "El Castillo Ambulante",
             "fecha_estreno": "2004-11-20",
             "director": "Hayao Miyazaki",
@@ -1456,6 +1496,7 @@ export const animacion =
             ]
         },
         {
+            "tipo":"pelicula",
             "titulo": "Metegol",
             "fecha_estreno": "2013-07-18",
             "director": "Juan José Campanella",
@@ -1494,6 +1535,7 @@ export const animacion =
             ]
         },
         {
+            "tipo":"pelicula",
             "titulo": "Cómo Entrenar a tu Dragón",
             "fecha_estreno": "2010-03-26",
             "director": "Dean DeBlois, Chris Sanders",
@@ -1532,6 +1574,7 @@ export const animacion =
             ]
         },
         {
+            "tipo":"pelicula",
             "titulo": "El Niño y la Garza",
             "fecha_estreno": "2023-07-14",
             "director": "Hayao Miyazaki",
@@ -1572,6 +1615,7 @@ export const animacion =
 
 export const romance = [
     {
+        "tipo":"pelicula",
         "titulo": "Yo Antes de Ti",
         "fecha_estreno": "2016-06-03",
         "director": "Thea Sharrock",
@@ -1610,6 +1654,7 @@ export const romance = [
         ]
     },
     {
+        "tipo":"pelicula",
         "titulo": "Cómo Perder a un Hombre en 10 Días",
         "fecha_estreno": "2003-02-07",
         "director": "Donald Petrie",
@@ -1648,6 +1693,7 @@ export const romance = [
         ]
     },
     {
+        "tipo":"pelicula",
         "titulo": "Mujer Bonita",
         "fecha_estreno": "1990-03-23",
         "director": "Garry Marshall",
@@ -1686,6 +1732,7 @@ export const romance = [
         ]
     },
     {
+        "tipo":"pelicula",
         "titulo": "About Time",
         "fecha_estreno": "2013-11-08",
         "director": "Richard Curtis",
@@ -1724,6 +1771,7 @@ export const romance = [
         ]
     },
     {
+        "tipo":"pelicula",
         "titulo": "10 Things I Hate About You",
         "fecha_estreno": "1999-03-31",
         "director": "Gil Junger",
@@ -1762,6 +1810,7 @@ export const romance = [
         ]
     },
     {
+        "tipo":"pelicula",
         "titulo": "The Notebook",
         "fecha_estreno": "2004-06-25",
         "director": "Nick Cassavetes",
@@ -1800,6 +1849,7 @@ export const romance = [
         ]
     },
     {
+        "tipo":"pelicula",
         "titulo": "Notting Hill",
         "fecha_estreno": "1999-05-28",
         "director": "Roger Michell",
@@ -1838,6 +1888,7 @@ export const romance = [
         ]
     },
     {
+        "tipo":"pelicula",
         "titulo": "Orgullo y Prejuicio",
         "fecha_estreno": "2005-11-11",
         "director": "Joe Wright",
@@ -1876,6 +1927,7 @@ export const romance = [
         ]
     },
     {
+        "tipo":"pelicula",
         "titulo": "Con Todos Menos Contigo",
         "fecha_estreno": "1990-06-01",
         "director": "Roger Young",
@@ -1914,6 +1966,7 @@ export const romance = [
         ]
     },
     {
+        "tipo":"pelicula",
         "titulo": "Crazy Rich Asians",
         "fecha_estreno": "2018-08-15",
         "director": "Jon M. Chu",
@@ -1952,3 +2005,358 @@ export const romance = [
         ]
     }
 ]
+
+
+export const recomendados = [
+    {
+        "tipo":"pelicula",
+        "titulo": "Cómo Perder a un Hombre en 10 Días",
+        "fecha_estreno": "2003-02-07",
+        "director": "Donald Petrie",
+        "actores_principales": [
+            "Kate Hudson",
+            "Matthew McConaughey",
+            "Kathryn Hahn"
+        ],
+        "genero": [
+            "Comedia",
+            "Romance"
+        ],
+        "sinopsis": "Una columnista decide escribir un artículo sobre cómo alejar a un hombre en 10 días, mientras su objetivo intenta hacer que se enamore de él.",
+        "calificacion_general": 4.1,
+        "crew": {
+            "productor": "Lynda Obst, Robert Evans",
+            "guionista": "Kristen Buckley, Brian Regan",
+            "director_fotografia": "John Bailey"
+        },
+        "detalles": {
+            "duracion": "116 minutos",
+            "clasificacion": "PG-13"
+        },
+        "poster": "https://m.media-amazon.com/images/M/MV5BMjE4NTA1NzExN15BMl5BanBnXkFtZTYwNjc3MjM3._V1_QL75_UY281_CR0,0,190,281_.jpg",
+        "reviews": [
+            {
+                "usuario": "love_expert",
+                "contenido": "Divertida, con química encantadora entre los protagonistas.",
+                "calificacion": 4.3
+            },
+            {
+                "usuario": "romantic_comedy_fan",
+                "contenido": "Predecible pero muy entretenida, perfecta para reír.",
+                "calificacion": 4
+            }
+        ]
+    },
+    {
+        "tipo":"pelicula",
+        "titulo": "Mujer Bonita",
+        "fecha_estreno": "1990-03-23",
+        "director": "Garry Marshall",
+        "actores_principales": [
+            "Richard Gere",
+            "Julia Roberts",
+            "Jason Alexander"
+        ],
+        "genero": [
+            "Comedia",
+            "Romance"
+        ],
+        "sinopsis": "Un empresario rico contrata a una joven para que lo acompañe durante una semana, pero ambos se enamoran en el proceso.",
+        "calificacion_general": 4.5,
+        "crew": {
+            "productor": "Arnon Milchan, Steven Reuther",
+            "guionista": "J.F. Lawton",
+            "director_fotografia": "Charles Minsky"
+        },
+        "detalles": {
+            "duracion": "119 minutos",
+            "clasificacion": "R"
+        },
+        "poster": "https://m.media-amazon.com/images/M/MV5BNmNlZjAxMzEtNzNlYy00ZWY4LTkwN2QtYTljZjgzZjQ2ZDU5XkEyXkFqcGc@._V1_.jpg",
+        "reviews": [
+            {
+                "usuario": "romantic_classic",
+                "contenido": "Un clásico que nunca pasa de moda. Julia Roberts es encantadora.",
+                "calificacion": 4.7
+            },
+            {
+                "usuario": "business_lover",
+                "contenido": "Romántica y divertida, con grandes actuaciones.",
+                "calificacion": 4.5
+            }
+        ]
+    },
+    {
+        "tipo":"pelicula",
+        "titulo": "El Niño y la Garza",
+        "fecha_estreno": "2023-07-14",
+        "director": "Hayao Miyazaki",
+        "actores_principales": [
+            "Soma Santoki",
+            "Masaki Suda",
+            "Takuya Kimura"
+        ],
+        "genero": [
+            "Animación",
+            "Fantasía"
+        ],
+        "sinopsis": "Un joven niño vive una serie de aventuras fantásticas tras mudarse a una nueva ciudad luego de la muerte de su madre.",
+        "calificacion_general": 4.9,
+        "crew": {
+            "productor": "Toshio Suzuki",
+            "guionista": "Hayao Miyazaki",
+            "director_fotografia": "Animación"
+        },
+        "detalles": {
+            "duracion": "124 minutos",
+            "clasificacion": "PG-13"
+        },
+        "poster": "https://m.media-amazon.com/images/M/MV5BMzA5Zjg3MTAtM2FhZS00NTNjLTg3NjEtNWQ4MTRhZjhiNzVmXkEyXkFqcGc@._V1_FMjpg_UX1000_.jpg",
+        "reviews": [
+            {
+                "usuario": "miyazaki_magic",
+                "contenido": "Una película visualmente asombrosa y profundamente conmovedora.", "calificacion": 5
+            },
+            {
+                "usuario": "garza_lover",
+                "contenido": "Una historia única, llena de simbolismo y belleza.",
+                "calificacion": 4.9
+            }
+        ]
+    },
+    {
+        "tipo":"pelicula",
+        "titulo": "Robot Dreams",
+        "fecha_estreno": "2023-09-08",
+        "director": "Pablo Berger",
+        "actores_principales": [
+            "Actores de voz",
+            "Animación"
+        ],
+        "genero": [
+            "Animación",
+            "Drama"
+        ],
+        "sinopsis": "La amistad entre un perro y un robot se ve interrumpida cuando el robot queda atrapado en la playa.",
+        "calificacion_general": 4.2,
+        "crew": {
+            "productor": "Pablo Berger",
+            "guionista": "Pablo Berger",
+            "director_fotografia": "Animación"
+        },
+        "detalles": {
+            "duracion": "90 minutos",
+            "clasificacion": "PG"
+        },
+        "poster": "https://m.media-amazon.com/images/M/MV5BMTE0OGRjZWQtMDRiOS00ZjM4LTg2NjAtZGYyZDk1NGRkMzg1XkEyXkFqcGc@._V1_.jpg",
+        "reviews": [
+            {
+                "usuario": "dreamy_robot",
+                "contenido": "Un viaje emocional y visualmente hermoso.",
+                "calificacion": 4.5
+            },
+            {
+                "usuario": "beachbot",
+                "contenido": "Enternecedora y creativa, aunque un poco lenta.",
+                "calificacion": 4
+            }
+        ]
+    },
+    {
+        "tipo":"pelicula",
+        "titulo": "Mad Max 2",
+        "fecha_estreno": "1981-12-24",
+        "director": "George Miller",
+        "actores_principales": [
+            "Mel Gibson",
+            "Bruce Spence",
+            "Michael Preston"
+        ],
+        "genero": [
+            "Acción",
+            "Ciencia ficción"
+        ],
+        "sinopsis": "En un mundo postapocalíptico, Max debe ayudar a un grupo de colonos a defenderse de una pandilla de merodeadores.",
+        "calificacion_general": 4.5,
+        "crew": {
+            "productor": "Byron Kennedy",
+            "guionista": "Terry Hayes, George Miller, Brian Hannant",
+            "director_fotografia": "Dean Semler"
+        },
+        "detalles": {
+            "duracion": "96 minutos",
+            "clasificacion": "R"
+        },
+        "poster": "https://m.media-amazon.com/images/S/pv-target-images/6874a688cc4f1fdb2fa4067210e09bc604a5b2a492482aa932906415132a2c0c.jpg",
+        "reviews": [
+            {
+                "usuario": "roadwarrior85",
+                "contenido": "La mejor película de acción postapocalíptica.",
+                "calificacion": 5
+            },
+            {
+                "usuario": "apocalypsefan",
+                "contenido": "Gran secuela, aunque un poco exagerada a veces.",
+                "calificacion": 4
+            }
+        ]
+    },
+    {
+        "tipo":"pelicula",
+        "titulo": "Pearl",
+        "fecha_estreno": "2022-09-16",
+        "director": "Ti West",
+        "actores_principales": [
+            "Mia Goth",
+            "David Corenswet",
+            "Tandi Wright"
+        ],
+        "genero": [
+            "Terror",
+            "Drama"
+        ],
+        "sinopsis": "La joven Pearl busca escapar de su vida en una granja y sueña con convertirse en una estrella, pero su ambición tiene un alto precio.",
+        "calificacion_general": 4.4,
+        "crew": {
+            "productor": "Ti West, Mia Goth",
+            "guionista": "Ti West, Mia Goth",
+            "director_fotografia": "Eliot Rockett"
+        },
+        "detalles": {
+            "duracion": "102 minutos",
+            "clasificacion": "R"
+        },
+        "poster": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhbgqRastFgpQeIlYqElTkXlTkrGrZg_7wF4Jze7EoC74xlyrV9dWkum_Fsw3ZVfMcRJmT6Ed7xB_3ww-WcCW1IztB9J79xT3rDrXVU4FBElHbDGnXyu7KGLEHCfTz3nHSO0tUqX5UeQPvUb3BahHoWp5rM84Qzvqu82TSPuMl9rN-UuwNvlfbqAAdfQ2M/s1082/Pearl.jpg",
+        "reviews": [
+            {
+                "usuario": "horrorcritic",
+                "contenido": "Mia Goth ofrece una actuación sobresaliente.",
+                "calificacion": 4.8
+            },
+            {
+                "usuario": "dramaqueen",
+                "contenido": "Una historia inquietante que explora la locura y la ambición.",
+                "calificacion": 4.5
+            }
+        ]
+    },
+    {
+        "tipo":"pelicula",
+        "titulo": "Midsommar",
+        "fecha_estreno": "2019-07-03",
+        "director": "Ari Aster",
+        "actores_principales": [
+            "Florence Pugh",
+            "Jack Reynor",
+            "William Jackson Harper"
+        ],
+        "genero": [
+            "Terror",
+            "Suspenso"
+        ],
+        "sinopsis": "Una pareja asiste a un festival rural en Suecia, que pronto se convierte en una aterradora experiencia de culto.",
+        "calificacion_general": 4.3,
+        "crew": {
+            "productor": "Lars Knudsen, Patrik Andersson",
+            "guionista": "Ari Aster",
+            "director_fotografia": "Pawel Pogorzelski"
+        },
+        "detalles": {
+            "duracion": "148 minutos",
+            "clasificacion": "R"
+        },
+        "poster": "https://m.media-amazon.com/images/M/MV5BMzQxNzQzOTQwM15BMl5BanBnXkFtZTgwMDQ2NTcwODM@._V1_FMjpg_UX1000_.jpg",
+        "reviews": [
+            {
+                "usuario": "cult_watcher",
+                "contenido": "Una película inquietante con una atmósfera sofocante.",
+                "calificacion": 4.7
+            },
+            {
+                "usuario": "bright_horror_fan",
+                "contenido": "Visualmente hermosa pero profundamente perturbadora.",
+                "calificacion": 4
+            }
+        ]
+    },
+    {
+        "tipo":"pelicula",
+        "titulo": "Avatar",
+        "fecha_estreno": "2009-12-18",
+        "director": "James Cameron",
+        "actores_principales": [
+            "Sam Worthington",
+            "Zoe Saldana",
+            "Sigourney Weaver"
+        ],
+        "genero": [
+            "Ciencia ficción",
+            "Aventura"
+        ],
+        "sinopsis": "En un mundo alienígena, un exmarine se convierte en un avatar para interactuar con la población nativa y proteger su hogar.",
+        "calificacion_general": 4.5,
+        "crew": {
+            "productor": "James Cameron, Jon Landau",
+            "guionista": "James Cameron",
+            "director_fotografia": "Mauro Fiore"
+        },
+        "detalles": {
+            "duracion": "162 minutos",
+            "clasificacion": "PG-13"
+        },
+        "poster": "https://m.media-amazon.com/images/S/pv-target-images/ae4816cade1a5b7f29787d0b89610132c72c7747041481c6619b9cc3302c0101.jpg",
+        "reviews": [
+            {
+                "usuario": "pandorafreak",
+                "contenido": "Visualmente deslumbrante, una experiencia cinematográfica única.",
+                "calificacion": 5
+            },
+            {
+                "usuario": "alienadventurer",
+                "contenido": "La historia puede ser simple, pero el mundo que crea es impresionante.",
+                "calificacion": 4
+            }
+        ]
+    },
+    {
+        "tipo":"pelicula",
+        "titulo": "Spirited Away",
+        "fecha_estreno": "2001-07-20",
+        "director": "Hayao Miyazaki",
+        "actores_principales": [
+            "Rumi Hiiragi",
+            "Miyu Irino",
+            "Mari Natsukawa"
+        ],
+        "genero": [
+            "Animación",
+            "Aventura",
+            "Fantasía"
+        ],
+        "sinopsis": "Una niña se encuentra en un mundo mágico y debe trabajar en una casa de baños para salvar a sus padres que han sido transformados en cerdos.",
+        "calificacion_general": 4.8,
+        "crew": {
+            "productor": "Toshio Suzuki",
+            "guionista": "Hayao Miyazaki",
+            "director_fotografia": "Atsushi Okui"
+        },
+        "detalles": {
+            "duracion": "125 minutos",
+            "clasificacion": "PG"
+        },
+        "poster": "https://m.media-amazon.com/images/M/MV5BNTEyNmEwOWUtYzkyOC00ZTQ4LTllZmUtMjk0Y2YwOGUzYjRiXkEyXkFqcGc@._V1_.jpg",
+        "reviews": [
+            {
+                "usuario": "animefan123",
+                "contenido": "Una obra maestra de la animación, llena de imaginación y emoción.",
+                "calificacion": 5
+            },
+            {
+                "usuario": "mystic_viewer",
+                "contenido": "Cada escena es un deleite visual y emocional.",
+                "calificacion": 5
+            }
+        ]
+    },
+];
+

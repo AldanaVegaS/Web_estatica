@@ -1939,9 +1939,8 @@ export const peliculas = [
     }
 ]
 
-
 export const series = [
-    {
+    {   "tipo":"serie",
         "titulo": "The Last of Us",
         "anio": "2023",
         "creador": "Craig Mazin, Neil Druckmann",
@@ -1972,10 +1971,10 @@ export const series = [
                 "comentario": "Los personajes son increíblemente profundos y la trama te atrapa.",
                 "calificacion": 4
             }
-        ],
-        "popular":true
+        ]
     },
     {
+        "tipo":"serie",
         "titulo": "Stranger Things",
         "anio": "2016",
         "creador": "The Duffer Brothers",
@@ -2006,10 +2005,10 @@ export const series = [
                 "comentario": "Cada temporada mejora más que la anterior.",
                 "calificacion": 4.5
             }
-        ],
-        "popular":false
+        ]
     },
     {
+        "tipo":"serie",
         "titulo": "Breaking Bad",
         "anio": "2008",
         "creador": "Vince Gilligan",
@@ -2040,10 +2039,10 @@ export const series = [
                 "comentario": "Cada episodio es una lección de narrativa.",
                 "calificacion": 5
             }
-        ],
-        "popular":false
+        ]
     },
     {
+        "tipo":"serie",
         "titulo": "The Crown",
         "anio": "2016",
         "creador": "Peter Morgan",
@@ -2074,10 +2073,10 @@ export const series = [
                 "comentario": "Las actuaciones son simplemente sobresalientes.",
                 "calificacion": 4.5
             }
-        ],
-        "popular":false
+        ]
     },
     {
+        "tipo":"serie",
         "titulo": "Game of Thrones",
         "anio": "2011-04-17",
         "creador": "David Benioff, D.B. Weiss",
@@ -2108,10 +2107,10 @@ export const series = [
                 "comentario": "La temporada final fue decepcionante.",
                 "calificacion": 2
             }
-        ],
-        "popular":true
+        ]
     },
     {
+        "tipo":"serie",
         "titulo": "The Mandalorian",
         "anio": "2019",
         "creador": "Jon Favreau",
@@ -2142,10 +2141,10 @@ export const series = [
                 "comentario": "Una narrativa emocionante con un gran desarrollo de personajes.",
                 "calificacion": 4.5
             }
-        ],
-        "popular":true
+        ]
     },
     {
+        "tipo":"serie",
         "titulo": "Fargo",
         "anio": "2014",
         "creador": "Noah Hawley",
@@ -2176,10 +2175,10 @@ export const series = [
                 "comentario": "Las actuaciones son increíbles, cada temporada es única.",
                 "calificacion": 4
             }
-        ],
-        "popular":false
+        ]
     },
     {
+        "tipo":"serie",
         "titulo": "The Witcher",
         "anio": "2019",
         "creador": "Lauren Schmidt Hissrich",
@@ -2210,10 +2209,10 @@ export const series = [
                 "comentario": "Los efectos visuales son impresionantes.",
                 "calificacion": 5
             }
-        ],
-        "popular":true
+        ]
     },
     {
+        "tipo":"serie",
         "titulo": "Black Mirror",
         "anio": "2011",
         "creador": "Charlie Brooker",
@@ -2244,10 +2243,10 @@ export const series = [
                 "comentario": "Algunos episodios son realmente perturbadores, pero eso es lo que me gusta.",
                 "calificacion": 4
             }
-        ],
-        "popular":true
+        ]
     },
     {
+        "tipo":"serie",
         "titulo": "La Casa De Papel",
         "anio": "2017",
         "creador": "Álex Pina",
@@ -2278,57 +2277,6 @@ export const series = [
                 "comentario": "Algunas partes son un poco inverosímiles, pero la adrenalina nunca falta.",
                 "calificacion": 4
             }
-        ],
-        "popular":false
+        ]
     }
 ];
-
-export const proximamente = [
-        {
-            "tipo": "serie",
-            "titulo": "The Sandman",
-            "anio": "2024",
-            "creador": "Neil Gaiman, David S. Goyer, Allan Heinberg",
-            "genero": ["Fantástico", "Drama"],
-            "sinopsis": "Basada en el aclamado cómic, sigue la historia de Morfeo, el rey de los sueños, mientras intenta recuperar lo que ha perdido y restaurar el orden en su reino.",
-            "cast": ["Tom Sturridge", "Gwendoline Christie"],
-            "crew": {
-                "productores": ["Neil Gaiman", "David S. Goyer"],
-                "guionistas": ["Neil Gaiman", "David S. Goyer"],
-                "direccion_de_fotografia": ["Philippe Rousselot"]
-            },
-            "detalles": {
-                "duracion": "45-60 min por episodio",
-                "clasificacion": "TV-MA",
-                "temporadas": 1,
-                "capitulos": 10
-            },
-            "poster": "https://pics.filmaffinity.com/Sandman_Serie_de_TV-801503155-large.jpg",
-            "calificacion_general": 0,
-            "reviews": []
-        },
-        {
-            "tipo": "pelicula",
-            "titulo": "Dune: Part Two",
-            "anio": "2024",
-            "director": "Denis Villeneuve",
-            "genero": ["Ciencia Ficción", "Aventura"],
-            "sinopsis": "La secuela de 'Dune' sigue a Paul Atreides mientras se une a Chani y los Fremen para vengar a su familia y prevenir un futuro catastrófico.",
-            "cast": ["Timothée Chalamet", "Zendaya"],
-            "crew": {
-                "productores": ["Denis Villeneuve", "Mary Parent"],
-                "guionistas": ["Denis Villeneuve", "Jon Spaihts"],
-                "direccion_de_fotografia": ["Greig Fraser"]
-            },
-            "detalles": {
-                "duracion": "155 min",
-                "clasificacion": "PG-13"
-            },
-            "poster": "https://s3.amazonaws.com/nightjarprod/content/uploads/sites/130/2024/01/14125822/Dune-Part-2-poster2-scaled.jpg",
-            "calificacion_general": 0,
-            "reviews": []
-        }
-    ]
-
-
-
