@@ -13,38 +13,31 @@
         <ul>
             <li class="logo"><img src="imagenes/logo1.png" alt="logo"></li>
             <div class="navegador">
-                <li class="iniciar"><a href="home_prueba.html">Iniciar Sesion</a></li>
-                <li class="registrar"><a href="home_prueba.html">Registrate</a></li>
+                <li class="iniciar"><a href="./pages/registro.html">Iniciar Sesion</a></li>
+                <li class="registrar"><a href="./pages/registro.html">Registrarte</a></li>
             </div>
         </ul>
-        <p>Track films you’ve watched.<br>Save those you want to see.<br>Tell your
-            friends what’s good.</p>
+        <p class="descripcion">Califica las peliculas <br> y series de tu interes.</p>
     </header>
-    <article>
-        <h1>SERIES POPULARES</h1>
-        <div class="wrapper">
-            <div class="carousel">
-                <div class="container" id="series_popular">
-                </div>
+    <section>
+        <article>
+            <h1>POPULAR</h1>
+            <div class="contenedor" id="popular">
+                <!--Las imagenes se ubican en script.js-->
             </div>
-        </div>
-        <h1>PELICULAS POPULARES</h1>
-        <div class="wrapper">
-            <div class="carousel">
-                <div class="container" id="peliculas_popular">
-                </div>
-            </div>
-        </div>
-        <h1>PROXIMAMENTE</h1>
-        <div class="wrapper">
-            <div class="carousel">
-                <div class="container" id="proximamente">
-                </div>
-            </div>
-        </div>
-    </article>
 
-    <script src="./script.js" type="module"></script>
+
+        </article>
+        <article>
+            <h1>PROXIMAMENTE</h1>
+            <div class="contenedor" id="proximamente">
+                <!--Las imagenes se ubican en script.js-->
+            </div>
+        </article>
+
+    </section>
+
+    <script src="./script.js"></script>
 </body>
 
 </html>
