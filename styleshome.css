@@ -30,6 +30,7 @@ section {
     align-items: center;
     width: 80%;
     margin: 10px;
+    z-index: -1;
 }
 
 

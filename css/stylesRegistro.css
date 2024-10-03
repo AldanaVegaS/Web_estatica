@@ -7,11 +7,13 @@
     padding: 10;
     font-size: 20px;
     font-family: "Nunito", sans-serif;
+    list-style: none;
 }
 
 body{
     background-color: black;
     color: aliceblue;
+    
 }
 
 header{
@@ -160,7 +162,7 @@ p{
     background: #000000b5;
     border: none;
     border-radius: 70px;
-    
+    cursor: pointer;
 }
 
 .submit-button:hover{
