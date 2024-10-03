@@ -1,6 +1,6 @@
 export const peliculasPopulares = [
     {
-        "tipo":"pelicula",
+        "tipo": "pelicula",
         "titulo": "Inception",
         "fecha_estreno": "2010-07-16",
         "director": "Christopher Nolan",
@@ -39,7 +39,7 @@ export const peliculasPopulares = [
         ]
     },
     {
-        "tipo":"pelicula",
+        "tipo": "pelicula",
         "titulo": "The Godfather",
         "fecha_estreno": "1972-03-24",
         "director": "Francis Ford Coppola",
@@ -78,7 +78,7 @@ export const peliculasPopulares = [
         ]
     },
     {
-        "tipo":"pelicula",
+        "tipo": "pelicula",
         "titulo": "The Dark Knight",
         "fecha_estreno": "2008-07-18",
         "director": "Christopher Nolan",
@@ -118,7 +118,7 @@ export const peliculasPopulares = [
         ]
     },
     {
-        "tipo":"pelicula",
+        "tipo": "pelicula",
         "titulo": "Pulp Fiction",
         "fecha_estreno": "1994-10-14",
         "director": "Quentin Tarantino",
@@ -157,7 +157,7 @@ export const peliculasPopulares = [
         ]
     },
     {
-        "tipo":"pelicula",
+        "tipo": "pelicula",
         "titulo": "The Shawshank Redemption",
         "fecha_estreno": "1994-09-23",
         "director": "Frank Darabont",
@@ -196,7 +196,7 @@ export const peliculasPopulares = [
         ]
     },
     {
-        "tipo":"pelicula",
+        "tipo": "pelicula",
         "titulo": "The Matrix",
         "fecha_estreno": "1999-03-31",
         "director": "Lana Wachowski, Lilly Wachowski",
@@ -235,7 +235,7 @@ export const peliculasPopulares = [
         ]
     },
     {
-        "tipo":"pelicula",
+        "tipo": "pelicula",
         "titulo": "Forrest Gump",
         "fecha_estreno": "1994-07-06",
         "director": "Robert Zemeckis",
@@ -274,7 +274,7 @@ export const peliculasPopulares = [
         ]
     },
     {
-        "tipo":"pelicula",
+        "tipo": "pelicula",
         "titulo": "Gladiator",
         "fecha_estreno": "2000-05-05",
         "director": "Ridley Scott",
@@ -312,7 +312,7 @@ export const peliculasPopulares = [
         ]
     },
     {
-        "tipo":"pelicula",
+        "tipo": "pelicula",
         "titulo": "Avatar",
         "fecha_estreno": "2009-12-18",
         "director": "James Cameron",
@@ -351,7 +351,7 @@ export const peliculasPopulares = [
         ]
     },
     {
-        "tipo":"pelicula",
+        "tipo": "pelicula",
         "titulo": "Spirited Away",
         "fecha_estreno": "2001-07-20",
         "director": "Hayao Miyazaki",
@@ -391,7 +391,7 @@ export const peliculasPopulares = [
         ]
     },
     {
-        "tipo":"pelicula",
+        "tipo": "pelicula",
         "titulo": "Jurassic Park",
         "fecha_estreno": "1993-06-11",
         "director": "Steven Spielberg",
@@ -434,7 +434,7 @@ export const peliculasPopulares = [
 
 export const terror = [
     {
-        "tipo":"pelicula",
+        "tipo": "pelicula",
         "titulo": "Talk to Me",
         "fecha_estreno": "2023-07-28",
         "director": "Danny Philippou, Michael Philippou",
@@ -473,7 +473,7 @@ export const terror = [
         ]
     },
     {
-        "tipo":"pelicula",
+        "tipo": "pelicula",
         "titulo": "The Boogeyman",
         "fecha_estreno": "2023-06-02",
         "director": "Rob Savage",
@@ -512,7 +512,7 @@ export const terror = [
         ]
     },
     {
-        "tipo":"pelicula",
+        "tipo": "pelicula",
         "titulo": "Evil Dead Rise",
         "fecha_estreno": "2023-04-21",
         "director": "Lee Cronin",
@@ -551,7 +551,7 @@ export const terror = [
         ]
     },
     {
-        "tipo":"pelicula",
+        "tipo": "pelicula",
         "titulo": "The Nun II",
         "fecha_estreno": "2023-09-08",
         "director": "Michael Chaves",
@@ -590,7 +590,7 @@ export const terror = [
         ]
     },
     {
-        "tipo":"pelicula",
+        "tipo": "pelicula",
         "titulo": "Pearl",
         "fecha_estreno": "2022-09-16",
         "director": "Ti West",
@@ -629,7 +629,7 @@ export const terror = [
         ]
     },
     {
-        "tipo":"pelicula",
+        "tipo": "pelicula",
         "titulo": "Hereditary",
         "fecha_estreno": "2018-06-08",
         "director": "Ari Aster",
@@ -666,9 +666,9 @@ export const terror = [
                 "calificacion": 4.7
             }
         ]
-    }, 
+    },
     {
-        "tipo":"pelicula",
+        "tipo": "pelicula",
         "titulo": "El Exorcista",
         "fecha_estreno": "1973-12-26",
         "director": "William Friedkin",
@@ -707,7 +707,7 @@ export const terror = [
         ]
     },
     {
-        "tipo":"pelicula",
+        "tipo": "pelicula",
         "titulo": "It",
         "fecha_estreno": "2017-09-08",
         "director": "Andy Muschietti",
@@ -746,7 +746,7 @@ export const terror = [
         ]
     },
     {
-        "tipo":"pelicula",
+        "tipo": "pelicula",
         "titulo": "Midsommar",
         "fecha_estreno": "2019-07-03",
         "director": "Ari Aster",
@@ -785,7 +785,7 @@ export const terror = [
         ]
     },
     {
-        "tipo":"pelicula",
+        "tipo": "pelicula",
         "titulo": "El Resplandor",
         "fecha_estreno": "1980-05-23",
         "director": "Stanley Kubrick",
@@ -827,7 +827,7 @@ export const terror = [
 ]
 
 export const accion = [{
-    "tipo":"pelicula",
+    "tipo": "pelicula",
     "titulo": "John Wick: Chapter 4",
     "fecha_estreno": "2023-03-24",
     "director": "Chad Stahelski",
@@ -866,7 +866,7 @@ export const accion = [{
     ]
 },
 {
-    "tipo":"pelicula",
+    "tipo": "pelicula",
     "titulo": "Fast & Furious X",
     "fecha_estreno": "2023-05-19",
     "director": "Louis Leterrier",
@@ -905,7 +905,7 @@ export const accion = [{
     ]
 },
 {
-    "tipo":"pelicula",
+    "tipo": "pelicula",
     "titulo": "Guardians of the Galaxy Vol. 3",
     "fecha_estreno": "2023-05-05",
     "director": "James Gunn",
@@ -945,7 +945,7 @@ export const accion = [{
     ]
 },
 {
-    "tipo":"pelicula",
+    "tipo": "pelicula",
     "titulo": "Mission: Impossible - Dead Reckoning Part One",
     "fecha_estreno": "2023-07-12",
     "director": "Christopher McQuarrie",
@@ -985,7 +985,7 @@ export const accion = [{
     ]
 },
 {
-    "tipo":"pelicula",
+    "tipo": "pelicula",
     "titulo": "The Matrix",
     "fecha_estreno": "1999-03-31",
     "director": "Lana Wachowski, Lilly Wachowski",
@@ -1022,9 +1022,9 @@ export const accion = [{
             "calificacion": 4
         }
     ]
-}, 
+},
 {
-    "tipo":"pelicula",
+    "tipo": "pelicula",
     "titulo": "Rocky",
     "fecha_estreno": "1976-12-03",
     "director": "John G. Avildsen",
@@ -1063,7 +1063,7 @@ export const accion = [{
     ]
 },
 {
-    "tipo":"pelicula",
+    "tipo": "pelicula",
     "titulo": "Mad Max 2",
     "fecha_estreno": "1981-12-24",
     "director": "George Miller",
@@ -1102,7 +1102,7 @@ export const accion = [{
     ]
 },
 {
-    "tipo":"pelicula",
+    "tipo": "pelicula",
     "titulo": "The Terminator",
     "fecha_estreno": "1984-10-26",
     "director": "James Cameron",
@@ -1141,7 +1141,7 @@ export const accion = [{
     ]
 },
 {
-    "tipo":"pelicula",
+    "tipo": "pelicula",
     "titulo": "Aliens",
     "fecha_estreno": "1986-07-18",
     "director": "James Cameron",
@@ -1180,7 +1180,7 @@ export const accion = [{
     ]
 },
 {
-    "tipo":"pelicula",
+    "tipo": "pelicula",
     "titulo": "Deadpool",
     "fecha_estreno": "2016-02-12",
     "director": "Tim Miller",
@@ -1224,7 +1224,7 @@ export const accion = [{
 export const animacion =
     [
         {
-            "tipo":"pelicula",
+            "tipo": "pelicula",
             "titulo": "Robot Dreams",
             "fecha_estreno": "2023-09-08",
             "director": "Pablo Berger",
@@ -1262,7 +1262,7 @@ export const animacion =
             ]
         },
         {
-            "tipo":"pelicula",
+            "tipo": "pelicula",
             "titulo": "Bee Movie",
             "fecha_estreno": "2007-11-02",
             "director": "Simon J. Smith, Steve Hickner",
@@ -1301,7 +1301,7 @@ export const animacion =
             ]
         },
         {
-            "tipo":"pelicula",
+            "tipo": "pelicula",
             "titulo": "Spider-Man: Into the Spider-Verse",
             "fecha_estreno": "2018-12-14",
             "director": "Bob Persichetti, Peter Ramsey, Rodney Rothman",
@@ -1340,7 +1340,7 @@ export const animacion =
             ]
         },
         {
-            "tipo":"pelicula",
+            "tipo": "pelicula",
             "titulo": "Fantastic Mr. Fox",
             "fecha_estreno": "2009-11-25",
             "director": "Wes Anderson",
@@ -1379,7 +1379,7 @@ export const animacion =
             ]
         },
         {
-            "tipo":"pelicula",
+            "tipo": "pelicula",
             "titulo": "Grandes Héroes",
             "fecha_estreno": "2014-11-07",
             "director": "Don Hall, Chris Williams",
@@ -1418,7 +1418,7 @@ export const animacion =
             ]
         },
         {
-            "tipo":"pelicula",
+            "tipo": "pelicula",
             "titulo": "Leo",
             "fecha_estreno": "2023-11-21",
             "director": "Robert Marianetti, David Wachtenheim",
@@ -1457,7 +1457,7 @@ export const animacion =
             ]
         },
         {
-            "tipo":"pelicula",
+            "tipo": "pelicula",
             "titulo": "El Castillo Ambulante",
             "fecha_estreno": "2004-11-20",
             "director": "Hayao Miyazaki",
@@ -1496,7 +1496,7 @@ export const animacion =
             ]
         },
         {
-            "tipo":"pelicula",
+            "tipo": "pelicula",
             "titulo": "Metegol",
             "fecha_estreno": "2013-07-18",
             "director": "Juan José Campanella",
@@ -1535,7 +1535,7 @@ export const animacion =
             ]
         },
         {
-            "tipo":"pelicula",
+            "tipo": "pelicula",
             "titulo": "Cómo Entrenar a tu Dragón",
             "fecha_estreno": "2010-03-26",
             "director": "Dean DeBlois, Chris Sanders",
@@ -1574,7 +1574,7 @@ export const animacion =
             ]
         },
         {
-            "tipo":"pelicula",
+            "tipo": "pelicula",
             "titulo": "El Niño y la Garza",
             "fecha_estreno": "2023-07-14",
             "director": "Hayao Miyazaki",
@@ -1615,7 +1615,7 @@ export const animacion =
 
 export const romance = [
     {
-        "tipo":"pelicula",
+        "tipo": "pelicula",
         "titulo": "Yo Antes de Ti",
         "fecha_estreno": "2016-06-03",
         "director": "Thea Sharrock",
@@ -1654,7 +1654,7 @@ export const romance = [
         ]
     },
     {
-        "tipo":"pelicula",
+        "tipo": "pelicula",
         "titulo": "Cómo Perder a un Hombre en 10 Días",
         "fecha_estreno": "2003-02-07",
         "director": "Donald Petrie",
@@ -1693,7 +1693,7 @@ export const romance = [
         ]
     },
     {
-        "tipo":"pelicula",
+        "tipo": "pelicula",
         "titulo": "Mujer Bonita",
         "fecha_estreno": "1990-03-23",
         "director": "Garry Marshall",
@@ -1732,7 +1732,7 @@ export const romance = [
         ]
     },
     {
-        "tipo":"pelicula",
+        "tipo": "pelicula",
         "titulo": "About Time",
         "fecha_estreno": "2013-11-08",
         "director": "Richard Curtis",
@@ -1771,7 +1771,7 @@ export const romance = [
         ]
     },
     {
-        "tipo":"pelicula",
+        "tipo": "pelicula",
         "titulo": "10 Things I Hate About You",
         "fecha_estreno": "1999-03-31",
         "director": "Gil Junger",
@@ -1810,7 +1810,7 @@ export const romance = [
         ]
     },
     {
-        "tipo":"pelicula",
+        "tipo": "pelicula",
         "titulo": "The Notebook",
         "fecha_estreno": "2004-06-25",
         "director": "Nick Cassavetes",
@@ -1849,7 +1849,7 @@ export const romance = [
         ]
     },
     {
-        "tipo":"pelicula",
+        "tipo": "pelicula",
         "titulo": "Notting Hill",
         "fecha_estreno": "1999-05-28",
         "director": "Roger Michell",
@@ -1888,7 +1888,7 @@ export const romance = [
         ]
     },
     {
-        "tipo":"pelicula",
+        "tipo": "pelicula",
         "titulo": "Orgullo y Prejuicio",
         "fecha_estreno": "2005-11-11",
         "director": "Joe Wright",
@@ -1927,7 +1927,7 @@ export const romance = [
         ]
     },
     {
-        "tipo":"pelicula",
+        "tipo": "pelicula",
         "titulo": "Con Todos Menos Contigo",
         "fecha_estreno": "1990-06-01",
         "director": "Roger Young",
@@ -1966,7 +1966,7 @@ export const romance = [
         ]
     },
     {
-        "tipo":"pelicula",
+        "tipo": "pelicula",
         "titulo": "Crazy Rich Asians",
         "fecha_estreno": "2018-08-15",
         "director": "Jon M. Chu",
@@ -2009,7 +2009,7 @@ export const romance = [
 
 export const recomendados = [
     {
-        "tipo":"pelicula",
+        "tipo": "pelicula",
         "titulo": "Cómo Perder a un Hombre en 10 Días",
         "fecha_estreno": "2003-02-07",
         "director": "Donald Petrie",
@@ -2048,7 +2048,7 @@ export const recomendados = [
         ]
     },
     {
-        "tipo":"pelicula",
+        "tipo": "pelicula",
         "titulo": "Mujer Bonita",
         "fecha_estreno": "1990-03-23",
         "director": "Garry Marshall",
@@ -2087,7 +2087,7 @@ export const recomendados = [
         ]
     },
     {
-        "tipo":"pelicula",
+        "tipo": "pelicula",
         "titulo": "El Niño y la Garza",
         "fecha_estreno": "2023-07-14",
         "director": "Hayao Miyazaki",
@@ -2125,7 +2125,7 @@ export const recomendados = [
         ]
     },
     {
-        "tipo":"pelicula",
+        "tipo": "pelicula",
         "titulo": "Robot Dreams",
         "fecha_estreno": "2023-09-08",
         "director": "Pablo Berger",
@@ -2163,7 +2163,7 @@ export const recomendados = [
         ]
     },
     {
-        "tipo":"pelicula",
+        "tipo": "pelicula",
         "titulo": "Mad Max 2",
         "fecha_estreno": "1981-12-24",
         "director": "George Miller",
@@ -2202,7 +2202,7 @@ export const recomendados = [
         ]
     },
     {
-        "tipo":"pelicula",
+        "tipo": "pelicula",
         "titulo": "Pearl",
         "fecha_estreno": "2022-09-16",
         "director": "Ti West",
@@ -2241,7 +2241,7 @@ export const recomendados = [
         ]
     },
     {
-        "tipo":"pelicula",
+        "tipo": "pelicula",
         "titulo": "Midsommar",
         "fecha_estreno": "2019-07-03",
         "director": "Ari Aster",
@@ -2280,7 +2280,7 @@ export const recomendados = [
         ]
     },
     {
-        "tipo":"pelicula",
+        "tipo": "pelicula",
         "titulo": "Avatar",
         "fecha_estreno": "2009-12-18",
         "director": "James Cameron",
@@ -2319,7 +2319,7 @@ export const recomendados = [
         ]
     },
     {
-        "tipo":"pelicula",
+        "tipo": "pelicula",
         "titulo": "Spirited Away",
         "fecha_estreno": "2001-07-20",
         "director": "Hayao Miyazaki",

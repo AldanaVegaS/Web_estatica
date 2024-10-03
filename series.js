@@ -1,5 +1,6 @@
 export const seriesPopulares = [
-    {   "tipo":"serie",
+    {
+        "tipo": "serie",
         "titulo": "The Last of Us",
         "anio": "2023",
         "creador": "Craig Mazin, Neil Druckmann",
@@ -33,7 +34,7 @@ export const seriesPopulares = [
         ]
     },
     {
-        "tipo":"serie",
+        "tipo": "serie",
         "titulo": "Stranger Things",
         "anio": "2016",
         "creador": "The Duffer Brothers",
@@ -67,7 +68,7 @@ export const seriesPopulares = [
         ]
     },
     {
-        "tipo":"serie",
+        "tipo": "serie",
         "titulo": "Breaking Bad",
         "anio": "2008",
         "creador": "Vince Gilligan",
@@ -101,7 +102,7 @@ export const seriesPopulares = [
         ]
     },
     {
-        "tipo":"serie",
+        "tipo": "serie",
         "titulo": "The Crown",
         "anio": "2016",
         "creador": "Peter Morgan",
@@ -135,7 +136,7 @@ export const seriesPopulares = [
         ]
     },
     {
-        "tipo":"serie",
+        "tipo": "serie",
         "titulo": "Game of Thrones",
         "anio": "2011-04-17",
         "creador": "David Benioff, D.B. Weiss",
@@ -169,7 +170,7 @@ export const seriesPopulares = [
         ]
     },
     {
-        "tipo":"serie",
+        "tipo": "serie",
         "titulo": "The Mandalorian",
         "anio": "2019",
         "creador": "Jon Favreau",
@@ -203,7 +204,7 @@ export const seriesPopulares = [
         ]
     },
     {
-        "tipo":"serie",
+        "tipo": "serie",
         "titulo": "Fargo",
         "anio": "2014",
         "creador": "Noah Hawley",
@@ -237,7 +238,7 @@ export const seriesPopulares = [
         ]
     },
     {
-        "tipo":"serie",
+        "tipo": "serie",
         "titulo": "The Witcher",
         "anio": "2019",
         "creador": "Lauren Schmidt Hissrich",
@@ -271,7 +272,7 @@ export const seriesPopulares = [
         ]
     },
     {
-        "tipo":"serie",
+        "tipo": "serie",
         "titulo": "Black Mirror",
         "anio": "2011",
         "creador": "Charlie Brooker",
@@ -305,7 +306,7 @@ export const seriesPopulares = [
         ]
     },
     {
-        "tipo":"serie",
+        "tipo": "serie",
         "titulo": "La Casa De Papel",
         "anio": "2017",
         "creador": "Álex Pina",
