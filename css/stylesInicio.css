@@ -1,0 +1,141 @@
+@import url('https://fonts.googleapis.com/css2?family=Nunito:ital,wght@0,200..1000;1,200..1000&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Gowun+Batang:wght@400;700&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+
+* {
+    box-sizing: border-box;
+    font-family: "Nunito", sans-serif;
+    margin: 0;
+    padding: 10;
+    text-decoration: none;
+    font-size: 20px;
+    list-style: none;
+}
+
+body{
+    flex-direction: column;
+}
+
+
+/*-----ELEMENTOS DEL HEADER-----*/
+
+header {
+    background-color: #552121;
+    /* background-image: url(./assets/imagenFondo3.webp);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: bottom;*/
+    background-image: linear-gradient(#552121 450px, #222222);
+    color: aliceblue;
+    min-height: 600px;
+
+}
+
+.header ul {
+    display: flex;
+    list-style: none;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+}
+
+/*Estilo del logo*/
+.header ul li.logo {
+    margin-top: 5px;
+    flex: 1;
+}
+
+.header ul li.logo img {
+    cursor: pointer;
+    margin-right: auto;
+    margin-left: 10px;
+    height: 50px;
+    margin-top: 5px;
+    width: auto;
+}
+
+
+
+.descripcion {
+    font-family: sans-serif;
+    text-align: center;
+    margin-top: 300px;
+    font-size: 60px;
+    font-weight: bold;
+
+}
+
+/*-----ELEMENTOS DEL NAVEGADOR DENTRO DEL HEADER-----*/
+
+.navegador {
+    margin-right: 100px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    min-width: 300px;
+}
+
+a {
+    color: black;
+}
+
+.iniciar {
+    background-color: rgb(205, 206, 207);
+    padding: 10px 20px;
+    border-radius: 10px;
+    margin: 5px;
+}
+
+.registrar {
+    background-color: rgb(87, 86, 86);
+    padding: 10px 20px;
+    border-radius: 10px;
+    margin: 5px;
+}
+
+a:hover {
+    color: antiquewhite;
+}
+
+
+/*-----ELEMENTOS DE SECTION-----*/
+
+section {
+    min-height: 500px;
+    margin: 100px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 80%;
+}
+
+h1 {
+    margin-top: 100px;
+}
+
+
+.contenedor {
+    white-space: nowrap;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 5px;
+    width: 100%;
+}
+
+.contenedor img {
+    height: 260px;
+    width: 180px;
+    object-fit: cover;
+    width: 180px;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: all 0.3s ease 0s;
+    transition: all ease-in-out 0.5s;
+}
+
+.contenedor img:hover {
+    /*filter: brightness(0.5);*/
+    width: 200px;
+    height: 280px;
+}
