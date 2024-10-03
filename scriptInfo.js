@@ -1,7 +1,5 @@
 import { peliculas, series } from "/datos.js";
 
-
-
 // Obtener el título de la URL
 const params = new URLSearchParams(window.location.search);
 const titulo = params.get('titulo');
@@ -24,7 +22,7 @@ function mostrarSerie(serieSeleccionada){
     document.getElementById('poster').src = serieSeleccionada.poster;
     calificacionGeneral(serieSeleccionada.calificacion_general, document.getElementById('calificacion'));
     document.getElementById('titulo').textContent = serieSeleccionada.titulo;
-    document.getElementById('anio_director').textContent = serieSeleccionada.anio+", creada por "+serieSeleccionada.creador;
+    document.getElementById('anio_director').textContent = serieSeleccionada.fecha_estreno+", creada por "+serieSeleccionada.creador;
     document.getElementById('genero').textContent = serieSeleccionada.genero.join(', ');
     document.getElementById('sinopsis').textContent = serieSeleccionada.sinopsis;
     listarCast(serieSeleccionada.cast,document.getElementById('cast'));
@@ -40,7 +38,7 @@ function mostrarPelicula(peliculaSeleccionada){
     document.getElementById('poster').src = peliculaSeleccionada.poster;
     calificacionGeneral(peliculaSeleccionada.calificacion_general, document.getElementById('calificacion'));
     document.getElementById('titulo').textContent = peliculaSeleccionada.titulo;
-    document.getElementById('anio_director').textContent = peliculaSeleccionada.anio+", dirigida por "+peliculaSeleccionada.director;
+    document.getElementById('anio_director').textContent = peliculaSeleccionada.fecha_estreno+", dirigida por "+peliculaSeleccionada.director;
     document.getElementById('genero').textContent = peliculaSeleccionada.genero.join(', ');
     document.getElementById('sinopsis').textContent = peliculaSeleccionada.sinopsis;
     listarCast(peliculaSeleccionada.actores_principales,document.getElementById('cast'));

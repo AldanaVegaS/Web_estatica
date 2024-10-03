@@ -62,18 +62,3 @@ mostrar(romance, romanceNodo, 'poster');
 
 
 
-//Para controlar el movimiento de las flechas
-function moverse(nodo, direccion) {
-    const carrusel = document.getElementById(nodo);
-
-    switch (direccion) {
-        case 'der':
-            carrusel.style.justifyContent = 'flex-end';
-            break;
-        case 'iz':
-            carrusel.style.justifyContent = 'flex-start';
-            break;
-    }
-}
-
-

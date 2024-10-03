@@ -15,9 +15,9 @@ export const peliculas = [
         "sinopsis": "Un ladrón que roba secretos corporativos a través de los sueños es ofrecido la oportunidad de borrar su pasado a cambio de implantar una idea en la mente de un CEO.",
         "calificacion_general": 4.8,
         "crew": {
-            "productor": "Emma Thomas",
-            "guionista": "Christopher Nolan",
-            "director_fotografia": "Wally Pfister"
+            "productores": "Emma Thomas",
+            "guionistas": "Christopher Nolan",
+            "direccion_de_fotografia": "Wally Pfister"
         },
         "detalles": {
             "duracion": "148 minutos",
@@ -53,9 +53,9 @@ export const peliculas = [
         "sinopsis": "La historia de la familia mafiosa Corleone y su lucha por mantener el control en el mundo del crimen organizado en América.",
         "calificacion_general": 5.0,
         "crew": {
-            "productor": "Albert S. Ruddy",
-            "guionista": "Mario Puzo, Francis Ford Coppola",
-            "director_fotografia": "Gordon Willis"
+            "productores": "Albert S. Ruddy",
+            "guionistas": "Mario Puzo, Francis Ford Coppola",
+            "direccion_de_fotografia": "Gordon Willis"
         },
         "detalles": {
             "duracion": "175 minutos",
@@ -92,9 +92,9 @@ export const peliculas = [
         "sinopsis": "Batman debe enfrentarse al Joker, un criminal anárquico que quiere sumergir a Gotham City en el caos.",
         "calificacion_general": 4.9,
         "crew": {
-            "productor": "Charles Roven, Emma Thomas",
-            "guionista": "Jonathan Nolan, Christopher Nolan",
-            "director_fotografia": "Wally Pfister"
+            "productores": "Charles Roven, Emma Thomas",
+            "guionistas": "Jonathan Nolan, Christopher Nolan",
+            "direccion_de_fotografia": "Wally Pfister"
         },
         "detalles": {
             "duracion": "152 minutos",
@@ -130,9 +130,9 @@ export const peliculas = [
         "sinopsis": "Las historias entrelazadas de varios criminales en Los Ángeles, que exploran la cultura pop y la moralidad.",
         "calificacion_general": 4.8,
         "crew": {
-            "productor": "Lawrence Bender",
-            "guionista": "Quentin Tarantino",
-            "director_fotografia": "Andrzej Sekuła"
+            "productores": "Lawrence Bender",
+            "guionistas": "Quentin Tarantino",
+            "direccion_de_fotografia": "Andrzej Sekuła"
         },
         "detalles": {
             "duracion": "154 minutos",
@@ -168,9 +168,9 @@ export const peliculas = [
         "sinopsis": "La historia de un banquero que es encarcelado por un crimen que no cometió y su amistad con otro prisionero.",
         "calificacion_general": 4.9,
         "crew": {
-            "productor": "Niki Marvin",
-            "guionista": "Frank Darabont",
-            "director_fotografia": "Roger Deakins"
+            "productores": "Niki Marvin",
+            "guionistas": "Frank Darabont",
+            "direccion_de_fotografia": "Roger Deakins"
         },
         "detalles": {
             "duracion": "142 minutos",
@@ -206,9 +206,9 @@ export const peliculas = [
         "sinopsis": "Un hacker descubre la verdad sobre su realidad y su papel en la guerra contra sus controladores.",
         "calificacion_general": 4.6,
         "crew": {
-            "productor": "Joel Silver",
-            "guionista": "Lana Wachowski, Lilly Wachowski",
-            "director_fotografia": "Bill Pope"
+            "productores": "Joel Silver",
+            "guionistas": "Lana Wachowski, Lilly Wachowski",
+            "direccion_de_fotografia": "Bill Pope"
         },
         "detalles": {
             "duracion": "136 minutos",
@@ -244,9 +244,9 @@ export const peliculas = [
         "sinopsis": "La vida extraordinaria de un hombre con un coeficiente intelectual bajo, que se convierte en testigo de eventos históricos.",
         "calificacion_general": 4.2,
         "crew": {
-            "productor": "Wendy Finerman, Steve Tisch, Frank Marshall",
-            "guionista": "Eric Roth",
-            "director_fotografia": "Don Burgess"
+            "productores": "Wendy Finerman, Steve Tisch, Frank Marshall",
+            "guionistas": "Eric Roth",
+            "direccion_de_fotografia": "Don Burgess"
         },
         "detalles": {
             "duracion": "142 minutos",
@@ -281,9 +281,9 @@ export const peliculas = [
         ],
         "sinopsis": "Un general romano es traicionado y convertido en esclavo, luego busca venganza como gladiador.",
         "crew": {
-            "productor": "Douglas Wick, David Franzoni, Walter Parkes",
-            "guionista": "David Franzoni, John Logan, William Nicholson",
-            "director_fotografia": "Joaquin A. de la Torre"
+            "productores": "Douglas Wick, David Franzoni, Walter Parkes",
+            "guionistas": "David Franzoni, John Logan, William Nicholson",
+            "direccion_de_fotografia": "Joaquin A. de la Torre"
         },
         "detalles": {
             "duracion": "155 minutos",
@@ -319,9 +319,9 @@ export const peliculas = [
         "sinopsis": "En un mundo alienígena, un exmarine se convierte en un avatar para interactuar con la población nativa y proteger su hogar.",
         "calificacion_general": 4.5,
         "crew": {
-            "productor": "James Cameron, Jon Landau",
-            "guionista": "James Cameron",
-            "director_fotografia": "Mauro Fiore"
+            "productores": "James Cameron, Jon Landau",
+            "guionistas": "James Cameron",
+            "direccion_de_fotografia": "Mauro Fiore"
         },
         "detalles": {
             "duracion": "162 minutos",
@@ -358,9 +358,9 @@ export const peliculas = [
         "sinopsis": "Una niña se encuentra en un mundo mágico y debe trabajar en una casa de baños para salvar a sus padres que han sido transformados en cerdos.",
         "calificacion_general": 4.8,
         "crew": {
-            "productor": "Toshio Suzuki",
-            "guionista": "Hayao Miyazaki",
-            "director_fotografia": "Atsushi Okui"
+            "productores": "Toshio Suzuki",
+            "guionistas": "Hayao Miyazaki",
+            "direccion_de_fotografia": "Atsushi Okui"
         },
         "detalles": {
             "duracion": "125 minutos",
@@ -397,9 +397,9 @@ export const peliculas = [
         "sinopsis": "Un grupo de personas visita un parque temático donde los dinosaurios han sido traídos a la vida mediante ingeniería genética, pero las cosas salen mal.",
         "calificacion_general": 4.0,
         "crew": {
-            "productor": "Steven Spielberg, Kathleen Kennedy",
-            "guionista": "Michael Crichton, David Koepp",
-            "director_fotografia": "Dean Cundey"
+            "productores": "Steven Spielberg, Kathleen Kennedy",
+            "guionistas": "Michael Crichton, David Koepp",
+            "direccion_de_fotografia": "Dean Cundey"
         },
         "detalles": {
             "duracion": "127 minutos",
@@ -435,9 +435,9 @@ export const peliculas = [
         "sinopsis": "Un grupo de amigos descubre una manera de invocar espíritus usando una mano embalsamada, pero lo que comienza como un juego se convierte en una pesadilla aterradora.",
         "calificacion_general": 4.5,
         "crew": {
-            "productor": "Kristin O'Connell, Sam McCool",
-            "guionista": "Danny Philippou, Bill Hinzman",
-            "director_fotografia": "Ari Wegner"
+            "productores": "Kristin O'Connell, Sam McCool",
+            "guionistas": "Danny Philippou, Bill Hinzman",
+            "direccion_de_fotografia": "Ari Wegner"
         },
         "detalles": {
             "duracion": "95 minutos",
@@ -473,9 +473,9 @@ export const peliculas = [
         "sinopsis": "Una adolescente y su hermana pequeña enfrentan a un ser aterrador que se alimenta del dolor de su familia tras la muerte de su madre.",
         "calificacion_general": 4.2,
         "crew": {
-            "productor": "Dan Mazeau, Shawn Levy",
-            "guionista": "Scott Beck, Bryan Woods",
-            "director_fotografia": "Pawel Pogorzelski"
+            "productores": "Dan Mazeau, Shawn Levy",
+            "guionistas": "Scott Beck, Bryan Woods",
+            "direccion_de_fotografia": "Pawel Pogorzelski"
         },
         "detalles": {
             "duracion": "98 minutos",
@@ -511,9 +511,9 @@ export const peliculas = [
         "sinopsis": "Dos hermanas se reúnen, solo para descubrir un libro maldito que desata demonios en su edificio de apartamentos.",
         "calificacion_general": 4.3,
         "crew": {
-            "productor": "Sam Raimi, Bruce Campbell",
-            "guionista": "Lee Cronin",
-            "director_fotografia": "Dave Garbett"
+            "productores": "Sam Raimi, Bruce Campbell",
+            "guionistas": "Lee Cronin",
+            "direccion_de_fotografia": "Dave Garbett"
         },
         "detalles": {
             "duracion": "97 minutos",
@@ -549,9 +549,9 @@ export const peliculas = [
         "sinopsis": "La monja demoníaca Valak regresa para atormentar a un convento en Francia, mientras una hermana intenta enfrentarse a su oscuro pasado.",
         "calificacion_general": 4.0,
         "crew": {
-            "productor": "James Wan, Peter Safran",
-            "guionista": "Ian Goldberg, Richard Naing",
-            "director_fotografia": "Maxime Alexandre"
+            "productores": "James Wan, Peter Safran",
+            "guionistas": "Ian Goldberg, Richard Naing",
+            "direccion_de_fotografia": "Maxime Alexandre"
         },
         "detalles": {
             "duracion": "110 minutos",
@@ -587,9 +587,9 @@ export const peliculas = [
         "sinopsis": "La joven Pearl busca escapar de su vida en una granja y sueña con convertirse en una estrella, pero su ambición tiene un alto precio.",
         "calificacion_general": 4.4,
         "crew": {
-            "productor": "Ti West, Mia Goth",
-            "guionista": "Ti West, Mia Goth",
-            "director_fotografia": "Eliot Rockett"
+            "productores": "Ti West, Mia Goth",
+            "guionistas": "Ti West, Mia Goth",
+            "direccion_de_fotografia": "Eliot Rockett"
         },
         "detalles": {
             "duracion": "102 minutos",
@@ -625,9 +625,9 @@ export const peliculas = [
         "sinopsis": "Una familia es atormentada por secretos oscuros tras la muerte de su enigmática abuela, lo que desata una serie de eventos sobrenaturales.",
         "calificacion_general": 4.6,
         "crew": {
-            "productor": "Ari Aster, Kevin Frakes",
-            "guionista": "Ari Aster",
-            "director_fotografia": "Pawel Pogorzelski"
+            "productores": "Ari Aster, Kevin Frakes",
+            "guionistas": "Ari Aster",
+            "direccion_de_fotografia": "Pawel Pogorzelski"
         },
         "detalles": {
             "duracion": "127 minutos",
@@ -662,9 +662,9 @@ export const peliculas = [
         "sinopsis": "Una joven es poseída por una entidad maligna y su madre recurre a dos sacerdotes para realizar un exorcismo.",
         "calificacion_general": 4.7,
         "crew": {
-            "productor": "William Peter Blatty",
-            "guionista": "William Peter Blatty",
-            "director_fotografia": "Owen Roizman"
+            "productores": "William Peter Blatty",
+            "guionistas": "William Peter Blatty",
+            "direccion_de_fotografia": "Owen Roizman"
         },
         "detalles": {
             "duracion": "122 minutos",
@@ -700,9 +700,9 @@ export const peliculas = [
         "sinopsis": "Un grupo de niños se enfrenta a una entidad maligna que toma la forma de un payaso llamado Pennywise.",
         "calificacion_general": 4.5,
         "crew": {
-            "productor": "Barbara Muschietti, Roy Lee, Dan Lin",
-            "guionista": "Chase Palmer, Cary Fukunaga, Gary Dauberman",
-            "director_fotografia": "Chung-hoon Chung"
+            "productores": "Barbara Muschietti, Roy Lee, Dan Lin",
+            "guionistas": "Chase Palmer, Cary Fukunaga, Gary Dauberman",
+            "direccion_de_fotografia": "Chung-hoon Chung"
         },
         "detalles": {
             "duracion": "135 minutos",
@@ -738,9 +738,9 @@ export const peliculas = [
         "sinopsis": "Una pareja asiste a un festival rural en Suecia, que pronto se convierte en una aterradora experiencia de culto.",
         "calificacion_general": 4.3,
         "crew": {
-            "productor": "Lars Knudsen, Patrik Andersson",
-            "guionista": "Ari Aster",
-            "director_fotografia": "Pawel Pogorzelski"
+            "productores": "Lars Knudsen, Patrik Andersson",
+            "guionistas": "Ari Aster",
+            "direccion_de_fotografia": "Pawel Pogorzelski"
         },
         "detalles": {
             "duracion": "148 minutos",
@@ -776,9 +776,9 @@ export const peliculas = [
         "sinopsis": "Un hombre se convierte en vigilante de un hotel aislado donde sufre una perturbadora transformación mental, poniendo en peligro a su familia.",
         "calificacion_general": 4.9,
         "crew": {
-            "productor": "Stanley Kubrick",
-            "guionista": "Stanley Kubrick, Diane Johnson",
-            "director_fotografia": "John Alcott"
+            "productores": "Stanley Kubrick",
+            "guionistas": "Stanley Kubrick, Diane Johnson",
+            "direccion_de_fotografia": "John Alcott"
         },
         "detalles": {
             "duracion": "146 minutos",
@@ -814,9 +814,9 @@ export const peliculas = [
     "sinopsis": "John Wick busca vengar la muerte de su amigo mientras enfrenta a poderosos enemigos en una batalla global.",
     "calificacion_general": 4.8,
     "crew": {
-        "productor": "Basil Iwanyk, Erica Lee, Chad Stahelski",
-        "guionista": "Shay Hatten, Michael Finch, Chad Stahelski",
-        "director_fotografia": "Dan Laustsen"
+        "productores": "Basil Iwanyk, Erica Lee, Chad Stahelski",
+        "guionistas": "Shay Hatten, Michael Finch, Chad Stahelski",
+        "direccion_de_fotografia": "Dan Laustsen"
     },
     "detalles": {
         "duracion": "169 minutos",
@@ -852,9 +852,9 @@ export const peliculas = [
     "sinopsis": "La familia Toretto se enfrenta a un nuevo villano que busca vengarse por el pasado.",
     "calificacion_general": 4.5,
     "crew": {
-        "productor": "Vin Diesel, Neal H. Moritz",
-        "guionista": "Dan Mazeau, Justin Lin",
-        "director_fotografia": "Larkin Seiple"
+        "productores": "Vin Diesel, Neal H. Moritz",
+        "guionistas": "Dan Mazeau, Justin Lin",
+        "direccion_de_fotografia": "Larkin Seiple"
     },
     "detalles": {
         "duracion": "141 minutos",
@@ -891,9 +891,9 @@ export const peliculas = [
     "sinopsis": "Los Guardianes deben proteger a uno de los suyos mientras enfrentan un nuevo enemigo en el espacio.",
     "calificacion_general": 4.7,
     "crew": {
-        "productor": "Kevin Feige, Louis D'Esposito",
-        "guionista": "James Gunn",
-        "director_fotografia": "Henry Braham"
+        "productores": "Kevin Feige, Louis D'Esposito",
+        "guionistas": "James Gunn",
+        "direccion_de_fotografia": "Henry Braham"
     },
     "detalles": {
         "duracion": "150 minutos",
@@ -930,9 +930,9 @@ export const peliculas = [
     "sinopsis": "Ethan Hunt y su equipo deben rastrear un arma secreta antes de que caiga en manos equivocadas.",
     "calificacion_general": 4.8,
     "crew": {
-        "productor": "Tom Cruise, Christopher McQuarrie",
-        "guionista": "Christopher McQuarrie, Erik Jendresen",
-        "director_fotografia": "Haitham A. Dabbour"
+        "productores": "Tom Cruise, Christopher McQuarrie",
+        "guionistas": "Christopher McQuarrie, Erik Jendresen",
+        "direccion_de_fotografia": "Haitham A. Dabbour"
     },
     "detalles": {
         "duracion": "163 minutos",
@@ -968,9 +968,9 @@ export const peliculas = [
     "sinopsis": "Un hacker descubre la verdad sobre su realidad y su papel en la guerra contra sus controladores.",
     "calificacion_general": 4.6,
     "crew": {
-        "productor": "Joel Silver",
-        "guionista": "Lana Wachowski, Lilly Wachowski",
-        "director_fotografia": "Bill Pope"
+        "productores": "Joel Silver",
+        "guionistas": "Lana Wachowski, Lilly Wachowski",
+        "direccion_de_fotografia": "Bill Pope"
     },
     "detalles": {
         "duracion": "136 minutos",
@@ -1005,9 +1005,9 @@ export const peliculas = [
     "sinopsis": "Un boxeador desconocido de Filadelfia recibe una oportunidad inesperada para luchar por el título mundial de peso pesado.",
     "calificacion_general": 4.3,
     "crew": {
-        "productor": "Robert Chartoff, Irwin Winkler",
-        "guionista": "Sylvester Stallone",
-        "director_fotografia": "James Crabe"
+        "productores": "Robert Chartoff, Irwin Winkler",
+        "guionistas": "Sylvester Stallone",
+        "direccion_de_fotografia": "James Crabe"
     },
     "detalles": {
         "duracion": "120 minutos",
@@ -1043,9 +1043,9 @@ export const peliculas = [
     "sinopsis": "En un mundo postapocalíptico, Max debe ayudar a un grupo de colonos a defenderse de una pandilla de merodeadores.",
     "calificacion_general": 4.5,
     "crew": {
-        "productor": "Byron Kennedy",
-        "guionista": "Terry Hayes, George Miller, Brian Hannant",
-        "director_fotografia": "Dean Semler"
+        "productores": "Byron Kennedy",
+        "guionistas": "Terry Hayes, George Miller, Brian Hannant",
+        "direccion_de_fotografia": "Dean Semler"
     },
     "detalles": {
         "duracion": "96 minutos",
@@ -1081,9 +1081,9 @@ export const peliculas = [
     "sinopsis": "Un ciborg asesino es enviado desde el futuro para matar a una mujer cuyo hijo será clave para el futuro de la humanidad.",
     "calificacion_general": 4.8,
     "crew": {
-        "productor": "Gale Anne Hurd",
-        "guionista": "James Cameron, Gale Anne Hurd",
-        "director_fotografia": "Adam Greenberg"
+        "productores": "Gale Anne Hurd",
+        "guionistas": "James Cameron, Gale Anne Hurd",
+        "direccion_de_fotografia": "Adam Greenberg"
     },
     "detalles": {
         "duracion": "107 minutos",
@@ -1119,9 +1119,9 @@ export const peliculas = [
     "sinopsis": "Después de sobrevivir a un ataque alienígena, Ripley vuelve al planeta con un grupo de marines para enfrentarse a los horrores que dejó atrás.",
     "calificacion_general": 4.7,
     "crew": {
-        "productor": "Gale Anne Hurd",
-        "guionista": "James Cameron",
-        "director_fotografia": "Adrian Biddle"
+        "productores": "Gale Anne Hurd",
+        "guionistas": "James Cameron",
+        "direccion_de_fotografia": "Adrian Biddle"
     },
     "detalles": {
         "duracion": "137 minutos",
@@ -1157,9 +1157,9 @@ export const peliculas = [
     "sinopsis": "Un mercenario desfigurado con un sentido del humor irreverente busca venganza contra el hombre que arruinó su vida.",
     "calificacion_general": 4.4,
     "crew": {
-        "productor": "Simon Kinberg, Ryan Reynolds, Lauren Shuler Donner",
-        "guionista": "Rhett Reese, Paul Wernick",
-        "director_fotografia": "Ken Seng"
+        "productores": "Simon Kinberg, Ryan Reynolds, Lauren Shuler Donner",
+        "guionistas": "Rhett Reese, Paul Wernick",
+        "direccion_de_fotografia": "Ken Seng"
     },
     "detalles": {
         "duracion": "108 minutos",
@@ -1194,9 +1194,9 @@ export const peliculas = [
             "sinopsis": "La amistad entre un perro y un robot se ve interrumpida cuando el robot queda atrapado en la playa.",
             "calificacion_general": 4.2,
             "crew": {
-                "productor": "Pablo Berger",
-                "guionista": "Pablo Berger",
-                "director_fotografia": "Animación"
+                "productores": "Pablo Berger",
+                "guionistas": "Pablo Berger",
+                "direccion_de_fotografia": "Animación"
             },
             "detalles": {
                 "duracion": "90 minutos",
@@ -1232,9 +1232,9 @@ export const peliculas = [
             "sinopsis": "Una abeja recién graduada de la universidad entabla una demanda contra los humanos por explotar la miel.",
             "calificacion_general": 3.8,
             "crew": {
-                "productor": "Jerry Seinfeld, Christina Steinberg",
-                "guionista": "Jerry Seinfeld, Spike Feresten",
-                "director_fotografia": "Animación"
+                "productores": "Jerry Seinfeld, Christina Steinberg",
+                "guionistas": "Jerry Seinfeld, Spike Feresten",
+                "direccion_de_fotografia": "Animación"
             },
             "detalles": {
                 "duracion": "91 minutos",
@@ -1270,9 +1270,9 @@ export const peliculas = [
             "sinopsis": "Miles Morales se convierte en Spider-Man y descubre que puede haber más versiones del héroe en otros universos.",
             "calificacion_general": 4.8,
             "crew": {
-                "productor": "Phil Lord, Christopher Miller",
-                "guionista": "Phil Lord, Rodney Rothman",
-                "director_fotografia": "Animación"
+                "productores": "Phil Lord, Christopher Miller",
+                "guionistas": "Phil Lord, Rodney Rothman",
+                "direccion_de_fotografia": "Animación"
             },
             "detalles": {
                 "duracion": "117 minutos",
@@ -1308,9 +1308,9 @@ export const peliculas = [
             "sinopsis": "Un zorro astuto planea un último atraco a tres granjas, poniendo en peligro a su familia.",
             "calificacion_general": 4.6,
             "crew": {
-                "productor": "Wes Anderson, Scott Rudin",
-                "guionista": "Wes Anderson, Noah Baumbach",
-                "director_fotografia": "Animación"
+                "productores": "Wes Anderson, Scott Rudin",
+                "guionistas": "Wes Anderson, Noah Baumbach",
+                "direccion_de_fotografia": "Animación"
             },
             "detalles": {
                 "duracion": "87 minutos",
@@ -1346,9 +1346,9 @@ export const peliculas = [
             "sinopsis": "Un prodigioso joven y su robot Baymax forman un equipo de héroes para detener una peligrosa amenaza tecnológica.",
             "calificacion_general": 4.4,
             "crew": {
-                "productor": "Roy Conli",
-                "guionista": "Jordan Roberts, Daniel Gerson",
-                "director_fotografia": "Animación"
+                "productores": "Roy Conli",
+                "guionistas": "Jordan Roberts, Daniel Gerson",
+                "direccion_de_fotografia": "Animación"
             },
             "detalles": {
                 "duracion": "102 minutos",
@@ -1384,9 +1384,9 @@ export const peliculas = [
             "sinopsis": "Un lagarto de clase que ha vivido años como mascota escolar, decide disfrutar su último año de vida ayudando a los estudiantes.",
             "calificacion_general": 4.1,
             "crew": {
-                "productor": "Adam Sandler",
-                "guionista": "Robert Marianetti, David Wachtenheim",
-                "director_fotografia": "Animación"
+                "productores": "Adam Sandler",
+                "guionistas": "Robert Marianetti, David Wachtenheim",
+                "direccion_de_fotografia": "Animación"
             },
             "detalles": {
                 "duracion": "100 minutos",
@@ -1422,9 +1422,9 @@ export const peliculas = [
             "sinopsis": "Una joven es transformada en una anciana por una bruja y busca refugio en el castillo ambulante de un mago llamado Howl.",
             "calificacion_general": 4.8,
             "crew": {
-                "productor": "Toshio Suzuki",
-                "guionista": "Hayao Miyazaki",
-                "director_fotografia": "Animación"
+                "productores": "Toshio Suzuki",
+                "guionistas": "Hayao Miyazaki",
+                "direccion_de_fotografia": "Animación"
             },
             "detalles": {
                 "duracion": "119 minutos",
@@ -1460,9 +1460,9 @@ export const peliculas = [
             "sinopsis": "Amadeo, un joven apasionado del fútbol de mesa, debe enfrentar a un exjugador profesional en una partida de vida o muerte, con la ayuda de figuras animadas del metegol.",
             "calificacion_general": 4.0,
             "crew": {
-                "productor": "Juan José Campanella",
-                "guionista": "Eduardo Sacheri, Juan José Campanella",
-                "director_fotografia": "Animación"
+                "productores": "Juan José Campanella",
+                "guionistas": "Eduardo Sacheri, Juan José Campanella",
+                "direccion_de_fotografia": "Animación"
             },
             "detalles": {
                 "duracion": "106 minutos",
@@ -1498,9 +1498,9 @@ export const peliculas = [
             "sinopsis": "Un joven vikingo llamado Hipo desafía las tradiciones al entrenar a un dragón en lugar de cazarlo, lo que cambiará el destino de su pueblo.",
             "calificacion_general": 4.7,
             "crew": {
-                "productor": "Bonnie Arnold",
-                "guionista": "Dean DeBlois, Chris Sanders",
-                "director_fotografia": "Animación"
+                "productores": "Bonnie Arnold",
+                "guionistas": "Dean DeBlois, Chris Sanders",
+                "direccion_de_fotografia": "Animación"
             },
             "detalles": {
                 "duracion": "98 minutos",
@@ -1536,9 +1536,9 @@ export const peliculas = [
             "sinopsis": "Un joven niño vive una serie de aventuras fantásticas tras mudarse a una nueva ciudad luego de la muerte de su madre.",
             "calificacion_general": 4.9,
             "crew": {
-                "productor": "Toshio Suzuki",
-                "guionista": "Hayao Miyazaki",
-                "director_fotografia": "Animación"
+                "productores": "Toshio Suzuki",
+                "guionistas": "Hayao Miyazaki",
+                "direccion_de_fotografia": "Animación"
             },
             "detalles": {
                 "duracion": "124 minutos",
@@ -1573,9 +1573,9 @@ export const peliculas = [
         "sinopsis": "Una joven alegre se convierte en la cuidadora de un hombre parapléjico, cambiando la vida de ambos para siempre.",
         "calificacion_general": 4.3,
         "crew": {
-            "productor": "Karen Rosenfelt, Alison Owen",
-            "guionista": "Jojo Moyes",
-            "director_fotografia": "Remi Adefarasin"
+            "productores": "Karen Rosenfelt, Alison Owen",
+            "guionistas": "Jojo Moyes",
+            "direccion_de_fotografia": "Remi Adefarasin"
         },
         "detalles": {
             "duracion": "110 minutos",
@@ -1611,9 +1611,9 @@ export const peliculas = [
         "sinopsis": "Una columnista decide escribir un artículo sobre cómo alejar a un hombre en 10 días, mientras su objetivo intenta hacer que se enamore de él.",
         "calificacion_general": 4.1,
         "crew": {
-            "productor": "Lynda Obst, Robert Evans",
-            "guionista": "Kristen Buckley, Brian Regan",
-            "director_fotografia": "John Bailey"
+            "productores": "Lynda Obst, Robert Evans",
+            "guionistas": "Kristen Buckley, Brian Regan",
+            "direccion_de_fotografia": "John Bailey"
         },
         "detalles": {
             "duracion": "116 minutos",
@@ -1649,9 +1649,9 @@ export const peliculas = [
         "sinopsis": "Un empresario rico contrata a una joven para que lo acompañe durante una semana, pero ambos se enamoran en el proceso.",
         "calificacion_general": 4.5,
         "crew": {
-            "productor": "Arnon Milchan, Steven Reuther",
-            "guionista": "J.F. Lawton",
-            "director_fotografia": "Charles Minsky"
+            "productores": "Arnon Milchan, Steven Reuther",
+            "guionistas": "J.F. Lawton",
+            "direccion_de_fotografia": "Charles Minsky"
         },
         "detalles": {
             "duracion": "119 minutos",
@@ -1687,9 +1687,9 @@ export const peliculas = [
         "sinopsis": "Un joven descubre que puede viajar en el tiempo y usa esta habilidad para mejorar su vida amorosa y familiar.",
         "calificacion_general": 4.6,
         "crew": {
-            "productor": "Tim Bevan, Eric Fellner",
-            "guionista": "Richard Curtis",
-            "director_fotografia": "John Guleserian"
+            "productores": "Tim Bevan, Eric Fellner",
+            "guionistas": "Richard Curtis",
+            "direccion_de_fotografia": "John Guleserian"
         },
         "detalles": {
             "duracion": "123 minutos",
@@ -1725,9 +1725,9 @@ export const peliculas = [
         "sinopsis": "Una moderna adaptación de 'La fierecilla domada', en la que un joven intenta salir con una chica rebelde para ayudar a su amigo a conquistar a su hermana.",
         "calificacion_general": 4.4,
         "crew": {
-            "productor": "Andrew Lazar",
-            "guionista": "Karen McCullah, Kirsten Smith",
-            "director_fotografia": "Mark Irwin"
+            "productores": "Andrew Lazar",
+            "guionistas": "Karen McCullah, Kirsten Smith",
+            "direccion_de_fotografia": "Mark Irwin"
         },
         "detalles": {
             "duracion": "97 minutos",
@@ -1763,9 +1763,9 @@ export const peliculas = [
         "sinopsis": "Una pareja narra la historia de su amor a lo largo de los años, desde su primer encuentro hasta los desafíos que enfrentan.",
         "calificacion_general": 4.7,
         "crew": {
-            "productor": "Lynn Harris, Mark Johnson",
-            "guionista": "Jeremy Leven",
-            "director_fotografia": "Robert Fraisse"
+            "productores": "Lynn Harris, Mark Johnson",
+            "guionistas": "Jeremy Leven",
+            "direccion_de_fotografia": "Robert Fraisse"
         },
         "detalles": {
             "duracion": "123 minutos",
@@ -1801,9 +1801,9 @@ export const peliculas = [
         "sinopsis": "La vida de un tranquilo librero de Londres cambia cuando una famosa actriz entra en su tienda y comienza una inesperada relación con él.",
         "calificacion_general": 4.5,
         "crew": {
-            "productor": "Duncan Kenworthy",
-            "guionista": "Richard Curtis",
-            "director_fotografia": "Michael Coulter"
+            "productores": "Duncan Kenworthy",
+            "guionistas": "Richard Curtis",
+            "direccion_de_fotografia": "Michael Coulter"
         },
         "detalles": {
             "duracion": "124 minutos",
@@ -1839,9 +1839,9 @@ export const peliculas = [
         "sinopsis": "Una joven con fuertes convicciones se enfrenta a los desafíos del amor y las clases sociales en la Inglaterra del siglo XIX.",
         "calificacion_general": 4.8,
         "crew": {
-            "productor": "Tim Bevan, Eric Fellner",
-            "guionista": "Deborah Moggach",
-            "director_fotografia": "Roman Osin"
+            "productores": "Tim Bevan, Eric Fellner",
+            "guionistas": "Deborah Moggach",
+            "direccion_de_fotografia": "Roman Osin"
         },
         "detalles": {
             "duracion": "129 minutos",
@@ -1877,9 +1877,9 @@ export const peliculas = [
         "sinopsis": "Una periodista con problemas de confianza se involucra en un triángulo amoroso mientras trata de superar su escepticismo sobre el amor.",
         "calificacion_general": 4.0,
         "crew": {
-            "productor": "Jerry Bruckheimer",
-            "guionista": "Richard LaGravenese",
-            "director_fotografia": "Ralf D. Bode"
+            "productores": "Jerry Bruckheimer",
+            "guionistas": "Richard LaGravenese",
+            "direccion_de_fotografia": "Ralf D. Bode"
         },
         "detalles": {
             "duracion": "113 minutos",
@@ -1915,9 +1915,9 @@ export const peliculas = [
         "sinopsis": "Una joven descubre que su novio pertenece a una de las familias más ricas de Singapur y se enfrenta a las presiones de su estatus social.",
         "calificacion_general": 4.5,
         "crew": {
-            "productor": "Nina Jacobson, Brad Simpson",
-            "guionista": "Peter Chiarelli, Adele Lim",
-            "director_fotografia": "Vanja Cernjul"
+            "productores": "Nina Jacobson, Brad Simpson",
+            "guionistas": "Peter Chiarelli, Adele Lim",
+            "direccion_de_fotografia": "Vanja Cernjul"
         },
         "detalles": {
             "duracion": "120 minutos",
@@ -1942,7 +1942,7 @@ export const peliculas = [
 export const series = [
     {   "tipo":"serie",
         "titulo": "The Last of Us",
-        "anio": "2023",
+        "fecha_estreno": "2023",
         "creador": "Craig Mazin, Neil Druckmann",
         "genero": ["Drama", "Acción", "Aventura"],
         "sinopsis": "Un hombre y una joven deben atravesar un Estados Unidos post-apocalíptico plagado de infectados y sobrevivientes hostiles.",
@@ -1976,7 +1976,7 @@ export const series = [
     {
         "tipo":"serie",
         "titulo": "Stranger Things",
-        "anio": "2016",
+        "fecha_estreno": "2016",
         "creador": "The Duffer Brothers",
         "genero": ["Ciencia Ficción", "Terror", "Drama"],
         "sinopsis": "Un grupo de niños en un pequeño pueblo enfrenta fenómenos sobrenaturales mientras buscan a su amigo desaparecido.",
@@ -2010,7 +2010,7 @@ export const series = [
     {
         "tipo":"serie",
         "titulo": "Breaking Bad",
-        "anio": "2008",
+        "fecha_estreno": "2008",
         "creador": "Vince Gilligan",
         "genero": ["Drama", "Crimen"],
         "sinopsis": "Un profesor de química se convierte en fabricante de metanfetaminas después de ser diagnosticado con cáncer.",
@@ -2044,7 +2044,7 @@ export const series = [
     {
         "tipo":"serie",
         "titulo": "The Crown",
-        "anio": "2016",
+        "fecha_estreno": "2016",
         "creador": "Peter Morgan",
         "genero": ["Drama", "Biografía"],
         "sinopsis": "La vida de la reina Isabel II desde su boda hasta los eventos políticos que han dado forma a la segunda mitad del siglo XX.",
@@ -2078,7 +2078,7 @@ export const series = [
     {
         "tipo":"serie",
         "titulo": "Game of Thrones",
-        "anio": "2011-04-17",
+        "fecha_estreno": "2011-04-17",
         "creador": "David Benioff, D.B. Weiss",
         "genero": ["Fantástico", "Drama"],
         "sinopsis": "Nobles familias luchan por el control del Trono de Hierro en el continente ficticio de Westeros.",
@@ -2112,7 +2112,7 @@ export const series = [
     {
         "tipo":"serie",
         "titulo": "The Mandalorian",
-        "anio": "2019",
+        "fecha_estreno": "2019",
         "creador": "Jon Favreau",
         "genero": ["Ciencia Ficción", "Aventura"],
         "sinopsis": "Un cazarrecompensas en los confines de la galaxia, lejos de la autoridad de la Nueva República.",
@@ -2146,7 +2146,7 @@ export const series = [
     {
         "tipo":"serie",
         "titulo": "Fargo",
-        "anio": "2014",
+        "fecha_estreno": "2014",
         "creador": "Noah Hawley",
         "genero": ["Crimen", "Drama", "Comedia"],
         "sinopsis": "Historias interconectadas de crimen en la fría Minnesota, inspiradas en la película de los hermanos Coen.",
@@ -2180,7 +2180,7 @@ export const series = [
     {
         "tipo":"serie",
         "titulo": "The Witcher",
-        "anio": "2019",
+        "fecha_estreno": "2019",
         "creador": "Lauren Schmidt Hissrich",
         "genero": ["Fantástico", "Acción", "Aventura"],
         "sinopsis": "Un cazador de monstruos y su viaje a través de un mundo lleno de magia y criaturas sobrenaturales.",
@@ -2214,7 +2214,7 @@ export const series = [
     {
         "tipo":"serie",
         "titulo": "Black Mirror",
-        "anio": "2011",
+        "fecha_estreno": "2011",
         "creador": "Charlie Brooker",
         "genero": ["Ciencia Ficción", "Antología"],
         "sinopsis": "Cada episodio explora la relación entre la tecnología y la sociedad de formas inquietantes y provocativas.",
@@ -2248,7 +2248,7 @@ export const series = [
     {
         "tipo":"serie",
         "titulo": "La Casa De Papel",
-        "anio": "2017",
+        "fecha_estreno": "2017",
         "creador": "Álex Pina",
         "genero": ["Crimen", "Drama", "Suspenso"],
         "sinopsis": "Un grupo de criminales realiza el mayor atraco a la Real Casa de la Moneda de España, bajo la dirección del 'Profesor'.",
