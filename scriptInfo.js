@@ -6,6 +6,8 @@ import { peliculas, series } from "/datos.js";
 const params = new URLSearchParams(window.location.search);
 const titulo = params.get('titulo');
 const tipo = params.get('tipo');
+console.log(titulo);
+console.log(tipo);
 
 if(tipo==='serie'){
     document.getElementById('title').textContent = 'Serie';
@@ -14,6 +16,7 @@ if(tipo==='serie'){
 }else{
     document.getElementById('title').textContent = 'Pelicula'
     const peliculaSeleccionada = peliculas.find(item => item.titulo === titulo);
+    console.log(peliculaSeleccionada);
     mostrarPelicula(peliculaSeleccionada);
 }
 
@@ -220,3 +223,13 @@ function mostrarCardReview (seleccion){
 document.getElementById('guardar').onclick = function() {
     document.getElementById('popup_card').style.display = 'none';
   }
+
+  document.getElementById('agregar_review').onclick = function() {
+    document.getElementById('popup_card').style.display = 'flex';
+    console.log("Apreto boton para agregar review");
+   }
+   
+
+     document.getElementById('cerrar_popup').onclick = function() {
+       document.getElementById('popup_card').style.display = 'none';
+     }

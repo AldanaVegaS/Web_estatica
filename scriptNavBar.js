@@ -7,7 +7,7 @@ const logo = document.createElement('li');
 logo.className = 'logo';
 
 const a = document.createElement('a');
-a.href = "home_prueba.html";
+a.href = "home.html";
 const logoImg = document.createElement('img');
 logoImg.className = 'logo';
 logoImg.src = "imagenes/logo1.png";

@@ -4,7 +4,7 @@
 <head>
     <title>Home</title>
     <link rel="stylesheet" href="styleshome.css">
-    <link rel="stylesheet" href="styles.css" type="text/css" />
+    <link rel="stylesheet" href="stylesGeneral.css">
     <link rel="icon" href="./imagenes/logo2.ico">
     <link href="https://fonts.googleapis.com/css2?family=Material+Icons+Outlined" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css2?family=Material+Icons+Outlined" rel="stylesheet">
@@ -24,11 +24,28 @@
                     <button onclick="moverse('popular','iz')" class="material-icons-outlined"
                         id="izquierda">chevron_left</button>
                     <div class="borde">
-                        <figure class="contenedor" id="popular">
+                        <figure class="contenedor" id="peliculas_popular">
                             <!--Las imagenes se ubican en script.js-->
                         </figure>
                         <button onclick="moverse('popular','der')" class="material-icons-outlined"
-                            id="derecha">chevron_right</i>
+                            id="derecha">chevron_right</button>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section>
+            <div>
+                <h1>Series populares</h1>
+                <div class="wrapper">
+                    <button onclick="moverse('popular','iz')" class="material-icons-outlined"
+                        id="izquierda">chevron_left</button>
+                    <div class="borde">
+                        <figure class="contenedor" id="series_popular">
+                            <!--Las imagenes se ubican en script.js-->
+                        </figure>
+                        <button onclick="moverse('popular','der')" class="material-icons-outlined"
+                            id="derecha">chevron_right</button>
                     </div>
                 </div>
             </div>
@@ -46,7 +63,7 @@
                         </figure>
                     </div>
                     <button onclick="moverse('recomendado','der')" class="material-icons-outlined"
-                        id="derecha">chevron_right</i>
+                        id="derecha">chevron_right</button>
                 </div>
             </div>
 
@@ -64,7 +81,7 @@
                         </figure>
                     </div>
                     <button onclick="moverse('accion','der')" class="material-icons-outlined"
-                        id="derecha">chevron_right</i>
+                        id="derecha">chevron_right</button>
                 </div>
             </div>
         </section>
@@ -81,7 +98,7 @@
                         </figure>
                     </div>
                     <button onclick="moverse('terror','der')" class="material-icons-outlined"
-                        id="derecha">chevron_right</i>
+                        id="derecha">chevron_right</button>
                 </div>
 
             </div>
@@ -98,7 +115,7 @@
                         </figure>
                     </div>
                     <button onclick="moverse('romance','der')" class="material-icons-outlined"
-                        id="derecha">chevron_right</i>
+                        id="derecha">chevron_right</button>
                 </div>
 
             </div>
@@ -115,15 +132,15 @@
                         </figure>
                     </div>
                     <button onclick="moverse('animacion','der')" class="material-icons-outlined"
-                        id="derecha">chevron_right</i>
+                        id="derecha">chevron_right</button>
                 </div>
             </div>
         </section>
 
     </main>
 
-    <script src="./scriptHome.js"></script>
-    <script src="./scriptNavBar.js"></script>
+    <script src="./scriptHome.js" type="module"></script>
+    <script src="./scriptNavBar.js" type="module"></script>
 </body>
 
 </html>

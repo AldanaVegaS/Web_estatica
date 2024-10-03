@@ -1,5 +1,6 @@
-export const peliculas = [
+export const peliculasPopulares = [
     {
+        "tipo":"pelicula",
         "titulo": "Inception",
         "fecha_estreno": "2010-07-16",
         "director": "Christopher Nolan",
@@ -27,17 +28,18 @@ export const peliculas = [
         "reviews": [
             {
                 "usuario": "dreamer123",
-                "comentario": "Una película que te hace cuestionar la realidad. Increíble.",
+                "contenido": "Una película que te hace cuestionar la realidad. Increíble.",
                 "calificacion": 5
             },
             {
                 "usuario": "filmlover88",
-                "comentario": "La narrativa es un rompecabezas que me mantuvo al borde del asiento.",
+                "contenido": "La narrativa es un rompecabezas que me mantuvo al borde del asiento.",
                 "calificacion": 4
             }
         ]
     },
     {
+        "tipo":"pelicula",
         "titulo": "The Godfather",
         "fecha_estreno": "1972-03-24",
         "director": "Francis Ford Coppola",
@@ -65,17 +67,18 @@ export const peliculas = [
         "reviews": [
             {
                 "usuario": "mafiaboy",
-                "comentario": "Un clásico que nunca pasa de moda. La actuación de Brando es legendaria.",
+                "contenido": "Un clásico que nunca pasa de moda. La actuación de Brando es legendaria.",
                 "calificacion": 5
             },
             {
                 "usuario": "cinemagic",
-                "comentario": "Una obra maestra sobre poder y familia.",
+                "contenido": "Una obra maestra sobre poder y familia.",
                 "calificacion": 5
             }
         ]
     },
     {
+        "tipo":"pelicula",
         "titulo": "The Dark Knight",
         "fecha_estreno": "2008-07-18",
         "director": "Christopher Nolan",
@@ -104,17 +107,18 @@ export const peliculas = [
         "reviews": [
             {
                 "usuario": "jokerfan99",
-                "comentario": "Heath Ledger se robó la película. Una actuación inolvidable.",
+                "contenido": "Heath Ledger se robó la película. Una actuación inolvidable.",
                 "calificacion": 5
             },
             {
                 "usuario": "batmanfan23",
-                "comentario": "El mejor filme de superhéroes de todos los tiempos.",
+                "contenido": "El mejor filme de superhéroes de todos los tiempos.",
                 "calificacion": 5
             }
         ]
     },
     {
+        "tipo":"pelicula",
         "titulo": "Pulp Fiction",
         "fecha_estreno": "1994-10-14",
         "director": "Quentin Tarantino",
@@ -142,17 +146,18 @@ export const peliculas = [
         "reviews": [
             {
                 "usuario": "tarantinofan",
-                "comentario": "Las conversaciones son lo mejor. Estilo único.",
+                "contenido": "Las conversaciones son lo mejor. Estilo único.",
                 "calificacion": 5
             },
             {
                 "usuario": "cinephile89",
-                "comentario": "Un viaje caótico y fascinante a través de la vida criminal.",
+                "contenido": "Un viaje caótico y fascinante a través de la vida criminal.",
                 "calificacion": 4
             }
         ]
     },
     {
+        "tipo":"pelicula",
         "titulo": "The Shawshank Redemption",
         "fecha_estreno": "1994-09-23",
         "director": "Frank Darabont",
@@ -180,17 +185,18 @@ export const peliculas = [
         "reviews": [
             {
                 "usuario": "hopefulsoul",
-                "comentario": "Una historia de esperanza que me tocó el corazón.",
+                "contenido": "Una historia de esperanza que me tocó el corazón.",
                 "calificacion": 5
             },
             {
                 "usuario": "prisoner_of_time",
-                "comentario": "Una película que todos deberían ver al menos una vez.",
+                "contenido": "Una película que todos deberían ver al menos una vez.",
                 "calificacion": 4
             }
         ]
     },
     {
+        "tipo":"pelicula",
         "titulo": "The Matrix",
         "fecha_estreno": "1999-03-31",
         "director": "Lana Wachowski, Lilly Wachowski",
@@ -218,17 +224,18 @@ export const peliculas = [
         "reviews": [
             {
                 "usuario": "neo_lover",
-                "comentario": "Revolucionó el cine. Visualmente impresionante.",
+                "contenido": "Revolucionó el cine. Visualmente impresionante.",
                 "calificacion": 5
             },
             {
                 "usuario": "cypher_here",
-                "comentario": "Una película que me hizo cuestionar todo.",
+                "contenido": "Una película que me hizo cuestionar todo.",
                 "calificacion": 4
             }
         ]
     },
     {
+        "tipo":"pelicula",
         "titulo": "Forrest Gump",
         "fecha_estreno": "1994-07-06",
         "director": "Robert Zemeckis",
@@ -256,17 +263,18 @@ export const peliculas = [
         "reviews": [
             {
                 "usuario": "gumpfan",
-                "comentario": "Una historia hermosa sobre la vida y la amistad.",
+                "contenido": "Una historia hermosa sobre la vida y la amistad.",
                 "calificacion": 5
             },
             {
                 "usuario": "nostalgicviewer",
-                "comentario": "Me hizo reír y llorar al mismo tiempo.",
+                "contenido": "Me hizo reír y llorar al mismo tiempo.",
                 "calificacion": 5
             }
         ]
     },
     {
+        "tipo":"pelicula",
         "titulo": "Gladiator",
         "fecha_estreno": "2000-05-05",
         "director": "Ridley Scott",
@@ -293,17 +301,18 @@ export const peliculas = [
         "reviews": [
             {
                 "usuario": "gladiatorfan",
-                "comentario": "Una historia épica llena de emoción y acción.",
+                "contenido": "Una historia épica llena de emoción y acción.",
                 "calificacion": 5
             },
             {
                 "usuario": "romeo_reviewer",
-                "comentario": "La batalla final es simplemente increíble.",
+                "contenido": "La batalla final es simplemente increíble.",
                 "calificacion": 5
             }
         ]
     },
     {
+        "tipo":"pelicula",
         "titulo": "Avatar",
         "fecha_estreno": "2009-12-18",
         "director": "James Cameron",
@@ -331,17 +340,18 @@ export const peliculas = [
         "reviews": [
             {
                 "usuario": "pandorafreak",
-                "comentario": "Visualmente deslumbrante, una experiencia cinematográfica única.",
+                "contenido": "Visualmente deslumbrante, una experiencia cinematográfica única.",
                 "calificacion": 5
             },
             {
                 "usuario": "alienadventurer",
-                "comentario": "La historia puede ser simple, pero el mundo que crea es impresionante.",
+                "contenido": "La historia puede ser simple, pero el mundo que crea es impresionante.",
                 "calificacion": 4
             }
         ]
     },
     {
+        "tipo":"pelicula",
         "titulo": "Spirited Away",
         "fecha_estreno": "2001-07-20",
         "director": "Hayao Miyazaki",
@@ -370,17 +380,18 @@ export const peliculas = [
         "reviews": [
             {
                 "usuario": "animefan123",
-                "comentario": "Una obra maestra de la animación, llena de imaginación y emoción.",
+                "contenido": "Una obra maestra de la animación, llena de imaginación y emoción.",
                 "calificacion": 5
             },
             {
                 "usuario": "mystic_viewer",
-                "comentario": "Cada escena es un deleite visual y emocional.",
+                "contenido": "Cada escena es un deleite visual y emocional.",
                 "calificacion": 5
             }
         ]
     },
     {
+        "tipo":"pelicula",
         "titulo": "Jurassic Park",
         "fecha_estreno": "1993-06-11",
         "director": "Steven Spielberg",
@@ -409,17 +420,21 @@ export const peliculas = [
         "reviews": [
             {
                 "usuario": "dino_adventurer",
-                "comentario": "Una experiencia de aventuras que me hizo amar a los dinosaurios.",
+                "contenido": "Una experiencia de aventuras que me hizo amar a los dinosaurios.",
                 "calificacion": 5
             },
             {
                 "usuario": "film_geek",
-                "comentario": "Los efectos especiales siguen siendo impresionantes incluso décadas después.",
+                "contenido": "Los efectos especiales siguen siendo impresionantes incluso décadas después.",
                 "calificacion": 4
             }
         ]
-    },
+    }
+]
+
+export const terror = [
     {
+        "tipo":"pelicula",
         "titulo": "Talk to Me",
         "fecha_estreno": "2023-07-28",
         "director": "Danny Philippou, Michael Philippou",
@@ -447,17 +462,18 @@ export const peliculas = [
         "reviews": [
             {
                 "usuario": "scarymoviefan",
-                "comentario": "Una de las mejores películas de terror del año.",
+                "contenido": "Una de las mejores películas de terror del año.",
                 "calificacion": 5
             },
             {
                 "usuario": "horrorlover",
-                "comentario": "Original y aterradora, definitivamente no es para los débiles de corazón.",
+                "contenido": "Original y aterradora, definitivamente no es para los débiles de corazón.",
                 "calificacion": 4.5
             }
         ]
     },
     {
+        "tipo":"pelicula",
         "titulo": "The Boogeyman",
         "fecha_estreno": "2023-06-02",
         "director": "Rob Savage",
@@ -485,17 +501,18 @@ export const peliculas = [
         "reviews": [
             {
                 "usuario": "horrorfreak",
-                "comentario": "Terror psicológico en su máxima expresión.",
+                "contenido": "Terror psicológico en su máxima expresión.",
                 "calificacion": 4.5
             },
             {
                 "usuario": "ghosthunter",
-                "comentario": "Sustos bien ejecutados y un gran guion.",
+                "contenido": "Sustos bien ejecutados y un gran guion.",
                 "calificacion": 4
             }
         ]
     },
     {
+        "tipo":"pelicula",
         "titulo": "Evil Dead Rise",
         "fecha_estreno": "2023-04-21",
         "director": "Lee Cronin",
@@ -523,17 +540,18 @@ export const peliculas = [
         "reviews": [
             {
                 "usuario": "horrorenthusiast",
-                "comentario": "Una reinvención brillante y aterradora de la saga.",
+                "contenido": "Una reinvención brillante y aterradora de la saga.",
                 "calificacion": 4.8
             },
             {
                 "usuario": "bloodandgore",
-                "comentario": "Sangrienta y divertida, perfecta para los fans del terror.",
+                "contenido": "Sangrienta y divertida, perfecta para los fans del terror.",
                 "calificacion": 4.5
             }
         ]
     },
     {
+        "tipo":"pelicula",
         "titulo": "The Nun II",
         "fecha_estreno": "2023-09-08",
         "director": "Michael Chaves",
@@ -561,17 +579,18 @@ export const peliculas = [
         "reviews": [
             {
                 "usuario": "nunfan2023",
-                "comentario": "Las escenas de terror son impresionantes.",
+                "contenido": "Las escenas de terror son impresionantes.",
                 "calificacion": 4.5
             },
             {
                 "usuario": "horrorlovers",
-                "comentario": "Una buena continuación de la saga.",
+                "contenido": "Una buena continuación de la saga.",
                 "calificacion": 4
             }
         ]
     },
     {
+        "tipo":"pelicula",
         "titulo": "Pearl",
         "fecha_estreno": "2022-09-16",
         "director": "Ti West",
@@ -599,17 +618,18 @@ export const peliculas = [
         "reviews": [
             {
                 "usuario": "horrorcritic",
-                "comentario": "Mia Goth ofrece una actuación sobresaliente.",
+                "contenido": "Mia Goth ofrece una actuación sobresaliente.",
                 "calificacion": 4.8
             },
             {
                 "usuario": "dramaqueen",
-                "comentario": "Una historia inquietante que explora la locura y la ambición.",
+                "contenido": "Una historia inquietante que explora la locura y la ambición.",
                 "calificacion": 4.5
             }
         ]
     },
     {
+        "tipo":"pelicula",
         "titulo": "Hereditary",
         "fecha_estreno": "2018-06-08",
         "director": "Ari Aster",
@@ -637,16 +657,18 @@ export const peliculas = [
         "reviews": [
             {
                 "usuario": "horrormaster",
-                "comentario": "Una obra maestra del terror moderno que deja una huella duradera.",
+                "contenido": "Una obra maestra del terror moderno que deja una huella duradera.",
                 "calificacion": 5
             },
             {
                 "usuario": "psychologicalhorrorfan",
-                "comentario": "Intenso y perturbador, con actuaciones impresionantes.",
+                "contenido": "Intenso y perturbador, con actuaciones impresionantes.",
                 "calificacion": 4.7
             }
         ]
-    }, {
+    }, 
+    {
+        "tipo":"pelicula",
         "titulo": "El Exorcista",
         "fecha_estreno": "1973-12-26",
         "director": "William Friedkin",
@@ -674,17 +696,18 @@ export const peliculas = [
         "reviews": [
             {
                 "usuario": "horror_lover",
-                "comentario": "Una de las películas más aterradoras de todos los tiempos.",
+                "contenido": "Una de las películas más aterradoras de todos los tiempos.",
                 "calificacion": 5
             },
             {
                 "usuario": "fear_fanatic",
-                "comentario": "Me dejó con pesadillas por semanas.",
+                "contenido": "Me dejó con pesadillas por semanas.",
                 "calificacion": 4.8
             }
         ]
     },
     {
+        "tipo":"pelicula",
         "titulo": "It",
         "fecha_estreno": "2017-09-08",
         "director": "Andy Muschietti",
@@ -712,17 +735,18 @@ export const peliculas = [
         "reviews": [
             {
                 "usuario": "losers_club_member",
-                "comentario": "Una adaptación excelente y aterradora.",
+                "contenido": "Una adaptación excelente y aterradora.",
                 "calificacion": 5
             },
             {
                 "usuario": "clownphobia_101",
-                "comentario": "Me aterrorizó, pero fue muy entretenida.",
+                "contenido": "Me aterrorizó, pero fue muy entretenida.",
                 "calificacion": 4.5
             }
         ]
     },
     {
+        "tipo":"pelicula",
         "titulo": "Midsommar",
         "fecha_estreno": "2019-07-03",
         "director": "Ari Aster",
@@ -750,17 +774,18 @@ export const peliculas = [
         "reviews": [
             {
                 "usuario": "cult_watcher",
-                "comentario": "Una película inquietante con una atmósfera sofocante.",
+                "contenido": "Una película inquietante con una atmósfera sofocante.",
                 "calificacion": 4.7
             },
             {
                 "usuario": "bright_horror_fan",
-                "comentario": "Visualmente hermosa pero profundamente perturbadora.",
+                "contenido": "Visualmente hermosa pero profundamente perturbadora.",
                 "calificacion": 4
             }
         ]
     },
     {
+        "tipo":"pelicula",
         "titulo": "El Resplandor",
         "fecha_estreno": "1980-05-23",
         "director": "Stanley Kubrick",
@@ -788,17 +813,21 @@ export const peliculas = [
         "reviews": [
             {
                 "usuario": "overlook_guest",
-                "comentario": "Una obra maestra del terror psicológico.",
+                "contenido": "Una obra maestra del terror psicológico.",
                 "calificacion": 5
             },
             {
                 "usuario": "redrum_fan",
-                "comentario": "La actuación de Jack Nicholson es icónica.",
+                "contenido": "La actuación de Jack Nicholson es icónica.",
                 "calificacion": 5
             }
         ]
-    },
-    {
+    }
+
+]
+
+export const accion = [{
+    "tipo":"pelicula",
     "titulo": "John Wick: Chapter 4",
     "fecha_estreno": "2023-03-24",
     "director": "Chad Stahelski",
@@ -826,17 +855,18 @@ export const peliculas = [
     "reviews": [
         {
             "usuario": "actionfanatic",
-            "comentario": "Una explosión de acción de principio a fin, ¡no te la puedes perder!",
+            "contenido": "Una explosión de acción de principio a fin, ¡no te la puedes perder!",
             "calificacion": 5
         },
         {
             "usuario": "stuntlover",
-            "comentario": "Las secuencias de pelea son impresionantes.",
+            "contenido": "Las secuencias de pelea son impresionantes.",
             "calificacion": 4.9
         }
     ]
 },
 {
+    "tipo":"pelicula",
     "titulo": "Fast & Furious X",
     "fecha_estreno": "2023-05-19",
     "director": "Louis Leterrier",
@@ -864,17 +894,18 @@ export const peliculas = [
     "reviews": [
         {
             "usuario": "carlover",
-            "comentario": "¡Acción trepidante y coches espectaculares!",
+            "contenido": "¡Acción trepidante y coches espectaculares!",
             "calificacion": 4.6
         },
         {
             "usuario": "familyfirst",
-            "comentario": "Siempre un placer ver a esta familia unida.",
+            "contenido": "Siempre un placer ver a esta familia unida.",
             "calificacion": 4.3
         }
     ]
 },
 {
+    "tipo":"pelicula",
     "titulo": "Guardians of the Galaxy Vol. 3",
     "fecha_estreno": "2023-05-05",
     "director": "James Gunn",
@@ -903,17 +934,18 @@ export const peliculas = [
     "reviews": [
         {
             "usuario": "marvelmaniac",
-            "comentario": "Una emocionante aventura espacial llena de risas y acción.",
+            "contenido": "Una emocionante aventura espacial llena de risas y acción.",
             "calificacion": 5
         },
         {
             "usuario": "teamguardians",
-            "comentario": "Los mejores momentos de la trilogía.",
+            "contenido": "Los mejores momentos de la trilogía.",
             "calificacion": 4.8
         }
     ]
 },
 {
+    "tipo":"pelicula",
     "titulo": "Mission: Impossible - Dead Reckoning Part One",
     "fecha_estreno": "2023-07-12",
     "director": "Christopher McQuarrie",
@@ -942,17 +974,18 @@ export const peliculas = [
     "reviews": [
         {
             "usuario": "spyfan",
-            "comentario": "La mejor película de acción del año, con acrobacias impresionantes.",
+            "contenido": "La mejor película de acción del año, con acrobacias impresionantes.",
             "calificacion": 5
         },
         {
             "usuario": "missionpossible",
-            "comentario": "Tom Cruise sigue superándose en cada entrega.",
+            "contenido": "Tom Cruise sigue superándose en cada entrega.",
             "calificacion": 4.9
         }
     ]
 },
 {
+    "tipo":"pelicula",
     "titulo": "The Matrix",
     "fecha_estreno": "1999-03-31",
     "director": "Lana Wachowski, Lilly Wachowski",
@@ -980,16 +1013,18 @@ export const peliculas = [
     "reviews": [
         {
             "usuario": "neo_lover",
-            "comentario": "Revolucionó el cine. Visualmente impresionante.",
+            "contenido": "Revolucionó el cine. Visualmente impresionante.",
             "calificacion": 5
         },
         {
             "usuario": "cypher_here",
-            "comentario": "Una película que me hizo cuestionar todo.",
+            "contenido": "Una película que me hizo cuestionar todo.",
             "calificacion": 4
         }
     ]
-}, {
+}, 
+{
+    "tipo":"pelicula",
     "titulo": "Rocky",
     "fecha_estreno": "1976-12-03",
     "director": "John G. Avildsen",
@@ -1017,17 +1052,18 @@ export const peliculas = [
     "reviews": [
         {
             "usuario": "boxingfan123",
-            "comentario": "Una historia inspiradora, Sylvester Stallone es perfecto.",
+            "contenido": "Una historia inspiradora, Sylvester Stallone es perfecto.",
             "calificacion": 5
         },
         {
             "usuario": "moviebuff99",
-            "comentario": "Aunque predecible, es una gran película de superación.",
+            "contenido": "Aunque predecible, es una gran película de superación.",
             "calificacion": 4
         }
     ]
 },
 {
+    "tipo":"pelicula",
     "titulo": "Mad Max 2",
     "fecha_estreno": "1981-12-24",
     "director": "George Miller",
@@ -1055,17 +1091,18 @@ export const peliculas = [
     "reviews": [
         {
             "usuario": "roadwarrior85",
-            "comentario": "La mejor película de acción postapocalíptica.",
+            "contenido": "La mejor película de acción postapocalíptica.",
             "calificacion": 5
         },
         {
             "usuario": "apocalypsefan",
-            "comentario": "Gran secuela, aunque un poco exagerada a veces.",
+            "contenido": "Gran secuela, aunque un poco exagerada a veces.",
             "calificacion": 4
         }
     ]
 },
 {
+    "tipo":"pelicula",
     "titulo": "The Terminator",
     "fecha_estreno": "1984-10-26",
     "director": "James Cameron",
@@ -1093,17 +1130,18 @@ export const peliculas = [
     "reviews": [
         {
             "usuario": "cyberdynefan",
-            "comentario": "Un clásico absoluto de la ciencia ficción.",
+            "contenido": "Un clásico absoluto de la ciencia ficción.",
             "calificacion": 5
         },
         {
             "usuario": "time_traveler_101",
-            "comentario": "Increíble para su época, aunque con algunos clichés.",
+            "contenido": "Increíble para su época, aunque con algunos clichés.",
             "calificacion": 4.5
         }
     ]
 },
 {
+    "tipo":"pelicula",
     "titulo": "Aliens",
     "fecha_estreno": "1986-07-18",
     "director": "James Cameron",
@@ -1131,17 +1169,18 @@ export const peliculas = [
     "reviews": [
         {
             "usuario": "xenomorph_hunter",
-            "comentario": "La mejor secuela que he visto en mi vida.",
+            "contenido": "La mejor secuela que he visto en mi vida.",
             "calificacion": 5
         },
         {
             "usuario": "colonial_marine",
-            "comentario": "Terror y acción mezclados de manera magistral.",
+            "contenido": "Terror y acción mezclados de manera magistral.",
             "calificacion": 4.8
         }
     ]
 },
 {
+    "tipo":"pelicula",
     "titulo": "Deadpool",
     "fecha_estreno": "2016-02-12",
     "director": "Tim Miller",
@@ -1169,17 +1208,23 @@ export const peliculas = [
     "reviews": [
         {
             "usuario": "merc_with_a_mouth",
-            "comentario": "Una película hilarante y llena de acción.",
+            "contenido": "Una película hilarante y llena de acción.",
             "calificacion": 5
         },
         {
             "usuario": "hero_fan",
-            "comentario": "Un poco sobrevalorada, pero entretenida.",
+            "contenido": "Un poco sobrevalorada, pero entretenida.",
             "calificacion": 4
         }
     ]
-},
-{
+}
+
+]
+
+export const animacion =
+    [
+        {
+            "tipo":"pelicula",
             "titulo": "Robot Dreams",
             "fecha_estreno": "2023-09-08",
             "director": "Pablo Berger",
@@ -1206,17 +1251,18 @@ export const peliculas = [
             "reviews": [
                 {
                     "usuario": "dreamy_robot",
-                    "comentario": "Un viaje emocional y visualmente hermoso.",
+                    "contenido": "Un viaje emocional y visualmente hermoso.",
                     "calificacion": 4.5
                 },
                 {
                     "usuario": "beachbot",
-                    "comentario": "Enternecedora y creativa, aunque un poco lenta.",
+                    "contenido": "Enternecedora y creativa, aunque un poco lenta.",
                     "calificacion": 4
                 }
             ]
         },
         {
+            "tipo":"pelicula",
             "titulo": "Bee Movie",
             "fecha_estreno": "2007-11-02",
             "director": "Simon J. Smith, Steve Hickner",
@@ -1244,17 +1290,18 @@ export const peliculas = [
             "reviews": [
                 {
                     "usuario": "honey_defender",
-                    "comentario": "Divertida y con un mensaje inusual.",
+                    "contenido": "Divertida y con un mensaje inusual.",
                     "calificacion": 4
                 },
                 {
                     "usuario": "buzz_buzz",
-                    "comentario": "Extraña pero entretenida, aunque no para todos.",
+                    "contenido": "Extraña pero entretenida, aunque no para todos.",
                     "calificacion": 3.5
                 }
             ]
         },
         {
+            "tipo":"pelicula",
             "titulo": "Spider-Man: Into the Spider-Verse",
             "fecha_estreno": "2018-12-14",
             "director": "Bob Persichetti, Peter Ramsey, Rodney Rothman",
@@ -1282,17 +1329,18 @@ export const peliculas = [
             "reviews": [
                 {
                     "usuario": "spidey_fan_99",
-                    "comentario": "La mejor película de Spider-Man hasta la fecha.",
+                    "contenido": "La mejor película de Spider-Man hasta la fecha.",
                     "calificacion": 5
                 },
                 {
                     "usuario": "multiverse_traveler",
-                    "comentario": "Visualmente impactante y muy entretenida.",
+                    "contenido": "Visualmente impactante y muy entretenida.",
                     "calificacion": 4.8
                 }
             ]
         },
         {
+            "tipo":"pelicula",
             "titulo": "Fantastic Mr. Fox",
             "fecha_estreno": "2009-11-25",
             "director": "Wes Anderson",
@@ -1320,17 +1368,18 @@ export const peliculas = [
             "reviews": [
                 {
                     "usuario": "foxy_plan",
-                    "comentario": "Un filme ingenioso y lleno de encanto.",
+                    "contenido": "Un filme ingenioso y lleno de encanto.",
                     "calificacion": 4.7
                 },
                 {
                     "usuario": "wild_wild_animal",
-                    "comentario": "Wes Anderson en su mejor forma, ideal para toda la familia.",
+                    "contenido": "Wes Anderson en su mejor forma, ideal para toda la familia.",
                     "calificacion": 4.5
                 }
             ]
         },
         {
+            "tipo":"pelicula",
             "titulo": "Grandes Héroes",
             "fecha_estreno": "2014-11-07",
             "director": "Don Hall, Chris Williams",
@@ -1358,17 +1407,18 @@ export const peliculas = [
             "reviews": [
                 {
                     "usuario": "hiro_and_baymax",
-                    "comentario": "Emocionante y con un gran corazón.",
+                    "contenido": "Emocionante y con un gran corazón.",
                     "calificacion": 4.5
                 },
                 {
                     "usuario": "techie_hero",
-                    "comentario": "Diversión y tecnología combinados perfectamente.",
+                    "contenido": "Diversión y tecnología combinados perfectamente.",
                     "calificacion": 4.2
                 }
             ]
         },
         {
+            "tipo":"pelicula",
             "titulo": "Leo",
             "fecha_estreno": "2023-11-21",
             "director": "Robert Marianetti, David Wachtenheim",
@@ -1396,17 +1446,18 @@ export const peliculas = [
             "reviews": [
                 {
                     "usuario": "lizard_fan",
-                    "comentario": "Divertida y emotiva, Adam Sandler sorprende con su interpretación.",
+                    "contenido": "Divertida y emotiva, Adam Sandler sorprende con su interpretación.",
                     "calificacion": 4.2
                 },
                 {
                     "usuario": "classroom_lizard",
-                    "comentario": "Tierna historia con buen humor y lecciones de vida.",
+                    "contenido": "Tierna historia con buen humor y lecciones de vida.",
                     "calificacion": 4
                 }
             ]
         },
         {
+            "tipo":"pelicula",
             "titulo": "El Castillo Ambulante",
             "fecha_estreno": "2004-11-20",
             "director": "Hayao Miyazaki",
@@ -1434,17 +1485,18 @@ export const peliculas = [
             "reviews": [
                 {
                     "usuario": "miyazaki_lover",
-                    "comentario": "Un festín visual con una historia conmovedora.",
+                    "contenido": "Un festín visual con una historia conmovedora.",
                     "calificacion": 5
                 },
                 {
                     "usuario": "howls_moving_castle_fan",
-                    "comentario": "Una película mágica que nunca envejece.",
+                    "contenido": "Una película mágica que nunca envejece.",
                     "calificacion": 4.9
                 }
             ]
         },
         {
+            "tipo":"pelicula",
             "titulo": "Metegol",
             "fecha_estreno": "2013-07-18",
             "director": "Juan José Campanella",
@@ -1472,17 +1524,18 @@ export const peliculas = [
             "reviews": [
                 {
                     "usuario": "futbolito_fan",
-                    "comentario": "Divertida y llena de acción, perfecta para los amantes del fútbol.",
+                    "contenido": "Divertida y llena de acción, perfecta para los amantes del fútbol.",
                     "calificacion": 4.2
                 },
                 {
                     "usuario": "table_soccer_pro",
-                    "comentario": "Creativa y entretenida, aunque la animación podría ser mejor.",
+                    "contenido": "Creativa y entretenida, aunque la animación podría ser mejor.",
                     "calificacion": 3.8
                 }
             ]
         },
         {
+            "tipo":"pelicula",
             "titulo": "Cómo Entrenar a tu Dragón",
             "fecha_estreno": "2010-03-26",
             "director": "Dean DeBlois, Chris Sanders",
@@ -1510,17 +1563,18 @@ export const peliculas = [
             "reviews": [
                 {
                     "usuario": "dragon_rider",
-                    "comentario": "Una de las mejores películas de animación, con una historia entrañable.",
+                    "contenido": "Una de las mejores películas de animación, con una historia entrañable.",
                     "calificacion": 4.9
                 },
                 {
                     "usuario": "toothless_fan",
-                    "comentario": "Visualmente espectacular y emocionalmente poderosa.",
+                    "contenido": "Visualmente espectacular y emocionalmente poderosa.",
                     "calificacion": 4.8
                 }
             ]
         },
         {
+            "tipo":"pelicula",
             "titulo": "El Niño y la Garza",
             "fecha_estreno": "2023-07-14",
             "director": "Hayao Miyazaki",
@@ -1548,16 +1602,20 @@ export const peliculas = [
             "reviews": [
                 {
                     "usuario": "miyazaki_magic",
-                    "comentario": "Una película visualmente asombrosa y profundamente conmovedora.", "calificacion": 5
+                    "contenido": "Una película visualmente asombrosa y profundamente conmovedora.", "calificacion": 5
                 },
                 {
                     "usuario": "garza_lover",
-                    "comentario": "Una historia única, llena de simbolismo y belleza.",
+                    "contenido": "Una historia única, llena de simbolismo y belleza.",
                     "calificacion": 4.9
                 }
             ]
-        },
-        {
+        }
+    ]
+
+export const romance = [
+    {
+        "tipo":"pelicula",
         "titulo": "Yo Antes de Ti",
         "fecha_estreno": "2016-06-03",
         "director": "Thea Sharrock",
@@ -1585,17 +1643,18 @@ export const peliculas = [
         "reviews": [
             {
                 "usuario": "romantic_dreamer",
-                "comentario": "Conmovedora y hermosa, aunque desgarradora.",
+                "contenido": "Conmovedora y hermosa, aunque desgarradora.",
                 "calificacion": 4.5
             },
             {
                 "usuario": "will_and_lou_fan",
-                "comentario": "Una historia de amor profunda, con momentos desgarradores.",
+                "contenido": "Una historia de amor profunda, con momentos desgarradores.",
                 "calificacion": 4.2
             }
         ]
     },
     {
+        "tipo":"pelicula",
         "titulo": "Cómo Perder a un Hombre en 10 Días",
         "fecha_estreno": "2003-02-07",
         "director": "Donald Petrie",
@@ -1623,17 +1682,18 @@ export const peliculas = [
         "reviews": [
             {
                 "usuario": "love_expert",
-                "comentario": "Divertida, con química encantadora entre los protagonistas.",
+                "contenido": "Divertida, con química encantadora entre los protagonistas.",
                 "calificacion": 4.3
             },
             {
                 "usuario": "romantic_comedy_fan",
-                "comentario": "Predecible pero muy entretenida, perfecta para reír.",
+                "contenido": "Predecible pero muy entretenida, perfecta para reír.",
                 "calificacion": 4
             }
         ]
     },
     {
+        "tipo":"pelicula",
         "titulo": "Mujer Bonita",
         "fecha_estreno": "1990-03-23",
         "director": "Garry Marshall",
@@ -1661,17 +1721,18 @@ export const peliculas = [
         "reviews": [
             {
                 "usuario": "romantic_classic",
-                "comentario": "Un clásico que nunca pasa de moda. Julia Roberts es encantadora.",
+                "contenido": "Un clásico que nunca pasa de moda. Julia Roberts es encantadora.",
                 "calificacion": 4.7
             },
             {
                 "usuario": "business_lover",
-                "comentario": "Romántica y divertida, con grandes actuaciones.",
+                "contenido": "Romántica y divertida, con grandes actuaciones.",
                 "calificacion": 4.5
             }
         ]
     },
     {
+        "tipo":"pelicula",
         "titulo": "About Time",
         "fecha_estreno": "2013-11-08",
         "director": "Richard Curtis",
@@ -1699,17 +1760,18 @@ export const peliculas = [
         "reviews": [
             {
                 "usuario": "time_traveler",
-                "comentario": "Una película hermosa que te hace valorar cada momento.",
+                "contenido": "Una película hermosa que te hace valorar cada momento.",
                 "calificacion": 4.8
             },
             {
                 "usuario": "love_and_time",
-                "comentario": "Emotiva y profunda, una joya en el género romántico.",
+                "contenido": "Emotiva y profunda, una joya en el género romántico.",
                 "calificacion": 4.7
             }
         ]
     },
     {
+        "tipo":"pelicula",
         "titulo": "10 Things I Hate About You",
         "fecha_estreno": "1999-03-31",
         "director": "Gil Junger",
@@ -1737,17 +1799,18 @@ export const peliculas = [
         "reviews": [
             {
                 "usuario": "shakespeare_lover",
-                "comentario": "Una adaptación divertida y encantadora.",
+                "contenido": "Una adaptación divertida y encantadora.",
                 "calificacion": 4.5
             },
             {
                 "usuario": "ledger_fan",
-                "comentario": "Heath Ledger es increíble, ¡una de las mejores películas de los 90!",
+                "contenido": "Heath Ledger es increíble, ¡una de las mejores películas de los 90!",
                 "calificacion": 4.6
             }
         ]
     },
     {
+        "tipo":"pelicula",
         "titulo": "The Notebook",
         "fecha_estreno": "2004-06-25",
         "director": "Nick Cassavetes",
@@ -1775,17 +1838,18 @@ export const peliculas = [
         "reviews": [
             {
                 "usuario": "tear_jerker_fan",
-                "comentario": "Emocional y romántica, una historia de amor que trasciende el tiempo.",
+                "contenido": "Emocional y romántica, una historia de amor que trasciende el tiempo.",
                 "calificacion": 4.8
             },
             {
                 "usuario": "love_story_addict",
-                "comentario": "Hermosa, te hará llorar y sentir la intensidad del amor verdadero.",
+                "contenido": "Hermosa, te hará llorar y sentir la intensidad del amor verdadero.",
                 "calificacion": 4.7
             }
         ]
     },
     {
+        "tipo":"pelicula",
         "titulo": "Notting Hill",
         "fecha_estreno": "1999-05-28",
         "director": "Roger Michell",
@@ -1813,17 +1877,18 @@ export const peliculas = [
         "reviews": [
             {
                 "usuario": "british_lover",
-                "comentario": "Una encantadora comedia romántica, llena de momentos divertidos y dulces.",
+                "contenido": "Una encantadora comedia romántica, llena de momentos divertidos y dulces.",
                 "calificacion": 4.6
             },
             {
                 "usuario": "movie_buff",
-                "comentario": "La química entre Julia Roberts y Hugh Grant es fantástica.",
+                "contenido": "La química entre Julia Roberts y Hugh Grant es fantástica.",
                 "calificacion": 4.5
             }
         ]
     },
     {
+        "tipo":"pelicula",
         "titulo": "Orgullo y Prejuicio",
         "fecha_estreno": "2005-11-11",
         "director": "Joe Wright",
@@ -1851,17 +1916,18 @@ export const peliculas = [
         "reviews": [
             {
                 "usuario": "austen_fan",
-                "comentario": "Una adaptación perfecta con magníficas actuaciones y paisajes impresionantes.",
+                "contenido": "Una adaptación perfecta con magníficas actuaciones y paisajes impresionantes.",
                 "calificacion": 5
             },
             {
                 "usuario": "romance_reader",
-                "comentario": "Keira Knightley brilla como Elizabeth Bennet, una de las mejores adaptaciones de Austen.",
+                "contenido": "Keira Knightley brilla como Elizabeth Bennet, una de las mejores adaptaciones de Austen.",
                 "calificacion": 4.9
             }
         ]
     },
     {
+        "tipo":"pelicula",
         "titulo": "Con Todos Menos Contigo",
         "fecha_estreno": "1990-06-01",
         "director": "Roger Young",
@@ -1889,17 +1955,18 @@ export const peliculas = [
         "reviews": [
             {
                 "usuario": "romcom_addict",
-                "comentario": "Divertida y encantadora, con personajes adorables.",
+                "contenido": "Divertida y encantadora, con personajes adorables.",
                 "calificacion": 4.2
             },
             {
                 "usuario": "love_seeker",
-                "comentario": "Una comedia romántica entretenida con un toque clásico.",
+                "contenido": "Una comedia romántica entretenida con un toque clásico.",
                 "calificacion": 4
             }
         ]
     },
     {
+        "tipo":"pelicula",
         "titulo": "Crazy Rich Asians",
         "fecha_estreno": "2018-08-15",
         "director": "Jon M. Chu",
@@ -1927,356 +1994,369 @@ export const peliculas = [
         "reviews": [
             {
                 "usuario": "asia_glamour",
-                "comentario": "Una película deslumbrante visualmente, con una historia entretenida y emocionante.",
+                "contenido": "Una película deslumbrante visualmente, con una historia entretenida y emocionante.",
                 "calificacion": 4.6
             },
             {
                 "usuario": "rich_romantic",
-                "comentario": "Divertida y emocional, un giro refrescante en las comedias románticas.",
+                "contenido": "Divertida y emocional, un giro refrescante en las comedias románticas.",
                 "calificacion": 4.5
             }
         ]
     }
 ]
 
-export const series = [
-    {   "tipo":"serie",
-        "titulo": "The Last of Us",
-        "anio": "2023",
-        "creador": "Craig Mazin, Neil Druckmann",
-        "genero": ["Drama", "Acción", "Aventura"],
-        "sinopsis": "Un hombre y una joven deben atravesar un Estados Unidos post-apocalíptico plagado de infectados y sobrevivientes hostiles.",
-        "cast": ["Pedro Pascal", "Bella Ramsey"],
+
+export const recomendados = [
+    {
+        "tipo":"pelicula",
+        "titulo": "Cómo Perder a un Hombre en 10 Días",
+        "fecha_estreno": "2003-02-07",
+        "director": "Donald Petrie",
+        "actores_principales": [
+            "Kate Hudson",
+            "Matthew McConaughey",
+            "Kathryn Hahn"
+        ],
+        "genero": [
+            "Comedia",
+            "Romance"
+        ],
+        "sinopsis": "Una columnista decide escribir un artículo sobre cómo alejar a un hombre en 10 días, mientras su objetivo intenta hacer que se enamore de él.",
+        "calificacion_general": 4.1,
         "crew": {
-            "productores": ["Craig Mazin", "Neil Druckmann"],
-            "guionistas": ["Craig Mazin", "Neil Druckmann"],
-            "direccion_de_fotografia": ["Pawel Pogorzelski"]
+            "productor": "Lynda Obst, Robert Evans",
+            "guionista": "Kristen Buckley, Brian Regan",
+            "director_fotografia": "John Bailey"
         },
         "detalles": {
-            "duracion": "50-60 min por episodio",
-            "clasificacion": "TV-MA",
-            "temporadas": 1,
-            "capitulos": 9
+            "duracion": "116 minutos",
+            "clasificacion": "PG-13"
         },
-        "poster": "https://www.lavanguardia.com/peliculas-series/images/serie/poster/2023/1/w1280/tNQWO6cNzQYCyvw36mUcAQQyf5F.jpg",
+        "poster": "https://m.media-amazon.com/images/M/MV5BMjE4NTA1NzExN15BMl5BanBnXkFtZTYwNjc3MjM3._V1_QL75_UY281_CR0,0,190,281_.jpg",
+        "reviews": [
+            {
+                "usuario": "love_expert",
+                "contenido": "Divertida, con química encantadora entre los protagonistas.",
+                "calificacion": 4.3
+            },
+            {
+                "usuario": "romantic_comedy_fan",
+                "contenido": "Predecible pero muy entretenida, perfecta para reír.",
+                "calificacion": 4
+            }
+        ]
+    },
+    {
+        "tipo":"pelicula",
+        "titulo": "Mujer Bonita",
+        "fecha_estreno": "1990-03-23",
+        "director": "Garry Marshall",
+        "actores_principales": [
+            "Richard Gere",
+            "Julia Roberts",
+            "Jason Alexander"
+        ],
+        "genero": [
+            "Comedia",
+            "Romance"
+        ],
+        "sinopsis": "Un empresario rico contrata a una joven para que lo acompañe durante una semana, pero ambos se enamoran en el proceso.",
         "calificacion_general": 4.5,
-        "reviews": [
-            {
-                "usuario": "cinefilo123",
-                "comentario": "Una adaptación impresionante que captura la esencia del juego.",
-                "calificacion": 5
-            },
-            {
-                "usuario": "aventurero77",
-                "comentario": "Los personajes son increíblemente profundos y la trama te atrapa.",
-                "calificacion": 4
-            }
-        ]
-    },
-    {
-        "tipo":"serie",
-        "titulo": "Stranger Things",
-        "anio": "2016",
-        "creador": "The Duffer Brothers",
-        "genero": ["Ciencia Ficción", "Terror", "Drama"],
-        "sinopsis": "Un grupo de niños en un pequeño pueblo enfrenta fenómenos sobrenaturales mientras buscan a su amigo desaparecido.",
-        "cast": ["Winona Ryder", "David Harbour"],
         "crew": {
-            "productores": ["The Duffer Brothers", "Shawn Levy"],
-            "guionistas": ["The Duffer Brothers"],
-            "direccion_de_fotografia": ["Tim Ives"]
+            "productor": "Arnon Milchan, Steven Reuther",
+            "guionista": "J.F. Lawton",
+            "director_fotografia": "Charles Minsky"
         },
         "detalles": {
-            "duracion": "50-55 min por episodio",
-            "clasificacion": "TV-14",
-            "temporadas": 4,
-            "capitulos": 34
+            "duracion": "119 minutos",
+            "clasificacion": "R"
         },
-        "poster": "https://es.web.img3.acsta.net/pictures/22/05/14/13/26/5638861.jpg",
-        "calificacion_general": 4.8,
+        "poster": "https://m.media-amazon.com/images/M/MV5BNmNlZjAxMzEtNzNlYy00ZWY4LTkwN2QtYTljZjgzZjQ2ZDU5XkEyXkFqcGc@._V1_.jpg",
         "reviews": [
             {
-                "usuario": "nostalgico_80s",
-                "comentario": "La serie perfecta para los amantes de la cultura pop de los 80.",
-                "calificacion": 5
+                "usuario": "romantic_classic",
+                "contenido": "Un clásico que nunca pasa de moda. Julia Roberts es encantadora.",
+                "calificacion": 4.7
             },
             {
-                "usuario": "suspenso_lover",
-                "comentario": "Cada temporada mejora más que la anterior.",
+                "usuario": "business_lover",
+                "contenido": "Romántica y divertida, con grandes actuaciones.",
                 "calificacion": 4.5
             }
         ]
     },
     {
-        "tipo":"serie",
-        "titulo": "Breaking Bad",
-        "anio": "2008",
-        "creador": "Vince Gilligan",
-        "genero": ["Drama", "Crimen"],
-        "sinopsis": "Un profesor de química se convierte en fabricante de metanfetaminas después de ser diagnosticado con cáncer.",
-        "cast": ["Bryan Cranston", "Aaron Paul"],
+        "tipo":"pelicula",
+        "titulo": "El Niño y la Garza",
+        "fecha_estreno": "2023-07-14",
+        "director": "Hayao Miyazaki",
+        "actores_principales": [
+            "Soma Santoki",
+            "Masaki Suda",
+            "Takuya Kimura"
+        ],
+        "genero": [
+            "Animación",
+            "Fantasía"
+        ],
+        "sinopsis": "Un joven niño vive una serie de aventuras fantásticas tras mudarse a una nueva ciudad luego de la muerte de su madre.",
+        "calificacion_general": 4.9,
         "crew": {
-            "productores": ["Vince Gilligan", "Michelle MacLaren"],
-            "guionistas": ["Vince Gilligan"],
-            "direccion_de_fotografia": ["Michael Slovis"]
+            "productor": "Toshio Suzuki",
+            "guionista": "Hayao Miyazaki",
+            "director_fotografia": "Animación"
         },
         "detalles": {
-            "duracion": "47 min por episodio",
-            "clasificacion": "TV-MA",
-            "temporadas": 5,
-            "capitulos": 62
+            "duracion": "124 minutos",
+            "clasificacion": "PG-13"
         },
-        "poster": "https://es.web.img3.acsta.net/pictures/18/04/04/22/52/3191575.jpg",
-        "calificacion_general": 5,
+        "poster": "https://m.media-amazon.com/images/M/MV5BMzA5Zjg3MTAtM2FhZS00NTNjLTg3NjEtNWQ4MTRhZjhiNzVmXkEyXkFqcGc@._V1_FMjpg_UX1000_.jpg",
         "reviews": [
             {
-                "usuario": "fanatico_del_crimen",
-                "comentario": "Una obra maestra del desarrollo de personajes.",
-                "calificacion": 5
+                "usuario": "miyazaki_magic",
+                "contenido": "Una película visualmente asombrosa y profundamente conmovedora.", "calificacion": 5
             },
             {
-                "usuario": "quimico_ron",
-                "comentario": "Cada episodio es una lección de narrativa.",
-                "calificacion": 5
+                "usuario": "garza_lover",
+                "contenido": "Una historia única, llena de simbolismo y belleza.",
+                "calificacion": 4.9
             }
         ]
     },
     {
-        "tipo":"serie",
-        "titulo": "The Crown",
-        "anio": "2016",
-        "creador": "Peter Morgan",
-        "genero": ["Drama", "Biografía"],
-        "sinopsis": "La vida de la reina Isabel II desde su boda hasta los eventos políticos que han dado forma a la segunda mitad del siglo XX.",
-        "cast": ["Claire Foy", "Olivia Colman"],
-        "crew": {
-            "productores": ["Peter Morgan", "Suzanne Mackie"],
-            "guionistas": ["Peter Morgan"],
-            "direccion_de_fotografia": ["Adriano Goldman"]
-        },
-        "detalles": {
-            "duracion": "58-70 min por episodio",
-            "clasificacion": "TV-MA",
-            "temporadas": 6,
-            "capitulos": 60
-        },
-        "poster": "https://resizing.flixster.com/aX9Yz5sNV2WpBA5CoENzIl9RbTM=/ems.cHJkLWVtcy1hc3NldHMvdHZzZWFzb24vUlRUVjI2NTU1OS53ZWJw",
-        "calificacion_general": 4.6,
-        "reviews": [
-            {
-                "usuario": "historiador",
-                "comentario": "Una representación fascinante de la historia reciente.",
-                "calificacion": 5
-            },
-            {
-                "usuario": "royal_fan",
-                "comentario": "Las actuaciones son simplemente sobresalientes.",
-                "calificacion": 4.5
-            }
-        ]
-    },
-    {
-        "tipo":"serie",
-        "titulo": "Game of Thrones",
-        "anio": "2011-04-17",
-        "creador": "David Benioff, D.B. Weiss",
-        "genero": ["Fantástico", "Drama"],
-        "sinopsis": "Nobles familias luchan por el control del Trono de Hierro en el continente ficticio de Westeros.",
-        "cast": ["Emilia Clarke", "Kit Harington"],
-        "crew": {
-            "productores": ["David Benioff", "D.B. Weiss"],
-            "guionistas": ["David Benioff", "D.B. Weiss"],
-            "direccion_de_fotografia": ["Fabian Wagner"]
-        },
-        "detalles": {
-            "duracion": "55-90 min por episodio",
-            "clasificacion": "TV-MA",
-            "temporadas": 8,
-            "capitulos": 73
-        },
-        "poster": "https://m.media-amazon.com/images/M/MV5BOGY3NTg1ODMtOGIzZS00YWFiLTgzYzktNzBiYWZkYjcwNGRhXkEyXkFqcGc@._V1_.jpg",
-        "calificacion_general": 4.3,
-        "reviews": [
-            {
-                "usuario": "fantasia_total",
-                "comentario": "Un mundo increíblemente bien construido.",
-                "calificacion": 4
-            },
-            {
-                "usuario": "trono_de_hierro",
-                "comentario": "La temporada final fue decepcionante.",
-                "calificacion": 2
-            }
-        ]
-    },
-    {
-        "tipo":"serie",
-        "titulo": "The Mandalorian",
-        "anio": "2019",
-        "creador": "Jon Favreau",
-        "genero": ["Ciencia Ficción", "Aventura"],
-        "sinopsis": "Un cazarrecompensas en los confines de la galaxia, lejos de la autoridad de la Nueva República.",
-        "cast": ["Pedro Pascal", "Gina Carano"],
-        "crew": {
-            "productores": ["Jon Favreau", "Dave Filoni"],
-            "guionistas": ["Jon Favreau"],
-            "direccion_de_fotografia": ["Greg Fraser"]
-        },
-        "detalles": {
-            "duracion": "30-50 min por episodio",
-            "clasificacion": "TV-PG",
-            "temporadas": 3,
-            "capitulos": 24
-        },
-        "poster": "https://m.media-amazon.com/images/M/MV5BNjgxZGM0OWUtZGY1MS00MWRmLTk2N2ItYjQyZTI1OThlZDliXkEyXkFqcGc@._V1_.jpg",
-        "calificacion_general": 4.7,
-        "reviews": [
-            {
-                "usuario": "starwarsfan",
-                "comentario": "El regreso a Star Wars que necesitábamos.",
-                "calificacion": 5
-            },
-            {
-                "usuario": "aventurero_galactico",
-                "comentario": "Una narrativa emocionante con un gran desarrollo de personajes.",
-                "calificacion": 4.5
-            }
-        ]
-    },
-    {
-        "tipo":"serie",
-        "titulo": "Fargo",
-        "anio": "2014",
-        "creador": "Noah Hawley",
-        "genero": ["Crimen", "Drama", "Comedia"],
-        "sinopsis": "Historias interconectadas de crimen en la fría Minnesota, inspiradas en la película de los hermanos Coen.",
-        "cast": ["Billy Bob Thornton", "Martin Freeman"],
-        "crew": {
-            "productores": ["Noah Hawley", "Warren Littlefield"],
-            "guionistas": ["Noah Hawley"],
-            "direccion_de_fotografia": ["Dana Gonzales"]
-        },
-        "detalles": {
-            "duracion": "40-50 min por episodio",
-            "clasificacion": "TV-MA",
-            "temporadas": 4,
-            "capitulos": 41
-        },
-        "poster": "https://image.tmdb.org/t/p/original/6U9CPeD8obHzweikFhiLhpc7YBT.jpg",
-        "calificacion_general": 4.4,
-        "reviews": [
-            {
-                "usuario": "coen_fan",
-                "comentario": "Un brillante homenaje a la película original.",
-                "calificacion": 5
-            },
-            {
-                "usuario": "dramaturgo",
-                "comentario": "Las actuaciones son increíbles, cada temporada es única.",
-                "calificacion": 4
-            }
-        ]
-    },
-    {
-        "tipo":"serie",
-        "titulo": "The Witcher",
-        "anio": "2019",
-        "creador": "Lauren Schmidt Hissrich",
-        "genero": ["Fantástico", "Acción", "Aventura"],
-        "sinopsis": "Un cazador de monstruos y su viaje a través de un mundo lleno de magia y criaturas sobrenaturales.",
-        "cast": ["Henry Cavill", "Freya Allan"],
-        "crew": {
-            "productores": ["Lauren Schmidt Hissrich", "Alik Sakharov"],
-            "guionistas": ["Lauren Schmidt Hissrich"],
-            "direccion_de_fotografia": ["Timo Wang"]
-        },
-        "detalles": {
-            "duracion": "47-60 min por episodio",
-            "clasificacion": "TV-MA",
-            "temporadas": 3,
-            "capitulos": 24
-        },
-        "poster": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRVZqz1rrXvNC59cW6SmAS0-z0m2otYGJ-YIg&s",
+        "tipo":"pelicula",
+        "titulo": "Robot Dreams",
+        "fecha_estreno": "2023-09-08",
+        "director": "Pablo Berger",
+        "actores_principales": [
+            "Actores de voz",
+            "Animación"
+        ],
+        "genero": [
+            "Animación",
+            "Drama"
+        ],
+        "sinopsis": "La amistad entre un perro y un robot se ve interrumpida cuando el robot queda atrapado en la playa.",
         "calificacion_general": 4.2,
+        "crew": {
+            "productor": "Pablo Berger",
+            "guionista": "Pablo Berger",
+            "director_fotografia": "Animación"
+        },
+        "detalles": {
+            "duracion": "90 minutos",
+            "clasificacion": "PG"
+        },
+        "poster": "https://m.media-amazon.com/images/M/MV5BMTE0OGRjZWQtMDRiOS00ZjM4LTg2NjAtZGYyZDk1NGRkMzg1XkEyXkFqcGc@._V1_.jpg",
         "reviews": [
             {
-                "usuario": "fantasy_addict",
-                "comentario": "Una emocionante adaptación de los libros.",
-                "calificacion": 4
+                "usuario": "dreamy_robot",
+                "contenido": "Un viaje emocional y visualmente hermoso.",
+                "calificacion": 4.5
             },
             {
-                "usuario": "sorcerer_lover",
-                "comentario": "Los efectos visuales son impresionantes.",
-                "calificacion": 5
+                "usuario": "beachbot",
+                "contenido": "Enternecedora y creativa, aunque un poco lenta.",
+                "calificacion": 4
             }
         ]
     },
     {
-        "tipo":"serie",
-        "titulo": "Black Mirror",
-        "anio": "2011",
-        "creador": "Charlie Brooker",
-        "genero": ["Ciencia Ficción", "Antología"],
-        "sinopsis": "Cada episodio explora la relación entre la tecnología y la sociedad de formas inquietantes y provocativas.",
-        "cast": ["Daniel Kaluuya", "Jon Hamm"],
-        "crew": {
-            "productores": ["Charlie Brooker", "Annabel Jones"],
-            "guionistas": ["Charlie Brooker"],
-            "direccion_de_fotografia": ["Aaron Stewart-Ahn"]
-        },
-        "detalles": {
-            "duracion": "40-90 min por episodio",
-            "clasificacion": "TV-MA",
-            "temporadas": 5,
-            "capitulos": 22
-        },
-        "poster": "https://hips.hearstapps.com/hmg-prod/images/black-mirror-font-1513096756.jpg",
+        "tipo":"pelicula",
+        "titulo": "Mad Max 2",
+        "fecha_estreno": "1981-12-24",
+        "director": "George Miller",
+        "actores_principales": [
+            "Mel Gibson",
+            "Bruce Spence",
+            "Michael Preston"
+        ],
+        "genero": [
+            "Acción",
+            "Ciencia ficción"
+        ],
+        "sinopsis": "En un mundo postapocalíptico, Max debe ayudar a un grupo de colonos a defenderse de una pandilla de merodeadores.",
         "calificacion_general": 4.5,
+        "crew": {
+            "productor": "Byron Kennedy",
+            "guionista": "Terry Hayes, George Miller, Brian Hannant",
+            "director_fotografia": "Dean Semler"
+        },
+        "detalles": {
+            "duracion": "96 minutos",
+            "clasificacion": "R"
+        },
+        "poster": "https://m.media-amazon.com/images/S/pv-target-images/6874a688cc4f1fdb2fa4067210e09bc604a5b2a492482aa932906415132a2c0c.jpg",
         "reviews": [
             {
-                "usuario": "tech_critic",
-                "comentario": "Cada episodio te deja pensando sobre el futuro de la humanidad.",
+                "usuario": "roadwarrior85",
+                "contenido": "La mejor película de acción postapocalíptica.",
                 "calificacion": 5
             },
             {
-                "usuario": "cerebro_en_llamas",
-                "comentario": "Algunos episodios son realmente perturbadores, pero eso es lo que me gusta.",
+                "usuario": "apocalypsefan",
+                "contenido": "Gran secuela, aunque un poco exagerada a veces.",
                 "calificacion": 4
             }
         ]
     },
     {
-        "tipo":"serie",
-        "titulo": "La Casa De Papel",
-        "anio": "2017",
-        "creador": "Álex Pina",
-        "genero": ["Crimen", "Drama", "Suspenso"],
-        "sinopsis": "Un grupo de criminales realiza el mayor atraco a la Real Casa de la Moneda de España, bajo la dirección del 'Profesor'.",
-        "cast": ["Álvaro Morte", "Úrsula Corberó"],
+        "tipo":"pelicula",
+        "titulo": "Pearl",
+        "fecha_estreno": "2022-09-16",
+        "director": "Ti West",
+        "actores_principales": [
+            "Mia Goth",
+            "David Corenswet",
+            "Tandi Wright"
+        ],
+        "genero": [
+            "Terror",
+            "Drama"
+        ],
+        "sinopsis": "La joven Pearl busca escapar de su vida en una granja y sueña con convertirse en una estrella, pero su ambición tiene un alto precio.",
+        "calificacion_general": 4.4,
         "crew": {
-            "productores": ["Álex Pina", "Jesús Colmenar"],
-            "guionistas": ["Álex Pina"],
-            "direccion_de_fotografia": ["Álex Rodrigo"]
+            "productor": "Ti West, Mia Goth",
+            "guionista": "Ti West, Mia Goth",
+            "director_fotografia": "Eliot Rockett"
         },
         "detalles": {
-            "duracion": "45-70 min por episodio",
-            "clasificacion": "TV-MA",
-            "temporadas": 5,
-            "capitulos": 41
+            "duracion": "102 minutos",
+            "clasificacion": "R"
         },
-        "poster": "https://www.lavanguardia.com/peliculas-series/images/serie/poster/2017/5/w1280/z01Dc0Ly2GmCpLe6Scx4d3dPP1S.jpg",
-        "calificacion_general": 4.3,
+        "poster": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhbgqRastFgpQeIlYqElTkXlTkrGrZg_7wF4Jze7EoC74xlyrV9dWkum_Fsw3ZVfMcRJmT6Ed7xB_3ww-WcCW1IztB9J79xT3rDrXVU4FBElHbDGnXyu7KGLEHCfTz3nHSO0tUqX5UeQPvUb3BahHoWp5rM84Qzvqu82TSPuMl9rN-UuwNvlfbqAAdfQ2M/s1082/Pearl.jpg",
         "reviews": [
             {
-                "usuario": "robbie_el_burguers",
-                "comentario": "Una montaña rusa de emociones, con giros inesperados en cada episodio.",
-                "calificacion": 5
+                "usuario": "horrorcritic",
+                "contenido": "Mia Goth ofrece una actuación sobresaliente.",
+                "calificacion": 4.8
             },
             {
-                "usuario": "estratega",
-                "comentario": "Algunas partes son un poco inverosímiles, pero la adrenalina nunca falta.",
+                "usuario": "dramaqueen",
+                "contenido": "Una historia inquietante que explora la locura y la ambición.",
+                "calificacion": 4.5
+            }
+        ]
+    },
+    {
+        "tipo":"pelicula",
+        "titulo": "Midsommar",
+        "fecha_estreno": "2019-07-03",
+        "director": "Ari Aster",
+        "actores_principales": [
+            "Florence Pugh",
+            "Jack Reynor",
+            "William Jackson Harper"
+        ],
+        "genero": [
+            "Terror",
+            "Suspenso"
+        ],
+        "sinopsis": "Una pareja asiste a un festival rural en Suecia, que pronto se convierte en una aterradora experiencia de culto.",
+        "calificacion_general": 4.3,
+        "crew": {
+            "productor": "Lars Knudsen, Patrik Andersson",
+            "guionista": "Ari Aster",
+            "director_fotografia": "Pawel Pogorzelski"
+        },
+        "detalles": {
+            "duracion": "148 minutos",
+            "clasificacion": "R"
+        },
+        "poster": "https://m.media-amazon.com/images/M/MV5BMzQxNzQzOTQwM15BMl5BanBnXkFtZTgwMDQ2NTcwODM@._V1_FMjpg_UX1000_.jpg",
+        "reviews": [
+            {
+                "usuario": "cult_watcher",
+                "contenido": "Una película inquietante con una atmósfera sofocante.",
+                "calificacion": 4.7
+            },
+            {
+                "usuario": "bright_horror_fan",
+                "contenido": "Visualmente hermosa pero profundamente perturbadora.",
                 "calificacion": 4
             }
         ]
-    }
+    },
+    {
+        "tipo":"pelicula",
+        "titulo": "Avatar",
+        "fecha_estreno": "2009-12-18",
+        "director": "James Cameron",
+        "actores_principales": [
+            "Sam Worthington",
+            "Zoe Saldana",
+            "Sigourney Weaver"
+        ],
+        "genero": [
+            "Ciencia ficción",
+            "Aventura"
+        ],
+        "sinopsis": "En un mundo alienígena, un exmarine se convierte en un avatar para interactuar con la población nativa y proteger su hogar.",
+        "calificacion_general": 4.5,
+        "crew": {
+            "productor": "James Cameron, Jon Landau",
+            "guionista": "James Cameron",
+            "director_fotografia": "Mauro Fiore"
+        },
+        "detalles": {
+            "duracion": "162 minutos",
+            "clasificacion": "PG-13"
+        },
+        "poster": "https://m.media-amazon.com/images/S/pv-target-images/ae4816cade1a5b7f29787d0b89610132c72c7747041481c6619b9cc3302c0101.jpg",
+        "reviews": [
+            {
+                "usuario": "pandorafreak",
+                "contenido": "Visualmente deslumbrante, una experiencia cinematográfica única.",
+                "calificacion": 5
+            },
+            {
+                "usuario": "alienadventurer",
+                "contenido": "La historia puede ser simple, pero el mundo que crea es impresionante.",
+                "calificacion": 4
+            }
+        ]
+    },
+    {
+        "tipo":"pelicula",
+        "titulo": "Spirited Away",
+        "fecha_estreno": "2001-07-20",
+        "director": "Hayao Miyazaki",
+        "actores_principales": [
+            "Rumi Hiiragi",
+            "Miyu Irino",
+            "Mari Natsukawa"
+        ],
+        "genero": [
+            "Animación",
+            "Aventura",
+            "Fantasía"
+        ],
+        "sinopsis": "Una niña se encuentra en un mundo mágico y debe trabajar en una casa de baños para salvar a sus padres que han sido transformados en cerdos.",
+        "calificacion_general": 4.8,
+        "crew": {
+            "productor": "Toshio Suzuki",
+            "guionista": "Hayao Miyazaki",
+            "director_fotografia": "Atsushi Okui"
+        },
+        "detalles": {
+            "duracion": "125 minutos",
+            "clasificacion": "PG"
+        },
+        "poster": "https://m.media-amazon.com/images/M/MV5BNTEyNmEwOWUtYzkyOC00ZTQ4LTllZmUtMjk0Y2YwOGUzYjRiXkEyXkFqcGc@._V1_.jpg",
+        "reviews": [
+            {
+                "usuario": "animefan123",
+                "contenido": "Una obra maestra de la animación, llena de imaginación y emoción.",
+                "calificacion": 5
+            },
+            {
+                "usuario": "mystic_viewer",
+                "contenido": "Cada escena es un deleite visual y emocional.",
+                "calificacion": 5
+            }
+        ]
+    },
 ];
+
