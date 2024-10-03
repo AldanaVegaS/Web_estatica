@@ -1,14 +1,14 @@
-import {peliculasPopulares,romance,terror,accion,animacion,recomendados} from "../js/informacion/peliculas.js";
-import {seriesPopulares} from "../js/informacion/series.js"
+import { peliculasPopulares, romance, terror, accion, animacion, recomendados } from "./peliculas.js";
+import { seriesPopulares } from "./series.js"
 
 function mostrar(items, nodo, aMostrar) {
     const fragment = document.createDocumentFragment();
     switch (aMostrar) {
         case 'poster':
-            items.forEach((item) => {      
+            items.forEach((item) => {
                 let link = document.createElement('a');
                 link.href = `info.html?titulo=${item.titulo}&tipo=${item.tipo}`; // URL de la página de detalles
-            
+
                 let img = document.createElement('img');
                 img.src = item.poster;
                 img.alt = "Poster pelicula";
@@ -48,15 +48,15 @@ mostrar(recomendados, recomendadoNodo, 'poster');
 let accionNodo = document.getElementById('accion')
 mostrar(accion, accionNodo, 'poster');
 
-/*Busco nodo de accion y ubico las imagenes*/
+/*Busco nodo de terror y ubico las imagenes*/
 let terrorNodo = document.getElementById('terror')
 mostrar(terror, terrorNodo, 'poster');
 
-/*Busco nodo de terror y ubico las imagenes*/
+/*Busco nodo de animacion y ubico las imagenes*/
 let animacionNodo = document.getElementById('animacion')
 mostrar(animacion, animacionNodo, 'poster');
 
-/*Busco nodo de terror y ubico las imagenes*/
+/*Busco nodo de romance y ubico las imagenes*/
 let romanceNodo = document.getElementById('romance')
 mostrar(romance, romanceNodo, 'poster');
 

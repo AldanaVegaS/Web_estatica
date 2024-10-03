@@ -32,77 +32,85 @@
     font-size: 25px;
 }
 
-.container{
+.container {
     display: flex;
     flex-flow: row wrap;
     width: 90%;
     margin: 100px 5% 0 5%;
 }
 
-.container *{
+.container * {
     margin: 10px;
     flex: 1 100%;
     border-radius: 10px;
 }
 
-.main{
+.main {
     text-align: left;
-    background:beige;
+    background: beige;
     font-family: "Gowun Batang", serif;
 }
-.aside1{
+
+.aside1 {
     padding-top: 15px;
     text-align: center;
     font-size: 20px;
 }
-.aside2{
+
+.aside2 {
     /* background: pink; */
 }
 
-.main{
-    background-color:darkgrey;
+.main {
+    background-color: darkgrey;
 }
 
-@media all and (min-width:800px){
-    .main{
+@media all and (min-width:800px) {
+    .main {
         flex: 3;
     }
-    .aside1{
+
+    .aside1 {
         order: 1;
     }
-    .aside2{
+
+    .aside2 {
         order: 2;
     }
-    .main{
+
+    .main {
         order: 2;
     }
 }
 
-@media all and (min-width: 400px){
-    .aside1{
+@media all and (min-width: 400px) {
+    .aside1 {
         flex: 1;
     }
-    .aside1{
+
+    .aside1 {
         order: 1;
     }
-    .aside2{
+
+    .aside2 {
         order: 3;
     }
-    .main{
+
+    .main {
         order: 2;
     }
 }
 
 
 /*Estilo caja de botones*/
-.contenedor-botones{
+.contenedor-botones {
     display: flex;
-    flex-flow:wrap;
+    flex-flow: wrap;
     flex-direction: row;
     align-items: center;
 }
 
-.boton2{
+.boton2 {
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -115,28 +123,29 @@
     transition: 0.3s, 0.3s;
     font-size: 15px;
     flex: 1;
-    color:aliceblue;
+    color: aliceblue;
 }
-.boton2 i{
+
+.boton2 i {
     font-size: 40px;
     margin: 0;
     color: aliceblue;
 }
 
-.boton2:hover{
-    background-color:antiquewhite;
+.boton2:hover {
+    background-color: antiquewhite;
     color: #202020;
 }
 
-.boton2:hover i{
+.boton2:hover i {
     background-color: antiquewhite;
     color: #202020;
 }
 
 
 /*Estilo ultimas reviews*/
-.reviews{
-    display: flex; 
+.reviews {
+    display: flex;
     flex-direction: column;
     justify-content: center;
     text-align: center;
@@ -146,7 +155,7 @@
     letter-spacing: 1px;
     margin: 20px 0px;
     padding: 10px 20px;
-    display: flex; 
+    display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
@@ -160,65 +169,67 @@
     padding: 10px 20px;
 }
 
-.caja{
+.caja {
     background: white;
     text-align: left;
     position: relative;
     border: .1rem solid rgba(0, 0, 0, .2);
-    box-shadow: 0 .5rem 1rem  rgba(0, 0, 0, .1);
+    box-shadow: 0 .5rem 1rem rgba(0, 0, 0, .1);
     flex: 1 1 30rem;
     border-radius: .5rem;
     color: #202020;
 
 }
 
-.user{
-    display:flex;
+.user {
+    display: flex;
     align-items: top;
     width: 350px;
     margin: 2px;
     padding: 5px;
 }
 
-.user .material-icons-outlined{
+.user .material-icons-outlined {
     font-size: 55px;
     flex: 1;
     margin: 0px;
 }
 
-.user-info{
-    margin:0px;
+.user-info {
+    margin: 0px;
 }
 
-.user-info h3{
+.user-info h3 {
     font-weight: bold;
     margin: 0px;
 }
 
-.user-info h4{
+.user-info h4 {
     font-weight: bold;
     margin: 0px;
 }
 
-.stars{
+.stars {
     margin: 0px;
     display: flex;
     flex-flow: row;
     width: 300px;
     align-items: center;
 }
-.stars i{
+
+.stars i {
     font-size: 18px;
     margin: 0px;
     color: gold;
     flex: 1;
 }
-.stars h4{
+
+.stars h4 {
     margin: 0px;
     flex: 1;
 }
 
- .ver_mas{
+.ver_mas {
     margin-right: 0px;
     height: 45px;
     width: 100px;
@@ -227,7 +238,7 @@
     cursor: pointer;
 }
 
-.ver_mas:hover{
+.ver_mas:hover {
     background: burlywood;
 }
 
@@ -236,7 +247,8 @@
 /*Estilo popup card*/
 
 .popup {
-    display: none; /* Ocultar por defecto */
+    display: none;
+    /* Ocultar por defecto */
     position: fixed;
     top: 0;
     left: 0;
@@ -270,7 +282,7 @@
 
 
 
-.contenedor2{
+.contenedor2 {
     display: flex;
     align-items: left;
     padding-left: 10px;
@@ -279,21 +291,22 @@
 }
 
 
-.contenido_card img{
+.contenido_card img {
     height: 70%;
-    padding:5px;
+    padding: 5px;
 }
 
-.comentario{
+.comentario {
     margin-left: 10px;
     width: 100%;
     padding-left: 5px;
     height: 70%;
     border-radius: 5px;
-    resize: none;margin-bottom: 10px;
+    resize: none;
+    margin-bottom: 10px;
 }
 
-.guardar{
+.guardar {
     height: 45px;
     width: 100px;
     border: none;
@@ -302,17 +315,17 @@
     margin: 10px;
 }
 
-.guardar:hover{
+.guardar:hover {
     background: burlywood;
 }
 
-.rating{
+.rating {
     display: flex;
     padding-left: 5px;
     padding-bottom: 10px;
 }
 
-.rating i{
+.rating i {
     color: gold;
     padding: 2px;
     cursor: pointer;
@@ -321,7 +334,6 @@
 
 }
 
-.rating i:hover{
+.rating i:hover {
     transform: scale(1.2);
 }
-
