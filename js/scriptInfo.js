@@ -1,6 +1,4 @@
-import { peliculas, series } from "/datos.js";
-
-
+import { peliculas, series } from "./datos.js";
 
 // Obtener el título de la URL
 const params = new URLSearchParams(window.location.search);
@@ -9,56 +7,56 @@ const tipo = params.get('tipo');
 console.log(titulo);
 console.log(tipo);
 
-if(tipo==='serie'){
+if (tipo === 'serie') {
     document.getElementById('title').textContent = 'Serie';
     const serieSeleccionada = series.find(item => item.titulo === titulo);
     mostrarSerie(serieSeleccionada);
-}else{
+} else {
     document.getElementById('title').textContent = 'Pelicula'
     const peliculaSeleccionada = peliculas.find(item => item.titulo === titulo);
     console.log(peliculaSeleccionada);
     mostrarPelicula(peliculaSeleccionada);
 }
 
-function mostrarSerie(serieSeleccionada){
+function mostrarSerie(serieSeleccionada) {
     document.getElementById('poster').src = serieSeleccionada.poster;
     calificacionGeneral(serieSeleccionada.calificacion_general, document.getElementById('calificacion'));
     document.getElementById('titulo').textContent = serieSeleccionada.titulo;
-    document.getElementById('anio_director').textContent = serieSeleccionada.anio+", creada por "+serieSeleccionada.creador;
+    document.getElementById('anio_director').textContent = serieSeleccionada.fecha_estreno + ", creada por " + serieSeleccionada.creador;
     document.getElementById('genero').textContent = serieSeleccionada.genero.join(', ');
     document.getElementById('sinopsis').textContent = serieSeleccionada.sinopsis;
-    listarCast(serieSeleccionada.cast,document.getElementById('cast'));
+    listarCast(serieSeleccionada.cast, document.getElementById('cast'));
     listarCrew(serieSeleccionada.crew, document.getElementById('crew'));
-    listarDetallesSeries(serieSeleccionada.detalles,document.getElementById('detalles'));
+    listarDetallesSeries(serieSeleccionada.detalles, document.getElementById('detalles'));
     mostrarReviews(serieSeleccionada.reviews, document.getElementById('cajaComentarios'));
     mostrarCardReview(serieSeleccionada);
 }
 
 
 
-function mostrarPelicula(peliculaSeleccionada){
+function mostrarPelicula(peliculaSeleccionada) {
     document.getElementById('poster').src = peliculaSeleccionada.poster;
     calificacionGeneral(peliculaSeleccionada.calificacion_general, document.getElementById('calificacion'));
     document.getElementById('titulo').textContent = peliculaSeleccionada.titulo;
-    document.getElementById('anio_director').textContent = peliculaSeleccionada.anio+", dirigida por "+peliculaSeleccionada.director;
+    document.getElementById('anio_director').textContent = peliculaSeleccionada.fecha_estreno + ", dirigida por " + peliculaSeleccionada.director;
     document.getElementById('genero').textContent = peliculaSeleccionada.genero.join(', ');
     document.getElementById('sinopsis').textContent = peliculaSeleccionada.sinopsis;
-    listarCast(peliculaSeleccionada.actores_principales,document.getElementById('cast'));
+    listarCast(peliculaSeleccionada.actores_principales, document.getElementById('cast'));
     listarCrew(peliculaSeleccionada.crew, document.getElementById('crew'));
-    listarDetalles(peliculaSeleccionada.detalles,document.getElementById('detalles'));
+    listarDetalles(peliculaSeleccionada.detalles, document.getElementById('detalles'));
     mostrarReviews(peliculaSeleccionada.reviews, document.getElementById('cajaComentarios'));
     mostrarCardReview(peliculaSeleccionada);
 }
 
-function calificacionGeneral(calificacion, elto){
-    elto.textContent = "Calificación: "+ calificacion;
+function calificacionGeneral(calificacion, elto) {
+    elto.textContent = "Calificación: " + calificacion;
     const iconoEstrella = document.createElement('i');
     iconoEstrella.className = 'fa fa-star'; // Agregar las clases necesarias para el icono
     iconoEstrella.setAttribute('aria-hidden', 'true');
     elto.appendChild(iconoEstrella);
 }
 
-function listarCast (cast, castList){
+function listarCast(cast, castList) {
     cast.forEach(actor => {
         const listItem = document.createElement('li');
         listItem.textContent = actor; // Agrega el nombre del actor
@@ -66,9 +64,9 @@ function listarCast (cast, castList){
     });
 }
 
-function listarCrew (crew, crewList){
+function listarCrew(crew, crewList) {
     const listItem = document.createElement('li');
-    listItem.textContent = "Productores: " +  crew.productores;
+    listItem.textContent = "Productores: " + crew.productores;
     crewList.appendChild(listItem);
     const listItem2 = document.createElement('li');
     listItem2.textContent = "Guionistas: " + crew.guionistas;
@@ -77,15 +75,15 @@ function listarCrew (crew, crewList){
     listItem3.textContent = "Dirección de fotografía: " + crew.direccion_de_fotografia;
     crewList.appendChild(listItem3);
 }
-function listarDetalles(detalles, detallesList){
+function listarDetalles(detalles, detallesList) {
     const listItem = document.createElement('li');
-    listItem.textContent = "Duración: " +  detalles.duracion;
+    listItem.textContent = "Duración: " + detalles.duracion;
     detallesList.appendChild(listItem);
     const listItem2 = document.createElement('li');
     listItem2.textContent = "Clasificación: " + detalles.clasificacion;
     detallesList.appendChild(listItem2);
 }
-function listarDetallesSeries(detalles, detallesList){
+function listarDetallesSeries(detalles, detallesList) {
     listarDetalles(detalles, detallesList);
     const listItem = document.createElement('li');
     listItem.textContent = "Temporadas: " + detalles.temporadas;
@@ -95,7 +93,7 @@ function listarDetallesSeries(detalles, detallesList){
     detallesList.appendChild(listItem2);
 }
 
-function mostrarReviews(reviews, elto){
+function mostrarReviews(reviews, elto) {
     const ul = document.createElement('ul');
     ul.style.listStyle = "none";
     reviews.forEach(item => {
@@ -104,7 +102,7 @@ function mostrarReviews(reviews, elto){
         const caja = document.createElement('div');
         caja.className = "caja";
         caja.id = "comentario";
-        
+
 
         const user = document.createElement('div');
         user.className = "user";
@@ -122,7 +120,7 @@ function mostrarReviews(reviews, elto){
         const calificacion = document.createElement('div');
         calificacion.className = "stars";
         const estrellas = document.createElement('h4');
-        estrellas.textContent = "Calificación: "+ item.calificacion;
+        estrellas.textContent = "Calificación: " + item.calificacion;
         const iconoEstrella = document.createElement('i');
         iconoEstrella.className = 'fa fa-star'; // Agregar las clases necesarias para el icono
         iconoEstrella.setAttribute('aria-hidden', 'true');
@@ -135,7 +133,7 @@ function mostrarReviews(reviews, elto){
         const comentario = document.createElement('div');
         comentario.className = "comentario";
         comentario.textContent = item.comentario;
-        
+
         userInfo.appendChild(userName);
         userInfo.appendChild(calificacion);
 
@@ -147,14 +145,14 @@ function mostrarReviews(reviews, elto){
         caja.appendChild(comentario);
 
 
-        li.appendChild(caja);   
+        li.appendChild(caja);
         ul.appendChild(li);
     });
-    
+
 
     const li = document.createElement('li');
     const boton = document.createElement('button');
-    boton.className ="ver_mas";
+    boton.className = "ver_mas";
     boton.textContent = "Ver más";
     li.appendChild(boton);
     ul.appendChild(li);
@@ -163,7 +161,7 @@ function mostrarReviews(reviews, elto){
 }
 
 
-function mostrarCardReview (seleccion){
+function mostrarCardReview(seleccion) {
     //Card para agregar review
     const popup = document.getElementById("popup_card");
     const popup_contenido = document.createElement('div');
@@ -193,26 +191,26 @@ function mostrarCardReview (seleccion){
     input.className = "comentario";
 
     const boton = document.createElement('button');
-    boton.className ="guardar";
+    boton.className = "guardar";
     boton.id = "guardar";
     boton.textContent = "Guardar";
 
     const rating = document.createElement('div');
     rating.className = "rating";
-    for(let i=0;i<5;i++){
+    for (let i = 0; i < 5; i++) {
         const estrella = document.createElement('i');
         estrella.className = "fa-regular fa-star";
         rating.appendChild(estrella);
     }
-    
+
     contenedor2.appendChild(rating);
     contenedor2.appendChild(input);
     contenedor2.appendChild(boton);
 
-    popup_contenido.appendChild(cerrarIcono); 
+    popup_contenido.appendChild(cerrarIcono);
     popup_contenido.appendChild(contenedor1);
     popup_contenido.appendChild(contenedor2);
-    
+
 
     popup.appendChild(popup_contenido);
 
@@ -220,16 +218,16 @@ function mostrarCardReview (seleccion){
 }
 
 
-document.getElementById('guardar').onclick = function() {
+document.getElementById('guardar').onclick = function () {
     document.getElementById('popup_card').style.display = 'none';
-  }
+}
 
-  document.getElementById('agregar_review').onclick = function() {
+document.getElementById('agregar_review').onclick = function () {
     document.getElementById('popup_card').style.display = 'flex';
     console.log("Apreto boton para agregar review");
-   }
-   
+}
 
-     document.getElementById('cerrar_popup').onclick = function() {
-       document.getElementById('popup_card').style.display = 'none';
-     }
+
+document.getElementById('cerrar_popup').onclick = function () {
+    document.getElementById('popup_card').style.display = 'none';
+}

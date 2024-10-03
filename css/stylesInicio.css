@@ -21,10 +21,6 @@ body {
 
 header {
     background-color: #552121;
-    /* background-image: url(./assets/imagenFondo3.webp);
-    background-size: cover;
-    background-repeat: no-repeat;
-    background-position: bottom;*/
     background-image: linear-gradient(#552121 450px, #222222);
     color: aliceblue;
     min-height: 600px;
