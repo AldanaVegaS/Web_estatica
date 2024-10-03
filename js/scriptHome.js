@@ -7,7 +7,7 @@ function mostrar(items, nodo, aMostrar) {
         case 'poster':
             items.forEach((item) => {
                 let link = document.createElement('a');
-                link.href = `info.html?titulo=${item.titulo}&tipo=${item.tipo}`; // URL de la página de detalles
+                link.href = `../pages/info.html?titulo=${item.titulo}&tipo=${item.tipo}`; // URL de la página de detalles
 
                 let img = document.createElement('img');
                 img.src = item.poster;
