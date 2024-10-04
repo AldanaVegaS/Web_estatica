@@ -301,3 +301,6 @@ mostrar(datos, popular, 'poster');
 /*Busco nodo de proximamentes y ubico las imagenes*/
 let proximo = document.getElementById('proximamente')
 mostrar(proximamente, proximo, 'poster');
+
+
+

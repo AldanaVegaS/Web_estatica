@@ -35,7 +35,7 @@ ul.appendChild(barra);
 //BOTON
 const boton = document.createElement('li');
 boton.className = "boton";
-boton.id= "boton";
+boton.id = "boton";
 const icono = document.createElement('i');
 icono.className = 'fa fa-bars'; // Agregar las clases necesarias para el icono
 icono.setAttribute('aria-hidden', 'true');
@@ -50,12 +50,17 @@ items.id = "items";
 
 const itemsLista = ["Listas", "Watchlist", "Perfil"];
 itemsLista.forEach(item => {
-    const li = document.createElement('li');
-    const a = document.createElement('a');
+  const li = document.createElement('li');
+  const a = document.createElement('a');
+  a.href = "#";
+  if (item == "Perfil") {
+    a.href = "../pages/inicio.html";
+  } else {
     a.href = "#";
-    a.textContent = item;
-    li.appendChild(a);
-    items.appendChild(li);
+  }
+  a.textContent = item;
+  li.appendChild(a);
+  items.appendChild(li);
 });
 ul.appendChild(items);
 
@@ -65,6 +70,6 @@ navBar.appendChild(ul);
 
 const b = document.getElementById('boton');
 const i = document.getElementById('items');
-b.addEventListener('click',()=>{
-      i.classList.toggle('show');
-    });
+b.addEventListener('click', () => {
+  i.classList.toggle('show');
+});
