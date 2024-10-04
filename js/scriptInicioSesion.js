@@ -16,11 +16,11 @@ flipLinkBack.addEventListener("click", (e)=>{
 
 signUpButton.addEventListener("click", (e)=>{
     e.preventDefault;
-    window.location.href="../home.html"
+    window.location.href="../pages/home.html"
 });
 
 logInButton.addEventListener("click", (e)=>{
     e.preventDefault;
-    window.location.href="../home.html"
+    window.location.href="../pages/home.html"
 });
 

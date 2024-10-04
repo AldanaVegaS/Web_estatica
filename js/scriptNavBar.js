@@ -10,7 +10,7 @@ const a = document.createElement('a');
 a.href = "home.html";
 const logoImg = document.createElement('img');
 logoImg.className = 'logo';
-logoImg.src = "/imagenes/logo1.png";
+logoImg.src = "../imagenes/logo1.png";
 
 a.appendChild(logoImg);
 logo.appendChild(a);

@@ -82,8 +82,3 @@ function mostrar(items, nodo, aMostrar) {
     console.log(fragment);
     nodo.appendChild(fragment);
 }
-
-
-
-
-

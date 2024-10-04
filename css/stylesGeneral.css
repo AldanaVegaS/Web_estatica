@@ -160,6 +160,7 @@ body {
         display: list-item;
         background: #222222;
         transition: top .4s;
+        z-index: 1;
     }
 
     .items li{
