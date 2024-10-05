@@ -36,7 +36,84 @@ export const peliculas = [
                 "calificacion": 4
             }
         ]
+    }, {
+        "titulo": "The Holdovers",
+        "fecha_estreno": "2023-12-01",
+        "director": "Alexander Payne",
+        "actores_principales": [
+            "Paul Giamatti",
+            "Dominique Saldana",
+            "Julio Torres"
+        ],
+        "genero": [
+            "Comedia",
+            "Drama"
+        ],
+        "sinopsis": "Un maestro de escuela interna se queda durante las vacaciones con un estudiante problemático.",
+        "calificacion_general": 4.5,
+        "crew": {
+            "productor": "Mark Johnson",
+            "guionista": "David Hemingson",
+            "director_fotografia": "Phedon Papamichael"
+        },
+        "detalles": {
+            "duracion": "126 minutos",
+            "clasificacion": "R"
+        },
+        "poster": "https://m.media-amazon.com/images/M/MV5BOWY3MjUzZTctOTI5ZC00MDA5LTk4ZTMtZWJjNjRmMzE4ZmI2XkEyXkFqcGc@._V1_QL75_UX190_CR0,0,190,281_.jpg",
+        "reviews": [
+            {
+                "usuario": "comedyfan123",
+                "contenido": "Una historia conmovedora y divertida sobre relaciones humanas.",
+                "calificacion": 5
+            },
+            {
+                "usuario": "dramalover",
+                "contenido": "Excelentes actuaciones, especialmente de Giamatti.",
+                "calificacion": 4
+            }
+        ]
     },
+
+    {
+        "titulo": "Everything Everywhere All at Once",
+        "fecha_estreno": "2022-03-11",
+        "director": "Daniel Kwan, Daniel Scheinert",
+        "actores_principales": [
+            "Michelle Yeoh",
+            "Stephanie Hsu",
+            "Ke Huy Quan"
+        ],
+        "genero": [
+            "Acción",
+            "Aventura"
+        ],
+        "sinopsis": "Una mujer común debe conectarse con versiones alternativas de sí misma para salvar el multiverso.",
+        "calificacion_general": 4.6,
+        "crew": {
+            "productor": "Daniel Kwan, Daniel Scheinert",
+            "guionista": "Daniel Kwan, Daniel Scheinert",
+            "director_fotografia": "Larkin Seiple"
+        },
+        "detalles": {
+            "duracion": "139 minutos",
+            "clasificacion": "R"
+        },
+        "poster": "https://m.media-amazon.com/images/M/MV5BYTdiOTIyZTQtNmQ1OS00NjZlLWIyMTgtYzk5Y2M3ZDVmMDk1XkEyXkFqcGdeQXVyMTAzMDg4NzU0._V1_FMjpg_UX1000_.jpg",
+        "reviews": [
+            {
+                "usuario": "multiversefan",
+                "contenido": "Una película que desafía la realidad de una forma nunca vista antes.",
+                "calificacion": 5
+            },
+            {
+                "usuario": "adventurereview",
+                "contenido": "Divertida y llena de acción, pero un poco confusa.",
+                "calificacion": 4
+            }
+        ]
+    }
+    ,
     {
         "titulo": "The Godfather",
         "fecha_estreno": "1972-03-24",
@@ -799,765 +876,765 @@ export const peliculas = [
         ]
     },
     {
-    "titulo": "John Wick: Chapter 4",
-    "fecha_estreno": "2023-03-24",
-    "director": "Chad Stahelski",
-    "actores_principales": [
-        "Keanu Reeves",
-        "Donnie Yen",
-        "Bill Skarsgård"
-    ],
-    "genero": [
-        "Acción",
-        "Thriller"
-    ],
-    "sinopsis": "John Wick busca vengar la muerte de su amigo mientras enfrenta a poderosos enemigos en una batalla global.",
-    "calificacion_general": 4.8,
-    "crew": {
-        "productores": "Basil Iwanyk, Erica Lee, Chad Stahelski",
-        "guionistas": "Shay Hatten, Michael Finch, Chad Stahelski",
-        "direccion_de_fotografia": "Dan Laustsen"
-    },
-    "detalles": {
-        "duracion": "169 minutos",
-        "clasificacion": "R"
-    },
-    "poster": "https://pics.filmaffinity.com/John_Wick_4-101402041-mmed.jpg",
-    "reviews": [
-        {
-            "usuario": "actionfanatic",
-            "comentario": "Una explosión de acción de principio a fin, ¡no te la puedes perder!",
-            "calificacion": 5
+        "titulo": "John Wick: Chapter 4",
+        "fecha_estreno": "2023-03-24",
+        "director": "Chad Stahelski",
+        "actores_principales": [
+            "Keanu Reeves",
+            "Donnie Yen",
+            "Bill Skarsgård"
+        ],
+        "genero": [
+            "Acción",
+            "Thriller"
+        ],
+        "sinopsis": "John Wick busca vengar la muerte de su amigo mientras enfrenta a poderosos enemigos en una batalla global.",
+        "calificacion_general": 4.8,
+        "crew": {
+            "productores": "Basil Iwanyk, Erica Lee, Chad Stahelski",
+            "guionistas": "Shay Hatten, Michael Finch, Chad Stahelski",
+            "direccion_de_fotografia": "Dan Laustsen"
         },
-        {
-            "usuario": "stuntlover",
-            "comentario": "Las secuencias de pelea son impresionantes.",
-            "calificacion": 4.9
-        }
-    ]
-},
-{
-    "titulo": "Fast & Furious X",
-    "fecha_estreno": "2023-05-19",
-    "director": "Louis Leterrier",
-    "actores_principales": [
-        "Vin Diesel",
-        "Michelle Rodriguez",
-        "Jordana Brewster"
-    ],
-    "genero": [
-        "Acción",
-        "Aventura"
-    ],
-    "sinopsis": "La familia Toretto se enfrenta a un nuevo villano que busca vengarse por el pasado.",
-    "calificacion_general": 4.5,
-    "crew": {
-        "productores": "Vin Diesel, Neal H. Moritz",
-        "guionistas": "Dan Mazeau, Justin Lin",
-        "direccion_de_fotografia": "Larkin Seiple"
+        "detalles": {
+            "duracion": "169 minutos",
+            "clasificacion": "R"
+        },
+        "poster": "https://pics.filmaffinity.com/John_Wick_4-101402041-mmed.jpg",
+        "reviews": [
+            {
+                "usuario": "actionfanatic",
+                "comentario": "Una explosión de acción de principio a fin, ¡no te la puedes perder!",
+                "calificacion": 5
+            },
+            {
+                "usuario": "stuntlover",
+                "comentario": "Las secuencias de pelea son impresionantes.",
+                "calificacion": 4.9
+            }
+        ]
     },
-    "detalles": {
-        "duracion": "141 minutos",
-        "clasificacion": "PG-13"
+    {
+        "titulo": "Fast & Furious X",
+        "fecha_estreno": "2023-05-19",
+        "director": "Louis Leterrier",
+        "actores_principales": [
+            "Vin Diesel",
+            "Michelle Rodriguez",
+            "Jordana Brewster"
+        ],
+        "genero": [
+            "Acción",
+            "Aventura"
+        ],
+        "sinopsis": "La familia Toretto se enfrenta a un nuevo villano que busca vengarse por el pasado.",
+        "calificacion_general": 4.5,
+        "crew": {
+            "productores": "Vin Diesel, Neal H. Moritz",
+            "guionistas": "Dan Mazeau, Justin Lin",
+            "direccion_de_fotografia": "Larkin Seiple"
+        },
+        "detalles": {
+            "duracion": "141 minutos",
+            "clasificacion": "PG-13"
+        },
+        "poster": "https://pics.filmaffinity.com/Fast_Furious_X-556821969-large.jpg",
+        "reviews": [
+            {
+                "usuario": "carlover",
+                "comentario": "¡Acción trepidante y coches espectaculares!",
+                "calificacion": 4.6
+            },
+            {
+                "usuario": "familyfirst",
+                "comentario": "Siempre un placer ver a esta familia unida.",
+                "calificacion": 4.3
+            }
+        ]
     },
-    "poster": "https://pics.filmaffinity.com/Fast_Furious_X-556821969-large.jpg",
-    "reviews": [
-        {
-            "usuario": "carlover",
-            "comentario": "¡Acción trepidante y coches espectaculares!",
-            "calificacion": 4.6
+    {
+        "titulo": "Guardians of the Galaxy Vol. 3",
+        "fecha_estreno": "2023-05-05",
+        "director": "James Gunn",
+        "actores_principales": [
+            "Chris Pratt",
+            "Zoe Saldana",
+            "Dave Bautista"
+        ],
+        "genero": [
+            "Acción",
+            "Aventura",
+            "Comedia"
+        ],
+        "sinopsis": "Los Guardianes deben proteger a uno de los suyos mientras enfrentan un nuevo enemigo en el espacio.",
+        "calificacion_general": 4.7,
+        "crew": {
+            "productores": "Kevin Feige, Louis D'Esposito",
+            "guionistas": "James Gunn",
+            "direccion_de_fotografia": "Henry Braham"
         },
-        {
-            "usuario": "familyfirst",
-            "comentario": "Siempre un placer ver a esta familia unida.",
-            "calificacion": 4.3
-        }
-    ]
-},
-{
-    "titulo": "Guardians of the Galaxy Vol. 3",
-    "fecha_estreno": "2023-05-05",
-    "director": "James Gunn",
-    "actores_principales": [
-        "Chris Pratt",
-        "Zoe Saldana",
-        "Dave Bautista"
-    ],
-    "genero": [
-        "Acción",
-        "Aventura",
-        "Comedia"
-    ],
-    "sinopsis": "Los Guardianes deben proteger a uno de los suyos mientras enfrentan un nuevo enemigo en el espacio.",
-    "calificacion_general": 4.7,
-    "crew": {
-        "productores": "Kevin Feige, Louis D'Esposito",
-        "guionistas": "James Gunn",
-        "direccion_de_fotografia": "Henry Braham"
+        "detalles": {
+            "duracion": "150 minutos",
+            "clasificacion": "PG-13"
+        },
+        "poster": "https://m.media-amazon.com/images/M/MV5BOTJhOTMxMmItZmE0Ny00MDc3LWEzOGEtOGFkMzY4MWYyZDQ0XkEyXkFqcGc@._V1_.jpg",
+        "reviews": [
+            {
+                "usuario": "marvelmaniac",
+                "comentario": "Una emocionante aventura espacial llena de risas y acción.",
+                "calificacion": 5
+            },
+            {
+                "usuario": "teamguardians",
+                "comentario": "Los mejores momentos de la trilogía.",
+                "calificacion": 4.8
+            }
+        ]
     },
-    "detalles": {
-        "duracion": "150 minutos",
-        "clasificacion": "PG-13"
+    {
+        "titulo": "Mission: Impossible - Dead Reckoning Part One",
+        "fecha_estreno": "2023-07-12",
+        "director": "Christopher McQuarrie",
+        "actores_principales": [
+            "Tom Cruise",
+            "Hayley Atwell",
+            "Ving Rhames"
+        ],
+        "genero": [
+            "Acción",
+            "Aventura",
+            "Suspenso"
+        ],
+        "sinopsis": "Ethan Hunt y su equipo deben rastrear un arma secreta antes de que caiga en manos equivocadas.",
+        "calificacion_general": 4.8,
+        "crew": {
+            "productores": "Tom Cruise, Christopher McQuarrie",
+            "guionistas": "Christopher McQuarrie, Erik Jendresen",
+            "direccion_de_fotografia": "Haitham A. Dabbour"
+        },
+        "detalles": {
+            "duracion": "163 minutos",
+            "clasificacion": "PG-13"
+        },
+        "poster": "https://upload.wikimedia.org/wikipedia/en/e/ed/Mission-_Impossible_%E2%80%93_Dead_Reckoning_Part_One_poster.jpg",
+        "reviews": [
+            {
+                "usuario": "spyfan",
+                "comentario": "La mejor película de acción del año, con acrobacias impresionantes.",
+                "calificacion": 5
+            },
+            {
+                "usuario": "missionpossible",
+                "comentario": "Tom Cruise sigue superándose en cada entrega.",
+                "calificacion": 4.9
+            }
+        ]
     },
-    "poster": "https://m.media-amazon.com/images/M/MV5BOTJhOTMxMmItZmE0Ny00MDc3LWEzOGEtOGFkMzY4MWYyZDQ0XkEyXkFqcGc@._V1_.jpg",
-    "reviews": [
-        {
-            "usuario": "marvelmaniac",
-            "comentario": "Una emocionante aventura espacial llena de risas y acción.",
-            "calificacion": 5
+    {
+        "titulo": "The Matrix",
+        "fecha_estreno": "1999-03-31",
+        "director": "Lana Wachowski, Lilly Wachowski",
+        "actores_principales": [
+            "Keanu Reeves",
+            "Laurence Fishburne",
+            "Carrie-Anne Moss"
+        ],
+        "genero": [
+            "Ciencia ficción",
+            "Acción"
+        ],
+        "sinopsis": "Un hacker descubre la verdad sobre su realidad y su papel en la guerra contra sus controladores.",
+        "calificacion_general": 4.6,
+        "crew": {
+            "productores": "Joel Silver",
+            "guionistas": "Lana Wachowski, Lilly Wachowski",
+            "direccion_de_fotografia": "Bill Pope"
         },
-        {
-            "usuario": "teamguardians",
-            "comentario": "Los mejores momentos de la trilogía.",
-            "calificacion": 4.8
-        }
-    ]
-},
-{
-    "titulo": "Mission: Impossible - Dead Reckoning Part One",
-    "fecha_estreno": "2023-07-12",
-    "director": "Christopher McQuarrie",
-    "actores_principales": [
-        "Tom Cruise",
-        "Hayley Atwell",
-        "Ving Rhames"
-    ],
-    "genero": [
-        "Acción",
-        "Aventura",
-        "Suspenso"
-    ],
-    "sinopsis": "Ethan Hunt y su equipo deben rastrear un arma secreta antes de que caiga en manos equivocadas.",
-    "calificacion_general": 4.8,
-    "crew": {
-        "productores": "Tom Cruise, Christopher McQuarrie",
-        "guionistas": "Christopher McQuarrie, Erik Jendresen",
-        "direccion_de_fotografia": "Haitham A. Dabbour"
+        "detalles": {
+            "duracion": "136 minutos",
+            "clasificacion": "R"
+        },
+        "poster": "https://m.media-amazon.com/images/M/MV5BN2NmN2VhMTQtMDNiOS00NDlhLTliMjgtODE2ZTY0ODQyNDRhXkEyXkFqcGc@._V1_.jpg",
+        "reviews": [
+            {
+                "usuario": "neo_lover",
+                "comentario": "Revolucionó el cine. Visualmente impresionante.",
+                "calificacion": 5
+            },
+            {
+                "usuario": "cypher_here",
+                "comentario": "Una película que me hizo cuestionar todo.",
+                "calificacion": 4
+            }
+        ]
+    }, {
+        "titulo": "Rocky",
+        "fecha_estreno": "1976-12-03",
+        "director": "John G. Avildsen",
+        "actores_principales": [
+            "Sylvester Stallone",
+            "Talia Shire",
+            "Burt Young"
+        ],
+        "genero": [
+            "Drama",
+            "Deporte"
+        ],
+        "sinopsis": "Un boxeador desconocido de Filadelfia recibe una oportunidad inesperada para luchar por el título mundial de peso pesado.",
+        "calificacion_general": 4.3,
+        "crew": {
+            "productores": "Robert Chartoff, Irwin Winkler",
+            "guionistas": "Sylvester Stallone",
+            "direccion_de_fotografia": "James Crabe"
+        },
+        "detalles": {
+            "duracion": "120 minutos",
+            "clasificacion": "PG"
+        },
+        "poster": "https://upload.wikimedia.org/wikipedia/en/thumb/1/18/Rocky_poster.jpg/220px-Rocky_poster.jpg",
+        "reviews": [
+            {
+                "usuario": "boxingfan123",
+                "comentario": "Una historia inspiradora, Sylvester Stallone es perfecto.",
+                "calificacion": 5
+            },
+            {
+                "usuario": "moviebuff99",
+                "comentario": "Aunque predecible, es una gran película de superación.",
+                "calificacion": 4
+            }
+        ]
     },
-    "detalles": {
-        "duracion": "163 minutos",
-        "clasificacion": "PG-13"
+    {
+        "titulo": "Mad Max 2",
+        "fecha_estreno": "1981-12-24",
+        "director": "George Miller",
+        "actores_principales": [
+            "Mel Gibson",
+            "Bruce Spence",
+            "Michael Preston"
+        ],
+        "genero": [
+            "Acción",
+            "Ciencia ficción"
+        ],
+        "sinopsis": "En un mundo postapocalíptico, Max debe ayudar a un grupo de colonos a defenderse de una pandilla de merodeadores.",
+        "calificacion_general": 4.5,
+        "crew": {
+            "productores": "Byron Kennedy",
+            "guionistas": "Terry Hayes, George Miller, Brian Hannant",
+            "direccion_de_fotografia": "Dean Semler"
+        },
+        "detalles": {
+            "duracion": "96 minutos",
+            "clasificacion": "R"
+        },
+        "poster": "https://m.media-amazon.com/images/S/pv-target-images/6874a688cc4f1fdb2fa4067210e09bc604a5b2a492482aa932906415132a2c0c.jpg",
+        "reviews": [
+            {
+                "usuario": "roadwarrior85",
+                "comentario": "La mejor película de acción postapocalíptica.",
+                "calificacion": 5
+            },
+            {
+                "usuario": "apocalypsefan",
+                "comentario": "Gran secuela, aunque un poco exagerada a veces.",
+                "calificacion": 4
+            }
+        ]
     },
-    "poster": "https://upload.wikimedia.org/wikipedia/en/e/ed/Mission-_Impossible_%E2%80%93_Dead_Reckoning_Part_One_poster.jpg",
-    "reviews": [
-        {
-            "usuario": "spyfan",
-            "comentario": "La mejor película de acción del año, con acrobacias impresionantes.",
-            "calificacion": 5
+    {
+        "titulo": "The Terminator",
+        "fecha_estreno": "1984-10-26",
+        "director": "James Cameron",
+        "actores_principales": [
+            "Arnold Schwarzenegger",
+            "Linda Hamilton",
+            "Michael Biehn"
+        ],
+        "genero": [
+            "Ciencia ficción",
+            "Acción"
+        ],
+        "sinopsis": "Un ciborg asesino es enviado desde el futuro para matar a una mujer cuyo hijo será clave para el futuro de la humanidad.",
+        "calificacion_general": 4.8,
+        "crew": {
+            "productores": "Gale Anne Hurd",
+            "guionistas": "James Cameron, Gale Anne Hurd",
+            "direccion_de_fotografia": "Adam Greenberg"
         },
-        {
-            "usuario": "missionpossible",
-            "comentario": "Tom Cruise sigue superándose en cada entrega.",
-            "calificacion": 4.9
-        }
-    ]
-},
-{
-    "titulo": "The Matrix",
-    "fecha_estreno": "1999-03-31",
-    "director": "Lana Wachowski, Lilly Wachowski",
-    "actores_principales": [
-        "Keanu Reeves",
-        "Laurence Fishburne",
-        "Carrie-Anne Moss"
-    ],
-    "genero": [
-        "Ciencia ficción",
-        "Acción"
-    ],
-    "sinopsis": "Un hacker descubre la verdad sobre su realidad y su papel en la guerra contra sus controladores.",
-    "calificacion_general": 4.6,
-    "crew": {
-        "productores": "Joel Silver",
-        "guionistas": "Lana Wachowski, Lilly Wachowski",
-        "direccion_de_fotografia": "Bill Pope"
+        "detalles": {
+            "duracion": "107 minutos",
+            "clasificacion": "R"
+        },
+        "poster": "https://m.media-amazon.com/images/M/MV5BZmE0YzIxM2QtMGNlMi00MjRmLWE3MWMtOWQzMGVjMmU0YTFmXkEyXkFqcGc@._V1_.jpg",
+        "reviews": [
+            {
+                "usuario": "cyberdynefan",
+                "comentario": "Un clásico absoluto de la ciencia ficción.",
+                "calificacion": 5
+            },
+            {
+                "usuario": "time_traveler_101",
+                "comentario": "Increíble para su época, aunque con algunos clichés.",
+                "calificacion": 4.5
+            }
+        ]
     },
-    "detalles": {
-        "duracion": "136 minutos",
-        "clasificacion": "R"
+    {
+        "titulo": "Aliens",
+        "fecha_estreno": "1986-07-18",
+        "director": "James Cameron",
+        "actores_principales": [
+            "Sigourney Weaver",
+            "Michael Biehn",
+            "Carrie Henn"
+        ],
+        "genero": [
+            "Ciencia ficción",
+            "Terror"
+        ],
+        "sinopsis": "Después de sobrevivir a un ataque alienígena, Ripley vuelve al planeta con un grupo de marines para enfrentarse a los horrores que dejó atrás.",
+        "calificacion_general": 4.7,
+        "crew": {
+            "productores": "Gale Anne Hurd",
+            "guionistas": "James Cameron",
+            "direccion_de_fotografia": "Adrian Biddle"
+        },
+        "detalles": {
+            "duracion": "137 minutos",
+            "clasificacion": "R"
+        },
+        "poster": "https://m.media-amazon.com/images/M/MV5BZjIyNGJhYzYtN2I1My00OTVhLWEyMzItZTVjNDMzOTVkYWViXkEyXkFqcGc@._V1_.jpg",
+        "reviews": [
+            {
+                "usuario": "xenomorph_hunter",
+                "comentario": "La mejor secuela que he visto en mi vida.",
+                "calificacion": 5
+            },
+            {
+                "usuario": "colonial_marine",
+                "comentario": "Terror y acción mezclados de manera magistral.",
+                "calificacion": 4.8
+            }
+        ]
     },
-    "poster": "https://m.media-amazon.com/images/M/MV5BN2NmN2VhMTQtMDNiOS00NDlhLTliMjgtODE2ZTY0ODQyNDRhXkEyXkFqcGc@._V1_.jpg",
-    "reviews": [
-        {
-            "usuario": "neo_lover",
-            "comentario": "Revolucionó el cine. Visualmente impresionante.",
-            "calificacion": 5
+    {
+        "titulo": "Deadpool",
+        "fecha_estreno": "2016-02-12",
+        "director": "Tim Miller",
+        "actores_principales": [
+            "Ryan Reynolds",
+            "Morena Baccarin",
+            "T.J. Miller"
+        ],
+        "genero": [
+            "Acción",
+            "Comedia"
+        ],
+        "sinopsis": "Un mercenario desfigurado con un sentido del humor irreverente busca venganza contra el hombre que arruinó su vida.",
+        "calificacion_general": 4.4,
+        "crew": {
+            "productores": "Simon Kinberg, Ryan Reynolds, Lauren Shuler Donner",
+            "guionistas": "Rhett Reese, Paul Wernick",
+            "direccion_de_fotografia": "Ken Seng"
         },
-        {
-            "usuario": "cypher_here",
-            "comentario": "Una película que me hizo cuestionar todo.",
-            "calificacion": 4
-        }
-    ]
-}, {
-    "titulo": "Rocky",
-    "fecha_estreno": "1976-12-03",
-    "director": "John G. Avildsen",
-    "actores_principales": [
-        "Sylvester Stallone",
-        "Talia Shire",
-        "Burt Young"
-    ],
-    "genero": [
-        "Drama",
-        "Deporte"
-    ],
-    "sinopsis": "Un boxeador desconocido de Filadelfia recibe una oportunidad inesperada para luchar por el título mundial de peso pesado.",
-    "calificacion_general": 4.3,
-    "crew": {
-        "productores": "Robert Chartoff, Irwin Winkler",
-        "guionistas": "Sylvester Stallone",
-        "direccion_de_fotografia": "James Crabe"
+        "detalles": {
+            "duracion": "108 minutos",
+            "clasificacion": "R"
+        },
+        "poster": "https://m.media-amazon.com/images/M/MV5BNzY3ZWU5NGQtOTViNC00ZWVmLTliNjAtNzViNzlkZWQ4YzQ4XkEyXkFqcGc@._V1_FMjpg_UX1000_.jpg",
+        "reviews": [
+            {
+                "usuario": "merc_with_a_mouth",
+                "comentario": "Una película hilarante y llena de acción.",
+                "calificacion": 5
+            },
+            {
+                "usuario": "hero_fan",
+                "comentario": "Un poco sobrevalorada, pero entretenida.",
+                "calificacion": 4
+            }
+        ]
     },
-    "detalles": {
-        "duracion": "120 minutos",
-        "clasificacion": "PG"
+    {
+        "titulo": "Robot Dreams",
+        "fecha_estreno": "2023-09-08",
+        "director": "Pablo Berger",
+        "actores_principales": [
+            "Actores de voz",
+            "Animación"
+        ],
+        "genero": [
+            "Animación",
+            "Drama"
+        ],
+        "sinopsis": "La amistad entre un perro y un robot se ve interrumpida cuando el robot queda atrapado en la playa.",
+        "calificacion_general": 4.2,
+        "crew": {
+            "productores": "Pablo Berger",
+            "guionistas": "Pablo Berger",
+            "direccion_de_fotografia": "Animación"
+        },
+        "detalles": {
+            "duracion": "90 minutos",
+            "clasificacion": "PG"
+        },
+        "poster": "https://m.media-amazon.com/images/M/MV5BMTE0OGRjZWQtMDRiOS00ZjM4LTg2NjAtZGYyZDk1NGRkMzg1XkEyXkFqcGc@._V1_.jpg",
+        "reviews": [
+            {
+                "usuario": "dreamy_robot",
+                "comentario": "Un viaje emocional y visualmente hermoso.",
+                "calificacion": 4.5
+            },
+            {
+                "usuario": "beachbot",
+                "comentario": "Enternecedora y creativa, aunque un poco lenta.",
+                "calificacion": 4
+            }
+        ]
     },
-    "poster": "https://upload.wikimedia.org/wikipedia/en/thumb/1/18/Rocky_poster.jpg/220px-Rocky_poster.jpg",
-    "reviews": [
-        {
-            "usuario": "boxingfan123",
-            "comentario": "Una historia inspiradora, Sylvester Stallone es perfecto.",
-            "calificacion": 5
+    {
+        "titulo": "Bee Movie",
+        "fecha_estreno": "2007-11-02",
+        "director": "Simon J. Smith, Steve Hickner",
+        "actores_principales": [
+            "Jerry Seinfeld",
+            "Renée Zellweger",
+            "Matthew Broderick"
+        ],
+        "genero": [
+            "Animación",
+            "Comedia"
+        ],
+        "sinopsis": "Una abeja recién graduada de la universidad entabla una demanda contra los humanos por explotar la miel.",
+        "calificacion_general": 3.8,
+        "crew": {
+            "productores": "Jerry Seinfeld, Christina Steinberg",
+            "guionistas": "Jerry Seinfeld, Spike Feresten",
+            "direccion_de_fotografia": "Animación"
         },
-        {
-            "usuario": "moviebuff99",
-            "comentario": "Aunque predecible, es una gran película de superación.",
-            "calificacion": 4
-        }
-    ]
-},
-{
-    "titulo": "Mad Max 2",
-    "fecha_estreno": "1981-12-24",
-    "director": "George Miller",
-    "actores_principales": [
-        "Mel Gibson",
-        "Bruce Spence",
-        "Michael Preston"
-    ],
-    "genero": [
-        "Acción",
-        "Ciencia ficción"
-    ],
-    "sinopsis": "En un mundo postapocalíptico, Max debe ayudar a un grupo de colonos a defenderse de una pandilla de merodeadores.",
-    "calificacion_general": 4.5,
-    "crew": {
-        "productores": "Byron Kennedy",
-        "guionistas": "Terry Hayes, George Miller, Brian Hannant",
-        "direccion_de_fotografia": "Dean Semler"
+        "detalles": {
+            "duracion": "91 minutos",
+            "clasificacion": "PG"
+        },
+        "poster": "https://m.media-amazon.com/images/M/MV5BMTQ1NjE0NzM1NF5BMl5BanBnXkFtZTcwMTM4MTE2MQ@@._V1_.jpg",
+        "reviews": [
+            {
+                "usuario": "honey_defender",
+                "comentario": "Divertida y con un mensaje inusual.",
+                "calificacion": 4
+            },
+            {
+                "usuario": "buzz_buzz",
+                "comentario": "Extraña pero entretenida, aunque no para todos.",
+                "calificacion": 3.5
+            }
+        ]
     },
-    "detalles": {
-        "duracion": "96 minutos",
-        "clasificacion": "R"
+    {
+        "titulo": "Spider-Man: Into the Spider-Verse",
+        "fecha_estreno": "2018-12-14",
+        "director": "Bob Persichetti, Peter Ramsey, Rodney Rothman",
+        "actores_principales": [
+            "Shameik Moore",
+            "Jake Johnson",
+            "Hailee Steinfeld"
+        ],
+        "genero": [
+            "Animación",
+            "Acción"
+        ],
+        "sinopsis": "Miles Morales se convierte en Spider-Man y descubre que puede haber más versiones del héroe en otros universos.",
+        "calificacion_general": 4.8,
+        "crew": {
+            "productores": "Phil Lord, Christopher Miller",
+            "guionistas": "Phil Lord, Rodney Rothman",
+            "direccion_de_fotografia": "Animación"
+        },
+        "detalles": {
+            "duracion": "117 minutos",
+            "clasificacion": "PG"
+        },
+        "poster": "https://m.media-amazon.com/images/M/MV5BMjMwNDkxMTgzOF5BMl5BanBnXkFtZTgwNTkwNTQ3NjM@._V1_FMjpg_UX1000_.jpg",
+        "reviews": [
+            {
+                "usuario": "spidey_fan_99",
+                "comentario": "La mejor película de Spider-Man hasta la fecha.",
+                "calificacion": 5
+            },
+            {
+                "usuario": "multiverse_traveler",
+                "comentario": "Visualmente impactante y muy entretenida.",
+                "calificacion": 4.8
+            }
+        ]
     },
-    "poster": "https://m.media-amazon.com/images/S/pv-target-images/6874a688cc4f1fdb2fa4067210e09bc604a5b2a492482aa932906415132a2c0c.jpg",
-    "reviews": [
-        {
-            "usuario": "roadwarrior85",
-            "comentario": "La mejor película de acción postapocalíptica.",
-            "calificacion": 5
+    {
+        "titulo": "Fantastic Mr. Fox",
+        "fecha_estreno": "2009-11-25",
+        "director": "Wes Anderson",
+        "actores_principales": [
+            "George Clooney",
+            "Meryl Streep",
+            "Jason Schwartzman"
+        ],
+        "genero": [
+            "Animación",
+            "Aventura"
+        ],
+        "sinopsis": "Un zorro astuto planea un último atraco a tres granjas, poniendo en peligro a su familia.",
+        "calificacion_general": 4.6,
+        "crew": {
+            "productores": "Wes Anderson, Scott Rudin",
+            "guionistas": "Wes Anderson, Noah Baumbach",
+            "direccion_de_fotografia": "Animación"
         },
-        {
-            "usuario": "apocalypsefan",
-            "comentario": "Gran secuela, aunque un poco exagerada a veces.",
-            "calificacion": 4
-        }
-    ]
-},
-{
-    "titulo": "The Terminator",
-    "fecha_estreno": "1984-10-26",
-    "director": "James Cameron",
-    "actores_principales": [
-        "Arnold Schwarzenegger",
-        "Linda Hamilton",
-        "Michael Biehn"
-    ],
-    "genero": [
-        "Ciencia ficción",
-        "Acción"
-    ],
-    "sinopsis": "Un ciborg asesino es enviado desde el futuro para matar a una mujer cuyo hijo será clave para el futuro de la humanidad.",
-    "calificacion_general": 4.8,
-    "crew": {
-        "productores": "Gale Anne Hurd",
-        "guionistas": "James Cameron, Gale Anne Hurd",
-        "direccion_de_fotografia": "Adam Greenberg"
+        "detalles": {
+            "duracion": "87 minutos",
+            "clasificacion": "PG"
+        },
+        "poster": "https://m.media-amazon.com/images/S/pv-target-images/b54c6f334c8a1b0d8aa5fff693a14b4eb3bdc7cc83d5f16cccd56761d388c75e.jpg",
+        "reviews": [
+            {
+                "usuario": "foxy_plan",
+                "comentario": "Un filme ingenioso y lleno de encanto.",
+                "calificacion": 4.7
+            },
+            {
+                "usuario": "wild_wild_animal",
+                "comentario": "Wes Anderson en su mejor forma, ideal para toda la familia.",
+                "calificacion": 4.5
+            }
+        ]
     },
-    "detalles": {
-        "duracion": "107 minutos",
-        "clasificacion": "R"
+    {
+        "titulo": "Grandes Héroes",
+        "fecha_estreno": "2014-11-07",
+        "director": "Don Hall, Chris Williams",
+        "actores_principales": [
+            "Ryan Potter",
+            "Scott Adsit",
+            "Jamie Chung"
+        ],
+        "genero": [
+            "Animación",
+            "Aventura"
+        ],
+        "sinopsis": "Un prodigioso joven y su robot Baymax forman un equipo de héroes para detener una peligrosa amenaza tecnológica.",
+        "calificacion_general": 4.4,
+        "crew": {
+            "productores": "Roy Conli",
+            "guionistas": "Jordan Roberts, Daniel Gerson",
+            "direccion_de_fotografia": "Animación"
+        },
+        "detalles": {
+            "duracion": "102 minutos",
+            "clasificacion": "PG"
+        },
+        "poster": "https://m.media-amazon.com/images/M/MV5BYjQ3YzUyOGQtNjdlYS00YmRhLWIyOWYtMGQ3YjkwMjJiYzRjXkEyXkFqcGc@._V1_.jpg",
+        "reviews": [
+            {
+                "usuario": "hiro_and_baymax",
+                "comentario": "Emocionante y con un gran corazón.",
+                "calificacion": 4.5
+            },
+            {
+                "usuario": "techie_hero",
+                "comentario": "Diversión y tecnología combinados perfectamente.",
+                "calificacion": 4.2
+            }
+        ]
     },
-    "poster": "https://m.media-amazon.com/images/M/MV5BZmE0YzIxM2QtMGNlMi00MjRmLWE3MWMtOWQzMGVjMmU0YTFmXkEyXkFqcGc@._V1_.jpg",
-    "reviews": [
-        {
-            "usuario": "cyberdynefan",
-            "comentario": "Un clásico absoluto de la ciencia ficción.",
-            "calificacion": 5
+    {
+        "titulo": "Leo",
+        "fecha_estreno": "2023-11-21",
+        "director": "Robert Marianetti, David Wachtenheim",
+        "actores_principales": [
+            "Adam Sandler",
+            "Bill Burr",
+            "Cecily Strong"
+        ],
+        "genero": [
+            "Animación",
+            "Comedia"
+        ],
+        "sinopsis": "Un lagarto de clase que ha vivido años como mascota escolar, decide disfrutar su último año de vida ayudando a los estudiantes.",
+        "calificacion_general": 4.1,
+        "crew": {
+            "productores": "Adam Sandler",
+            "guionistas": "Robert Marianetti, David Wachtenheim",
+            "direccion_de_fotografia": "Animación"
         },
-        {
-            "usuario": "time_traveler_101",
-            "comentario": "Increíble para su época, aunque con algunos clichés.",
-            "calificacion": 4.5
-        }
-    ]
-},
-{
-    "titulo": "Aliens",
-    "fecha_estreno": "1986-07-18",
-    "director": "James Cameron",
-    "actores_principales": [
-        "Sigourney Weaver",
-        "Michael Biehn",
-        "Carrie Henn"
-    ],
-    "genero": [
-        "Ciencia ficción",
-        "Terror"
-    ],
-    "sinopsis": "Después de sobrevivir a un ataque alienígena, Ripley vuelve al planeta con un grupo de marines para enfrentarse a los horrores que dejó atrás.",
-    "calificacion_general": 4.7,
-    "crew": {
-        "productores": "Gale Anne Hurd",
-        "guionistas": "James Cameron",
-        "direccion_de_fotografia": "Adrian Biddle"
+        "detalles": {
+            "duracion": "100 minutos",
+            "clasificacion": "PG"
+        },
+        "poster": "https://m.media-amazon.com/images/M/MV5BNGMyMjQ0Y2MtMzhkZS00NGU5LThmMmYtZDE0MWIwOTY2MjlhXkEyXkFqcGc@._V1_.jpg",
+        "reviews": [
+            {
+                "usuario": "lizard_fan",
+                "comentario": "Divertida y emotiva, Adam Sandler sorprende con su interpretación.",
+                "calificacion": 4.2
+            },
+            {
+                "usuario": "classroom_lizard",
+                "comentario": "Tierna historia con buen humor y lecciones de vida.",
+                "calificacion": 4
+            }
+        ]
     },
-    "detalles": {
-        "duracion": "137 minutos",
-        "clasificacion": "R"
+    {
+        "titulo": "El Castillo Ambulante",
+        "fecha_estreno": "2004-11-20",
+        "director": "Hayao Miyazaki",
+        "actores_principales": [
+            "Chieko Baishō",
+            "Takuya Kimura",
+            "Akihiro Miwa"
+        ],
+        "genero": [
+            "Animación",
+            "Fantasía"
+        ],
+        "sinopsis": "Una joven es transformada en una anciana por una bruja y busca refugio en el castillo ambulante de un mago llamado Howl.",
+        "calificacion_general": 4.8,
+        "crew": {
+            "productores": "Toshio Suzuki",
+            "guionistas": "Hayao Miyazaki",
+            "direccion_de_fotografia": "Animación"
+        },
+        "detalles": {
+            "duracion": "119 minutos",
+            "clasificacion": "PG"
+        },
+        "poster": "https://m.media-amazon.com/images/M/MV5BMTZhNTc2M2YtOGFhMS00MmQ2LTkxNWUtYWNhNWYyN2E2YzY1XkEyXkFqcGc@._V1_.jpg",
+        "reviews": [
+            {
+                "usuario": "miyazaki_lover",
+                "comentario": "Un festín visual con una historia conmovedora.",
+                "calificacion": 5
+            },
+            {
+                "usuario": "howls_moving_castle_fan",
+                "comentario": "Una película mágica que nunca envejece.",
+                "calificacion": 4.9
+            }
+        ]
     },
-    "poster": "https://m.media-amazon.com/images/M/MV5BZjIyNGJhYzYtN2I1My00OTVhLWEyMzItZTVjNDMzOTVkYWViXkEyXkFqcGc@._V1_.jpg",
-    "reviews": [
-        {
-            "usuario": "xenomorph_hunter",
-            "comentario": "La mejor secuela que he visto en mi vida.",
-            "calificacion": 5
+    {
+        "titulo": "Metegol",
+        "fecha_estreno": "2013-07-18",
+        "director": "Juan José Campanella",
+        "actores_principales": [
+            "David Masajnik",
+            "Pablo Rago",
+            "Lucía Maciel"
+        ],
+        "genero": [
+            "Animación",
+            "Aventura"
+        ],
+        "sinopsis": "Amadeo, un joven apasionado del fútbol de mesa, debe enfrentar a un exjugador profesional en una partida de vida o muerte, con la ayuda de figuras animadas del metegol.",
+        "calificacion_general": 4.0,
+        "crew": {
+            "productores": "Juan José Campanella",
+            "guionistas": "Eduardo Sacheri, Juan José Campanella",
+            "direccion_de_fotografia": "Animación"
         },
-        {
-            "usuario": "colonial_marine",
-            "comentario": "Terror y acción mezclados de manera magistral.",
-            "calificacion": 4.8
-        }
-    ]
-},
-{
-    "titulo": "Deadpool",
-    "fecha_estreno": "2016-02-12",
-    "director": "Tim Miller",
-    "actores_principales": [
-        "Ryan Reynolds",
-        "Morena Baccarin",
-        "T.J. Miller"
-    ],
-    "genero": [
-        "Acción",
-        "Comedia"
-    ],
-    "sinopsis": "Un mercenario desfigurado con un sentido del humor irreverente busca venganza contra el hombre que arruinó su vida.",
-    "calificacion_general": 4.4,
-    "crew": {
-        "productores": "Simon Kinberg, Ryan Reynolds, Lauren Shuler Donner",
-        "guionistas": "Rhett Reese, Paul Wernick",
-        "direccion_de_fotografia": "Ken Seng"
+        "detalles": {
+            "duracion": "106 minutos",
+            "clasificacion": "PG"
+        },
+        "poster": "https://m.media-amazon.com/images/M/MV5BMTEzMjY1OTM5NjVeQTJeQWpwZ15BbWU3MDcyMjU2NTk@._V1_.jpg",
+        "reviews": [
+            {
+                "usuario": "futbolito_fan",
+                "comentario": "Divertida y llena de acción, perfecta para los amantes del fútbol.",
+                "calificacion": 4.2
+            },
+            {
+                "usuario": "table_soccer_pro",
+                "comentario": "Creativa y entretenida, aunque la animación podría ser mejor.",
+                "calificacion": 3.8
+            }
+        ]
     },
-    "detalles": {
-        "duracion": "108 minutos",
-        "clasificacion": "R"
+    {
+        "titulo": "Cómo Entrenar a tu Dragón",
+        "fecha_estreno": "2010-03-26",
+        "director": "Dean DeBlois, Chris Sanders",
+        "actores_principales": [
+            "Jay Baruchel",
+            "Gerard Butler",
+            "America Ferrera"
+        ],
+        "genero": [
+            "Animación",
+            "Aventura"
+        ],
+        "sinopsis": "Un joven vikingo llamado Hipo desafía las tradiciones al entrenar a un dragón en lugar de cazarlo, lo que cambiará el destino de su pueblo.",
+        "calificacion_general": 4.7,
+        "crew": {
+            "productores": "Bonnie Arnold",
+            "guionistas": "Dean DeBlois, Chris Sanders",
+            "direccion_de_fotografia": "Animación"
+        },
+        "detalles": {
+            "duracion": "98 minutos",
+            "clasificacion": "PG"
+        },
+        "poster": "https://m.media-amazon.com/images/M/MV5BMjA5NDQyMjc2NF5BMl5BanBnXkFtZTcwMjg5ODcyMw@@._V1_FMjpg_UX1000_.jpg",
+        "reviews": [
+            {
+                "usuario": "dragon_rider",
+                "comentario": "Una de las mejores películas de animación, con una historia entrañable.",
+                "calificacion": 4.9
+            },
+            {
+                "usuario": "toothless_fan",
+                "comentario": "Visualmente espectacular y emocionalmente poderosa.",
+                "calificacion": 4.8
+            }
+        ]
     },
-    "poster": "https://m.media-amazon.com/images/M/MV5BNzY3ZWU5NGQtOTViNC00ZWVmLTliNjAtNzViNzlkZWQ4YzQ4XkEyXkFqcGc@._V1_FMjpg_UX1000_.jpg",
-    "reviews": [
-        {
-            "usuario": "merc_with_a_mouth",
-            "comentario": "Una película hilarante y llena de acción.",
-            "calificacion": 5
+    {
+        "titulo": "El Niño y la Garza",
+        "fecha_estreno": "2023-07-14",
+        "director": "Hayao Miyazaki",
+        "actores_principales": [
+            "Soma Santoki",
+            "Masaki Suda",
+            "Takuya Kimura"
+        ],
+        "genero": [
+            "Animación",
+            "Fantasía"
+        ],
+        "sinopsis": "Un joven niño vive una serie de aventuras fantásticas tras mudarse a una nueva ciudad luego de la muerte de su madre.",
+        "calificacion_general": 4.9,
+        "crew": {
+            "productores": "Toshio Suzuki",
+            "guionistas": "Hayao Miyazaki",
+            "direccion_de_fotografia": "Animación"
         },
-        {
-            "usuario": "hero_fan",
-            "comentario": "Un poco sobrevalorada, pero entretenida.",
-            "calificacion": 4
-        }
-    ]
-},
-{
-            "titulo": "Robot Dreams",
-            "fecha_estreno": "2023-09-08",
-            "director": "Pablo Berger",
-            "actores_principales": [
-                "Actores de voz",
-                "Animación"
-            ],
-            "genero": [
-                "Animación",
-                "Drama"
-            ],
-            "sinopsis": "La amistad entre un perro y un robot se ve interrumpida cuando el robot queda atrapado en la playa.",
-            "calificacion_general": 4.2,
-            "crew": {
-                "productores": "Pablo Berger",
-                "guionistas": "Pablo Berger",
-                "direccion_de_fotografia": "Animación"
-            },
-            "detalles": {
-                "duracion": "90 minutos",
-                "clasificacion": "PG"
-            },
-            "poster": "https://m.media-amazon.com/images/M/MV5BMTE0OGRjZWQtMDRiOS00ZjM4LTg2NjAtZGYyZDk1NGRkMzg1XkEyXkFqcGc@._V1_.jpg",
-            "reviews": [
-                {
-                    "usuario": "dreamy_robot",
-                    "comentario": "Un viaje emocional y visualmente hermoso.",
-                    "calificacion": 4.5
-                },
-                {
-                    "usuario": "beachbot",
-                    "comentario": "Enternecedora y creativa, aunque un poco lenta.",
-                    "calificacion": 4
-                }
-            ]
+        "detalles": {
+            "duracion": "124 minutos",
+            "clasificacion": "PG-13"
         },
-        {
-            "titulo": "Bee Movie",
-            "fecha_estreno": "2007-11-02",
-            "director": "Simon J. Smith, Steve Hickner",
-            "actores_principales": [
-                "Jerry Seinfeld",
-                "Renée Zellweger",
-                "Matthew Broderick"
-            ],
-            "genero": [
-                "Animación",
-                "Comedia"
-            ],
-            "sinopsis": "Una abeja recién graduada de la universidad entabla una demanda contra los humanos por explotar la miel.",
-            "calificacion_general": 3.8,
-            "crew": {
-                "productores": "Jerry Seinfeld, Christina Steinberg",
-                "guionistas": "Jerry Seinfeld, Spike Feresten",
-                "direccion_de_fotografia": "Animación"
+        "poster": "https://m.media-amazon.com/images/M/MV5BMzA5Zjg3MTAtM2FhZS00NTNjLTg3NjEtNWQ4MTRhZjhiNzVmXkEyXkFqcGc@._V1_FMjpg_UX1000_.jpg",
+        "reviews": [
+            {
+                "usuario": "miyazaki_magic",
+                "comentario": "Una película visualmente asombrosa y profundamente conmovedora.", "calificacion": 5
             },
-            "detalles": {
-                "duracion": "91 minutos",
-                "clasificacion": "PG"
-            },
-            "poster": "https://m.media-amazon.com/images/M/MV5BMTQ1NjE0NzM1NF5BMl5BanBnXkFtZTcwMTM4MTE2MQ@@._V1_.jpg",
-            "reviews": [
-                {
-                    "usuario": "honey_defender",
-                    "comentario": "Divertida y con un mensaje inusual.",
-                    "calificacion": 4
-                },
-                {
-                    "usuario": "buzz_buzz",
-                    "comentario": "Extraña pero entretenida, aunque no para todos.",
-                    "calificacion": 3.5
-                }
-            ]
-        },
-        {
-            "titulo": "Spider-Man: Into the Spider-Verse",
-            "fecha_estreno": "2018-12-14",
-            "director": "Bob Persichetti, Peter Ramsey, Rodney Rothman",
-            "actores_principales": [
-                "Shameik Moore",
-                "Jake Johnson",
-                "Hailee Steinfeld"
-            ],
-            "genero": [
-                "Animación",
-                "Acción"
-            ],
-            "sinopsis": "Miles Morales se convierte en Spider-Man y descubre que puede haber más versiones del héroe en otros universos.",
-            "calificacion_general": 4.8,
-            "crew": {
-                "productores": "Phil Lord, Christopher Miller",
-                "guionistas": "Phil Lord, Rodney Rothman",
-                "direccion_de_fotografia": "Animación"
-            },
-            "detalles": {
-                "duracion": "117 minutos",
-                "clasificacion": "PG"
-            },
-            "poster": "https://m.media-amazon.com/images/M/MV5BMjMwNDkxMTgzOF5BMl5BanBnXkFtZTgwNTkwNTQ3NjM@._V1_FMjpg_UX1000_.jpg",
-            "reviews": [
-                {
-                    "usuario": "spidey_fan_99",
-                    "comentario": "La mejor película de Spider-Man hasta la fecha.",
-                    "calificacion": 5
-                },
-                {
-                    "usuario": "multiverse_traveler",
-                    "comentario": "Visualmente impactante y muy entretenida.",
-                    "calificacion": 4.8
-                }
-            ]
-        },
-        {
-            "titulo": "Fantastic Mr. Fox",
-            "fecha_estreno": "2009-11-25",
-            "director": "Wes Anderson",
-            "actores_principales": [
-                "George Clooney",
-                "Meryl Streep",
-                "Jason Schwartzman"
-            ],
-            "genero": [
-                "Animación",
-                "Aventura"
-            ],
-            "sinopsis": "Un zorro astuto planea un último atraco a tres granjas, poniendo en peligro a su familia.",
-            "calificacion_general": 4.6,
-            "crew": {
-                "productores": "Wes Anderson, Scott Rudin",
-                "guionistas": "Wes Anderson, Noah Baumbach",
-                "direccion_de_fotografia": "Animación"
-            },
-            "detalles": {
-                "duracion": "87 minutos",
-                "clasificacion": "PG"
-            },
-            "poster": "https://m.media-amazon.com/images/S/pv-target-images/b54c6f334c8a1b0d8aa5fff693a14b4eb3bdc7cc83d5f16cccd56761d388c75e.jpg",
-            "reviews": [
-                {
-                    "usuario": "foxy_plan",
-                    "comentario": "Un filme ingenioso y lleno de encanto.",
-                    "calificacion": 4.7
-                },
-                {
-                    "usuario": "wild_wild_animal",
-                    "comentario": "Wes Anderson en su mejor forma, ideal para toda la familia.",
-                    "calificacion": 4.5
-                }
-            ]
-        },
-        {
-            "titulo": "Grandes Héroes",
-            "fecha_estreno": "2014-11-07",
-            "director": "Don Hall, Chris Williams",
-            "actores_principales": [
-                "Ryan Potter",
-                "Scott Adsit",
-                "Jamie Chung"
-            ],
-            "genero": [
-                "Animación",
-                "Aventura"
-            ],
-            "sinopsis": "Un prodigioso joven y su robot Baymax forman un equipo de héroes para detener una peligrosa amenaza tecnológica.",
-            "calificacion_general": 4.4,
-            "crew": {
-                "productores": "Roy Conli",
-                "guionistas": "Jordan Roberts, Daniel Gerson",
-                "direccion_de_fotografia": "Animación"
-            },
-            "detalles": {
-                "duracion": "102 minutos",
-                "clasificacion": "PG"
-            },
-            "poster": "https://m.media-amazon.com/images/M/MV5BYjQ3YzUyOGQtNjdlYS00YmRhLWIyOWYtMGQ3YjkwMjJiYzRjXkEyXkFqcGc@._V1_.jpg",
-            "reviews": [
-                {
-                    "usuario": "hiro_and_baymax",
-                    "comentario": "Emocionante y con un gran corazón.",
-                    "calificacion": 4.5
-                },
-                {
-                    "usuario": "techie_hero",
-                    "comentario": "Diversión y tecnología combinados perfectamente.",
-                    "calificacion": 4.2
-                }
-            ]
-        },
-        {
-            "titulo": "Leo",
-            "fecha_estreno": "2023-11-21",
-            "director": "Robert Marianetti, David Wachtenheim",
-            "actores_principales": [
-                "Adam Sandler",
-                "Bill Burr",
-                "Cecily Strong"
-            ],
-            "genero": [
-                "Animación",
-                "Comedia"
-            ],
-            "sinopsis": "Un lagarto de clase que ha vivido años como mascota escolar, decide disfrutar su último año de vida ayudando a los estudiantes.",
-            "calificacion_general": 4.1,
-            "crew": {
-                "productores": "Adam Sandler",
-                "guionistas": "Robert Marianetti, David Wachtenheim",
-                "direccion_de_fotografia": "Animación"
-            },
-            "detalles": {
-                "duracion": "100 minutos",
-                "clasificacion": "PG"
-            },
-            "poster": "https://m.media-amazon.com/images/M/MV5BNGMyMjQ0Y2MtMzhkZS00NGU5LThmMmYtZDE0MWIwOTY2MjlhXkEyXkFqcGc@._V1_.jpg",
-            "reviews": [
-                {
-                    "usuario": "lizard_fan",
-                    "comentario": "Divertida y emotiva, Adam Sandler sorprende con su interpretación.",
-                    "calificacion": 4.2
-                },
-                {
-                    "usuario": "classroom_lizard",
-                    "comentario": "Tierna historia con buen humor y lecciones de vida.",
-                    "calificacion": 4
-                }
-            ]
-        },
-        {
-            "titulo": "El Castillo Ambulante",
-            "fecha_estreno": "2004-11-20",
-            "director": "Hayao Miyazaki",
-            "actores_principales": [
-                "Chieko Baishō",
-                "Takuya Kimura",
-                "Akihiro Miwa"
-            ],
-            "genero": [
-                "Animación",
-                "Fantasía"
-            ],
-            "sinopsis": "Una joven es transformada en una anciana por una bruja y busca refugio en el castillo ambulante de un mago llamado Howl.",
-            "calificacion_general": 4.8,
-            "crew": {
-                "productores": "Toshio Suzuki",
-                "guionistas": "Hayao Miyazaki",
-                "direccion_de_fotografia": "Animación"
-            },
-            "detalles": {
-                "duracion": "119 minutos",
-                "clasificacion": "PG"
-            },
-            "poster": "https://m.media-amazon.com/images/M/MV5BMTZhNTc2M2YtOGFhMS00MmQ2LTkxNWUtYWNhNWYyN2E2YzY1XkEyXkFqcGc@._V1_.jpg",
-            "reviews": [
-                {
-                    "usuario": "miyazaki_lover",
-                    "comentario": "Un festín visual con una historia conmovedora.",
-                    "calificacion": 5
-                },
-                {
-                    "usuario": "howls_moving_castle_fan",
-                    "comentario": "Una película mágica que nunca envejece.",
-                    "calificacion": 4.9
-                }
-            ]
-        },
-        {
-            "titulo": "Metegol",
-            "fecha_estreno": "2013-07-18",
-            "director": "Juan José Campanella",
-            "actores_principales": [
-                "David Masajnik",
-                "Pablo Rago",
-                "Lucía Maciel"
-            ],
-            "genero": [
-                "Animación",
-                "Aventura"
-            ],
-            "sinopsis": "Amadeo, un joven apasionado del fútbol de mesa, debe enfrentar a un exjugador profesional en una partida de vida o muerte, con la ayuda de figuras animadas del metegol.",
-            "calificacion_general": 4.0,
-            "crew": {
-                "productores": "Juan José Campanella",
-                "guionistas": "Eduardo Sacheri, Juan José Campanella",
-                "direccion_de_fotografia": "Animación"
-            },
-            "detalles": {
-                "duracion": "106 minutos",
-                "clasificacion": "PG"
-            },
-            "poster": "https://m.media-amazon.com/images/M/MV5BMTEzMjY1OTM5NjVeQTJeQWpwZ15BbWU3MDcyMjU2NTk@._V1_.jpg",
-            "reviews": [
-                {
-                    "usuario": "futbolito_fan",
-                    "comentario": "Divertida y llena de acción, perfecta para los amantes del fútbol.",
-                    "calificacion": 4.2
-                },
-                {
-                    "usuario": "table_soccer_pro",
-                    "comentario": "Creativa y entretenida, aunque la animación podría ser mejor.",
-                    "calificacion": 3.8
-                }
-            ]
-        },
-        {
-            "titulo": "Cómo Entrenar a tu Dragón",
-            "fecha_estreno": "2010-03-26",
-            "director": "Dean DeBlois, Chris Sanders",
-            "actores_principales": [
-                "Jay Baruchel",
-                "Gerard Butler",
-                "America Ferrera"
-            ],
-            "genero": [
-                "Animación",
-                "Aventura"
-            ],
-            "sinopsis": "Un joven vikingo llamado Hipo desafía las tradiciones al entrenar a un dragón en lugar de cazarlo, lo que cambiará el destino de su pueblo.",
-            "calificacion_general": 4.7,
-            "crew": {
-                "productores": "Bonnie Arnold",
-                "guionistas": "Dean DeBlois, Chris Sanders",
-                "direccion_de_fotografia": "Animación"
-            },
-            "detalles": {
-                "duracion": "98 minutos",
-                "clasificacion": "PG"
-            },
-            "poster": "https://m.media-amazon.com/images/M/MV5BMjA5NDQyMjc2NF5BMl5BanBnXkFtZTcwMjg5ODcyMw@@._V1_FMjpg_UX1000_.jpg",
-            "reviews": [
-                {
-                    "usuario": "dragon_rider",
-                    "comentario": "Una de las mejores películas de animación, con una historia entrañable.",
-                    "calificacion": 4.9
-                },
-                {
-                    "usuario": "toothless_fan",
-                    "comentario": "Visualmente espectacular y emocionalmente poderosa.",
-                    "calificacion": 4.8
-                }
-            ]
-        },
-        {
-            "titulo": "El Niño y la Garza",
-            "fecha_estreno": "2023-07-14",
-            "director": "Hayao Miyazaki",
-            "actores_principales": [
-                "Soma Santoki",
-                "Masaki Suda",
-                "Takuya Kimura"
-            ],
-            "genero": [
-                "Animación",
-                "Fantasía"
-            ],
-            "sinopsis": "Un joven niño vive una serie de aventuras fantásticas tras mudarse a una nueva ciudad luego de la muerte de su madre.",
-            "calificacion_general": 4.9,
-            "crew": {
-                "productores": "Toshio Suzuki",
-                "guionistas": "Hayao Miyazaki",
-                "direccion_de_fotografia": "Animación"
-            },
-            "detalles": {
-                "duracion": "124 minutos",
-                "clasificacion": "PG-13"
-            },
-            "poster": "https://m.media-amazon.com/images/M/MV5BMzA5Zjg3MTAtM2FhZS00NTNjLTg3NjEtNWQ4MTRhZjhiNzVmXkEyXkFqcGc@._V1_FMjpg_UX1000_.jpg",
-            "reviews": [
-                {
-                    "usuario": "miyazaki_magic",
-                    "comentario": "Una película visualmente asombrosa y profundamente conmovedora.", "calificacion": 5
-                },
-                {
-                    "usuario": "garza_lover",
-                    "comentario": "Una historia única, llena de simbolismo y belleza.",
-                    "calificacion": 4.9
-                }
-            ]
-        },
-        {
+            {
+                "usuario": "garza_lover",
+                "comentario": "Una historia única, llena de simbolismo y belleza.",
+                "calificacion": 4.9
+            }
+        ]
+    },
+    {
         "titulo": "Yo Antes de Ti",
         "fecha_estreno": "2016-06-03",
         "director": "Thea Sharrock",
@@ -1940,7 +2017,8 @@ export const peliculas = [
 ]
 
 export const series = [
-    {   "tipo":"serie",
+    {
+        "tipo": "serie",
         "titulo": "The Last of Us",
         "fecha_estreno": "2023",
         "creador": "Craig Mazin, Neil Druckmann",
@@ -1974,7 +2052,7 @@ export const series = [
         ]
     },
     {
-        "tipo":"serie",
+        "tipo": "serie",
         "titulo": "Stranger Things",
         "fecha_estreno": "2016",
         "creador": "The Duffer Brothers",
@@ -2008,7 +2086,7 @@ export const series = [
         ]
     },
     {
-        "tipo":"serie",
+        "tipo": "serie",
         "titulo": "Breaking Bad",
         "fecha_estreno": "2008",
         "creador": "Vince Gilligan",
@@ -2042,7 +2120,7 @@ export const series = [
         ]
     },
     {
-        "tipo":"serie",
+        "tipo": "serie",
         "titulo": "The Crown",
         "fecha_estreno": "2016",
         "creador": "Peter Morgan",
@@ -2076,7 +2154,7 @@ export const series = [
         ]
     },
     {
-        "tipo":"serie",
+        "tipo": "serie",
         "titulo": "Game of Thrones",
         "fecha_estreno": "2011-04-17",
         "creador": "David Benioff, D.B. Weiss",
@@ -2110,7 +2188,7 @@ export const series = [
         ]
     },
     {
-        "tipo":"serie",
+        "tipo": "serie",
         "titulo": "The Mandalorian",
         "fecha_estreno": "2019",
         "creador": "Jon Favreau",
@@ -2144,7 +2222,7 @@ export const series = [
         ]
     },
     {
-        "tipo":"serie",
+        "tipo": "serie",
         "titulo": "Fargo",
         "fecha_estreno": "2014",
         "creador": "Noah Hawley",
@@ -2178,7 +2256,7 @@ export const series = [
         ]
     },
     {
-        "tipo":"serie",
+        "tipo": "serie",
         "titulo": "The Witcher",
         "fecha_estreno": "2019",
         "creador": "Lauren Schmidt Hissrich",
@@ -2212,7 +2290,7 @@ export const series = [
         ]
     },
     {
-        "tipo":"serie",
+        "tipo": "serie",
         "titulo": "Black Mirror",
         "fecha_estreno": "2011",
         "creador": "Charlie Brooker",
@@ -2246,7 +2324,7 @@ export const series = [
         ]
     },
     {
-        "tipo":"serie",
+        "tipo": "serie",
         "titulo": "La Casa De Papel",
         "fecha_estreno": "2017",
         "creador": "Álex Pina",

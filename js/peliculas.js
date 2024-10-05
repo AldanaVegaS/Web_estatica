@@ -291,6 +291,12 @@ export const recomendados = [
     },
     {
         "tipo": "pelicula",
+        "titulo": "Everything Everywhere All at Once",
+        "poster": "https://m.media-amazon.com/images/M/MV5BYTdiOTIyZTQtNmQ1OS00NjZlLWIyMTgtYzk5Y2M3ZDVmMDk1XkEyXkFqcGdeQXVyMTAzMDg4NzU0._V1_FMjpg_UX1000_.jpg",
+    },
+
+    {
+        "tipo": "pelicula",
         "titulo": "Mujer Bonita",
         "poster": "https://m.media-amazon.com/images/M/MV5BNmNlZjAxMzEtNzNlYy00ZWY4LTkwN2QtYTljZjgzZjQ2ZDU5XkEyXkFqcGc@._V1_.jpg",
     },
@@ -329,5 +335,13 @@ export const recomendados = [
         "titulo": "Spirited Away",
         "poster": "https://m.media-amazon.com/images/M/MV5BNTEyNmEwOWUtYzkyOC00ZTQ4LTllZmUtMjk0Y2YwOGUzYjRiXkEyXkFqcGc@._V1_.jpg",
     },
+    {
+        "tipo": "pelicula",
+        "titulo": "The Holdovers",
+
+        "poster": "https://m.media-amazon.com/images/M/MV5BOWY3MjUzZTctOTI5ZC00MDA5LTk4ZTMtZWJjNjRmMzE4ZmI2XkEyXkFqcGc@._V1_QL75_UX190_CR0,0,190,281_.jpg",
+
+    }
+
 ];
 

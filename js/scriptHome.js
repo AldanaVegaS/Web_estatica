@@ -1,5 +1,4 @@
-import { peliculasPopulares, romance, terror, accion, animacion, recomendados } from "./peliculas.js";
-import { seriesPopulares } from "./series.js"
+
 
 function mostrar(items, nodo, aMostrar) {
     const fragment = document.createDocumentFragment();
@@ -38,7 +37,7 @@ mostrar(peliculasPopulares, popularNodo, 'poster');
 
 let popularNodo2 = document.getElementById('series_popular')
 console.log(popularNodo);
-mostrar(seriesPopulares, popularNodo2, 'poster');
+mostrar(data, popularNodo2, 'poster');
 
 /*Busco nodo de recomendadas y ubico las imagenes*/
 let recomendadoNodo = document.getElementById('recomendado')
