@@ -10,14 +10,15 @@
 body {
     display: flex;
     min-height: 100vh;
-    background-color: #222222;
+    background-color: rgb(18, 27, 36);
     color: aliceblue;
+
 }
 
 /*Estilo de la barra de navegación*/
-.navBar{
-    background: #222222;
-    color: antiquewhite;
+.navBar {
+    background-color: rgb(31, 47, 63);
+    color: #F26680;
     padding: 10px 40px 10px 40px;
     border: 1px solid #000;
     border-left: none;
@@ -27,7 +28,7 @@ body {
     position: absolute;
 }
 
-.navBar ul{
+.navBar ul {
     display: flex;
     list-style: none;
     flex-wrap: wrap;
@@ -35,43 +36,43 @@ body {
     justify-content: center;
 }
 
-.logo{
+.logo {
     flex: 1;
     height: 50px;
 }
 
-.items{
+.items {
     padding: 0 25px;
     display: inline-flex;
     gap: 30px;
 }
 
-.items.show{
-    position:fixed;
+.items.show {
+    position: fixed;
     top: 60px;
     right: 0;
     width: 100%;
     display: list-item;
-    background: #222222;
+    background: rgb(31, 47, 63);
     transition: top .4s;
 }
 
 
-.items a{
+.items a {
     text-decoration: none;
     font-size: 23px;
-    color: antiquewhite;
+    color: #F26680;
     letter-spacing: 0.1em;
     text-transform: uppercase;
     padding: 0 12px;
     transition: all 0.3s ease 0s;
 }
 
-.items a:hover{
-    color: burlywood;
+.items a:hover {
+    color: #c51f5d;
 }
 
-.search-icon{
+.search-icon {
     height: 40px;
     width: 50%;
     display: flex;
@@ -81,7 +82,7 @@ body {
     transition: all 0.3s ease 0s;
 }
 
-.search-icon input{
+.search-icon input {
     height: 100%;
     width: 90%;
     border: none;
@@ -93,29 +94,29 @@ body {
     cursor: pointer;
 }
 
-.search-icon i{
+.search-icon i {
     height: 100%;
     width: 10%;
     line-height: 40px;
     text-align: center;
     color: black;
-    background: antiquewhite;
+    background: #F26680;
     border-radius: 0 5px 5px 0;
     font-size: 18px;
 }
 
-.search-icon i:hover{
-    background: burlywood;
+.search-icon i:hover {
+    background: #c51f5d;
 }
 
-.boton{
+.boton {
     font-size: 23px;
     flex: 1;
     padding: 0 40px;
     display: none;
 }
 
-.boton i{
+.boton i {
     height: 42px;
     width: 42px;
     text-align: center;
@@ -125,34 +126,36 @@ body {
     cursor: pointer;
 }
 
-.boton:hover i:before{
+.boton:hover i:before {
     content: '\f00d';
 }
 
-@media screen and (max-width:1280px){
-    .items a{
+@media screen and (max-width:1280px) {
+    .items a {
         font-size: 20px;
         gap: 10px;
     }
 
 }
 
-@media screen and (max-width:1200px){
-    .items a{
+@media screen and (max-width:1200px) {
+    .items a {
         font-size: 17px;
         gap: 10px;
     }
 
 }
 
-@media screen and (max-width:1100px){
-    nav{
+@media screen and (max-width:1100px) {
+    nav {
         padding: 9px 40px 9px 0;
     }
-    .boton{
+
+    .boton {
         display: block;
     }
-    .items{
+
+    .items {
         position: fixed;
         top: -220px;
         right: 0;
@@ -163,10 +166,10 @@ body {
         z-index: 1;
     }
 
-    .items li{
+    .items li {
         text-align: center;
         line-height: 30px;
         margin: 30px 0;
-    } 
-    
+    }
+
 }
