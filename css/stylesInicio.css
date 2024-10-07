@@ -61,7 +61,6 @@ header {
 .descripcion {
     font-family: sans-serif;
     text-align: center;
-    margin-top: 300px;
     font-size: 60px;
     font-weight: bold;
 
@@ -99,6 +98,59 @@ a:hover {
     color: antiquewhite;
 }
 
+
+/* -----ELEMENTOS DEL CARRUSEL DEL HEADER----- */
+.carousel-container{
+    width: 100%;    
+    height: 340px;
+    display: flex;
+    justify-content: center;
+    position: relative;
+}
+
+.carousel{
+    width: 40%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    top: 50%;
+    transform: translate(0, -50%); 
+}
+
+.carousel-images img {
+    height: 260px;
+    width:180px;  
+    object-fit: cover;
+    border-radius: 10px;
+    display: none;
+    object-fit: cover;
+    transition: transform 1s ease-in-out;
+}
+
+.carousel-images img.active {
+    transform: translateX(0);
+    display: block;
+}
+
+button{
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    background-color: rgba(0, 0, 0, 0.5);
+    color: white;
+    border: none;
+    padding: 10px;
+    cursor: pointer;
+}
+
+#left-button {
+    left: 20%;
+}
+
+#right-button {
+    right: 20%;
+}
 
 /*-----ELEMENTOS DE SECTION-----*/
 
@@ -140,3 +192,5 @@ h1 {
     width: 200px;
     height: 280px;
 }
+
+

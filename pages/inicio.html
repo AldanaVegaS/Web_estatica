@@ -5,7 +5,7 @@
     <title>Inicio</title>
     <link rel="stylesheet" href="../css/stylesInicio.css">
     <link rel="icon" href="../imagenes/logo2.ico">
-
+    <link href="https://fonts.googleapis.com/css2?family=Material+Icons+Outlined" rel="stylesheet">
 </head>
 
 <body>
@@ -17,8 +17,18 @@
                 <li class="registrar"><a href="../pages/registro.html">Registrarte</a></li>
             </div>
         </ul>
+        <div class="carousel-container">
+            <div class="carousel">
+                <div class="carousel-images" id="peliculas-recomendadas">
+                </div>
+                <button onclick="changeItem('prev')" class="material-icons-outlined" id="left-button">chevron_left</button>
+                <button onclick="changeItem('next')" class="material-icons-outlined" id="right-button">chevron_right</button>
+            </div>
+        </div>
+
         <p class="descripcion">Califica las peliculas <br> y series de tu interes.</p>
     </header>
+
     <section>
         <article>
             <h1>POPULAR</h1>
@@ -38,6 +48,7 @@
     </section>
 
     <script src="../js/scriptInicio.js"></script>
+    <script src="../js/scriptCarrusel.js"></script>
 </body>
 
 </html>

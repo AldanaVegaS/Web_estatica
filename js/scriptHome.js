@@ -1,8 +1,8 @@
 let seriesPopulares,peliculasPopulares, romance, terror, accion, animacion, recomendados;
 
-fetch('../peliculas.json').then(res => {
+fetch('../Json/peliculas.json').then(res => {
     if (!res.ok) {
-        throw new Error('Error en la respuesta al cargar las películas')
+        throw new Error('Error en la respuesta al cargar las películas');
     }
     return res.json();
 })
@@ -17,7 +17,6 @@ fetch('../peliculas.json').then(res => {
 
         /*Busco nodo de populares y ubico las imagenes*/
         let popularNodo = document.getElementById('peliculas_popular')
-        console.log(popularNodo);
         mostrar(peliculasPopulares, popularNodo, 'poster');
 
         /*Busco nodo de recomendadas y ubico las imagenes*/
@@ -41,7 +40,7 @@ fetch('../peliculas.json').then(res => {
         mostrar(romance, romanceNodo, 'poster');
     });
 
-fetch('../series.json').then(res => {
+fetch('../Json/series.json').then(res => {
     if (!res.ok) {
         throw new Error('Error en la respuesta al cargar las series')
     }
