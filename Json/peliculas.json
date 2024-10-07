@@ -56,6 +56,56 @@
             "poster": "https://m.media-amazon.com/images/M/MV5BMjM2MDgxMDg0Nl5BMl5BanBnXkFtZTgwNTM2OTM5NDE@._V1_.jpg"
         }
     ],
+    "proximamente": [
+        {
+            "titulo": "El asesino del juego de citas",
+            "fecha_estreno": "2024-10-10",
+            "sinopsis": "Un thriller en el que un asesino en serie utiliza aplicaciones de citas para seleccionar a sus víctimas.",
+            "poster": "https://upload.wikimedia.org/wikipedia/en/thumb/7/71/Woman_of_the_Hour_poster.jpg/220px-Woman_of_the_Hour_poster.jpg"
+        },
+        {
+            "titulo": "Squid Game 2",
+            "fecha_estreno": "2024-10-10",
+            "sinopsis": "La segunda temporada sigue a los sobrevivientes del juego mortal mientras se enfrentan a nuevas pruebas y revelaciones oscuras sobre la organización detrás del torneo.",
+            "poster": "https://m.media-amazon.com/images/M/MV5BYTYzMTlmNDctNmVkNS00YzRlLWE5MjAtODdjZWRkYzRlNWVlXkEyXkFqcGc@._V1_FMjpg_UX1000_.jpg"
+        },
+        {
+            "titulo": "Arcane 2",
+            "fecha_estreno": "2024-11-15",
+            "sinopsis": "La segunda temporada continúa explorando la lucha entre las ciudades de Piltover y Zaun, profundizando en las historias de personajes emblemáticos y las consecuencias de sus decisiones.",
+            "poster": "https://www.mensjournal.com/.image/t_share/MjA2ODk1MTU0ODA2NjYyMTk1/arcane.jpg"
+        },
+        {
+            "titulo": "El Hoyo 2",
+            "fecha_estreno": "2024-11-22",
+            "sinopsis": "La secuela de la película de culto 'El Hoyo', donde nuevos personajes enfrentan el aterrador sistema vertical de celdas.",
+            "poster": "https://pics.filmaffinity.com/El_hoyo_2-101401547-large.jpg"
+        },
+        {
+            "titulo": "Gladiator 2",
+            "fecha_estreno": "2024-11-22",
+            "sinopsis": "La secuela del aclamado filme Gladiator, explorando una nueva generación en el mundo del Imperio Romano.",
+            "poster": "https://media.glamour.es/photos/668d3887960bb235399856c3/master/w_1600%2Cc_limit/poster%2520gladiador%25202%2520OK.jpg"
+        },
+        {
+            "titulo": "Spider-Man: Beyond the Spider-Verse",
+            "fecha_estreno": "2025-03-14",
+            "sinopsis": "Miles Morales sigue su viaje a través del multiverso para enfrentarse a una nueva amenaza que podría destruir todas las realidades.",
+            "poster": "https://m.media-amazon.com/images/M/MV5BZGZhMmE5OTYtMjM3Ny00NTVmLTgwZmEtZDY4YmE3MzQwN2ViXkEyXkFqcGc@._V1_.jpg"
+        },
+        {
+            "titulo": "La Sustancia",
+            "fecha_estreno": "2024-06-14",
+            "sinopsis": "Un thriller de ciencia ficción que explora las consecuencias de una sustancia biotecnológica que amenaza con transformar la humanidad.",
+            "poster": "https://pics.filmaffinity.com/La_sustancia-265285928-large.jpg"
+        },
+        {
+            "titulo": "Venom: El último baile",
+            "fecha_estreno": "2024-12-13",
+            "sinopsis": "En esta tercera entrega, Venom enfrenta una amenaza que podría marcar el final de su conexión con Eddie Brock.",
+            "poster": "https://pics.filmaffinity.com/Venom_El_aultimo_baile-379990903-large.jpg"
+        }
+    ],
     "terror": [
         {
             "tipo": "pelicula",
@@ -120,7 +170,7 @@
             "poster": "https://m.media-amazon.com/images/M/MV5BNmM5ZThhY2ItOGRjOS00NzZiLWEwYTItNDgyMjFkOTgxMmRiXkEyXkFqcGc@._V1_.jpg"
         }
     ],
-"accion": [
+    "accion": [
         {
             "tipo": "pelicula",
             "titulo": "John Wick: Chapter 4",
@@ -172,8 +222,7 @@
             "poster": "https://m.media-amazon.com/images/M/MV5BNzY3ZWU5NGQtOTViNC00ZWVmLTliNjAtNzViNzlkZWQ4YzQ4XkEyXkFqcGc@._V1_FMjpg_UX1000_.jpg"
         }
     ],
-"animacion":
-    [
+    "animacion": [
         {
             "tipo": "pelicula",
             "titulo": "Robot Dreams",
@@ -225,7 +274,7 @@
             "poster": "https://m.media-amazon.com/images/M/MV5BMzA5Zjg3MTAtM2FhZS00NTNjLTg3NjEtNWQ4MTRhZjhiNzVmXkEyXkFqcGc@._V1_FMjpg_UX1000_.jpg"
         }
     ],
-"romance": [
+    "romance": [
         {
             "tipo": "pelicula",
             "titulo": "Yo Antes de Ti",
@@ -277,8 +326,7 @@
             "poster": "https://m.media-amazon.com/images/M/MV5BMTYxNDMyOTAxN15BMl5BanBnXkFtZTgwMDg1ODYzNTM@._V1_.jpg"
         }
     ],
-    
-"recomendados":[
+    "recomendados": [
         {
             "tipo": "pelicula",
             "titulo": "Cómo Perder a un Hombre en 10 Días",

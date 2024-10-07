@@ -8,27 +8,25 @@
     margin: 0;
     padding: 10;
     text-decoration: none;
-    font-size: 20px;
+    font-size: 23px;
     list-style: none;
 }
 
-body{
+body {
     flex-direction: column;
-    background-color: #222222;
+    color: aliceblue;
+    background-image: url(../imagenes/gradiente.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
 }
 
 
 /*-----ELEMENTOS DEL HEADER-----*/
 
 header {
-    background-color: #552121;
-    /* background-image: url(./assets/imagenFondo3.webp);
-    background-size: cover;
-    background-repeat: no-repeat;
-    background-position: bottom;*/
-    background-image: linear-gradient(#552121 450px, #222222);
     color: aliceblue;
     min-height: 600px;
+
 
 }
 
@@ -56,13 +54,25 @@ header {
     width: auto;
 }
 
+.contenidoHeader {
+    display: flex;
+    height: 100%;
+    flex-direction: column;
+    align-items: center;
 
+}
+
+.estrellas {
+    margin-top: 200px;
+    font-size: 20px;
+}
 
 .descripcion {
     font-family: sans-serif;
     text-align: center;
     font-size: 60px;
     font-weight: bold;
+    margin-top: 10px;
 
 }
 
@@ -76,81 +86,30 @@ header {
     min-width: 300px;
 }
 
-a {
-    color: black;
-}
-
 .iniciar {
-    background-color: rgb(205, 206, 207);
     padding: 10px 20px;
     border-radius: 10px;
     margin: 5px;
+}
+
+.iniciar a {
+    color: #F26680;
 }
 
 .registrar {
-    background-color: rgb(87, 86, 86);
     padding: 10px 20px;
     border-radius: 10px;
     margin: 5px;
 }
 
+.registrar a {
+    color: #c51f5d;
+}
+
 a:hover {
-    color: antiquewhite;
+    color: aliceblue;
 }
 
-
-/* -----ELEMENTOS DEL CARRUSEL DEL HEADER----- */
-.carousel-container{
-    width: 100%;    
-    height: 340px;
-    display: flex;
-    justify-content: center;
-    position: relative;
-}
-
-.carousel{
-    width: 40%;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    position: absolute;
-    top: 50%;
-    transform: translate(0, -50%); 
-}
-
-.carousel-images img {
-    height: 260px;
-    width:180px;  
-    object-fit: cover;
-    border-radius: 10px;
-    display: none;
-    object-fit: cover;
-    transition: transform 1s ease-in-out;
-}
-
-.carousel-images img.active {
-    transform: translateX(0);
-    display: block;
-}
-
-button{
-    position: absolute;
-    top: 50%;
-    transform: translateY(-50%);
-    background-color: rgba(0, 0, 0, 0.5);
-    color: white;
-    border: none;
-    padding: 10px;
-    cursor: pointer;
-}
-
-#left-button {
-    left: 20%;
-}
-
-#right-button {
-    right: 20%;
-}
 
 /*-----ELEMENTOS DE SECTION-----*/
 
@@ -160,11 +119,35 @@ section {
     display: flex;
     flex-direction: column;
     justify-content: center;
-    width: 80%;
+    align-items: center;
+    width: 87%;
 }
 
-h1 {
-    margin-top: 100px;
+article {
+
+    view-timeline-name: --image;
+    view-timeline-axis: block;
+
+    animation-timeline: --image;
+    animation-name: showSelection;
+
+    animation-range: entry 25% cover 50%;
+    animation-fill-mode: both;
+
+
+    margin-bottom: 100px;
+}
+
+@keyframes showSelection {
+    from {
+        opacity: 0;
+
+    }
+
+    to {
+        opacity: 1;
+
+    }
 }
 
 
@@ -185,6 +168,13 @@ h1 {
     cursor: pointer;
     transition: all 0.3s ease 0s;
     transition: all ease-in-out 0.5s;
+
+    view-timeline-name: --image;
+    view-timeline-axis: block;
+    animation-timeline: --image;
+    animation-name: show;
+    animation-range: entry 25% cover 50%;
+    animation-fill-mode: both;
 }
 
 .contenedor img:hover {
@@ -193,4 +183,14 @@ h1 {
     height: 280px;
 }
 
+@keyframes show {
+    from {
+        opacity: 0;
+        scale: 25%;
+    }
 
+    to {
+        opacity: 1;
+        scale: 100%;
+    }
+}
