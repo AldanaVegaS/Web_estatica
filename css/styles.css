@@ -101,6 +101,42 @@
     }
 }
 
+@media all and (min-width:800px) {
+    .main {
+        flex: 3;
+    }
+
+    .aside1 {
+        order: 1;
+    }
+
+    .aside2 {
+        order: 2;
+    }
+
+    .main {
+        order: 2;
+    }
+}
+
+@media all and (min-width: 400px) {
+    .aside1 {
+        flex: 1;
+    }
+
+    .aside1 {
+        order: 1;
+    }
+
+    .aside2 {
+        order: 3;
+    }
+
+    .main {
+        order: 2;
+    }
+}
+
 
 /*Estilo caja de botones*/
 .contenedor-botones {
