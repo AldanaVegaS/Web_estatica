@@ -24,3 +24,14 @@ logInButton.addEventListener("click", (e) => {
     window.location.href = "../pages/home.html"
 });
 
+// Obtener el card de la URL
+const params = new URLSearchParams(window.location.search);
+const card = params.get('card');
+
+if (card == "'inicio-sesion'") {
+    document.querySelector(".flip-card-inner").style.transform = "rotateY(0deg)";
+    console.log("rotadoses");
+} else {
+    document.querySelector(".flip-card-inner").style.transform = "rotateY(180deg)";
+    console.log("rotadoreg");
+}

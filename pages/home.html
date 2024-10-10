@@ -11,12 +11,25 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css"
         integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg=="
         crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link href="https://fonts.googleapis.com/css2?family=Material+Icons+Outlined" rel="stylesheet">
 </head>
 
 <body>
     <div class="navBar" id="navBar"></div>
 
     <main>
+        <article>
+
+            <div class="carousel">
+                <div class="carousel-images" id="peliculas-recomendadas">
+                </div>
+                <button onclick="changeItem('prev')" class="material-icons-outlined"
+                    id="left-button">chevron_left</button>
+                <button onclick="changeItem('next')" class="material-icons-outlined"
+                    id="right-button">chevron_right</button>
+            </div>
+
+        </article>
         <section>
             <h1>Peliculas populares</h1>
             <div class="wrapper">
@@ -59,7 +72,7 @@
                     </figure>
                 </div>
                 <button onclick="moverse('recomendado','der')" class="material-icons-outlined"
-                    id="derecha">chevron_right</button>
+                    id="derecha">chevron_right</i>
             </div>
 
 
@@ -76,8 +89,7 @@
                         <!--Las imagenes se ubican en script.js-->
                     </figure>
                 </div>
-                <button onclick="moverse('accion','der')" class="material-icons-outlined"
-                    id="derecha">chevron_right</button>
+                <button onclick="moverse('accion','der')" class="material-icons-outlined" id="derecha">chevron_right</i>
             </div>
 
         </section>
@@ -155,6 +167,7 @@
     </script>
     <script src="../js/scriptHome.js" type="module"></script>
     <script src="../js/scriptNavBar.js" type="module"></script>
+    <script src="../js/scriptCarrusel.js"></script>
 </body>
 
 </html>

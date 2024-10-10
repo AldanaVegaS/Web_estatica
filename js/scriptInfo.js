@@ -1,5 +1,3 @@
-import { peliculas, series } from "./datos.js";
-
 // Obtener el título de la URL
 const params = new URLSearchParams(window.location.search);
 const titulo = params.get('titulo');
@@ -7,16 +5,29 @@ const tipo = params.get('tipo');
 console.log(titulo);
 console.log(tipo);
 
-if (tipo === 'serie') {
-    document.getElementById('title').textContent = 'Serie';
-    const serieSeleccionada = series.find(item => item.titulo === titulo);
-    mostrarSerie(serieSeleccionada);
-} else {
-    document.getElementById('title').textContent = 'Pelicula'
-    const peliculaSeleccionada = peliculas.find(item => item.titulo === titulo);
-    console.log(peliculaSeleccionada);
-    mostrarPelicula(peliculaSeleccionada);
-}
+fetch('../Json/datos.json').then(res => {
+    if (!res.ok) {
+        throw new Error('Error en la respuesta al cargar las películas')
+    }
+    return res.json();
+})
+    .then(data => {
+        // accede a los arreglos dentro del json
+        let series = data.series;
+        let peliculas = data.peliculas;
+
+        if (tipo === 'serie') {
+            document.getElementById('title').textContent = 'Serie';
+            const serieSeleccionada = series.find(item => item.titulo === titulo);
+            mostrarSerie(serieSeleccionada);
+        } else {
+            document.getElementById('title').textContent = 'Pelicula'
+            const peliculaSeleccionada = peliculas.find(item => item.titulo === titulo);
+            console.log(peliculaSeleccionada);
+            mostrarPelicula(peliculaSeleccionada);
+        }
+    });
+
 
 function mostrarSerie(serieSeleccionada) {
     document.getElementById('poster').src = serieSeleccionada.poster;
@@ -35,6 +46,7 @@ function mostrarSerie(serieSeleccionada) {
 
 
 function mostrarPelicula(peliculaSeleccionada) {
+    console.log(peliculaSeleccionada);
     document.getElementById('poster').src = peliculaSeleccionada.poster;
     calificacionGeneral(peliculaSeleccionada.calificacion_general, document.getElementById('calificacion'));
     document.getElementById('titulo').textContent = peliculaSeleccionada.titulo;
