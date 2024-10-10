@@ -63,7 +63,6 @@ button {
 
     }
 
-
 }
 
 
@@ -76,6 +75,13 @@ button {
 
     }
 
+    #left-button {
+        left: 25%;
+    }
+
+    #right-button {
+        right: 25%;
+    }
 
 }
 
@@ -89,7 +95,13 @@ button {
 
     }
 
+    #left-button {
+        left: 30%;
+    }
 
+    #right-button {
+        right: 30%;
+    }
 }
 
 /*-----ELEMENTOS DE SECTION-----*/
