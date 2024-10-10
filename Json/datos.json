@@ -1623,7 +1623,7 @@
                 "duracion": "116 minutos",
                 "clasificacion": "PG-13"
             },
-            "poster": "https://m.media-amazon.com/images/M/MV5BMjE4NTA1NzExN15BMl5BanBnXkFtZTYwNjc3MjM3._V1_QL75_UY281_CR0,0,190,281_.jpg",
+            "poster": "https://m.media-amazon.com/images/M/MV5BMjE4NTA1NzExN15BMl5BanBnXkFtZTYwNjc3MjM3._V1_FMjpg_UX1000_.jpg",
             "reviews": [
                 {
                     "usuario": "love_expert",
@@ -2018,39 +2018,40 @@
             ]
         },
         {
-            "titulo": "Paprika",
-            "fecha_estreno": "2006-11-25",
-            "director": "Satoshi Kon",
+            "titulo": "La La Land",
+            "fecha_estreno": "2016-12-09",
+            "director": "Damien Chazelle",
             "actores_principales": [
-                "Megumi Hayashibara",
-                "Tôru Furuya",
-                "Katsunosuke Hori"
+                "Ryan Gosling",
+                "Emma Stone",
+                "John Legend"
             ],
             "genero": [
-                "Animación",
-                "Ciencia ficción"
+                "Musical",
+                "Romance",
+                "Drama"
             ],
-            "sinopsis": "Una psiquiatra utiliza un dispositivo que permite entrar en los sueños de los pacientes.",
-            "calificacion_general": 4.8,
+            "sinopsis": "La historia de un pianista de jazz y una aspirante a actriz que persiguen sus sueños en Los Ángeles.",
+            "calificacion_general": 4.7,
             "crew": {
-                "productor": "Toshio Suzuki",
-                "guionista": "Satoshi Kon",
-                "director_fotografia": "Mitsuo Iso"
+                "productor": "Fred Berger",
+                "guionista": "Damien Chazelle",
+                "director_fotografia": "Linus Sandgren"
             },
             "detalles": {
-                "duracion": "90 minutos",
-                "clasificacion": "R"
+                "duracion": "128 minutos",
+                "clasificacion": "PG-13"
             },
-            "poster": "https://m.media-amazon.com/images/M/MV5BZGJkYjkyMDUtM2U3ZC00NDM3LWI0MzItZjU5MmYwYjg2YmIwXkEyXkFqcGc@._V1_FMjpg_UX1000_.jpg",
+            "poster": "https://m.media-amazon.com/images/M/MV5BMzUzNDM2NzM2MV5BMl5BanBnXkFtZTgwNTM3NTg4OTE@._V1_FMjpg_UX1000_.jpg",
             "reviews": [
                 {
-                    "usuario": "dreamweaver",
-                    "contenido": "Una experiencia visual y emocional extraordinaria.",
+                    "usuario": "filmlover",
+                    "contenido": "Una celebración del amor y la música con un estilo visual impresionante.",
                     "calificacion": 5
                 },
                 {
-                    "usuario": "animationfan",
-                    "contenido": "Una obra maestra del cine de animación.",
+                    "usuario": "musicalfan",
+                    "contenido": "La banda sonora es absolutamente inolvidable.",
                     "calificacion": 5
                 }
             ]

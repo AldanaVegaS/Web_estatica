@@ -62,7 +62,7 @@
 }
 
 .main {
-    background-color: darkgrey;
+    background-color: rgb(31, 47, 63);
 }
 
 @media all and (min-width:800px) {
@@ -153,7 +153,7 @@
     margin: 10px;
     padding: 10px;
     border-radius: 5px;
-    color: burlywood;
+    color: #F26680;
     text-align: center;
     cursor: pointer;
     transition: 0.3s, 0.3s;
@@ -165,16 +165,16 @@
 .boton2 i {
     font-size: 40px;
     margin: 0;
-    color: aliceblue;
+    color: #F26680;
 }
 
 .boton2:hover {
-    background-color: antiquewhite;
+    background-color: #F26680;
     color: #202020;
 }
 
 .boton2:hover i {
-    background-color: antiquewhite;
+    background-color: #F26680;
     color: #202020;
 }
 
@@ -200,20 +200,20 @@
 .encabezado span {
     font-size: 1.5rem;
     font-weight: 500;
-    background-color: #202020;
+    background-color: #c51f5d;
     color: #ffffffff;
     padding: 10px 20px;
 }
 
 .caja {
-    background: white;
+    background: rgb(31, 47, 63);
     text-align: left;
     position: relative;
     border: .1rem solid rgba(0, 0, 0, .2);
     box-shadow: 0 .5rem 1rem rgba(0, 0, 0, .1);
     flex: 1 1 30rem;
     border-radius: .5rem;
-    color: #202020;
+    color: #c4c4c4;
 
 }
 
@@ -270,12 +270,12 @@
     height: 45px;
     width: 100px;
     border: none;
-    background: antiquewhite;
+    background: #F26680;
     cursor: pointer;
 }
 
 .ver_mas:hover {
-    background: burlywood;
+    background: #c51f5d;
 }
 
 
@@ -346,13 +346,13 @@
     height: 45px;
     width: 100px;
     border: none;
-    background: antiquewhite;
+    background: #F26680;
     cursor: pointer;
     margin: 10px;
 }
 
 .guardar:hover {
-    background: burlywood;
+    background: #c51f5d;
 }
 
 .rating {
