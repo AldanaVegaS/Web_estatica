@@ -46,6 +46,7 @@ function mostrarSerie(serieSeleccionada) {
 
 
 function mostrarPelicula(peliculaSeleccionada) {
+    console.log(peliculaSeleccionada);
     document.getElementById('poster').src = peliculaSeleccionada.poster;
     calificacionGeneral(peliculaSeleccionada.calificacion_general, document.getElementById('calificacion'));
     document.getElementById('titulo').textContent = peliculaSeleccionada.titulo;

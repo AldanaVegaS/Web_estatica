@@ -26,7 +26,7 @@ function addItem(items, nodo, aMostrar) {
         link.href = `info.html?titulo=${item.titulo}&tipo=${item.tipo}`; // URL de la página de detalles
 
         let img = document.createElement('img');
-        img.src = item.poster;
+        img.src = item.alternativo;
         img.alt = "Poster pelicula";
 
         if (index === 0) {

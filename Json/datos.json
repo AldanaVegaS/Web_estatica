@@ -1790,6 +1790,82 @@
             ]
         },
         {
+            "titulo": "Everything Everywhere All at Once",
+            "fecha_estreno": "2022-03-11",
+            "director": "Daniel Kwan, Daniel Scheinert",
+            "actores_principales": [
+                "Michelle Yeoh",
+                "Stephanie Hsu",
+                "Ke Huy Quan"
+            ],
+            "genero": [
+                "Acción",
+                "Aventura"
+            ],
+            "sinopsis": "Una mujer común debe conectarse con versiones alternativas de sí misma para salvar el multiverso.",
+            "calificacion_general": 4.6,
+            "crew": {
+                "productor": "Daniel Kwan, Daniel Scheinert",
+                "guionista": "Daniel Kwan, Daniel Scheinert",
+                "director_fotografia": "Larkin Seiple"
+            },
+            "detalles": {
+                "duracion": "139 minutos",
+                "clasificacion": "R"
+            },
+            "poster": "https://m.media-amazon.com/images/M/MV5BYTdiOTIyZTQtNmQ1OS00NjZlLWIyMTgtYzk5Y2M3ZDVmMDk1XkEyXkFqcGdeQXVyMTAzMDg4NzU0._V1_FMjpg_UX1000_.jpg",
+            "reviews": [
+                {
+                    "usuario": "multiversefan",
+                    "contenido": "Una película que desafía la realidad de una forma nunca vista antes.",
+                    "calificacion": 5
+                },
+                {
+                    "usuario": "adventurereview",
+                    "contenido": "Divertida y llena de acción, pero un poco confusa.",
+                    "calificacion": 4
+                }
+            ]
+        },
+        {
+            "titulo": "Intensamente 2",
+            "fecha_estreno": "2024-06-14",
+            "director": "Kaitlyn Dias",
+            "actores_principales": [
+                "Amy Poehler",
+                "Phyllis Smith",
+                "Bill Hader"
+            ],
+            "genero": [
+                "Animación",
+                "Aventura"
+            ],
+            "sinopsis": "Riley y sus emociones enfrentan nuevos desafíos a medida que crece.",
+            "calificacion_general": 4.7,
+            "crew": {
+                "productor": "Jonas Rivera",
+                "guionista": "Meg LeFauve, Josh Cooley",
+                "director_fotografia": "Shirley Kurata"
+            },
+            "detalles": {
+                "duracion": "95 minutos",
+                "clasificacion": "PG"
+            },
+            "poster": "https://m.media-amazon.com/images/M/MV5BYWY3MDE2Y2UtOTE3Zi00MGUzLTg2MTItZjE1ZWVkMGVlODRmXkEyXkFqcGc@._V1_.jpg",
+            "reviews": [
+                {
+                    "usuario": "joyfulmind",
+                    "contenido": "Una secuela conmovedora que no decepciona.",
+                    "calificacion": 5
+                },
+                {
+                    "usuario": "sadnessfan",
+                    "contenido": "Los personajes están tan bien desarrollados como en la primera película.",
+                    "calificacion": 4
+                }
+            ]
+        },
+        {
             "titulo": "Notting Hill",
             "fecha_estreno": "1999-05-28",
             "director": "Roger Michell",
@@ -1938,6 +2014,44 @@
                     "usuario": "rich_romantic",
                     "comentario": "Divertida y emocional, un giro refrescante en las comedias románticas.",
                     "calificacion": 4.5
+                }
+            ]
+        },
+        {
+            "titulo": "Paprika",
+            "fecha_estreno": "2006-11-25",
+            "director": "Satoshi Kon",
+            "actores_principales": [
+                "Megumi Hayashibara",
+                "Tôru Furuya",
+                "Katsunosuke Hori"
+            ],
+            "genero": [
+                "Animación",
+                "Ciencia ficción"
+            ],
+            "sinopsis": "Una psiquiatra utiliza un dispositivo que permite entrar en los sueños de los pacientes.",
+            "calificacion_general": 4.8,
+            "crew": {
+                "productor": "Toshio Suzuki",
+                "guionista": "Satoshi Kon",
+                "director_fotografia": "Mitsuo Iso"
+            },
+            "detalles": {
+                "duracion": "90 minutos",
+                "clasificacion": "R"
+            },
+            "poster": "https://m.media-amazon.com/images/M/MV5BZGJkYjkyMDUtM2U3ZC00NDM3LWI0MzItZjU5MmYwYjg2YmIwXkEyXkFqcGc@._V1_FMjpg_UX1000_.jpg",
+            "reviews": [
+                {
+                    "usuario": "dreamweaver",
+                    "contenido": "Una experiencia visual y emocional extraordinaria.",
+                    "calificacion": 5
+                },
+                {
+                    "usuario": "animationfan",
+                    "contenido": "Una obra maestra del cine de animación.",
+                    "calificacion": 5
                 }
             ]
         }

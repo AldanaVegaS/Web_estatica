@@ -11,7 +11,50 @@
     list-style: none;
 }
 
+/* -----ELEMENTOS DEL CARRUSEL DEL HEADER----- */
 
+
+.carousel {
+
+    width: 100%;
+    height: 550px;
+    display: flex;
+    justify-content: center;
+    overflow: hidden;
+    transform: translate(0, 12.5%);
+}
+
+.carousel-images img {
+    width: 100%;
+    object-fit: cover;
+    display: none;
+    transition: transform 1s ease-in-out;
+
+}
+
+.carousel-images img.active {
+    transform: translateX(0);
+    display: block;
+}
+
+button {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    background-color: rgba(0, 0, 0, 0.5);
+    color: white;
+    border: none;
+    padding: 10px;
+    cursor: pointer;
+}
+
+#left-button {
+    left: 20%;
+}
+
+#right-button {
+    right: 20%;
+}
 
 /*-----ELEMENTOS DE SECTION-----*/
 
