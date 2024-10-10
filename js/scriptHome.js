@@ -1,5 +1,20 @@
 import { peliculasPopulares, romance, terror, accion, animacion, recomendados } from "./peliculas.js";
-import { seriesPopulares } from "./series.js"
+// import { seriesPopulares } from "./series.js"
+
+let series;
+fetch('http://127.0.0.1:5500/js/series.json')
+    .then((response)=>response.json())
+    .then((data)=>{console.log(data);
+        let popularNodo2 = document.getElementById('series_popular');
+        mostrar(series, popularNodo2, 'poster');})
+    .catch((error)=> console.log("ERROR", error))
+
+// if(response.ok){
+//     console.log(response.json);
+// }else{
+//     console.log(response.status);
+// }
+
 
 function mostrar(items, nodo, aMostrar) {
     const fragment = document.createDocumentFragment();
@@ -36,9 +51,9 @@ let popularNodo = document.getElementById('peliculas_popular')
 console.log(popularNodo);
 mostrar(peliculasPopulares, popularNodo, 'poster');
 
-let popularNodo2 = document.getElementById('series_popular')
-console.log(popularNodo);
-mostrar(seriesPopulares, popularNodo2, 'poster');
+// let popularNodo2 = document.getElementById('series_popular')
+// console.log(popularNodo);
+// mostrar(series, popularNodo2, 'poster');
 
 /*Busco nodo de recomendadas y ubico las imagenes*/
 let recomendadoNodo = document.getElementById('recomendado')

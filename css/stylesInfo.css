@@ -47,7 +47,7 @@
 
 .main{
     text-align: left;
-    background:beige;
+    background-color:#606060;
     font-family: "Gowun Batang", serif;
 }
 .aside1{
@@ -55,13 +55,7 @@
     text-align: center;
     font-size: 20px;
 }
-.aside2{
-    /* background: pink; */
-}
 
-.main{
-    background-color:darkgrey;
-}
 
 
 /*Estilo caja de botones*/
@@ -86,21 +80,23 @@
     font-size: 15px;
     flex: 1;
     color:aliceblue;
+    transition: 0.1s ease 0s;
+
 }
 .boton2 i{
     font-size: 40px;
     margin: 0;
     color: aliceblue;
+    transition: 0.5s ease 0s;
 }
 
 .boton2:hover{
-    background-color:antiquewhite;
-    color: #202020;
+    background-color:crimson;
+    
 }
 
 .boton2:hover i{
-    background-color: antiquewhite;
-    color: #202020;
+    background-color: crimson;
 }
 
 
@@ -125,7 +121,7 @@
 .encabezado span {
     font-size: 1.5rem;
     font-weight: 500;
-    background-color: #202020;
+    background-color:#606060;
     color: #ffffffff;
     padding: 10px 20px;
 }
@@ -193,12 +189,12 @@
     height: 45px;
     width: 100px;
     border: none;
-    background: antiquewhite;
+    background: aliceblue;
     cursor: pointer;
 }
 
 .ver_mas:hover{
-    background: burlywood;
+    background: crimson;
 }
 
 
@@ -270,13 +266,14 @@
     height: 45px;
     width: 100px;
     border: none;
-    background: antiquewhite;
+    background: aliceblue;
     cursor: pointer;
     margin: 10px;
+    border-radius: 5px;
 }
 
 .guardar:hover{
-    background: burlywood;
+    background: crimson;
 }
 
 .rating{
@@ -333,8 +330,8 @@
     } 
 
     .contenedor1 img{
-        width: 40%;
-        height: 80%;
+        width: 30%;
+        height: 70%;
     }
     .contenedor2{
         order: 2;
