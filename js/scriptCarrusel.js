@@ -2,7 +2,7 @@ let recomendados;
 let currentIndex = 0;
 let totalImages = 0;
 
-fetch('../Json/peliculas.json').then(res => {
+fetch('../Json/movies.json').then(res => {
     if (!res.ok) {
         throw new Error('Error en la respuesta al cargar las películas')
     }

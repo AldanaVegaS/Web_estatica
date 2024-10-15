@@ -1,6 +1,6 @@
 let seriesPopulares,peliculasPopulares, romance, terror, accion, animacion, recomendados;
 
-fetch('../Json/peliculas.json').then(res => {
+fetch('../Json/movies.json').then(res => {
     if (!res.ok) {
         throw new Error('Error en la respuesta al cargar las películas');
     }

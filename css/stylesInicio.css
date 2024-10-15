@@ -21,7 +21,7 @@ body {
 }
 
 
-/*-----ELEMENTOS DEL HEADER-----*/
+/*-----HEADER ELEMENTS-----*/
 
 header {
     color: aliceblue;
@@ -39,7 +39,7 @@ header {
     display: flex;
 }
 
-/*Estilo del logo*/
+/*Logo style*/
 .header ul li.logo {
     margin-top: 5px;
     flex: 1;
@@ -54,7 +54,7 @@ header {
     width: auto;
 }
 
-.contenidoHeader {
+.header-content {
     display: flex;
     height: 100%;
     flex-direction: column;
@@ -62,12 +62,12 @@ header {
 
 }
 
-.estrellas {
+.stars {
     margin-top: 200px;
     font-size: 20px;
 }
 
-.descripcion {
+.description {
     font-family: sans-serif;
     text-align: center;
     font-size: 60px;
@@ -76,9 +76,9 @@ header {
 
 }
 
-/*-----ELEMENTOS DEL NAVEGADOR DENTRO DEL HEADER-----*/
+/*-----HEADER NAVBAR ELEMENTS-----*/
 
-.navegador {
+.navbar {
     margin-right: 100px;
     display: flex;
     align-items: center;
@@ -86,23 +86,23 @@ header {
     min-width: 300px;
 }
 
-.iniciar {
+.login-button {
     padding: 10px 20px;
     border-radius: 10px;
     margin: 5px;
 }
 
-.iniciar a {
+.login-button a {
     color: #F26680;
 }
 
-.registrar {
+.signup-button {
     padding: 10px 20px;
     border-radius: 10px;
     margin: 5px;
 }
 
-.registrar a {
+.signup-button a {
     color: #c51f5d;
 }
 
@@ -110,7 +110,7 @@ a:hover {
     color: aliceblue;
 }
 
-/* -----ELEMENTOS DEL CARRUSEL DEL HEADER----- */
+/* -----HEADER CAROUSEL ELEMENTS----- */
 .carousel-container{
     width: 100%;    
     height: 340px;
@@ -163,7 +163,7 @@ button{
     right: 20%;
 }
 
-/*-----ELEMENTOS DE SECTION-----*/
+/*-----SECTION ELEMENTS-----*/
 
 section {
     min-height: 500px;
@@ -203,7 +203,7 @@ article {
 }
 
 
-.contenedor {
+.container {
     white-space: nowrap;
     display: flex;
     flex-wrap: wrap;
@@ -211,7 +211,7 @@ article {
     width: 100%;
 }
 
-.contenedor img {
+.container img {
     height: 260px;
     width: 180px;
     object-fit: cover;
@@ -229,7 +229,7 @@ article {
     animation-fill-mode: both;
 }
 
-.contenedor img:hover {
+.container img:hover {
     /*filter: brightness(0.5);*/
     width: 200px;
     height: 280px;

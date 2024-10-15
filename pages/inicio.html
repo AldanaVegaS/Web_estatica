@@ -16,9 +16,9 @@
     <header class="header">
         <ul>
             <li class="logo"><img src="../imagenes/logo1.png" alt="logo"></li>
-            <div class="navegador">
-                <li class="iniciar"><a href="registro.html?card='inicio-sesion'">Iniciar Sesion</a></li>
-                <li class="registrar"><a href="registro.html?card='registro'">Registrarte</a></li>
+            <div class="navbar">
+                <li class="login-button"><a href="login.html?card='login'">Iniciar Sesion</a></li>
+                <li class="signup-button"><a href="login.html?card='signup'">Registrarte</a></li>
             </div>
         </ul>
         <div class="carousel-container">
@@ -30,8 +30,8 @@
             </div>
         </div>
 
-        <div class="contenidoHeader">
-            <div class="estrellas">
+        <div class="header-content">
+            <div class="stars">
                 <i class="fa-solid fa-star fa-4x" aria-hidden="true"></i>
                 <i class="fa-solid fa-star fa-4x" aria-hidden="true"></i>
                 <i class="fa-solid fa-star fa-4x" aria-hidden="true"></i>
@@ -39,13 +39,13 @@
                 <i class="fa-solid fa-star fa-4x" aria-hidden="true"></i>
             </div>
         </div>
-        <p class="descripcion">Califica las peliculas <br> y series de tu interes.</p>
+        <p class="description">Califica las peliculas <br> y series de tu interes.</p>
     </header>
 
     <section>
         <article>
             <h1>POPULAR</h1>
-            <div class="contenedor" id="popular">
+            <div class="container" id="popular">
                 <!--Las imagenes se ubican en script.js-->
             </div>
 
@@ -53,7 +53,7 @@
         </article>
         <article>
             <h1>PROXIMAMENTE</h1>
-            <div class="contenedor" id="proximamente">
+            <div class="container" id="proximamente">
                 <!--Las imagenes se ubican en script.js-->
             </div>
         </article>
@@ -61,16 +61,13 @@
     </section>
     <footer></footer>
     <script>
-        const estrellas = document.querySelectorAll(".estrellas i");
+        const estrellas = document.querySelectorAll(".stars i");
         console.log(estrellas);
         let indice1, indice2;
 
         estrellas.forEach((star, i) => {
-            console.log(i);
             star.addEventListener("click", () => {
-                console.log("hizo click", i);
                 estrellas.forEach((star, j) => {
-                    console.log(j, i)
                     if (j <= i) {
                         star.style.color = "#F26680";
                     } else {
