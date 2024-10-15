@@ -144,7 +144,7 @@ function mostrarReviews(reviews, elto) {
 
         const comentario = document.createElement('div');
         comentario.className = "comentario";
-        comentario.textContent = item.contenido;
+        comentario.textContent = item.comentario;
 
         userInfo.appendChild(userName);
         userInfo.appendChild(calificacion);

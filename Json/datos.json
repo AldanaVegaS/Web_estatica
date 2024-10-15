@@ -1817,12 +1817,12 @@
             "reviews": [
                 {
                     "usuario": "multiversefan",
-                    "contenido": "Una película que desafía la realidad de una forma nunca vista antes.",
+                    "comentario": "Una película que desafía la realidad de una forma nunca vista antes.",
                     "calificacion": 5
                 },
                 {
                     "usuario": "adventurereview",
-                    "contenido": "Divertida y llena de acción, pero un poco confusa.",
+                    "comentario": "Divertida y llena de acción, pero un poco confusa.",
                     "calificacion": 4
                 }
             ]
@@ -1855,12 +1855,12 @@
             "reviews": [
                 {
                     "usuario": "joyfulmind",
-                    "contenido": "Una secuela conmovedora que no decepciona.",
+                    "comentario": "Una secuela conmovedora que no decepciona.",
                     "calificacion": 5
                 },
                 {
                     "usuario": "sadnessfan",
-                    "contenido": "Los personajes están tan bien desarrollados como en la primera película.",
+                    "comentario": "Los personajes están tan bien desarrollados como en la primera película.",
                     "calificacion": 4
                 }
             ]
@@ -2046,12 +2046,12 @@
             "reviews": [
                 {
                     "usuario": "filmlover",
-                    "contenido": "Una celebración del amor y la música con un estilo visual impresionante.",
+                    "comentario": "Una celebración del amor y la música con un estilo visual impresionante.",
                     "calificacion": 5
                 },
                 {
                     "usuario": "musicalfan",
-                    "contenido": "La banda sonora es absolutamente inolvidable.",
+                    "comentario": "La banda sonora es absolutamente inolvidable.",
                     "calificacion": 5
                 }
             ]
