@@ -1805,9 +1805,9 @@
             "sinopsis": "Una mujer común debe conectarse con versiones alternativas de sí misma para salvar el multiverso.",
             "calificacion_general": 4.6,
             "crew": {
-                "productor": "Daniel Kwan, Daniel Scheinert",
-                "guionista": "Daniel Kwan, Daniel Scheinert",
-                "director_fotografia": "Larkin Seiple"
+                "productores": "Daniel Kwan, Daniel Scheinert",
+                "guionistas": "Daniel Kwan, Daniel Scheinert",
+                "direccion_de_fotografia": "Larkin Seiple"
             },
             "detalles": {
                 "duracion": "139 minutos",
@@ -1843,9 +1843,9 @@
             "sinopsis": "Riley y sus emociones enfrentan nuevos desafíos a medida que crece.",
             "calificacion_general": 4.7,
             "crew": {
-                "productor": "Jonas Rivera",
-                "guionista": "Meg LeFauve, Josh Cooley",
-                "director_fotografia": "Shirley Kurata"
+                "productores": "Jonas Rivera",
+                "guionistas": "Meg LeFauve, Josh Cooley",
+                "direccion_de_fotografia": "Shirley Kurata"
             },
             "detalles": {
                 "duracion": "95 minutos",
@@ -2034,9 +2034,9 @@
             "sinopsis": "La historia de un pianista de jazz y una aspirante a actriz que persiguen sus sueños en Los Ángeles.",
             "calificacion_general": 4.7,
             "crew": {
-                "productor": "Fred Berger",
-                "guionista": "Damien Chazelle",
-                "director_fotografia": "Linus Sandgren"
+                "productores": "Fred Berger",
+                "guionistas": "Damien Chazelle",
+                "direccion_de_fotografia": "Linus Sandgren"
             },
             "detalles": {
                 "duracion": "128 minutos",
