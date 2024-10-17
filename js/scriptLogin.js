@@ -27,11 +27,8 @@ logInButton.addEventListener("click", (e) => {
 // Obtener el card de la URL
 const params = new URLSearchParams(window.location.search);
 const card = params.get('card');
-
-if (card == "login") {
-    document.querySelector(".flip-card-inner").style.transform = "rotateY(0deg)";
-    console.log("rotadoses");
-} else {
+if (card == "'login'") {
     document.querySelector(".flip-card-inner").style.transform = "rotateY(180deg)";
-    console.log("rotadoreg");
+} else {
+    document.querySelector(".flip-card-inner").style.transform = "rotateY(0deg)";
 }
