@@ -30,34 +30,28 @@ fetch('../Json/datos.json').then(res => {
 
 
 function mostrarSerie(serieSeleccionada) {
-    document.getElementById('poster').src = serieSeleccionada.poster;
-    calificacionGeneral(serieSeleccionada.calificacion_general, document.getElementById('calificacion'));
-    document.getElementById('titulo').textContent = serieSeleccionada.titulo;
     document.getElementById('anio_director').textContent = serieSeleccionada.fecha_estreno + ", creada por " + serieSeleccionada.creador;
-    document.getElementById('genero').textContent = serieSeleccionada.genero.join(', ');
-    document.getElementById('sinopsis').textContent = serieSeleccionada.sinopsis;
-    listarCast(serieSeleccionada.cast, document.getElementById('cast'));
-    listarCrew(serieSeleccionada.crew, document.getElementById('crew'));
+    mostrarDatos(serieSeleccionada);
     listarDetallesSeries(serieSeleccionada.detalles, document.getElementById('detalles'));
-    mostrarReviews(serieSeleccionada.reviews, document.getElementById('cajaComentarios'));
-    mostrarCardReview(serieSeleccionada);
 }
-
-
 
 function mostrarPelicula(peliculaSeleccionada) {
     console.log(peliculaSeleccionada);
-    document.getElementById('poster').src = peliculaSeleccionada.poster;
-    calificacionGeneral(peliculaSeleccionada.calificacion_general, document.getElementById('calificacion'));
-    document.getElementById('titulo').textContent = peliculaSeleccionada.titulo;
     document.getElementById('anio_director').textContent = peliculaSeleccionada.fecha_estreno + ", dirigida por " + peliculaSeleccionada.director;
-    document.getElementById('genero').textContent = peliculaSeleccionada.genero.join(', ');
-    document.getElementById('sinopsis').textContent = peliculaSeleccionada.sinopsis;
-    listarCast(peliculaSeleccionada.actores_principales, document.getElementById('cast'));
-    listarCrew(peliculaSeleccionada.crew, document.getElementById('crew'));
+    mostrarDatos(peliculaSeleccionada); 
     listarDetalles(peliculaSeleccionada.detalles, document.getElementById('detalles'));
-    mostrarReviews(peliculaSeleccionada.reviews, document.getElementById('cajaComentarios'));
-    mostrarCardReview(peliculaSeleccionada);
+}
+
+function mostrarDatos(seleccion){
+    document.getElementById('poster').src = seleccion.poster;
+    calificacionGeneral(seleccion.calificacion_general, document.getElementById('calificacion'));
+    document.getElementById('titulo').textContent = seleccion.titulo;
+    document.getElementById('genero').textContent = seleccion.genero.join(', ');
+    document.getElementById('sinopsis').textContent = seleccion.sinopsis;
+    listarCast(seleccion.cast, document.getElementById('cast'));
+    listarCrew(seleccion.crew, document.getElementById('crew'));
+    mostrarReviews(seleccion.reviews, document.getElementById('cajaComentarios'));
+    mostrarCardReview(seleccion);
 }
 
 function calificacionGeneral(calificacion, elto) {
@@ -206,6 +200,7 @@ function mostrarCardReview(seleccion) {
     boton.className = "guardar";
     boton.id = 'guardar';
     boton.textContent = "Guardar";
+    boton.onclick = 'guardar()';
 
     const rating = document.createElement('div');
     rating.className = "rating";
@@ -227,14 +222,18 @@ function mostrarCardReview(seleccion) {
     popup.appendChild(popup_contenido);
 
     document.body.appendChild(popup);
+
+    document.getElementById('guardar').addEventListener('click', function() {
+        console.log("Apreto guardar");
+        document.getElementById('popup_card').style.display = 'none';
+    });
+
+    document.getElementById('cerrar_popup').addEventListener('click', function() {
+        console.log("Apreto cerrar");
+        document.getElementById('popup_card').style.display = 'none';
+    });
 }
 
-
-
-document.getElementById('agregar_review').onclick = function () {
-    document.getElementById('popup_card').style.display = 'flex';
-    console.log("Apreto boton para agregar review");
-}
 
 
 

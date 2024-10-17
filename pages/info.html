@@ -48,7 +48,7 @@
           <span>Agregar a Watchlist</span>
         </div>
 
-        <div class="boton2" id="agregar_review">
+        <div class="boton2" id="agregar_review" onclick="agregar_review()">
           <i class="material-icons-outlined">reviews</i>
           <span>Agregar a review</span>
         </div>
@@ -75,21 +75,10 @@
   <script src="../js/scriptNavBar.js" type="module"></script>
 
  <script>
-    document.addEventListener('DOMContentLoaded', function() {
-        document.getElementById('guardar').onclick = function () { 
-          console.log("guardar");
-            //document.getElementById('popup_card').style.display = 'none';
-        };
-    });
-
-    document.addEventListener('DOMContentLoaded', function() {
-      document.getElementById('cerrar_popup').onclick = function () {
-        console.log("cerrar");
-        //document.getElementById('popup_card').style.display = 'none';
-      }
-    });
-    
-
+  function agregar_review(){
+    document.getElementById('popup_card').style.display = 'flex';
+    console.log("Apreto boton para agregar review");
+  }  
 </script>
 
 </body>
