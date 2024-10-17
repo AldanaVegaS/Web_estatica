@@ -1,61 +1,61 @@
-let seriesPopulares,peliculasPopulares, romance, terror, accion, animacion, recomendados;
+let popularSeries,popularMovies, romance, horror, action, animation, recommended;
 
 fetch('../Json/movies.json').then(res => {
     if (!res.ok) {
-        throw new Error('Error en la respuesta al cargar las películas');
+        throw new Error('Error in the response when loading the movies');
     }
     return res.json();
 })
     .then(data => {
-        // accede a los arreglos dentro del json
-        peliculasPopulares = data.peliculasPopulares;
+        // access the arrays inside the json
+        popularMovies = data.peliculasPopulares;
         romance = data.romance;
-        terror = data.terror;
-        accion = data.accion;
-        animacion = data.animacion;
-        recomendados = data.recomendados;
+        horror = data.terror;
+        action = data.accion;
+        animation = data.animacion;
+        recommended = data.recomendados;
 
-        /*Busco nodo de populares y ubico las imagenes*/
-        let popularNodo = document.getElementById('peliculas_popular')
-        mostrar(peliculasPopulares, popularNodo, 'poster');
+        /*Search for the 'popular' node and locate the images*/
+        let popularNode = document.getElementById('popular_movies')
+        show(popularMovies, popularNode, 'poster');
 
-        /*Busco nodo de recomendadas y ubico las imagenes*/
-        let recomendadoNodo = document.getElementById('recomendado')
-        mostrar(recomendados, recomendadoNodo, 'poster');
+        /*Search for the 'recommended' node and locate the images*/
+        let recommendedNode = document.getElementById('recommended')
+        show(recommended, recommendedNode, 'poster');
 
-        /*Busco nodo de accion y ubico las imagenes*/
-        let accionNodo = document.getElementById('accion')
-        mostrar(accion, accionNodo, 'poster');
+        /*Search for the 'action' node and locate the images*/
+        let actionNode = document.getElementById('action')
+        show(action, actionNode, 'poster');
 
-        /*Busco nodo de accion y ubico las imagenes*/
-        let terrorNodo = document.getElementById('terror')
-        mostrar(terror, terrorNodo, 'poster');
+        /*Search for the 'horror' node and locate the images*/
+        let horrorNode = document.getElementById('horror')
+        show(horror, horrorNode, 'poster');
 
-        /*Busco nodo de terror y ubico las imagenes*/
-        let animacionNodo = document.getElementById('animacion')
-        mostrar(animacion, animacionNodo, 'poster');
+        /*Search for the 'animation' node and locate the images*/
+        let animationNode = document.getElementById('animation')
+        show(animation, animationNode, 'poster');
 
-        /*Busco nodo de terror y ubico las imagenes*/
-        let romanceNodo = document.getElementById('romance')
-        mostrar(romance, romanceNodo, 'poster');
+        /*Search for the 'romance' node and locate the images*/
+        let romanceNode = document.getElementById('romance')
+        show(romance, romanceNode, 'poster');
     });
 
 fetch('../Json/series.json').then(res => {
     if (!res.ok) {
-        throw new Error('Error en la respuesta al cargar las series')
+        throw new Error('Error in the response when loading the series')
     }
     return res.json();
 })
     .then(data => {
-        seriesPopulares = data.seriesPopulares;
+        popularSeries = data.seriesPopulares;
 
-        let popularNodo2 = document.getElementById('series_popular')
-        mostrar(seriesPopulares, popularNodo2, 'poster');
+        let popularSeriesNode = document.getElementById('popular_series')
+        show(popularSeries, popularSeriesNode, 'poster');
     });
 
-function mostrar(items, nodo, aMostrar) {
+function show(items, node, toShow) {
     const fragment = document.createDocumentFragment();
-    switch (aMostrar) {
+    switch (toShow) {
         case 'poster':
             items.forEach((item) => {
                 let link = document.createElement('a');
@@ -69,7 +69,7 @@ function mostrar(items, nodo, aMostrar) {
                 fragment.appendChild(link);
             });
             break;
-        case 'descripcion':
+        case 'description':
             items.forEach((item) => {
                 let p = document.createElement('p');
                 p.innerHTML = item.sinopsis;
@@ -77,7 +77,5 @@ function mostrar(items, nodo, aMostrar) {
             });
             break;
     }
-
-    console.log(fragment);
-    nodo.appendChild(fragment);
+    node.appendChild(fragment);
 }

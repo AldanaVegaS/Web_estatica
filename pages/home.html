@@ -5,7 +5,7 @@
     <title>Home</title>
     <link rel="stylesheet" href="../css/styleshome.css">
     <link rel="stylesheet" href="../css/stylesGeneral.css">
-    <link rel="icon" href="../imagenes/logo2.ico">
+    <link rel="icon" href="../images/logo2.ico">
     <link href="https://fonts.googleapis.com/css2?family=Material+Icons+Outlined" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css2?family=Material+Icons+Outlined" rel="stylesheet">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css"
@@ -20,14 +20,14 @@
         <section>
             <h1>Peliculas populares</h1>
             <div class="wrapper">
-                <button onclick="moverse('peliculas_popular','iz')" class="material-icons-outlined"
-                    id="izquierda">chevron_left</button>
-                <div class="borde">
-                    <figure class="contenedor" id="peliculas_popular">
+                <button onclick="slideImages('popular_movies','left')" class="material-icons-outlined"
+                    id="left-button">chevron_left</button>
+                <div class="border">
+                    <figure class="container" id="popular_movies">
                         <!--Las imagenes se ubican en script.js-->
                     </figure>
-                    <button onclick="moverse('peliculas_popular','der')" class="material-icons-outlined"
-                        id="derecha">chevron_right</i>
+                    <button onclick="slideImages('popular_movies','right')" class="material-icons-outlined"
+                        id="right-button">chevron_right</i>
                 </div>
             </div>
         </section>
@@ -35,14 +35,14 @@
         <section>
             <h1>Series populares</h1>
             <div class="wrapper">
-                <button onclick="moverse('series_popular','iz')" class="material-icons-outlined"
-                    id="izquierda">chevron_left</button>
-                <div class="borde">
-                    <figure class="contenedor" id="series_popular">
+                <button onclick="slideImages('popular_series','lrft')" class="material-icons-outlined"
+                    id="left-button">chevron_left</button>
+                <div class="border">
+                    <figure class="container" id="popular_series">
                         <!--Las imagenes se ubican en script.js-->
                     </figure>
-                    <button onclick="moverse('series_popular','der')" class="material-icons-outlined"
-                        id="derecha">chevron_right</i>
+                    <button onclick="slideImages('popular_series','right')" class="material-icons-outlined"
+                        id="right-button">chevron_right</i>
                 </div>
             </div>
         </section>
@@ -51,15 +51,15 @@
 
             <h1>Peliculas que recomendamos</h1>
             <div class="wrapper">
-                <button onclick="moverse('recomendado','iz')" class="material-icons-outlined"
-                    id="izquierda">chevron_left</button>
-                <div class="borde">
-                    <figure class="contenedor" id="recomendado">
+                <button onclick="slideImages('recommended','left')" class="material-icons-outlined"
+                    id="left-button">chevron_left</button>
+                <div class="border">
+                    <figure class="container" id="recommended">
                         <!--Las imagenes se ubican en script.js-->
                     </figure>
                 </div>
-                <button onclick="moverse('recomendado','der')" class="material-icons-outlined"
-                    id="derecha">chevron_right</button>
+                <button onclick="slideImages('recommended','right')" class="material-icons-outlined"
+                    id="right-button">chevron_right</button>
             </div>
 
 
@@ -69,15 +69,15 @@
 
             <h1>Cine de accion</h1>
             <div class="wrapper">
-                <button onclick="moverse('accion','iz')" class="material-icons-outlined"
-                    id="izquierda">chevron_left</button>
-                <div class="borde">
-                    <figure class="contenedor" id="accion">
+                <button onclick="slideImages('action','left')" class="material-icons-outlined"
+                    id="left-button">chevron_left</button>
+                <div class="border">
+                    <figure class="container" id="action">
                         <!--Las imagenes se ubican en script.js-->
                     </figure>
                 </div>
-                <button onclick="moverse('accion','der')" class="material-icons-outlined"
-                    id="derecha">chevron_right</button>
+                <button onclick="slideImages('action','right')" class="material-icons-outlined"
+                    id="right-button">chevron_right</button>
             </div>
 
         </section>
@@ -86,15 +86,15 @@
 
             <h1>Cine de terror</h1>
             <div class="wrapper">
-                <button onclick="moverse('terror','iz')" class="material-icons-outlined"
-                    id="izquierda">chevron_left</button>
-                <div class="borde">
-                    <figure class="contenedor" id="terror">
+                <button onclick="slideImages('horror','left')" class="material-icons-outlined"
+                    id="left-button">chevron_left</button>
+                <div class="border">
+                    <figure class="container" id="horror">
                         <!--Las imagenes se ubican en script.js-->
                     </figure>
                 </div>
-                <button onclick="moverse('terror','der')" class="material-icons-outlined"
-                    id="derecha">chevron_right</button>
+                <button onclick="slideImages('horror','right')" class="material-icons-outlined"
+                    id="right-button">chevron_right</button>
             </div>
 
 
@@ -103,15 +103,15 @@
 
             <h1>Cine de romance</h1>
             <div class="wrapper">
-                <button onclick="moverse('romance','iz')" class="material-icons-outlined"
-                    id="izquierda">chevron_left</button>
-                <div class="borde">
-                    <figure class="contenedor" id="romance">
+                <button onclick="slideImages('romance','left')" class="material-icons-outlined"
+                    id="left-button">chevron_left</button>
+                <div class="border">
+                    <figure class="container" id="romance">
                         <!--Las imagenes se ubican en script.js-->
                     </figure>
                 </div>
-                <button onclick="moverse('romance','der')" class="material-icons-outlined"
-                    id="derecha">chevron_right</button>
+                <button onclick="slideImages('romance','right')" class="material-icons-outlined"
+                    id="right-button">chevron_right</button>
             </div>
 
 
@@ -120,15 +120,15 @@
 
             <h1>Cine de Animacion</h1>
             <div class="wrapper">
-                <button onclick="moverse('animacion','iz')" class="material-icons-outlined"
-                    id="izquierda">chevron_left</button>
-                <div class="borde">
-                    <figure class="contenedor" id="animacion">
+                <button onclick="slideImages('animation','left')" class="material-icons-outlined"
+                    id="left-button">chevron_left</button>
+                <div class="border">
+                    <figure class="container" id="animation">
                         <!--Las imagenes se ubican en script.js-->
                     </figure>
                 </div>
-                <button onclick="moverse('animacion','der')" class="material-icons-outlined"
-                    id="derecha">chevron_right</button>
+                <button onclick="slideImages('animation','right')" class="material-icons-outlined"
+                    id="right-button">chevron_right</button>
             </div>
 
         </section>
@@ -136,19 +136,15 @@
     </main>
 
     <script>
-        function moverse(nodo, direccion) {
-            console.log(nodo);
-            console.log(direccion);
-            const carrusel = document.getElementById(nodo);
+        function slideImages(nodo, direction) {
+            const carousel = document.getElementById(nodo);
 
-            console.log(carrusel);
-
-            switch (direccion) {
-                case 'der':
-                    carrusel.style.justifyContent = 'flex-end';
+            switch (direction) {
+                case 'right':
+                    carousel.style.justifyContent = 'flex-end';
                     break;
-                case 'iz':
-                    carrusel.style.justifyContent = 'flex-start';
+                case 'left':
+                    carousel.style.justifyContent = 'flex-start';
                     break;
             }
         }

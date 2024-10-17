@@ -1,24 +1,21 @@
-let recomendados;
+let recommended;
 let currentIndex = 0;
 let totalImages = 0;
 
 fetch('../Json/movies.json').then(res => {
     if (!res.ok) {
-        throw new Error('Error en la respuesta al cargar las películas')
+        throw new Error('Error in the response when loading the movies')
     }
     return res.json();
 })
     .then(data => {
-        // accede a los arreglos dentro del json
-        recomendados = data.recomendados;
-        totalImages = recomendados.length;
-
-        /*Busco nodo de recomendadas y ubico las imagenes*/
-        let recomendadoNodo = document.getElementById('images')
-        addItem(recomendados, recomendadoNodo, 'poster');
+        // access the arrays within the json
+        recommended = data.recomendados;
+        totalImages = recommended.length;
+        addItem(recommended);
     });
 
-function addItem(items, nodo, aMostrar) {
+function addItem(items) {
     const carouselContainer = document.querySelector('.carousel-images');
 
     items.forEach((item, index) => {
@@ -46,9 +43,8 @@ function showImage(index) {
     });
 }
 
-function changeItem(sentido) {
-
-    if (sentido == "prev") {
+function changeItem(direction) {
+    if (direction == "prev") {
         currentIndex = (currentIndex === 0) ? totalImages - 1 : currentIndex - 1;
         showImage(currentIndex);
     } else {

@@ -1,42 +1,40 @@
-let datos, proximamente;
+let datos, upcoming;
 
 fetch('../Json/peliculasInicio.json').then(res => {
     if (!res.ok) {
-        throw new Error('Error en la respuesta al cargar las películas');
+        throw new Error('Error in the response when loading the movies');
     }
     return res.json();
 })
 .then(data =>{
-     // accede a los arreglos dentro del json
+     // access the arrays inside the json
      datos = data.datos;
-     proximamente = data.datos;
+     upcoming = data.datos;
 
-     /*Busco nodo de populares y ubico las imagenes*/
-     let popularNodo = document.getElementById('popular')
-     mostrar(datos, popularNodo, 'poster');
-     console.log(datos);
+     /*Search for the 'popular' node and locate the images*/
+     let popularNode = document.getElementById('popular')
+     show(datos, popularNode, 'poster');
 
-     /*Busco nodo proximamente y ubico las imagenes*/
-     let proximamenteNodo = document.getElementById('proximamente')
-     mostrar(proximamente, proximamenteNodo, 'poster');
+     /*Search for the 'upcoming' node and locate the images*/
+     let upcomingNode = document.getElementById('upcoming')
+     show(upcoming, upcomingNode, 'poster');
 })
 
 
 
-function mostrar(items, nodo, aMostrar) {
+function show(items, node, toShow) {
     const fragment = document.createDocumentFragment();
 
-    switch (aMostrar) {
+    switch (toShow) {
         case 'poster':
             items.forEach((item) => {
                 let img = document.createElement('img');
                 img.src = item.poster;
-                console.log(item.poster);
                 img.alt = "Poster pelicula";
                 fragment.appendChild(img);
             });
             break;
-        case 'descripcion':
+        case 'description':
             items.forEach((item) => {
                 let p = document.createElement('p');
                 p.innerHTML = item.sinopsis;
@@ -44,7 +42,7 @@ function mostrar(items, nodo, aMostrar) {
             });
             break;
     }
-    nodo.appendChild(fragment);
+    node.appendChild(fragment);
 }
 
 

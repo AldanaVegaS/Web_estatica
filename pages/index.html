@@ -2,9 +2,9 @@
 <html lang="en">
 
 <head>
-    <title>Inicio</title>
-    <link rel="stylesheet" href="../css/stylesInicio.css">
-    <link rel="icon" href="../imagenes/logo2.ico">
+    <title>Home</title>
+    <link rel="stylesheet" href="../css/stylesIndex.css">
+    <link rel="icon" href="../images/logo2.ico">
     <link href="https://fonts.googleapis.com/css2?family=Material+Icons+Outlined" rel="stylesheet">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css"
         integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg=="
@@ -15,7 +15,7 @@
 <body>
     <header class="header">
         <ul>
-            <li class="logo"><img src="../imagenes/logo1.png" alt="logo"></li>
+            <li class="logo"><img src="../images/logo1.png" alt="logo"></li>
             <div class="navbar">
                 <li class="login-button"><a href="login.html?card='login'">Iniciar Sesion</a></li>
                 <li class="signup-button"><a href="login.html?card='signup'">Registrarte</a></li>
@@ -53,7 +53,7 @@
         </article>
         <article>
             <h1>PROXIMAMENTE</h1>
-            <div class="container" id="proximamente">
+            <div class="container" id="upcoming">
                 <!--Las imagenes se ubican en script.js-->
             </div>
         </article>
@@ -61,13 +61,12 @@
     </section>
     <footer></footer>
     <script>
-        const estrellas = document.querySelectorAll(".stars i");
-        console.log(estrellas);
-        let indice1, indice2;
+        const stars = document.querySelectorAll(".stars i");
+        let index1, index2;
 
-        estrellas.forEach((star, i) => {
+        stars.forEach((star, i) => {
             star.addEventListener("click", () => {
-                estrellas.forEach((star, j) => {
+                stars.forEach((star, j) => {
                     if (j <= i) {
                         star.style.color = "#F26680";
                     } else {
@@ -77,8 +76,8 @@
             })
         })
     </script>
-    <script src="../js/scriptInicio.js"></script>
-    <script src="../js/scriptCarrusel.js"></script>
+    <script src="../js/scriptIndex.js"></script>
+    <script src="../js/scriptCarousel.js"></script>
 </body>
 
 </html>

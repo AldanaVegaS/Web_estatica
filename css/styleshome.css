@@ -70,11 +70,11 @@ h1 {
     right: -22px;
 }
 
-.borde {
+.border {
     overflow: hidden
 }
 
-.contenedor {
+.container {
     transition: all ease-in-out 0.5s;
     white-space: nowrap;
     display: flex;
@@ -84,7 +84,7 @@ h1 {
 
 
 
-.contenedor img {
+.container img {
     height: 260px;
     width: 180px;
     object-fit: cover;
@@ -95,7 +95,7 @@ h1 {
     cursor: pointer;
 }
 
-.contenedor img:hover {
+.container img:hover {
     /*filter: brightness(0.5);*/
     width: 200px;
     height: 280px;
