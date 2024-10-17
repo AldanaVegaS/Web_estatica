@@ -15,7 +15,7 @@
 body {
     flex-direction: column;
     color: aliceblue;
-    background-image: url(../imagenes/gradiente.jpg);
+    background-image: url(../images/gradiente.jpg);
     background-repeat: no-repeat;
     background-size: cover;
 }
