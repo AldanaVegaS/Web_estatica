@@ -9,16 +9,15 @@
         integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg=="
         crossorigin="anonymous" referrerpolicy="no-referrer" />
 
-
 </head>
 
 <body>
     <header class="header">
         <ul>
-            <li class="logo"><img src="../imagenes/logo1.png" alt="logo"></li>
-            <div class="navegador">
-                <li class="iniciar"><a href="registro.html?card='inicio-sesion'">Iniciar Sesion</a></li>
-                <li class="registrar"><a href="registro.html?card='registro'">Registrarte</a></li>
+            <li class="logo"><img src="../images/logo1.png" alt="logo"></li>
+            <div class="navbar">
+                <li class="login-button"><a href="login.html?card='login'">Iniciar Sesion</a></li>
+                <li class="signup-button"><a href="login.html?card='signup'">Registrarte</a></li>
             </div>
         </ul>
         <div class="contenidoHeader">
@@ -38,7 +37,7 @@
     <section>
         <article>
             <h1>POPULAR</h1>
-            <div class="contenedor" id="popular">
+            <div class="container" id="popular">
                 <!--Las imagenes se ubican en script.js-->
             </div>
 
@@ -46,7 +45,7 @@
         </article>
         <article>
             <h1>PROXIMAMENTE</h1>
-            <div class="contenedor" id="proximamente">
+            <div class="container" id="upcoming">
                 <!--Las imagenes se ubican en script.js-->
             </div>
         </article>
@@ -54,16 +53,12 @@
     </section>
     <footer></footer>
     <script>
-        const estrellas = document.querySelectorAll(".estrellas i");
-        console.log(estrellas);
-        let indice1, indice2;
+        const stars = document.querySelectorAll(".stars i");
+        let index1, index2;
 
-        estrellas.forEach((star, i) => {
-            console.log(i);
+        stars.forEach((star, i) => {
             star.addEventListener("click", () => {
-                console.log("hizo click", i);
-                estrellas.forEach((star, j) => {
-                    console.log(j, i)
+                stars.forEach((star, j) => {
                     if (j <= i) {
                         star.style.color = "#F26680";
                     } else {

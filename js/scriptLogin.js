@@ -28,7 +28,7 @@ logInButton.addEventListener("click", (e) => {
 const params = new URLSearchParams(window.location.search);
 const card = params.get('card');
 
-if (card == "'inicio-sesion'") {
+if (card == "login") {
     document.querySelector(".flip-card-inner").style.transform = "rotateY(0deg)";
     console.log("rotadoses");
 } else {

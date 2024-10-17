@@ -3,7 +3,7 @@
     height: 380px;
 }
 
-.titulo-pelicula {
+.movie-title {
     font-size: 50px;
 }
 
@@ -54,14 +54,14 @@
 
 
 /*Estilo caja de botones*/
-.contenedor-botones {
+.buttons-container {
     display: flex;
     flex-flow: wrap;
     flex-direction: row;
     align-items: center;
 }
 
-.boton2 {
+.button2 {
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -77,18 +77,18 @@
     color: aliceblue;
 }
 
-.boton2 i {
+.button2 i {
     font-size: 40px;
     margin: 0;
     color: #F26680;
 }
 
-.boton2:hover {
+.button2:hover {
     background-color: #F26680;
     color: #202020;
 }
 
-.boton2:hover i {
+.button2:hover i {
     background-color: #F26680;
     color: #202020;
 }
@@ -120,7 +120,7 @@
     padding: 10px 20px;
 }
 
-.caja {
+.box {
     background: rgb(31, 47, 63);
     text-align: left;
     position: relative;
