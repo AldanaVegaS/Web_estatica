@@ -264,6 +264,7 @@
     background: #F26680;
     cursor: pointer;
     margin: 10px;
+    border-radius: 5px;
 }
 
 .guardar:hover {
