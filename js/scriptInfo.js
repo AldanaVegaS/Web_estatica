@@ -204,7 +204,7 @@ function mostrarCardReview(seleccion) {
 
     const boton = document.createElement('button');
     boton.className = "guardar";
-    boton.id = "guardar";
+    boton.id = 'guardar';
     boton.textContent = "Guardar";
 
     const rating = document.createElement('div');
@@ -230,9 +230,6 @@ function mostrarCardReview(seleccion) {
 }
 
 
-document.getElementById('guardar').onclick = function () {
-    document.getElementById('popup_card').style.display = 'none';
-}
 
 document.getElementById('agregar_review').onclick = function () {
     document.getElementById('popup_card').style.display = 'flex';
@@ -240,6 +237,5 @@ document.getElementById('agregar_review').onclick = function () {
 }
 
 
-document.getElementById('cerrar_popup').onclick = function () {
-    document.getElementById('popup_card').style.display = 'none';
-}
+
+
