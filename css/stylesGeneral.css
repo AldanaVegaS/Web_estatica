@@ -1,6 +1,8 @@
+@import url('https://fonts.googleapis.com/css2?family=Nunito:ital,wght@0,200..1000;1,200..1000&display=swap');
+
 * {
     box-sizing: border-box;
-    margin: 0;
+    margin: 0px;
     font-family: "Nunito", sans-serif;
     text-decoration: none;
     font-size: 20px;
@@ -45,6 +47,7 @@ body {
     padding: 0 25px;
     display: inline-flex;
     gap: 30px;
+    
 }
 
 .items.show {
@@ -85,7 +88,7 @@ body {
 .search-icon input {
     height: 100%;
     width: 90%;
-    border: none;
+    border:#000;
     border-radius: 5px 0 0 5px;
     outline: none;
     padding: 0 10px;

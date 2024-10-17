@@ -163,7 +163,7 @@ p {
     background: #F26680;
     border: none;
     border-radius: 70px;
-
+    cursor: pointer;
 }
 
 .submit-button:hover {

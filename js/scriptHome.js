@@ -1,4 +1,4 @@
-let popularSeries,popularMovies, romance, horror, action, animation, recommended;
+let popularSeries, popularMovies, romance, horror, action, animation, recommended;
 
 fetch('../Json/movies.json').then(res => {
     if (!res.ok) {
@@ -17,7 +17,9 @@ fetch('../Json/movies.json').then(res => {
 
         /*Search for the 'popular' node and locate the images*/
         let popularNode = document.getElementById('popular_movies')
+        console.log(popularNode);
         show(popularMovies, popularNode, 'poster');
+
 
         /*Search for the 'recommended' node and locate the images*/
         let recommendedNode = document.getElementById('recommended')
@@ -77,5 +79,7 @@ function show(items, node, toShow) {
             });
             break;
     }
+
+    console.log(fragment);
     node.appendChild(fragment);
 }

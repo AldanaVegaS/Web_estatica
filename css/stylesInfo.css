@@ -1,13 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Nunito:ital,wght@0,200..1000;1,200..1000&display=swap');
-
-* {
-    box-sizing: border-box;
-    margin: 0;
-    padding: 10;
-    font-family: "Nunito", sans-serif;
-}
-
-/*MOVIE INFORMATION STYLE*/
+/*Estilo informacion pelicula*/
 .aside1 img {
     height: 380px;
 }
@@ -56,9 +47,6 @@
     font-size: 20px;
 }
 
-.aside2 {
-    /* background: pink; */
-}
 
 .main {
     background-color: rgb(31, 47, 63);
@@ -243,21 +231,18 @@
     font-size: 20px;
 }
 
-.contenedor1 {
-    height: 100%;
-    width: 25%;
-}
 
 
 .contenedor2 {
     display: flex;
     align-items: left;
+    padding-left: 10px;
     flex-direction: column;
     width: 70%;
 }
 
 
-.contenedor1 img {
+.contenido_card img {
     height: 70%;
     padding: 5px;
 }
@@ -276,13 +261,14 @@
     height: 45px;
     width: 100px;
     border: none;
-    background: antiquewhite;
+    background: #F26680;
     cursor: pointer;
     margin: 10px;
+    border-radius: 5px;
 }
 
 .guardar:hover {
-    background: burlywood;
+    background: #c51f5d;
 }
 
 .rating {

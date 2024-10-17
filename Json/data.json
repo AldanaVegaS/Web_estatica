@@ -4,7 +4,7 @@
             "titulo": "Inception",
             "fecha_estreno": "2010-07-16",
             "director": "Christopher Nolan",
-            "actores_principales": [
+            "cast": [
                 "Leonardo DiCaprio",
                 "Joseph Gordon-Levitt",
                 "Elliot Page"
@@ -42,7 +42,7 @@
             "titulo": "The Godfather",
             "fecha_estreno": "1972-03-24",
             "director": "Francis Ford Coppola",
-            "actores_principales": [
+            "cast": [
                 "Marlon Brando",
                 "Al Pacino",
                 "James Caan"
@@ -80,7 +80,7 @@
             "titulo": "The Dark Knight",
             "fecha_estreno": "2008-07-18",
             "director": "Christopher Nolan",
-            "actores_principales": [
+            "cast": [
                 "Christian Bale",
                 "Heath Ledger",
                 "Aaron Eckhart"
@@ -119,7 +119,7 @@
             "titulo": "Pulp Fiction",
             "fecha_estreno": "1994-10-14",
             "director": "Quentin Tarantino",
-            "actores_principales": [
+            "cast": [
                 "John Travolta",
                 "Uma Thurman",
                 "Samuel L. Jackson"
@@ -157,7 +157,7 @@
             "titulo": "The Shawshank Redemption",
             "fecha_estreno": "1994-09-23",
             "director": "Frank Darabont",
-            "actores_principales": [
+            "cast": [
                 "Tim Robbins",
                 "Morgan Freeman",
                 "Bob Gunton"
@@ -195,7 +195,7 @@
             "titulo": "The Matrix",
             "fecha_estreno": "1999-03-31",
             "director": "Lana Wachowski, Lilly Wachowski",
-            "actores_principales": [
+            "cast": [
                 "Keanu Reeves",
                 "Laurence Fishburne",
                 "Carrie-Anne Moss"
@@ -233,7 +233,7 @@
             "titulo": "Forrest Gump",
             "fecha_estreno": "1994-07-06",
             "director": "Robert Zemeckis",
-            "actores_principales": [
+            "cast": [
                 "Tom Hanks",
                 "Robin Wright",
                 "Gary Sinise"
@@ -271,7 +271,7 @@
             "titulo": "Gladiator",
             "fecha_estreno": "2000-05-05",
             "director": "Ridley Scott",
-            "actores_principales": [
+            "cast": [
                 "Russell Crowe",
                 "Joaquin Phoenix",
                 "Connie Nielsen"
@@ -308,7 +308,7 @@
             "titulo": "Avatar",
             "fecha_estreno": "2009-12-18",
             "director": "James Cameron",
-            "actores_principales": [
+            "cast": [
                 "Sam Worthington",
                 "Zoe Saldana",
                 "Sigourney Weaver"
@@ -346,7 +346,7 @@
             "titulo": "Spirited Away",
             "fecha_estreno": "2001-07-20",
             "director": "Hayao Miyazaki",
-            "actores_principales": [
+            "cast": [
                 "Rumi Hiiragi",
                 "Miyu Irino",
                 "Mari Natsukawa"
@@ -385,7 +385,7 @@
             "titulo": "Jurassic Park",
             "fecha_estreno": "1993-06-11",
             "director": "Steven Spielberg",
-            "actores_principales": [
+            "cast": [
                 "Sam Neill",
                 "Laura Dern",
                 "Jeff Goldblum"
@@ -424,7 +424,7 @@
             "titulo": "Talk to Me",
             "fecha_estreno": "2023-07-28",
             "director": "Danny Philippou, Michael Philippou",
-            "actores_principales": [
+            "cast": [
                 "Sophie Wilde",
                 "Miranda Otto",
                 "Alexandra Jensen"
@@ -462,7 +462,7 @@
             "titulo": "The Boogeyman",
             "fecha_estreno": "2023-06-02",
             "director": "Rob Savage",
-            "actores_principales": [
+            "cast": [
                 "Sophie Thatcher",
                 "Chris Messina",
                 "Vivien Lyra Blair"
@@ -500,7 +500,7 @@
             "titulo": "Evil Dead Rise",
             "fecha_estreno": "2023-04-21",
             "director": "Lee Cronin",
-            "actores_principales": [
+            "cast": [
                 "Lily Sullivan",
                 "Alyssa Sutherland",
                 "Morgan Davies"
@@ -538,7 +538,7 @@
             "titulo": "The Nun II",
             "fecha_estreno": "2023-09-08",
             "director": "Michael Chaves",
-            "actores_principales": [
+            "cast": [
                 "Taissa Farmiga",
                 "Jonny Flemyng",
                 "Storm Reid"
@@ -576,7 +576,7 @@
             "titulo": "Pearl",
             "fecha_estreno": "2022-09-16",
             "director": "Ti West",
-            "actores_principales": [
+            "cast": [
                 "Mia Goth",
                 "David Corenswet",
                 "Tandi Wright"
@@ -614,7 +614,7 @@
             "titulo": "Hereditary",
             "fecha_estreno": "2018-06-08",
             "director": "Ari Aster",
-            "actores_principales": [
+            "cast": [
                 "Toni Collette",
                 "Alex Wolff",
                 "Milly Shapiro"
@@ -652,7 +652,7 @@
             "titulo": "El Exorcista",
             "fecha_estreno": "1973-12-26",
             "director": "William Friedkin",
-            "actores_principales": [
+            "cast": [
                 "Ellen Burstyn",
                 "Linda Blair",
                 "Max von Sydow"
@@ -690,7 +690,7 @@
             "titulo": "It",
             "fecha_estreno": "2017-09-08",
             "director": "Andy Muschietti",
-            "actores_principales": [
+            "cast": [
                 "Bill Skarsgård",
                 "Jaeden Martell",
                 "Finn Wolfhard"
@@ -728,7 +728,7 @@
             "titulo": "Midsommar",
             "fecha_estreno": "2019-07-03",
             "director": "Ari Aster",
-            "actores_principales": [
+            "cast": [
                 "Florence Pugh",
                 "Jack Reynor",
                 "William Jackson Harper"
@@ -766,7 +766,7 @@
             "titulo": "El Resplandor",
             "fecha_estreno": "1980-05-23",
             "director": "Stanley Kubrick",
-            "actores_principales": [
+            "cast": [
                 "Jack Nicholson",
                 "Shelley Duvall",
                 "Danny Lloyd"
@@ -804,7 +804,7 @@
             "titulo": "John Wick: Chapter 4",
             "fecha_estreno": "2023-03-24",
             "director": "Chad Stahelski",
-            "actores_principales": [
+            "cast": [
                 "Keanu Reeves",
                 "Donnie Yen",
                 "Bill Skarsgård"
@@ -842,7 +842,7 @@
             "titulo": "Fast & Furious X",
             "fecha_estreno": "2023-05-19",
             "director": "Louis Leterrier",
-            "actores_principales": [
+            "cast": [
                 "Vin Diesel",
                 "Michelle Rodriguez",
                 "Jordana Brewster"
@@ -880,7 +880,7 @@
             "titulo": "Guardians of the Galaxy Vol. 3",
             "fecha_estreno": "2023-05-05",
             "director": "James Gunn",
-            "actores_principales": [
+            "cast": [
                 "Chris Pratt",
                 "Zoe Saldana",
                 "Dave Bautista"
@@ -919,7 +919,7 @@
             "titulo": "Mission: Impossible - Dead Reckoning Part One",
             "fecha_estreno": "2023-07-12",
             "director": "Christopher McQuarrie",
-            "actores_principales": [
+            "cast": [
                 "Tom Cruise",
                 "Hayley Atwell",
                 "Ving Rhames"
@@ -958,7 +958,7 @@
             "titulo": "The Matrix",
             "fecha_estreno": "1999-03-31",
             "director": "Lana Wachowski, Lilly Wachowski",
-            "actores_principales": [
+            "cast": [
                 "Keanu Reeves",
                 "Laurence Fishburne",
                 "Carrie-Anne Moss"
@@ -996,7 +996,7 @@
             "titulo": "Rocky",
             "fecha_estreno": "1976-12-03",
             "director": "John G. Avildsen",
-            "actores_principales": [
+            "cast": [
                 "Sylvester Stallone",
                 "Talia Shire",
                 "Burt Young"
@@ -1034,7 +1034,7 @@
             "titulo": "Mad Max 2",
             "fecha_estreno": "1981-12-24",
             "director": "George Miller",
-            "actores_principales": [
+            "cast": [
                 "Mel Gibson",
                 "Bruce Spence",
                 "Michael Preston"
@@ -1072,7 +1072,7 @@
             "titulo": "The Terminator",
             "fecha_estreno": "1984-10-26",
             "director": "James Cameron",
-            "actores_principales": [
+            "cast": [
                 "Arnold Schwarzenegger",
                 "Linda Hamilton",
                 "Michael Biehn"
@@ -1110,7 +1110,7 @@
             "titulo": "Aliens",
             "fecha_estreno": "1986-07-18",
             "director": "James Cameron",
-            "actores_principales": [
+            "cast": [
                 "Sigourney Weaver",
                 "Michael Biehn",
                 "Carrie Henn"
@@ -1148,7 +1148,7 @@
             "titulo": "Deadpool",
             "fecha_estreno": "2016-02-12",
             "director": "Tim Miller",
-            "actores_principales": [
+            "cast": [
                 "Ryan Reynolds",
                 "Morena Baccarin",
                 "T.J. Miller"
@@ -1186,7 +1186,7 @@
             "titulo": "Robot Dreams",
             "fecha_estreno": "2023-09-08",
             "director": "Pablo Berger",
-            "actores_principales": [
+            "cast": [
                 "Actores de voz",
                 "Animación"
             ],
@@ -1223,7 +1223,7 @@
             "titulo": "Bee Movie",
             "fecha_estreno": "2007-11-02",
             "director": "Simon J. Smith, Steve Hickner",
-            "actores_principales": [
+            "cast": [
                 "Jerry Seinfeld",
                 "Renée Zellweger",
                 "Matthew Broderick"
@@ -1261,7 +1261,7 @@
             "titulo": "Spider-Man: Into the Spider-Verse",
             "fecha_estreno": "2018-12-14",
             "director": "Bob Persichetti, Peter Ramsey, Rodney Rothman",
-            "actores_principales": [
+            "cast": [
                 "Shameik Moore",
                 "Jake Johnson",
                 "Hailee Steinfeld"
@@ -1299,7 +1299,7 @@
             "titulo": "Fantastic Mr. Fox",
             "fecha_estreno": "2009-11-25",
             "director": "Wes Anderson",
-            "actores_principales": [
+            "cast": [
                 "George Clooney",
                 "Meryl Streep",
                 "Jason Schwartzman"
@@ -1337,7 +1337,7 @@
             "titulo": "Grandes Héroes",
             "fecha_estreno": "2014-11-07",
             "director": "Don Hall, Chris Williams",
-            "actores_principales": [
+            "cast": [
                 "Ryan Potter",
                 "Scott Adsit",
                 "Jamie Chung"
@@ -1375,7 +1375,7 @@
             "titulo": "Leo",
             "fecha_estreno": "2023-11-21",
             "director": "Robert Marianetti, David Wachtenheim",
-            "actores_principales": [
+            "cast": [
                 "Adam Sandler",
                 "Bill Burr",
                 "Cecily Strong"
@@ -1413,7 +1413,7 @@
             "titulo": "El Castillo Ambulante",
             "fecha_estreno": "2004-11-20",
             "director": "Hayao Miyazaki",
-            "actores_principales": [
+            "cast": [
                 "Chieko Baishō",
                 "Takuya Kimura",
                 "Akihiro Miwa"
@@ -1451,7 +1451,7 @@
             "titulo": "Metegol",
             "fecha_estreno": "2013-07-18",
             "director": "Juan José Campanella",
-            "actores_principales": [
+            "cast": [
                 "David Masajnik",
                 "Pablo Rago",
                 "Lucía Maciel"
@@ -1489,7 +1489,7 @@
             "titulo": "Cómo Entrenar a tu Dragón",
             "fecha_estreno": "2010-03-26",
             "director": "Dean DeBlois, Chris Sanders",
-            "actores_principales": [
+            "cast": [
                 "Jay Baruchel",
                 "Gerard Butler",
                 "America Ferrera"
@@ -1527,7 +1527,7 @@
             "titulo": "El Niño y la Garza",
             "fecha_estreno": "2023-07-14",
             "director": "Hayao Miyazaki",
-            "actores_principales": [
+            "cast": [
                 "Soma Santoki",
                 "Masaki Suda",
                 "Takuya Kimura"
@@ -1565,7 +1565,7 @@
             "titulo": "Yo Antes de Ti",
             "fecha_estreno": "2016-06-03",
             "director": "Thea Sharrock",
-            "actores_principales": [
+            "cast": [
                 "Emilia Clarke",
                 "Sam Claflin",
                 "Janet McTeer"
@@ -1603,7 +1603,7 @@
             "titulo": "Cómo Perder a un Hombre en 10 Días",
             "fecha_estreno": "2003-02-07",
             "director": "Donald Petrie",
-            "actores_principales": [
+            "cast": [
                 "Kate Hudson",
                 "Matthew McConaughey",
                 "Kathryn Hahn"
@@ -1623,7 +1623,7 @@
                 "duracion": "116 minutos",
                 "clasificacion": "PG-13"
             },
-            "poster": "https://m.media-amazon.com/images/M/MV5BMjE4NTA1NzExN15BMl5BanBnXkFtZTYwNjc3MjM3._V1_QL75_UY281_CR0,0,190,281_.jpg",
+            "poster": "https://m.media-amazon.com/images/M/MV5BMjE4NTA1NzExN15BMl5BanBnXkFtZTYwNjc3MjM3._V1_FMjpg_UX1000_.jpg",
             "reviews": [
                 {
                     "usuario": "love_expert",
@@ -1641,7 +1641,7 @@
             "titulo": "Mujer Bonita",
             "fecha_estreno": "1990-03-23",
             "director": "Garry Marshall",
-            "actores_principales": [
+            "cast": [
                 "Richard Gere",
                 "Julia Roberts",
                 "Jason Alexander"
@@ -1679,7 +1679,7 @@
             "titulo": "About Time",
             "fecha_estreno": "2013-11-08",
             "director": "Richard Curtis",
-            "actores_principales": [
+            "cast": [
                 "Domhnall Gleeson",
                 "Rachel McAdams",
                 "Bill Nighy"
@@ -1717,7 +1717,7 @@
             "titulo": "10 Things I Hate About You",
             "fecha_estreno": "1999-03-31",
             "director": "Gil Junger",
-            "actores_principales": [
+            "cast": [
                 "Heath Ledger",
                 "Julia Stiles",
                 "Joseph Gordon-Levitt"
@@ -1755,7 +1755,7 @@
             "titulo": "The Notebook",
             "fecha_estreno": "2004-06-25",
             "director": "Nick Cassavetes",
-            "actores_principales": [
+            "cast": [
                 "Ryan Gosling",
                 "Rachel McAdams",
                 "James Garner"
@@ -1790,10 +1790,86 @@
             ]
         },
         {
+            "titulo": "Everything Everywhere All at Once",
+            "fecha_estreno": "2022-03-11",
+            "director": "Daniel Kwan, Daniel Scheinert",
+            "cast": [
+                "Michelle Yeoh",
+                "Stephanie Hsu",
+                "Ke Huy Quan"
+            ],
+            "genero": [
+                "Acción",
+                "Aventura"
+            ],
+            "sinopsis": "Una mujer común debe conectarse con versiones alternativas de sí misma para salvar el multiverso.",
+            "calificacion_general": 4.6,
+            "crew": {
+                "productores": "Daniel Kwan, Daniel Scheinert",
+                "guionistas": "Daniel Kwan, Daniel Scheinert",
+                "direccion_de_fotografia": "Larkin Seiple"
+            },
+            "detalles": {
+                "duracion": "139 minutos",
+                "clasificacion": "R"
+            },
+            "poster": "https://m.media-amazon.com/images/M/MV5BYTdiOTIyZTQtNmQ1OS00NjZlLWIyMTgtYzk5Y2M3ZDVmMDk1XkEyXkFqcGdeQXVyMTAzMDg4NzU0._V1_FMjpg_UX1000_.jpg",
+            "reviews": [
+                {
+                    "usuario": "multiversefan",
+                    "comentario": "Una película que desafía la realidad de una forma nunca vista antes.",
+                    "calificacion": 5
+                },
+                {
+                    "usuario": "adventurereview",
+                    "comentario": "Divertida y llena de acción, pero un poco confusa.",
+                    "calificacion": 4
+                }
+            ]
+        },
+        {
+            "titulo": "Intensamente 2",
+            "fecha_estreno": "2024-06-14",
+            "director": "Kaitlyn Dias",
+            "cast": [
+                "Amy Poehler",
+                "Phyllis Smith",
+                "Bill Hader"
+            ],
+            "genero": [
+                "Animación",
+                "Aventura"
+            ],
+            "sinopsis": "Riley y sus emociones enfrentan nuevos desafíos a medida que crece.",
+            "calificacion_general": 4.7,
+            "crew": {
+                "productores": "Jonas Rivera",
+                "guionistas": "Meg LeFauve, Josh Cooley",
+                "direccion_de_fotografia": "Shirley Kurata"
+            },
+            "detalles": {
+                "duracion": "95 minutos",
+                "clasificacion": "PG"
+            },
+            "poster": "https://m.media-amazon.com/images/M/MV5BYWY3MDE2Y2UtOTE3Zi00MGUzLTg2MTItZjE1ZWVkMGVlODRmXkEyXkFqcGc@._V1_.jpg",
+            "reviews": [
+                {
+                    "usuario": "joyfulmind",
+                    "comentario": "Una secuela conmovedora que no decepciona.",
+                    "calificacion": 5
+                },
+                {
+                    "usuario": "sadnessfan",
+                    "comentario": "Los personajes están tan bien desarrollados como en la primera película.",
+                    "calificacion": 4
+                }
+            ]
+        },
+        {
             "titulo": "Notting Hill",
             "fecha_estreno": "1999-05-28",
             "director": "Roger Michell",
-            "actores_principales": [
+            "cast": [
                 "Hugh Grant",
                 "Julia Roberts",
                 "Rhys Ifans"
@@ -1831,7 +1907,7 @@
             "titulo": "Orgullo y Prejuicio",
             "fecha_estreno": "2005-11-11",
             "director": "Joe Wright",
-            "actores_principales": [
+            "cast": [
                 "Keira Knightley",
                 "Matthew Macfadyen",
                 "Brenda Blethyn"
@@ -1869,7 +1945,7 @@
             "titulo": "Con Todos Menos Contigo",
             "fecha_estreno": "1990-06-01",
             "director": "Roger Young",
-            "actores_principales": [
+            "cast": [
                 "James Garner",
                 "Sally Field",
                 "Brian Kerwin"
@@ -1907,7 +1983,7 @@
             "titulo": "Crazy Rich Asians",
             "fecha_estreno": "2018-08-15",
             "director": "Jon M. Chu",
-            "actores_principales": [
+            "cast": [
                 "Constance Wu",
                 "Henry Golding",
                 "Michelle Yeoh"
@@ -1938,6 +2014,45 @@
                     "usuario": "rich_romantic",
                     "comentario": "Divertida y emocional, un giro refrescante en las comedias románticas.",
                     "calificacion": 4.5
+                }
+            ]
+        },
+        {
+            "titulo": "La La Land",
+            "fecha_estreno": "2016-12-09",
+            "director": "Damien Chazelle",
+            "cast": [
+                "Ryan Gosling",
+                "Emma Stone",
+                "John Legend"
+            ],
+            "genero": [
+                "Musical",
+                "Romance",
+                "Drama"
+            ],
+            "sinopsis": "La historia de un pianista de jazz y una aspirante a actriz que persiguen sus sueños en Los Ángeles.",
+            "calificacion_general": 4.7,
+            "crew": {
+                "productores": "Fred Berger",
+                "guionistas": "Damien Chazelle",
+                "direccion_de_fotografia": "Linus Sandgren"
+            },
+            "detalles": {
+                "duracion": "128 minutos",
+                "clasificacion": "PG-13"
+            },
+            "poster": "https://m.media-amazon.com/images/M/MV5BMzUzNDM2NzM2MV5BMl5BanBnXkFtZTgwNTM3NTg4OTE@._V1_FMjpg_UX1000_.jpg",
+            "reviews": [
+                {
+                    "usuario": "filmlover",
+                    "comentario": "Una celebración del amor y la música con un estilo visual impresionante.",
+                    "calificacion": 5
+                },
+                {
+                    "usuario": "musicalfan",
+                    "comentario": "La banda sonora es absolutamente inolvidable.",
+                    "calificacion": 5
                 }
             ]
         }

@@ -17,10 +17,12 @@ fetch('../Json/data.json').then(res => {
         if (tipe === 'serie') {
             document.getElementById('title').textContent = 'Serie';
             const selectedSerie = series.find(item => item.titulo === title);
+
             showSerie(selectedSerie);
         } else {
             document.getElementById('title').textContent = 'Pelicula'
             const selectedMovie = movies.find(item => item.titulo === title);
+
             showMovie(selectedMovie);
         }
     });
@@ -29,15 +31,16 @@ fetch('../Json/data.json').then(res => {
 function showSerie(selectedSerie) {
     document.getElementById('poster').src = selectedSerie.poster;
     calificacionGeneral(selectedSerie.calificacion_general, document.getElementById('calificacion'));
+    document.getElementById('titleTab').textContent = selectedSerie.titulo;
     document.getElementById('title').textContent = selectedSerie.titulo;
-    document.getElementById('year_director').textContent = selectedSerie.fecha_estreno + ", creada por " + serieSeleccionada.creador;
+    document.getElementById('year_director').textContent = selectedSerie.fecha_estreno + ", creada por " + selectedSerie.creador;
     document.getElementById('genre').textContent = selectedSerie.genero.join(', ');
     document.getElementById('sinopsis').textContent = selectedSerie.sinopsis;
     listarCast(selectedSerie.cast, document.getElementById('cast'));
     listarCrew(selectedSerie.crew, document.getElementById('crew'));
     listarDetallesSeries(selectedSerie.detalles, document.getElementById('details'));
     mostrarReviews(selectedSerie.reviews, document.getElementById('commentsBox'));
-    mostrarCardReview(sselectedSerie);
+    mostrarCardReview(selectedSerie);
 }
 
 
@@ -45,11 +48,12 @@ function showSerie(selectedSerie) {
 function showMovie(selectedMovie) {
     document.getElementById('poster').src = selectedMovie.poster;
     calificacionGeneral(selectedMovie.calificacion_general, document.getElementById('calificacion'));
+    document.getElementById('titleTab').textContent = selectedMovie.titulo;
     document.getElementById('title').textContent = selectedMovie.titulo;
     document.getElementById('year_director').textContent = selectedMovie.fecha_estreno + ", dirigida por " + selectedMovie.director;
     document.getElementById('genre').textContent = selectedMovie.genero.join(', ');
     document.getElementById('sinopsis').textContent = selectedMovie.sinopsis;
-    listarCast(selectedMovie.actores_principales, document.getElementById('cast'));
+    listarCast(selectedMovie.cast, document.getElementById('cast'));
     listarCrew(selectedMovie.crew, document.getElementById('crew'));
     listarDetalles(selectedMovie.detalles, document.getElementById('details'));
     mostrarReviews(selectedMovie.reviews, document.getElementById('commentsBox'));
@@ -108,8 +112,8 @@ function mostrarReviews(reviews, elto) {
         console.log(item);
         const li = document.createElement('li');
         const caja = document.createElement('div');
-        caja.className = "caja";
-        caja.id = "comentario";
+        caja.className = "box";
+        caja.id = "commentsBox";
 
 
         const user = document.createElement('div');
@@ -200,8 +204,9 @@ function mostrarCardReview(seleccion) {
 
     const boton = document.createElement('button');
     boton.className = "guardar";
-    boton.id = "guardar";
+    boton.id = 'guardar';
     boton.textContent = "Guardar";
+    boton.onclick = 'guardar()';
 
     const rating = document.createElement('div');
     rating.className = "rating";
@@ -223,11 +228,16 @@ function mostrarCardReview(seleccion) {
     popup.appendChild(popup_contenido);
 
     document.body.appendChild(popup);
-}
 
+    document.getElementById('guardar').addEventListener('click', function () {
+        console.log("Apreto guardar");
+        document.getElementById('popup_card').style.display = 'none';
+    });
 
-document.getElementById('guardar').onclick = function () {
-    document.getElementById('popup_card').style.display = 'none';
+    document.getElementById('cerrar_popup').addEventListener('click', function () {
+        console.log("Apreto cerrar");
+        document.getElementById('popup_card').style.display = 'none';
+    });
 }
 
 document.getElementById('add_review').onclick = function () {
@@ -236,6 +246,5 @@ document.getElementById('add_review').onclick = function () {
 }
 
 
-document.getElementById('cerrar_popup').onclick = function () {
-    document.getElementById('popup_card').style.display = 'none';
-}
+
+
