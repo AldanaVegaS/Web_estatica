@@ -13,11 +13,11 @@ fetch('../Json/movies.json').then(res => {
 
         /*Search for the 'popular' node and locate the images*/
         let popularNode = document.getElementById('popular')
-        show(datos, popularNode, 'poster');
+        show(datos, popularNode);
 
         /*Search for the 'upcoming' node and locate the images*/
         let upcomingNode = document.getElementById('upcoming')
-        show(upcoming, upcomingNode, 'poster');
+        show(upcoming, upcomingNode);
     })
 
 
