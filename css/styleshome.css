@@ -1,5 +1,9 @@
 /* -----ELEMENTOS DEL CARRUSEL DEL HEADER----- */
+body {
+    display: flex;
+    flex-direction: column;
 
+}
 
 .carousel {
 
@@ -111,8 +115,49 @@ h1 {
 
 .wrapper {
     position: relative;
-    max-width: 1300px;
-    width: 100%;
+    width: 740px;
+}
+
+@media screen and (max-width:1360px) {
+    .wrapper {
+        position: relative;
+        width: 1110px;
+    }
+
+}
+
+
+@media screen and (max-width:1200px) {
+    .wrapper {
+        position: relative;
+        width: 925px;
+    }
+
+}
+
+
+@media screen and (max-width:1000px) {
+    .wrapper {
+        position: relative;
+        width: 740px;
+    }
+
+}
+
+@media screen and (max-width:800px) {
+    .wrapper {
+        position: relative;
+        width: 555px;
+    }
+
+}
+
+@media screen and (max-width:600px) {
+    .wrapper {
+        position: relative;
+        width: 370px;
+    }
+
 }
 
 .wrapper button {
@@ -133,11 +178,11 @@ h1 {
     background: #c51f5d;
 }
 
-.wrapper button:first-child {
+.left {
     left: -22px;
 }
 
-.wrapper button:last-child {
+.right {
     right: -22px;
 }
 
@@ -150,7 +195,7 @@ h1 {
     white-space: nowrap;
     display: flex;
     gap: 5px;
-    overflow: hidden;
+
 }
 
 

@@ -1,5 +1,15 @@
 let popularSeries, popularMovies, romance, horror, action, animation, recommended;
 
+
+createEstructure("Peliculas Populares", "popular_movies")
+createEstructure("Peliculas que recomendamos", "recommended")
+createEstructure("Cine de accion", "action")
+createEstructure("Cine de terror", "horror")
+createEstructure("Cine de Animacion", "animation")
+createEstructure("Cine de romance", "romance")
+createEstructure("Series Populares", "popular_series")
+
+
 fetch('../Json/movies.json').then(res => {
     if (!res.ok) {
         throw new Error('Error in the response when loading the movies');
@@ -17,7 +27,6 @@ fetch('../Json/movies.json').then(res => {
 
         /*Search for the 'popular' node and locate the images*/
         let popularNode = document.getElementById('popular_movies')
-        console.log(popularNode);
         show(popularMovies, popularNode, 'poster');
 
 
@@ -51,9 +60,60 @@ fetch('../Json/series.json').then(res => {
     .then(data => {
         popularSeries = data.seriesPopulares;
 
+
         let popularSeriesNode = document.getElementById('popular_series')
         show(popularSeries, popularSeriesNode, 'poster');
     });
+
+
+function createEstructure(itemsName, itemsClassName) {
+    let node = document.getElementById('main');
+    const fragment = document.createDocumentFragment();
+
+    let section = document.createElement('section');
+
+    let h1 = document.createElement('h1');
+    h1.textContent = itemsName;
+
+    let divWrapper = document.createElement('div');
+    divWrapper.className = "wrapper";
+
+    let buttonLeft = document.createElement('button');
+    buttonLeft.className = "material-icons-outlined left";
+    buttonLeft.textContent = 'chevron_left';
+
+    let divBorder = document.createElement('div');
+    divBorder.className = "border";
+
+    let figure = document.createElement('figure');
+    figure.className = "container";
+    figure.id = itemsClassName;
+
+
+    let buttonRight = document.createElement('button');
+    buttonRight.className = "material-icons-outlined right";
+    buttonRight.textContent = 'chevron_right';
+
+    divBorder.appendChild(figure);
+
+    divWrapper.appendChild(divBorder);
+    divWrapper.appendChild(buttonLeft);
+    divWrapper.appendChild(buttonRight);
+
+    section.appendChild(h1);
+    section.appendChild(divWrapper);
+
+    fragment.appendChild(section);
+    node.appendChild(fragment);
+
+    buttonRight.onclick = function () {
+        slideImages(itemsClassName, 'right')
+    }
+    buttonLeft.onclick = function () {
+        slideImages(itemsClassName, 'left')
+    }
+
+}
 
 function show(items, node, toShow) {
     const fragment = document.createDocumentFragment();
@@ -80,6 +140,30 @@ function show(items, node, toShow) {
             break;
     }
 
-    console.log(fragment);
     node.appendChild(fragment);
 }
+
+let currentIndex = 0;
+function slideImages(nodo, direction) {
+    console.log(direction)
+    const carousel = document.getElementById(nodo);
+    let maxMovement = carousel.childElementCount * 185; //item count * (width+gap)
+    console.log(currentIndex)
+    console.log(maxMovement)
+    switch (direction) {
+        case 'right':
+            if (currentIndex + 185 < maxMovement && currentIndex + 185 * 6 < maxMovement) {
+                currentIndex += 185;
+
+            }
+            break;
+        case 'left':
+            if (currentIndex > 0) {
+                currentIndex -= 185;
+            }
+            break;
+
+    }
+    carousel.style.transform = `translateX(-${currentIndex}px)`;
+}
+
