@@ -16,146 +16,22 @@
 
 <body>
     <div class="navBar" id="navBar"></div>
+    <article>
 
-    <main>
-        <article>
-
-            <div class="carousel">
-                <div class="carousel-images" id="peliculas-recomendadas">
-                </div>
-                <button onclick="changeItem('prev')" class="material-icons-outlined"
-                    id="left-button">chevron_left</button>
-                <button onclick="changeItem('next')" class="material-icons-outlined"
-                    id="right-button">chevron_right</button>
+        <div class="carousel">
+            <div class="carousel-images" id="peliculas-recomendadas">
             </div>
+            <button onclick="changeItem('prev')" class="material-icons-outlined" id="left-button">chevron_left</button>
+            <button onclick="changeItem('next')" class="material-icons-outlined"
+                id="right-button">chevron_right</button>
+        </div>
 
-        </article>
-        <section>
-            <h1>Peliculas populares</h1>
-            <div class="wrapper">
-                <button onclick="slideImages('popular_movies','left')"
-                    class="material-icons-outlined">chevron_left</button>
-                <div class="border">
-                    <figure class="container" id="popular_movies">
-                        <!--Las imagenes se ubican en script.js-->
-                    </figure>
-                    <button onclick="slideImages('popular_movies','right')"
-                        class="material-icons-outlined">chevron_right</button>
-                </div>
-            </div>
-        </section>
-
-        <section>
-            <h1>Series populares</h1>
-            <div class="wrapper">
-                <button onclick="slideImages('popular_series','lrft')"
-                    class="material-icons-outlined">chevron_left</button>
-                <div class="border">
-                    <figure class="container" id="popular_series">
-                        <!--Las imagenes se ubican en script.js-->
-                    </figure>
-                    <button onclick="slideImages('popular_series','right')"
-                        class="material-icons-outlined">chevron_right</button>
-                </div>
-            </div>
-        </section>
-
-        <section>
-
-            <h1>Peliculas que recomendamos</h1>
-            <div class="wrapper">
-                <button onclick="slideImages('recommended','left')"
-                    class="material-icons-outlined">chevron_left</button>
-                <div class="border">
-                    <figure class="container" id="recommended">
-                        <!--Las imagenes se ubican en script.js-->
-                    </figure>
-                </div>
-                <button onclick="slideImages('recommended','right')"
-                    class="material-icons-outlined">chevron_right</button>
-            </div>
-
-
-        </section>
-
-        <section>
-
-            <h1>Cine de accion</h1>
-            <div class="wrapper">
-                <button onclick="slideImages('action','left')" class="material-icons-outlined">chevron_left</button>
-                <div class="border">
-                    <figure class="container" id="action">
-                        <!--Las imagenes se ubican en script.js-->
-                    </figure>
-                </div>
-                <button onclick="slideImages('action','right')" class="material-icons-outlined">chevron_right</button>
-            </div>
-
-        </section>
-        <section>
-
-
-            <h1>Cine de terror</h1>
-            <div class="wrapper">
-                <button onclick="slideImages('horror','left')" class="material-icons-outlined">chevron_left</button>
-                <div class="border">
-                    <figure class="container" id="horror">
-                        <!--Las imagenes se ubican en script.js-->
-                    </figure>
-                </div>
-                <button onclick="slideImages('horror','right')" class="material-icons-outlined">chevron_right</button>
-            </div>
-
-
-        </section>
-        <section>
-
-            <h1>Cine de romance</h1>
-            <div class="wrapper">
-                <button onclick="slideImages('romance','left')" class="material-icons-outlined">chevron_left</button>
-                <div class="border">
-                    <figure class="container" id="romance">
-                        <!--Las imagenes se ubican en script.js-->
-                    </figure>
-                </div>
-                <button onclick="slideImages('romance','right')" class="material-icons-outlined">chevron_right</button>
-            </div>
-
-
-        </section>
-        <section>
-
-            <h1>Cine de Animacion</h1>
-            <div class="wrapper">
-                <button onclick="slideImages('animation','left')" class="material-icons-outlined">chevron_left</button>
-                <div class="border">
-                    <figure class="container" id="animation">
-                        <!--Las imagenes se ubican en script.js-->
-                    </figure>
-                </div>
-                <button onclick="slideImages('animation','right')"
-                    class="material-icons-outlined">chevron_right</button>
-            </div>
-
-        </section>
+    </article>
+    <main id="main">
 
     </main>
 
-    <script>
-        function slideImages(nodo, direction) {
 
-            const carousel = document.getElementById(nodo);
-
-            switch (direction) {
-                case 'right':
-                    carousel.style.justifyContent = 'flex-end';
-                    break;
-                case 'left':
-                    carousel.style.justifyContent = 'flex-start';
-                    break;
-            }
-        }
-    </script>
     <script src="../js/scriptHome.js" type="module"></script>
     <script src="../js/scriptNavBar.js" type="module"></script>
     <script src="../js/scriptCarousel.js"></script>
