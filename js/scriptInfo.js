@@ -1,7 +1,7 @@
 // Obtener el título de la URL
 const params = new URLSearchParams(window.location.search);
 const title = params.get('titulo');
-const tipe = params.get('tipo');
+const type = params.get('tipo');
 
 fetch('../Json/data.json').then(res => {
     if (!res.ok) {
@@ -14,7 +14,7 @@ fetch('../Json/data.json').then(res => {
         let series = data.series;
         let movies = data.peliculas;
 
-        if (tipe === 'serie') {
+        if (type === 'serie') {
             document.getElementById('title').textContent = 'Serie';
             const selectedSerie = series.find(item => item.titulo === title);
 
@@ -229,10 +229,49 @@ function mostrarCardReview(seleccion) {
 
     document.body.appendChild(popup);
 
+    let rankingActual = 0;
+    const stars = document.querySelectorAll(".rating i");
+    console.log(stars);
+    stars.forEach((star, i) => {
+        star.addEventListener("click", () => {
+            stars.forEach((star, j) => {
+                if (j <= i) {
+                    rankingActual = i + 1;
+                    star.style.color = "#F26680";
+                } else {
+                    star.style.color = "black";
+                }
+            })
+        })
+    })
+
+
     document.getElementById('guardar').addEventListener('click', function () {
         console.log("Apreto guardar");
         document.getElementById('popup_card').style.display = 'none';
+        publicarComentario()
     });
+
+
+    async function publicarComentario() {
+        if (input.value == "") { return }
+        fetch('http://localhost:3000/pages/info.html',
+            {
+                method: 'POST',
+                headers: {
+                    "Content-Type": 'application/json'
+                },
+                body: JSON.stringify({
+                    usuario: "default",
+                    comentario: input.value,
+                    calificacion: rankingActual,
+                    titulo: title,
+                    tipo: type
+                })
+            }
+        ).then(console.log("exito"));
+    }
+
 
     document.getElementById('cerrar_popup').addEventListener('click', function () {
         console.log("Apreto cerrar");
