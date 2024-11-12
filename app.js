@@ -35,7 +35,9 @@ app.get('/pages/info.html', (req, res) => {
     res.sendFile(path.join(__dirname, 'pages', 'info.html'));
 });
 
-
+app.get('/pages/login.html', (req, res) => {
+    res.sendFile(path.join(__dirname, 'pages', 'login.html'));
+});
 
 
 const data = require("../Web_estatica/Json/data.json");
@@ -58,10 +60,6 @@ app.post('/api/data', (req, res) => {
 //Funcionamiento de reviews
 app.post('/pages/info.html', (req, res) => {
     const { usuario, comentario, calificacion, titulo, tipo } = req.body;
-    console.log("exbuenos diasito")
-    console.log(usuario);
-    console.log(comentario);
-    console.log(calificacion);
     if (usuario && comentario && calificacion && titulo && tipo) {
         const newReview = {
             usuario: usuario,
@@ -69,8 +67,6 @@ app.post('/pages/info.html', (req, res) => {
             calificacion: calificacion
         }
         console.log(newReview);
-        console.log(titulo);
-        console.log(tipo);
         let indice = 0;
         if (tipo == "pelicula") {
             indice = data.peliculas.findIndex(pelicula => pelicula.titulo == titulo)
@@ -91,7 +87,31 @@ app.post('/pages/info.html', (req, res) => {
     }
 });
 
+// http://localhost:3000/api/movies?cantidad=10&from=0
+app.get('/api/movies', (req, res) => {
+    const cantidad = parseInt(req.query.cantidad, 10);
+    const from = parseInt(req.query.from, 10);
+    let newJson = {
+        "peliculas": []
+    };
 
+    let i;
+    for (let i = 0; i <= cantidad; i++) {
+        let indice = from + i;
+        if (data.peliculas[indice]) {
+            newJson.peliculas.push(data.peliculas[indice])
+        } else {
+            console.log(`no existe la pelicula numero ${from + i}`)
+        }
+
+    }
+    res.send(newJson);
+});
+
+
+
+
+//Inicio Servidor
 const port = 3000;
 app.listen(3000, () => {
     console.log(`El servidor esta en http://localhost:${port}`);
