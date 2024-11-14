@@ -7,7 +7,7 @@ const logo = document.createElement('li');
 logo.className = 'logo';
 
 const a = document.createElement('a');
-a.href = "../pages/home.html";
+a.href = "../home.html";
 const logoImg = document.createElement('img');
 logoImg.className = 'logo';
 logoImg.src = "../images/logo1.png";
@@ -54,7 +54,7 @@ itemsLista.forEach(item => {
   const a = document.createElement('a');
   a.href = "#";
   if (item == "Perfil") {
-    a.href = "../pages/index.html";
+    a.href = "../";
   } else {
     a.href = "#";
   }
