@@ -4,9 +4,9 @@
   "description": "",
   "main": "app.js",
   "dependencies": {
-    "express": "^4.21.1"
+    "express": "^4.21.1",
+    "Web_estatica": "file:"
   },
-  "devDependencies": {},
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },

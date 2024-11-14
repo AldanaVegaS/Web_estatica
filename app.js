@@ -1,7 +1,7 @@
 const path = require('path')
 const express = require('express')
-const app = express();
-
+const app = express()
+const authentication = require('./controllers/authentication.js')
 
 app.use('/css', express.static(path.join(__dirname, 'css')));
 app.use('/js', express.static(path.join(__dirname, 'js')));
@@ -45,6 +45,10 @@ app.get('/api/data', (req, res) => {
     res.send(data);
 });
 
+//Registro y login usuario
+app.post('/api/register',authentication.register)
+app.post('/api/login',authentication.login)
+
 //Se prueba desde postman
 app.post('/api/data', (req, res) => {
     const { titulo, director, fecha_estreno, calificacion_general } = req.body;
@@ -81,7 +85,6 @@ app.post('/pages/info.html', (req, res) => {
                 res.send(data.series[indice])
             }
         }
-
     } else {
         res.send('Wrong Request')
     }
@@ -95,7 +98,6 @@ app.get('/api/movies', (req, res) => {
         "peliculas": []
     };
 
-    let i;
     for (let i = 0; i <= cantidad; i++) {
         let indice = from + i;
         if (data.peliculas[indice]) {
