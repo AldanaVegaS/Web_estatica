@@ -16,12 +16,12 @@ flipLinkBack.addEventListener("click", (e) => {
 
 signUpButton.addEventListener("click", (e) => {
     e.preventDefault;
-    window.location.href = "../pages/home.html"
+    window.location.href = "../home.html"
 });
 
 logInButton.addEventListener("click", (e) => {
     e.preventDefault;
-    window.location.href = "../pages/home.html"
+    window.location.href = "../home.html"
 });
 
 // Obtener el card de la URL
