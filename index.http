@@ -1,0 +1,17 @@
+POST http://localhost:3000/api/data/movies
+Content-Type: application/json
+
+{
+    "titulo":"El origen",
+    "fecha_estreno":"2010-07-16",
+    "director":"Christopher Nolan",
+    "cast":["Leonardo DiCaprio","Joseph Gordon-Levitt","Elliot Page"],
+    "genero":["Ciencia ficción","Acción"],
+    "sinopsis":"Un ladrón que roba secretos corporativos a través de los sueños es ofrecido la oportunidad de borrar su pasado a cambio de implantar una idea en la mente de un CEO.",
+    "calificacion_general": 1,
+    "crew":{"productores":"Emma Thomas","guionistas":"Christopher Nolan","direccion_de_fotografia":"Wally Pfister"},
+    "detalles":{"duracion":"148 minutos","clasificacion":"PG-13"},
+    "poster":"https://m.media-amazon.com/images/M/MV5BMjAxMzY3NjcxNF5BMl5BanBnXkFtZTcwNTI5OTM0Mw@@._V1_.jpg",
+    "reviews":[]
+    
+}

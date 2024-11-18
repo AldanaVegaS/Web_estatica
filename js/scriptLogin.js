@@ -33,7 +33,7 @@ formRegister.addEventListener("submit",async (e)=>{
     if (res.ok) {
         const data = await res.json();
         console.log('Respuesta del servidor:', data);
-        window.location.href = '../pages/home.html'
+        window.location.href = '../home.html'
     } else {
         const errorData = await res.json();
         console.error('Error:', errorData.message);
@@ -58,7 +58,7 @@ formLogIn.addEventListener("submit",async (e)=>{
     if (res.ok) {
         const data = await res.json();
         console.log('Respuesta del servidor:', data);
-        window.location.href = '../pages/home.html'
+        window.location.href = '../home.html'
     } else {
         const errorData = await res.json();
         console.error('Error:', errorData.message);

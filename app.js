@@ -2,7 +2,7 @@ const path = require('path')
 const express = require('express')
 const app = express();
 const fs = require('fs');
-
+const authentication = require('./controllers/authentication.js');
 
 app.use('/css', express.static(path.join(__dirname, 'css')));
 app.use('/js', express.static(path.join(__dirname, 'js')));
@@ -31,7 +31,7 @@ app.get('/info.html', (req, res) => {
 
 const data = require("../Web_estatica/Json/data.json");
 
-//Obtiene todos los datos 
+//Obtiene todos los datos  => combinar con get cantidad from, di no se indica cantidad se retorna todo, cambiar a api/movies
 app.get('/api/data', (req, res) => {
     res.send(data);
 });
@@ -40,7 +40,7 @@ app.get('/api/data', (req, res) => {
 app.post('/api/register',authentication.register)
 app.post('/api/login',authentication.login)
 
-//1. Desde postman agrega una nueva pelicula al json donde se almacenan los datos
+//1. Desde postman agrega una nueva pelicula al json donde se almacenan los datos  => cambiar a api/movies
 app.post('/api/data/movies', (req, res) => {
     const { titulo, fecha_estreno, director, cast, genero, sinopsis, calificacion_general, crew, detalles, poster, reviews } = req.body;
 
@@ -88,7 +88,7 @@ app.post('/api/data/movies', (req, res) => {
 
 });
 
-//Desde info.htm agrega una nueva review al json donde se almacenan los datos
+//Desde info.htm agrega una nueva review al json donde se almacenan los datos =>api/reviews
 app.post('/pages/info.html', (req, res) => {
     const { usuario, comentario, calificacion, titulo, tipo } = req.body;
     if (usuario && comentario && calificacion && titulo && tipo) {
@@ -114,9 +114,9 @@ app.post('/pages/info.html', (req, res) => {
         }
         fs.writeFile("../Web_estatica/Json/data.json", JSON.stringify(data), (err) => {
             if (err) {
-                console.error("Error al escribir el archivo JSON:", err);
+                console.error("Error al escribir el archivo JSON:", err); //==> error 404
             } else {
-                console.log("Archivo JSON actualizado correctamente.");
+                console.log("Archivo JSON actualizado correctamente."); //=>
             }
         })
 
@@ -125,7 +125,7 @@ app.post('/pages/info.html', (req, res) => {
     }
 });
 
-// 2. Desde postman o google busca una pelicula
+// 2. Desde postman o google busca una pelicula => api/movies
 app.get('/api/data/:titulo', (req, res) => {
     const titulo = req.params.titulo;
     if (titulo.length === 0) { return res.status(400).send(`No se envio el titulo`); }

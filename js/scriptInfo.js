@@ -255,7 +255,7 @@ function mostrarCardReview(seleccion) {
 
     async function publicarComentario() {
         if (input.value == "") { return }
-        fetch('http://localhost:3000/pages/info.html',
+        fetch('http://localhost:3000/pages/info.html', //=>api/reviews
             {
                 method: 'POST',
                 headers: {
