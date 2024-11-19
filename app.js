@@ -28,20 +28,16 @@ app.get('/info.html', (req, res) => {
     res.sendFile(path.join(__dirname, 'pages', 'info.html'));
 });
 
+const filePath = path.join(__dirname, '../Web_estatica/Json/data.json'); //Cambiar ruta si es necesario
+const data = JSON.parse(fs.readFileSync(filePath, 'utf8'));
 
-const data = require("../Web_estatica/Json/data.json");
-
-//Obtiene todos los datos  => combinar con get cantidad from, di no se indica cantidad se retorna todo, cambiar a api/movies
-app.get('/api/data', (req, res) => {
-    res.send(data);
-});
 
 //Registro y login usuario
-app.post('/api/register',authentication.register)
-app.post('/api/login',authentication.login)
+app.post('/api/register', authentication.register)
+app.post('/api/login', authentication.login)
 
-//1. Desde postman agrega una nueva pelicula al json donde se almacenan los datos  => cambiar a api/movies
-app.post('/api/data/movies', (req, res) => {
+//1. Desde postman agrega una nueva pelicula al json donde se almacenan los datos  
+app.post('/api/movies', (req, res) => {
     const { titulo, fecha_estreno, director, cast, genero, sinopsis, calificacion_general, crew, detalles, poster, reviews } = req.body;
 
     if (!titulo) { return res.status(400).send(`No se envio el titulo`); }
@@ -50,7 +46,7 @@ app.post('/api/data/movies', (req, res) => {
     if (!cast) { return res.status(400).send(`No se envio cast`); }
     if (!genero) { return res.status(400).send(`No se envio genero`); }
     if (!sinopsis) { return res.status(400).send(`No se envio sinopsis`); }
-    if (!calificacion_general) { return res.status(400).send(`No se envio calificacion general`); }
+    if (calificacion_general < 0) { return res.status(400).send(`No se envio calificacion general`); }
     if (!crew) { return res.status(400).send(`No se envio crew`); }
     if (!detalles) { return res.status(400).send(`No se envio detalles`); }
     if (!poster) { return res.status(400).send(`No se envio poster`); }
@@ -77,19 +73,12 @@ app.post('/api/data/movies', (req, res) => {
     const newMovie = { ...req.body }
     data.peliculas.push(newMovie);
     res.send(newMovie);
-    //Al buscar en /api/movies y en /info.html?titulo=${titulo}&tipo=pelicula estara, pero no en home.html
-    fs.writeFile("../Web_estatica/Json/data.json", JSON.stringify(data), (err) => {
-        if (err) {
-            console.error("Error al escribir el archivo JSON:", err);
-        } else {
-            console.log("Archivo JSON actualizado correctamente.");
-        }
-    });
+    fs.writeFileSync(filePath, JSON.stringify(data, null, 2), 'utf8');
 
 });
 
 //Desde info.htm agrega una nueva review al json donde se almacenan los datos =>api/reviews
-app.post('/pages/info.html', (req, res) => {
+app.post('/api/reviews', (req, res) => {
     const { usuario, comentario, calificacion, titulo, tipo } = req.body;
     if (usuario && comentario && calificacion && titulo && tipo) {
         const newReview = {
@@ -112,26 +101,22 @@ app.post('/pages/info.html', (req, res) => {
                 res.send(data.series[indice])
             }
         }
-        fs.writeFile("../Web_estatica/Json/data.json", JSON.stringify(data), (err) => {
-            if (err) {
-                console.error("Error al escribir el archivo JSON:", err); //==> error 404
-            } else {
-                console.log("Archivo JSON actualizado correctamente."); //=>
-            }
-        })
+        fs.writeFileSync(filePath, JSON.stringify(data, null, 2), 'utf8');
+
 
     } else {
-        res.send('Wrong Request')
+        res.status(400).send("no se enviaron los datos suficientes")
     }
 });
 
-// 2. Desde postman o google busca una pelicula => api/movies
-app.get('/api/data/:titulo', (req, res) => {
+// 2. Desde postman o google busca una pelicula 
+app.get('/api/movies/:titulo', (req, res) => {
     const titulo = req.params.titulo;
     if (titulo.length === 0) { return res.status(400).send(`No se envio el titulo`); }
     if (typeof titulo != 'string') { return res.status(400).send(`No se envio el tipo de dato correcto en el titulo`); }
 
-    let indice = 0;
+    let indice = -1;
+    console.log(titulo)
     indice = data.peliculas.findIndex(pelicula => pelicula.titulo == titulo)
     if (indice < 0) { return res.status(404).send(`No existe la pelicula ${titulo}`); } else {
         res.json(data.peliculas[indice]);
@@ -148,6 +133,8 @@ app.get('/api/movies', (req, res) => {
         "peliculas": []
     };
 
+    if (!cantidad && !from) { return res.json(data.peliculas) }
+
     for (let i = 0; i <= cantidad; i++) {
         let indice = from + i;
         if (data.peliculas[indice]) {
@@ -157,7 +144,7 @@ app.get('/api/movies', (req, res) => {
         }
 
     }
-    res.send(newJson);
+    res.json(newJson);
 });
 
 

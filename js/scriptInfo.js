@@ -30,7 +30,7 @@ fetch('../Json/data.json').then(res => {
 
 function showSerie(selectedSerie) {
     document.getElementById('poster').src = selectedSerie.poster;
-    calificacionGeneral(selectedSerie.calificacion_general, document.getElementById('calificacion'));
+    calificacionGeneral(selectedSerie.reviews, document.getElementById('calificacion'));
     document.getElementById('titleTab').textContent = selectedSerie.titulo;
     document.getElementById('title').textContent = selectedSerie.titulo;
     document.getElementById('year_director').textContent = selectedSerie.fecha_estreno + ", creada por " + selectedSerie.creador;
@@ -47,7 +47,8 @@ function showSerie(selectedSerie) {
 
 function showMovie(selectedMovie) {
     document.getElementById('poster').src = selectedMovie.poster;
-    calificacionGeneral(selectedMovie.calificacion_general, document.getElementById('calificacion'));
+
+    calificacionGeneral(selectedMovie.reviews, document.getElementById('calificacion'));
     document.getElementById('titleTab').textContent = selectedMovie.titulo;
     document.getElementById('title').textContent = selectedMovie.titulo;
     document.getElementById('year_director').textContent = selectedMovie.fecha_estreno + ", dirigida por " + selectedMovie.director;
@@ -56,12 +57,20 @@ function showMovie(selectedMovie) {
     listarCast(selectedMovie.cast, document.getElementById('cast'));
     listarCrew(selectedMovie.crew, document.getElementById('crew'));
     listarDetalles(selectedMovie.detalles, document.getElementById('details'));
+
     mostrarReviews(selectedMovie.reviews, document.getElementById('commentsBox'));
     mostrarCardReview(selectedMovie);
 }
 
-function calificacionGeneral(calificacion, elto) {
-    elto.textContent = "Calificación: " + calificacion;
+function calificacionGeneral(reviews, elto) {
+    let calificacionTotal = 0;
+    let cantidad = 0;
+    reviews.forEach((item) => {
+        calificacionTotal = calificacionTotal + item.calificacion;
+        cantidad = cantidad + 1;
+    })
+    if (cantidad > 0) { calificacionTotal = calificacionTotal / cantidad }
+    elto.textContent = "Calificación: " + calificacionTotal;
     const iconoEstrella = document.createElement('i');
     iconoEstrella.className = 'fa fa-star'; // Agregar las clases necesarias para el icono
     iconoEstrella.setAttribute('aria-hidden', 'true');
@@ -255,7 +264,7 @@ function mostrarCardReview(seleccion) {
 
     async function publicarComentario() {
         if (input.value == "") { return }
-        fetch('http://localhost:3000/pages/info.html', //=>api/reviews
+        fetch('http://localhost:3000/api/reviews',
             {
                 method: 'POST',
                 headers: {

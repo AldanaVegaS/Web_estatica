@@ -1,17 +1,27 @@
-POST http://localhost:3000/api/data/movies
+POST http://localhost:3000/api/movies
 Content-Type: application/json
 
+
 {
-    "titulo":"El origen",
-    "fecha_estreno":"2010-07-16",
-    "director":"Christopher Nolan",
-    "cast":["Leonardo DiCaprio","Joseph Gordon-Levitt","Elliot Page"],
-    "genero":["Ciencia ficción","Acción"],
-    "sinopsis":"Un ladrón que roba secretos corporativos a través de los sueños es ofrecido la oportunidad de borrar su pasado a cambio de implantar una idea en la mente de un CEO.",
-    "calificacion_general": 1,
-    "crew":{"productores":"Emma Thomas","guionistas":"Christopher Nolan","direccion_de_fotografia":"Wally Pfister"},
-    "detalles":{"duracion":"148 minutos","clasificacion":"PG-13"},
-    "poster":"https://m.media-amazon.com/images/M/MV5BMjAxMzY3NjcxNF5BMl5BanBnXkFtZTcwNTI5OTM0Mw@@._V1_.jpg",
+     "titulo": "Perfect Blue",
+    "fecha_estreno": "1997-02-28",
+    "director": "Satoshi Kon",
+    "cast": ["Junko Iwao", "Rica Matsumoto", "Shinpachi Tsuji"],
+    "genero": ["Animación", "Suspenso", "Psicológico"],
+    "sinopsis": "Una estrella del pop que se convierte en actriz comienza a perder la noción de la realidad cuando enfrenta una crisis de identidad y un acosador.",
+    "calificacion_general": 0,
+    "crew": {
+        "productores": "Masao Maruyama",
+        "guionistas": "Sadayuki Murai",
+        "direccion_de_fotografia": "Hisao Shirai"
+    },
+    "detalles": {
+        "duracion": "81 minutos",
+        "clasificacion": "R"
+    },
+    "poster":"https://m.media-amazon.com/images/M/MV5BYjkyZjY1OWItNjYyNC00ZjlhLTgwOTAtMGNiYTFmYTNmZDI3XkEyXkFqcGc@._V1_.jpg",
     "reviews":[]
-    
+   
 }
+
+

@@ -22,9 +22,10 @@ const barra = document.createElement('li');
 barra.className = "search-icon";
 const input = document.createElement('input');
 input.type = "search";
-input.placeholder = "Buscar";
+input.placeholder = "ej: serie:Black Mirror";
 const lupa = document.createElement('i');
 lupa.className = 'fa fa-search'; // Agregar las clases necesarias para el icono
+lupa.id = "lupa";
 lupa.setAttribute('aria-hidden', 'true');
 
 barra.appendChild(input);
@@ -73,3 +74,10 @@ const i = document.getElementById('items');
 b.addEventListener('click', () => {
   i.classList.toggle('show');
 });
+
+const buscar = document.getElementById('lupa');
+
+buscar.addEventListener('click', () => {
+  const busqueda = input.value.split(":");
+  window.location.href = `../info.html?titulo=${busqueda[1]}&tipo=${busqueda[0]}`
+}) 
