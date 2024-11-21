@@ -1639,6 +1639,11 @@
           "usuario": "romantic_comedy_fan",
           "comentario": "Predecible pero muy entretenida, perfecta para reír.",
           "calificacion": 4
+        },
+        {
+          "usuario": "default",
+          "comentario": "sdjhjsfkda",
+          "calificacion": 4
         }
       ]
     },
@@ -2060,6 +2065,34 @@
           "calificacion": 5
         }
       ]
+    },
+    {
+      "titulo": "Perfect Blue",
+      "fecha_estreno": "1997-02-28",
+      "director": "Satoshi Kon",
+      "cast": [
+        "Junko Iwao",
+        "Rica Matsumoto",
+        "Shinpachi Tsuji"
+      ],
+      "genero": [
+        "Animación",
+        "Suspenso",
+        "Psicológico"
+      ],
+      "sinopsis": "Una estrella del pop que se convierte en actriz comienza a perder la noción de la realidad cuando enfrenta una crisis de identidad y un acosador.",
+      "calificacion_general": 0,
+      "crew": {
+        "productores": "Masao Maruyama",
+        "guionistas": "Sadayuki Murai",
+        "direccion_de_fotografia": "Hisao Shirai"
+      },
+      "detalles": {
+        "duracion": "81 minutos",
+        "clasificacion": "R"
+      },
+      "poster": "https://m.media-amazon.com/images/M/MV5BYjkyZjY1OWItNjYyNC00ZjlhLTgwOTAtMGNiYTFmYTNmZDI3XkEyXkFqcGc@._V1_.jpg",
+      "reviews": []
     }
   ],
   "series": [
