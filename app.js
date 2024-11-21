@@ -6,7 +6,6 @@ const authentication = require('./controllers/authentication.js');
 const movies = require('./controllers/movies.js');
 const moviesVerifications = require('./controllers/movies_verifications.js');
 const reviews = require('./controllers/reviews.js');
-const user = require('./controllers/user.js');
 
 app.use('/css', express.static(path.join(__dirname, 'css')));
 app.use('/js', express.static(path.join(__dirname, 'js')));
@@ -47,29 +46,29 @@ app.post('/api/movies', (req, res) => {
         return res.status(400).json({ error: 'No se recibieron datos' });
     }
 
-    const checkNull = moviesVerifications.null_data(req,res)
-    if(checkNull.ok){
-         const checkTypes = moviesVerifications.data_type(req,res)
-         if(checkTypes.ok){
-            const checkRepeated = moviesVerifications.movie_repeated(req,res)
-            if(!checkRepeated.ok){
-                movies.add_movie(req,res)
-            }else{
+    const checkNull = moviesVerifications.null_data(req, res)
+    if (checkNull.ok) {
+        const checkTypes = moviesVerifications.data_type(req, res)
+        if (checkTypes.ok) {
+            const checkRepeated = moviesVerifications.movie_repeated(req, res)
+            if (!checkRepeated.ok) {
+                movies.add_movie(req, res)
+            } else {
                 return res.status(400).json({ error: 'Los datos no son correctos' });
             }
-        }else{
+        } else {
             return res.status(400).json({ error: 'Los datos no son correctos' });
         }
-     }else{
+    } else {
         return res.status(400).json({ error: 'Los datos no son correctos' });
-     }
+    }
 });
 
 //Desde info.htm agrega una nueva review al json donde se almacenan los datos =>api/reviews
 app.post('/api/reviews', (req, res) => {
     const { usuario, comentario, calificacion, titulo, tipo } = req.body;
     if (usuario && comentario && calificacion && titulo && tipo) {
-        reviews.add_review(req,res)
+        reviews.add_review(req, res)
 
     } else {
         res.status(400).send("no se enviaron los datos suficientes")
@@ -83,20 +82,17 @@ app.get('/api/movies/:titulo', (req, res) => {
     if (titulo.length === 0) { return res.status(400).send(`No se envio el titulo`); }
     if (typeof titulo != 'string') { return res.status(400).send(`No se envio el tipo de dato correcto en el titulo`); }
 
-    movies.find_movie(req,res)
+    movies.find_movie(req, res)
 });
 
 // 3. http://localhost:3000/api/movies?cantidad=10&from=0
 app.get('/api/movies', (req, res) => {
     const cantidad = parseInt(req.query.cantidad, 10);
     const from = parseInt(req.query.from, 10);
-    let newJson = {
-        "peliculas": []
-    };
 
     if (!cantidad && !from) { return res.json(data.peliculas) }
 
-    movies.get_movies_range(req,res)
+    movies.get_movies_range(req, res)
 });
 
 

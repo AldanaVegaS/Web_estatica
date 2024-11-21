@@ -5,7 +5,7 @@ const filePath = path.join(__dirname, '../Json/data.json'); //Cambiar ruta si es
 const data = JSON.parse(fs.readFileSync(filePath, 'utf8'));
 
 
-async function add_movie(req,res){
+async function add_movie(req, res) {
     const { titulo, fecha_estreno, director, cast, genero, sinopsis, calificacion_general, crew, detalles, poster, reviews } = req.body;
 
     const newMovie = { ...req.body }
@@ -15,7 +15,7 @@ async function add_movie(req,res){
 
 }
 
-async function find_movie(req,res){
+async function find_movie(req, res) {
     const titulo = req.params.titulo;
     let indice = -1;
     console.log(titulo)
@@ -25,10 +25,13 @@ async function find_movie(req,res){
     }
 }
 
-async function get_movies_range(req,res){
+async function get_movies_range(req, res) {
     const cantidad = parseInt(req.query.cantidad, 10);
     const from = parseInt(req.query.from, 10);
-    for (let i = 0; i <= cantidad; i++) {
+    let newJson = {
+        "peliculas": []
+    };
+    for (let i = 0; i < cantidad; i++) {
         let indice = from + i;
         if (data.peliculas[indice]) {
             newJson.peliculas.push(data.peliculas[indice])
@@ -42,4 +45,4 @@ async function get_movies_range(req,res){
 
 
 
-module.exports = {add_movie, find_movie, get_movies_range};
+module.exports = { add_movie, find_movie, get_movies_range };
