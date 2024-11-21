@@ -1,0 +1,117 @@
+{
+	"info": {
+		"_postman_id": "90e6a112-cc4a-44a1-afbe-a0255d27252c",
+		"name": "Web-Dinamica",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
+		"_exporter_id": "39622893"
+	},
+	"item": [
+		{
+			"name": "localhost:3030/api/movies",
+			"request": {
+				"method": "POST",
+				"header": [
+					{
+						"key": "Content-Type",
+						"value": "application/json",
+						"type": "text"
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n    \"titulo\": \"Perfect Blue\",\r\n    \"fecha_estreno\": \"1997-02-28\",\r\n    \"director\": \"Satoshi Kon\",\r\n    \"cast\": [\"Junko Iwao\", \"Rica Matsumoto\", \"Shinpachi Tsuji\"],\r\n    \"genero\": [\"Animación\", \"Suspenso\", \"Psicológico\"],\r\n    \"sinopsis\": \"Una estrella del pop que se convierte en actriz comienza a perder la noción de la realidad cuando enfrenta una crisis de identidad y un acosador.\",\r\n    \"calificacion_general\": 0,\r\n    \"crew\": {\r\n        \"productores\": \"Masao Maruyama\",\r\n        \"guionistas\": \"Sadayuki Murai\",\r\n        \"direccion_de_fotografia\": \"Hisao Shirai\"\r\n    },\r\n    \"detalles\": {\r\n        \"duracion\": \"81 minutos\",\r\n        \"clasificacion\": \"R\"\r\n    },\r\n    \"poster\":\"https://m.media-amazon.com/images/M/MV5BYjkyZjY1OWItNjYyNC00ZjlhLTgwOTAtMGNiYTFmYTNmZDI3XkEyXkFqcGc@._V1_.jpg\",\r\n    \"reviews\":[]\r\n   \r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "localhost:3030/api/movies",
+					"host": [
+						"localhost"
+					],
+					"port": "3030",
+					"path": [
+						"api",
+						"movies"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "localhost:3030/api/movies/:titulo",
+			"request": {
+				"method": "GET",
+				"header": [
+					{
+						"key": "Content-Type",
+						"value": "application/json",
+						"type": "text"
+					}
+				],
+				"url": {
+					"raw": "localhost:3030/api/movies/Pulp%20Fiction",
+					"host": [
+						"localhost"
+					],
+					"port": "3030",
+					"path": [
+						"api",
+						"movies",
+						"Pulp%20Fiction"
+					],
+					"query": [
+						{
+							"key": "",
+							"value": null,
+							"disabled": true
+						}
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "localhost:3030/api/movies?cantidad=1&from=0",
+			"request": {
+				"method": "GET",
+				"header": [
+					{
+						"key": "Content-Type",
+						"value": "application/json",
+						"type": "text"
+					}
+				],
+				"url": {
+					"raw": "localhost:3030/api/movies?from=0&cantidad=1",
+					"host": [
+						"localhost"
+					],
+					"port": "3030",
+					"path": [
+						"api",
+						"movies"
+					],
+					"query": [
+						{
+							"key": "from",
+							"value": "0"
+						},
+						{
+							"key": "",
+							"value": "",
+							"disabled": true
+						},
+						{
+							"key": "cantidad",
+							"value": "1"
+						}
+					]
+				}
+			},
+			"response": []
+		}
+	]
+}

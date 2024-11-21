@@ -29,11 +29,12 @@ async function register(req,res){
     const email = req.body.email;
     const password = req.body.password;
     if(!user || !email || !password ){
-        res.status(400).send({status:'Error', message:'Los campos están incompletos'})
+        res.status(400).send({status:'Error', 
+                              message:'Los campos están incompletos'})
     }
 
     const filePath = path.join(__dirname, '../Json/usuarios.json');
-  const usuarios = JSON.parse(fs.readFileSync(filePath, 'utf8'));
+    const usuarios = JSON.parse(fs.readFileSync(filePath, 'utf8'));
 
     const usuarioExistente = usuarios.users.find( usuario => usuario.username === user);
     const correoExistente = usuarios.users.find( usuario => usuario.email === email);
