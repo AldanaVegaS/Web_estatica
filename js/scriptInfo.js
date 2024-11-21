@@ -69,7 +69,7 @@ function calificacionGeneral(reviews, elto) {
         calificacionTotal = calificacionTotal + item.calificacion;
         cantidad = cantidad + 1;
     })
-    if (cantidad > 0) { calificacionTotal = calificacionTotal / cantidad }
+    if (cantidad > 0) { calificacionTotal = Math.round(calificacionTotal / cantidad) }
     elto.textContent = "Calificación: " + calificacionTotal;
     const iconoEstrella = document.createElement('i');
     iconoEstrella.className = 'fa fa-star'; // Agregar las clases necesarias para el icono
@@ -149,7 +149,11 @@ function mostrarReviews(reviews, elto) {
         calificacion.appendChild(iconoEstrella);
 
         const fecha = document.createElement('h5');
-        fecha.textContent = "30/09/2024";
+        if (item.fecha) {
+            fecha.textContent = item.fecha;
+        } else {
+            fecha.textContent = "30/09/2024";
+        }
 
         const comentario = document.createElement('div');
         comentario.className = "comentario";
@@ -263,6 +267,10 @@ function mostrarCardReview(seleccion) {
 
 
     async function publicarComentario() {
+        const fecha = new Date();
+        const diaActual = fecha.getDate();
+        const mesActual = fecha.getMonth() + 1;
+        const añoActual = fecha.getFullYear();
         if (input.value == "") { return }
         fetch('http://localhost:3000/api/reviews',
             {
@@ -274,6 +282,7 @@ function mostrarCardReview(seleccion) {
                     usuario: "default",
                     comentario: input.value,
                     calificacion: rankingActual,
+                    fecha: `${diaActual}/${mesActual}/${añoActual}`,
                     titulo: title,
                     tipo: type
                 })

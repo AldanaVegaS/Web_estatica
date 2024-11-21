@@ -5,10 +5,11 @@ const filePath = path.join(__dirname, '../Json/data.json'); //Cambiar ruta si es
 const data = JSON.parse(fs.readFileSync(filePath, 'utf8'));
 
 
-async function add_review(req,res){
-    const { usuario, comentario, calificacion, titulo, tipo } = req.body;
+async function add_review(req, res) {
+    const { usuario, comentario, calificacion, fecha, titulo, tipo } = req.body;
     const newReview = {
         usuario: usuario,
+        fecha: fecha,
         comentario: comentario,
         calificacion: calificacion
     }
@@ -33,4 +34,4 @@ async function add_review(req,res){
 
 
 
-module.exports = {add_review};
+module.exports = { add_review };

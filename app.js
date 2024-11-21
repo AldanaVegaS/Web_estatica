@@ -66,14 +66,14 @@ app.post('/api/movies', (req, res) => {
 
 //Desde info.htm agrega una nueva review al json donde se almacenan los datos =>api/reviews
 app.post('/api/reviews', (req, res) => {
-    const { usuario, comentario, calificacion, titulo, tipo } = req.body;
-    if (usuario && comentario && calificacion && titulo && tipo) {
+    const { usuario, comentario, calificacion, fecha, titulo, tipo } = req.body;
+    if (usuario && comentario && calificacion && fecha && titulo && tipo) {
         reviews.add_review(req, res)
-
     } else {
         res.status(400).send("no se enviaron los datos suficientes")
     }
 });
+
 
 // 2. Desde postman o google busca una pelicula 
 app.get('/api/movies/:titulo', (req, res) => {
