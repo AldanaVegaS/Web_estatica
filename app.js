@@ -99,7 +99,7 @@ app.get('/api/movies', (req, res) => {
 
 //Inicio Servidor
 
-const port = 3000;
-app.listen(3000, () => {
+const port = 3030;
+app.listen(3030, () => {
     console.log(`El servidor esta en http://localhost:${port}`);
 });

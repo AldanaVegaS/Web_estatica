@@ -175,14 +175,18 @@ function mostrarReviews(reviews, elto) {
     });
 
 
-    const li = document.createElement('li');
-    const boton = document.createElement('button');
-    boton.className = "ver_mas";
-    boton.textContent = "Ver más";
-    li.appendChild(boton);
-    ul.appendChild(li);
 
-    elto.appendChild(ul);
+    if (reviews.length > 0) {
+        const li = document.createElement('li');
+        const boton = document.createElement('button');
+        boton.className = "ver_mas";
+        boton.textContent = "Ver más";
+        li.appendChild(boton);
+        ul.appendChild(li);
+
+        elto.appendChild(ul);
+    }
+
 }
 
 
